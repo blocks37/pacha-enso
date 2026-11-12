@@ -246,3 +246,19 @@ chirps_diario_meses <- function(desde, hasta_dia, cfg, pesos = leer_pesos(cfg)) 
   en_curso <- dplyr::filter(todo, !completo, mes == ultimo) |> dplyr::select(ubigeo, mes, pp_mm, hasta, dias)
   list(mensual = mensual, en_curso = if (nrow(en_curso)) en_curso)
 }
+
+#' Si el servidor del CHC no responde (suele rechazar a los servidores de GitHub con
+#' 429), se usa lo último que hay en caché: así la sequía sigue con los meses y días ya
+#' descargados en vez de quedarse sin CHIRPS.
+con_cache_chirps <- function(expr, cfg, diario = FALSE) {
+  tryCatch(expr, error = function(e) {
+    carpeta <- file.path(cfg$rutas$raw, if (diario) "chirps_diario" else "chirps")
+    archivos <- list.files(carpeta, pattern = "^chirps_peru_.*\\.tif$")
+    if (length(archivos) == 0) stop(e)
+    fechas <- sub("^chirps_peru_(.*)\\.tif$", "\\1", archivos)
+    ultimo <- if (diario) max(as.Date(fechas, "%Y_%m_%d")) else max(as.Date(paste0(fechas, "_01"), "%Y_%m_%d"))
+    log_aviso("CHIRPS", if (diario) " diario" else "", ": el servidor no respondió (", conditionMessage(e),
+              "); se usa la caché hasta ", format(ultimo))
+    ultimo
+  })
+}

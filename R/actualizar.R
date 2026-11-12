@@ -31,12 +31,12 @@ FUENTES <- list(
   ),
   chirps = list(
     nombre = "CHIRPS mensual", que = "Lluvia de los meses que PISCO aún no cubre", frecuencia = "Mensual",
-    version = function(cfg) format(chirps_ultimo_mes(cfg), "%Y-%m")
+    version = function(cfg) format(con_cache_chirps(chirps_ultimo_mes(cfg), cfg, diario = FALSE), "%Y-%m")
   ),
   chirps_diario = list(
     nombre = "CHIRPS diario", que = "Lluvia de las últimas semanas (preliminar, 2–3 días de retraso)",
     frecuencia = "Diaria",
-    version = function(cfg) format(chirps_diario_ultimo_dia(cfg))
+    version = function(cfg) format(con_cache_chirps(chirps_diario_ultimo_dia(cfg), cfg, diario = TRUE))
   ),
   gfs = list(
     nombre = "ECMWF IFS · Open-Meteo", que = "Lluvia diaria pronosticada, 14 días", frecuencia = "Cada 6 horas",
