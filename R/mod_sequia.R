@@ -121,7 +121,7 @@ mod_sequia_server <- function(id, datos, filtros, abrir_ficha, geo, cfg) {
     # Mapa ------------------------------------------------------------------------
     output$mapa_titulo <- shiny::renderText(paste(etiqueta_indice(), "·", fmt_mes_largo(mes())))
     output$mapa <- leaflet::renderLeaflet({
-      mapa_poligonos(list(list(sf = geo$distritos, id = "ubigeo", nombre = "distrito", grupo = "dis", borde = 0.3)))
+      mapa_poligonos(list(list(geo = "distritos", id = "ubigeo", nombre = "distrito", grupo = "dis", borde = 0.3)))
     }) |> shiny::bindCache("mapa-sequia")
 
     shiny::observe({

@@ -41,6 +41,56 @@ function ensoRegistrarMapa(id, mapa) {
   }
 }
 
+// Capas de polígonos y líneas desde archivos estáticos (www/geo) ---------------------------
+// El mapa de R llega vacío (solo el fondo); aquí se descargan las geometrías y se
+// registran en el layerManager de leaflet con su id, para que colorear-mapa, los
+// grupos del control de capas y los clics (input$<mapa>_shape_click) funcionen igual.
+window.ensoGeoCache = window.ensoGeoCache || {};
+function ensoGeo(url) {
+  if (!window.ensoGeoCache[url]) {
+    window.ensoGeoCache[url] = fetch(url).then(function (r) {
+      if (!r.ok) throw new Error(url + ' ' + r.status);
+      return r.json();
+    });
+  }
+  return window.ensoGeoCache[url];
+}
+
+function ensoCapasGeo(id, mapa, datos) {
+  var capas = ensoLista(datos && datos.capas), lm = mapa.layerManager;
+  var trabajos = capas.map(function (c) {
+    return ensoGeo(c.url).then(function (gj) {
+      if (c.tipo === 'forma') {
+        L.geoJSON(gj, {
+          style: function () { return { fillColor: '#E5E7EB', fillOpacity: 0.85, color: '#FFFFFF', weight: c.peso, opacity: 1 }; },
+          onEachFeature: function (f, capa) {
+            var lid = String(f.properties[c.id]);
+            capa.bindTooltip(String(f.properties[c.nombre] || ''), { sticky: true, direction: 'auto', className: 'etiqueta-mapa' });
+            capa.on('mouseover', function () { capa.setStyle({ weight: 2, color: '#0F172A' }); if (capa.bringToFront) capa.bringToFront(); });
+            capa.on('mouseout', function () { capa.setStyle({ weight: c.peso, color: '#FFFFFF' }); });
+            capa.on('click', function (e) {
+              if (window.Shiny) Shiny.setInputValue(id + '_shape_click', { id: lid, lat: e.latlng.lat, lng: e.latlng.lng, nonce: Math.random() });
+            });
+            lm.addLayer(capa, 'shape', lid, c.grupo);
+          }
+        });
+        if (c.oculto) { var g = lm.getLayerGroup(c.grupo, true); if (mapa.hasLayer(g)) mapa.removeLayer(g); }
+      } else if (c.tipo === 'contorno') {
+        L.geoJSON(gj, { interactive: false, style: { fill: false, color: '#0B3A6F', weight: 1.1, opacity: 0.55 } }).addTo(mapa);
+      } else if (c.tipo === 'cuencas') {
+        lm.addLayer(L.geoJSON(gj, { interactive: false,
+          style: { fill: false, color: '#1E3A8A', weight: 1.2, opacity: 0.6, dashArray: '4 3' } }), 'shape', null, c.grupo);
+      } else if (c.tipo === 'rios') {
+        lm.addLayer(L.geoJSON(gj, { interactive: false, style: function (f) {
+          return { color: '#0284C7', weight: f.properties.tipo === 'Río' ? 1.6 : 0.8, opacity: 0.75 };
+        } }), 'shape', null, c.grupo);
+      }
+    }).catch(function (e) { if (window.console) console.error('[PACHA ENSO] capa', c.url, e); });
+  });
+  // El mapa se registra cuando ya tiene sus polígonos: recién ahí se aplican los colores pendientes
+  Promise.all(trabajos).then(function () { ensoRegistrarMapa(id, mapa); });
+}
+
 $(document).on('shiny:connected', function () {
   Shiny.addCustomMessageHandler('colorear-mapa', function (msg) {
     var mapa = window.ensoMapas[msg.id];

@@ -75,8 +75,8 @@ mod_inundacion_server <- function(id, datos, filtros, abrir_ficha, geo, cfg) {
 
     # Mapa ---------------------------------------------------------------------
     output$mapa <- leaflet::renderLeaflet({
-      mapa_poligonos(list(list(sf = geo$distritos, id = "ubigeo", nombre = "distrito", grupo = "dis", borde = 0.3)),
-                     rios = geo$rios, cuencas = geo$cuencas_sf)
+      mapa_poligonos(list(list(geo = "distritos", id = "ubigeo", nombre = "distrito", grupo = "dis", borde = 0.3)),
+                     rios = !is.null(geo$rios), cuencas = !is.null(geo$cuencas_sf))
     }) |> shiny::bindCache("mapa-inundacion")   # el mapa base no cambia: se arma una vez para todas las visitas
 
     shiny::observe({

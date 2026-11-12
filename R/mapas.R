@@ -27,44 +27,51 @@ mapa_base <- function() {
     leaflet::fitBounds(PERU_LIMITES[1], PERU_LIMITES[2], PERU_LIMITES[3], PERU_LIMITES[4])
 }
 
+# Geometrías para el navegador --------------------------------------------------------------
+# Los polígonos NO viajan por la conexión de Shiny: el navegador los descarga como
+# archivos estáticos (www/geo/*.geojson, en caché del navegador) y www/app.js arma las
+# capas. Así el mapa abre rápido y no se corta en servidores que limitan el tamaño de
+# los mensajes (Connect Cloud). Los archivos son copia de data/geo/.
+GEO_WEB <- c(distritos = "geo/distritos.geojson", cuencas = "geo/cuencas.geojson",
+             rios = "geo/rios.geojson", departamentos = "geo/departamentos.geojson")
+
+url_geo <- function(nombre) {
+  ruta <- GEO_WEB[[nombre]]
+  local <- file.path("www", ruta)
+  paste0(ruta, "?v=", if (file.exists(local)) as.integer(file.mtime(local)) else 0)
+}
+
 #' Mapa con polígonos grises listos para colorear. `capas` = lista de
-#' list(sf, id, nombre, grupo); la primera se muestra, las otras quedan ocultas.
+#' list(geo = "distritos" | "cuencas", id, nombre, grupo, borde); la primera se
+#' muestra, las otras quedan ocultas. `rios`, `cuencas` y `contornos` (TRUE/FALSE o
+#' cualquier objeto no nulo) agregan esas capas de referencia.
 mapa_poligonos <- function(capas, rios = NULL, cuencas = NULL, contornos = NULL) {
   m <- mapa_base()
+  geo <- list()
   for (i in seq_along(capas)) {
     capa <- capas[[i]]
-    m <- leaflet::addPolygons(
-      m, data = capa$sf, layerId = capa$sf[[capa$id]], group = capa$grupo,
-      fillColor = "#E5E7EB", fillOpacity = 0.85, color = "#FFFFFF", weight = capa$borde %||% 0.5,
-      label = lapply(capa$sf[[capa$nombre]], htmltools::htmlEscape),
-      labelOptions = leaflet::labelOptions(sticky = TRUE, direction = "auto", className = "etiqueta-mapa"),
-      highlightOptions = leaflet::highlightOptions(weight = 2, color = "#0F172A", bringToFront = TRUE)
-    )
-    if (i > 1) m <- leaflet::hideGroup(m, capa$grupo)
+    geo[[length(geo) + 1]] <- list(tipo = "forma", url = url_geo(capa$geo), id = capa$id, nombre = capa$nombre,
+                                   grupo = capa$grupo, peso = capa$borde %||% 0.5, oculto = i > 1)
   }
-  if (!is.null(contornos)) {   # límites departamentales como referencia, sin relleno ni clic
-    m <- leaflet::addPolygons(m, data = contornos, fill = FALSE, color = "#0B3A6F", weight = 1.1, opacity = 0.55,
-                              options = leaflet::pathOptions(interactive = FALSE))
+  if (!is.null(contornos) && !isFALSE(contornos)) {
+    geo[[length(geo) + 1]] <- list(tipo = "contorno", url = url_geo("departamentos"))
   }
   extras <- character()
-  if (!is.null(cuencas)) {
+  if (!is.null(cuencas) && !isFALSE(cuencas)) {
     extras <- c(extras, "Cuencas (ANA)")
-    m <- leaflet::addPolygons(m, data = cuencas, group = "Cuencas (ANA)", fill = FALSE, color = "#1E3A8A",
-                              weight = 1.2, opacity = 0.6, dashArray = "4 3",
-                              options = leaflet::pathOptions(interactive = FALSE)) |>
-      leaflet::hideGroup("Cuencas (ANA)")
+    geo[[length(geo) + 1]] <- list(tipo = "cuencas", url = url_geo("cuencas"), grupo = "Cuencas (ANA)")
+    m <- leaflet::hideGroup(m, "Cuencas (ANA)")
   }
-  if (!is.null(rios)) {
+  if (!is.null(rios) && !isFALSE(rios)) {
     extras <- c(extras, "Ríos y quebradas (ANA)")
-    m <- leaflet::addPolylines(m, data = rios, group = "Ríos y quebradas (ANA)", color = "#0284C7",
-                               weight = ifelse(rios$tipo == "Río", 1.6, 0.8), opacity = 0.75,
-                               options = leaflet::pathOptions(interactive = FALSE))
+    geo[[length(geo) + 1]] <- list(tipo = "rios", url = url_geo("rios"), grupo = "Ríos y quebradas (ANA)")
   }
   if (length(extras)) {
     m <- leaflet::addLayersControl(m, baseGroups = c("Claro", "Relieve", "Satélite"), overlayGroups = extras,
                                    options = leaflet::layersControlOptions(collapsed = TRUE))
   }
-  htmlwidgets::onRender(m, "function(el) { ensoRegistrarMapa(el.id, this); }")
+  htmlwidgets::onRender(m, "function(el, x, datos) { ensoCapasGeo(el.id, this, datos); }",
+                        data = list(capas = geo))
 }
 
 #' Cambia color, opacidad y etiqueta de los polígonos de un mapa ya dibujado.

@@ -169,8 +169,8 @@ mod_rios_server <- function(id, datos, filtros, abrir_ficha, geo, cfg) {
     # Mapa de cuencas ---------------------------------------------------------------------
     output$mapa <- leaflet::renderLeaflet({
       shiny::req(!is.null(geo$cuencas_sf))
-      mapa_poligonos(list(list(sf = geo$cuencas_sf, id = "codigo", nombre = "nombre", grupo = "cue", borde = 0.6)),
-                     rios = geo$rios, contornos = geo$departamentos)
+      mapa_poligonos(list(list(geo = "cuencas", id = "codigo", nombre = "nombre", grupo = "cue", borde = 0.6)),
+                     rios = !is.null(geo$rios), contornos = TRUE)
     }) |> shiny::bindCache("mapa-rios")
     shiny::observe({
       shiny::req(pestana_activa(session, "rios"))
