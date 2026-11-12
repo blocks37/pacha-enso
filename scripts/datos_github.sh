@@ -39,6 +39,14 @@ case "${1:-}" in
     # de nuevo, así que la fecha se fija según su contenido: solo cambia si cambia el archivo.
     suma=$(md5sum data/raw/PISCOp_m.nc | cut -c1-7)
     touch -d "@$(( 16#$suma + 1000000000 ))" data/raw/PISCOp_m.nc
+    # Caché inicial de CHIRPS (meses y días ya descargados en la PC del administrador):
+    # evita volver a pedir al servidor del CHC lo que ya se tiene
+    for d in chirps chirps_diario; do
+      if [ -d "insumos/cache_chirps/$d" ]; then
+        mkdir -p "data/raw/$d"
+        cp -n insumos/cache_chirps/$d/*.tif "data/raw/$d/" 2>/dev/null || true
+      fi
+    done
     huella > /tmp/huella_antes
     ;;
   subir)

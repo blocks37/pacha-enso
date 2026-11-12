@@ -209,14 +209,20 @@ chirps_diario_meses <- function(desde, hasta_dia, cfg, pesos = leer_pesos(cfg)) 
   if (hasta_dia < desde) return(NULL)
   dias <- seq(desde, hasta_dia, by = "day")
   # El servidor del CHC responde 429 si se le pide muy seguido: que GDAL reintente con calma
-  Sys.setenv(GDAL_HTTP_MAX_RETRY = "4", GDAL_HTTP_RETRY_DELAY = "20", GDAL_DISABLE_READDIR_ON_OPEN = "EMPTY_DIR")
+  Sys.setenv(GDAL_HTTP_MAX_RETRY = "2", GDAL_HTTP_RETRY_DELAY = "10", GDAL_DISABLE_READDIR_ON_OPEN = "EMPTY_DIR")
   capas <- list()
   for (i in seq_along(dias)) {
     en_cache <- file.exists(ruta_chirps_diario(dias[i], cfg))
     avanzar(if (en_cache) "Leyendo CHIRPS diario (en caché)" else "Descargando CHIRPS diario",
             sprintf("%s · %d de %d", format(dias[i]), i, length(dias)), i, length(dias))
     ruta <- chirps_dia(dias[i], cfg)
-    if (is.null(ruta)) { log_aviso("CHIRPS diario: falta el ", dias[i]); next }
+    if (is.null(ruta)) {
+      # Solo se piden días ya publicados: si uno falla, el servidor está rechazando
+      # (suele ser por pedir muy seguido). No insistir con los demás: la próxima
+      # actualización sigue desde aquí, y lo ya bajado queda en caché.
+      log_aviso("CHIRPS diario: falló el ", dias[i], "; los días siguientes quedan para la próxima actualización")
+      break
+    }
     if (!en_cache) Sys.sleep(cfg$chirps$pausa_s %||% 1)
     capas[[format(dias[i])]] <- ruta
   }
