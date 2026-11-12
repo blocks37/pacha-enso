@@ -102,7 +102,8 @@ html_texto <- function(x) {
   htmltools::htmlEscape(x)
 }
 celda_insignia <- function(texto, fondo) {
-  fondo <- unname(as.character(fondo)); if (length(fondo) == 0 || is.na(fondo)) fondo <- "#E6EBF1"
+  fondo <- rep_len(unname(as.character(fondo)), length(texto))
+  fondo[is.na(fondo) | !nzchar(fondo)] <- "#E6EBF1"
   sprintf('<span class="insignia" style="background:%s;color:%s">%s</span>', fondo, color_texto(fondo), html_texto(texto))
 }
 celda_doble <- function(titulo, nota) {

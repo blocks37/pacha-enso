@@ -193,7 +193,9 @@ mod_datos_server <- function(id, datos, cfg) {
       shiny::showNotification("Buscando datos nuevos… puede seguir usando la app.", type = "message")
     })
 
-    proceso <- vigilar_actualizacion(cfg, session)
+    # Solo el administrador vigila el proceso (cada 2 s): el público no lo necesita y en
+    # la web ese sondeo mantendría la app ocupada mientras haya una pestaña abierta.
+    proceso <- if (es_administrador) vigilar_actualizacion(cfg, session) else shiny::reactive(list(corriendo = FALSE))
     corriendo <- shiny::reactive(proceso()$corriendo)
     shiny::observeEvent(corriendo(), {
       if (!corriendo() && lanzado() > 0) shiny::showNotification("La búsqueda de datos nuevos terminó.", type = "message")

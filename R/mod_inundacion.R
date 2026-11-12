@@ -189,9 +189,15 @@ mod_inundacion_server <- function(id, datos, filtros, abrir_ficha, geo, cfg) {
                          riesgo = round(riesgo, 3), nivel)
     })
 
+    # Lo que se muestra va ya formateado (sin funciones por celda, que en un servidor de
+    # 1 CPU tardan) y solo los 300 de mayor riesgo; el CSV trae todos.
     output$tabla <- reactable::renderReactable({
       d <- detalle()
       if (nrow(d) == 0) return(NULL)
+      d <- utils::head(dplyr::arrange(d, dplyr::desc(riesgo)), 300) |>
+        dplyr::mutate(fecha = unname(fmt_fecha(fecha)), rio_principal = dplyr::coalesce(rio_principal, "—"),
+                      rio = ifelse(rio, "▲", ""), mar = ifelse(mar, "▲", ""),
+                      nivel = celda_insignia(nivel, color_nivel(nivel, cfg)))
       tabla_clicable(
         d, session$ns("fila"),
         searchable = TRUE, defaultPageSize = 10, paginar = TRUE,
@@ -204,13 +210,13 @@ mod_inundacion_server <- function(id, datos, filtros, abrir_ficha, geo, cfg) {
           provincia = reactable::colDef("Provincia"),
           departamento = reactable::colDef("Departamento"),
           amenaza = reactable::colDef("Amenaza", width = 96),
-          fecha = reactable::colDef("Día pico", cell = function(v) fmt_fecha(v), width = 100),
+          fecha = reactable::colDef("Día pico", width = 100),
           lluvia_mm = reactable::colDef("Lluvia mm", align = "right", width = 90),
-          rio_principal = reactable::colDef("Río principal", cell = function(v) if (is.na(v)) "—" else v),
-          rio = reactable::colDef("Crecido", cell = function(v) if (isTRUE(v)) "▲" else "", width = 72, align = "center"),
-          mar = reactable::colDef("Mar", cell = function(v) if (isTRUE(v)) "▲" else "", width = 56, align = "center"),
-          riesgo = reactable::colDef("Riesgo", cell = function(v) fmt_pct(v), align = "right", width = 80),
-          nivel = reactable::colDef("Nivel", html = TRUE, cell = function(v) celda_insignia(v, color_nivel(v, cfg)), width = 110)
+          rio_principal = reactable::colDef("Río principal"),
+          rio = reactable::colDef("Crecido", width = 72, align = "center"),
+          mar = reactable::colDef("Mar", width = 56, align = "center"),
+          riesgo = reactable::colDef("Riesgo", format = reactable::colFormat(percent = TRUE, digits = 0), align = "right", width = 80),
+          nivel = reactable::colDef("Nivel", html = TRUE, width = 110)
         )
       )
     })

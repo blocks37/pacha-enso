@@ -198,7 +198,9 @@ mod_rios_server <- function(id, datos, filtros, abrir_ficha, geo, cfg) {
                          fecha_pico, enfen, distritos_alerta, n_distritos)
     })
     output$tabla <- reactable::renderReactable({
-      t <- tabla()
+      t <- tabla() |>
+        dplyr::mutate(rio = celda_doble(rio, cuenca), nivel = celda_insignia(nivel, color_crecida(nivel, cfg)),
+                      fecha_pico = unname(fmt_fecha(fecha_pico)), enfen = ifelse(enfen %in% TRUE, "▲", ""))
       reactable::reactable(
         t, compact = TRUE, borderless = TRUE, highlight = TRUE, searchable = TRUE, defaultPageSize = 12,
         rowStyle = list(cursor = "pointer"),
@@ -206,15 +208,15 @@ mod_rios_server <- function(id, datos, filtros, abrir_ficha, geo, cfg) {
           "function(rowInfo) { Shiny.setInputValue('%s', rowInfo.row.codigo_uh, {priority: 'event'}); }", session$ns("fila"))),
         columns = list(
           codigo_uh = reactable::colDef(show = FALSE),
-          rio = reactable::colDef("Río", minWidth = 120, html = TRUE, cell = function(v, i) celda_doble(v, t$cuenca[i])),
+          rio = reactable::colDef("Río", minWidth = 120, html = TRUE),
           cuenca = reactable::colDef(show = FALSE),
           vertiente = reactable::colDef("Vertiente", width = 92),
-          nivel = reactable::colDef("Crecida", width = 100, html = TRUE, cell = function(v) celda_insignia(v, color_crecida(v, cfg))),
+          nivel = reactable::colDef("Crecida", width = 100, html = TRUE),
           idx = reactable::colDef("Índice", width = 70, align = "right"),
           mm_pico = reactable::colDef("mm/día", width = 76, align = "right", format = reactable::colFormat(digits = 1)),
           veces_p99 = reactable::colDef("× P99", width = 64, align = "right"),
-          fecha_pico = reactable::colDef("Día pico", width = 96, cell = function(v) unname(fmt_fecha(v))),
-          enfen = reactable::colDef("ENFEN", width = 66, align = "center", cell = function(v) if (isTRUE(v)) "▲" else ""),
+          fecha_pico = reactable::colDef("Día pico", width = 96),
+          enfen = reactable::colDef("ENFEN", width = 66, align = "center"),
           distritos_alerta = reactable::colDef("Distritos en alerta", width = 88, align = "right"),
           n_distritos = reactable::colDef("Distritos ribereños", width = 92, align = "right")
         )

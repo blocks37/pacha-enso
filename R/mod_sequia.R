@@ -149,6 +149,7 @@ mod_sequia_server <- function(id, datos, filtros, abrir_ficha, geo, cfg) {
     output$ranking <- reactable::renderReactable({
       d <- ranking()
       if (nrow(d) == 0) return(NULL)
+      d <- utils::head(d, 300) |> dplyr::mutate(categoria = celda_insignia(categoria, color_sequia(categoria, cfg)))
       tabla_clicable(
         d, session$ns("fila"), paginar = TRUE, defaultPageSize = 12, searchable = TRUE,
         language = reactable::reactableLang(searchPlaceholder = "Buscar…", pageInfo = "{rowStart}–{rowEnd} de {rows}",
@@ -160,7 +161,7 @@ mod_sequia_server <- function(id, datos, filtros, abrir_ficha, geo, cfg) {
           valor = reactable::colDef(etiqueta_indice(), align = "right", width = 72),
           spi12 = reactable::colDef("SPI-12", align = "right", width = 72),
           categoria = reactable::colDef("Categoría", minWidth = 140,
-                                        html = TRUE, cell = function(v) celda_insignia(v, color_sequia(v, cfg)))
+                                        html = TRUE)
         )
       )
     })

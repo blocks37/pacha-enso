@@ -5214,7 +5214,7 @@
       "checksum": "a0516cad336bff35c3145f410016682e"
     },
     "R/mod_datos.R": {
-      "checksum": "d5690c269a84d82d667d10553ff43872"
+      "checksum": "bb806f818ef3f6014b07b7ca1e6f993f"
     },
     "R/mod_ficha.R": {
       "checksum": "ec334b92d0af8e37b9dc94ff77ebc268"
@@ -5223,16 +5223,16 @@
       "checksum": "316569c156c59017c12052268f78f5eb"
     },
     "R/mod_inundacion.R": {
-      "checksum": "c60d44958c0f73fa770d8bb0b6968d29"
+      "checksum": "5fd59e37df0875cb8ed065d02f3b6465"
     },
     "R/mod_panorama.R": {
       "checksum": "23a9f7ab4dd12e64c026e0fdd7d7a3b6"
     },
     "R/mod_rios.R": {
-      "checksum": "483902300c674e05c2dc7b862a539b29"
+      "checksum": "c844d628d934095d3659330ca30d7866"
     },
     "R/mod_sequia.R": {
-      "checksum": "31aa4a02f09370988cd466b21b2f764e"
+      "checksum": "36b91ed24d4254f1bb5f9e386856a758"
     },
     "R/mod_series.R": {
       "checksum": "9f84a922d4ae64314147768ad408d4ff"
@@ -5256,7 +5256,7 @@
       "checksum": "ef2041ba329ec1e1ca86758ca4bcba62"
     },
     "R/theme.R": {
-      "checksum": "78a98dd63e8534f4ad5faaa197a17f34"
+      "checksum": "59c84822e0f1022a3e93b33bc2b10442"
     },
     "R/utils.R": {
       "checksum": "4cd05c783dd26295320bb8d6202599d4"
