@@ -137,3 +137,10 @@ es_admin <- function(session, cfg) {
   if (nzchar(clave) && identical(q$admin, clave)) return(TRUE)
   isTRUE(cfg$acceso$admin_local) && (cd$url_hostname %||% "") %in% c("127.0.0.1", "localhost", "::1", "[::1]")
 }
+
+#' ¿Está a la vista la pestaña `valor` de la barra principal (input$nav)?
+#' Los observadores que pintan mapas de pestañas ocultas esperan a que se abran:
+#' así la primera carga solo calcula el Panorama.
+pestana_activa <- function(session, valor) {
+  identical(session$rootScope()$input$nav %||% "panorama", valor)
+}

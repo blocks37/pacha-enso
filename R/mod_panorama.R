@@ -161,8 +161,8 @@ mod_panorama_server <- function(id, datos, filtros, abrir_ficha, geo, cfg) {
     output$mapa <- leaflet::renderLeaflet({
       mapa_poligonos(list(list(sf = geo$distritos, id = "ubigeo", nombre = "distrito", grupo = "dis", borde = 0.3)),
                      contornos = geo$departamentos)
-    })
-    output$mar <- leaflet::renderLeaflet(mapa_mar(cfg))
+    }) |> shiny::bindCache("mapa-panorama")     # el mapa base no cambia: se arma una vez para todas las visitas
+    output$mar <- leaflet::renderLeaflet(mapa_mar(cfg)) |> shiny::bindCache("mapa-mar", Sys.Date())
 
     por_distrito <- shiny::reactive({
       d <- datos$distritos()

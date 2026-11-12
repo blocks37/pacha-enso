@@ -122,9 +122,10 @@ mod_sequia_server <- function(id, datos, filtros, abrir_ficha, geo, cfg) {
     output$mapa_titulo <- shiny::renderText(paste(etiqueta_indice(), "·", fmt_mes_largo(mes())))
     output$mapa <- leaflet::renderLeaflet({
       mapa_poligonos(list(list(sf = geo$distritos, id = "ubigeo", nombre = "distrito", grupo = "dis", borde = 0.3)))
-    })
+    }) |> shiny::bindCache("mapa-sequia")
 
     shiny::observe({
+      shiny::req(pestana_activa(session, "sequia"))
       s <- del_mes()
       color <- ifelse(s$arido, cfg$colores$arido, color_spi(s$valor, cfg))
       etiqueta <- sprintf("<b>%s</b> · %s<br>%s %s · %s%s", s$distrito, s$departamento, etiqueta_indice(),

@@ -13,8 +13,12 @@ library(bslib)
 
 cfg <- cargar_config()
 geo <- cargar_geo(cfg)
-# En la web: la base la calcula GitHub Actions y la app solo la descarga (R/datos_remotos.R)
+# En la web: la base la calcula GitHub Actions y la app solo la descarga (R/datos_remotos.R).
+# Se guarda en el disco local del contenedor (más rápido que la carpeta del proyecto).
+if (usa_datos_remotos(cfg)) cfg$rutas$db <- file.path(dirname(tempdir()), "pacha_enso_db")
 programar_datos_remotos(cfg)
+# Una sola conexión de lectura para todas las visitas (se reabre sola si llega una base nueva)
+db <- db_lector(cfg$rutas$db)
 
 cabecera <- tags$head(
   tags$link(rel = "icon", type = "image/png", href = "favicon.png"),
@@ -115,7 +119,6 @@ ui_app <- page_navbar(
 )
 
 server_app <- function(input, output, session) {
-  db <- db_lector(cfg$rutas$db)
   datos <- datos_compartidos(db, cfg, session)
 
   # Ficha de distrito: se abre desde cualquier vista

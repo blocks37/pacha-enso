@@ -171,8 +171,9 @@ mod_rios_server <- function(id, datos, filtros, abrir_ficha, geo, cfg) {
       shiny::req(!is.null(geo$cuencas_sf))
       mapa_poligonos(list(list(sf = geo$cuencas_sf, id = "codigo", nombre = "nombre", grupo = "cue", borde = 0.6)),
                      rios = geo$rios, contornos = geo$departamentos)
-    })
+    }) |> shiny::bindCache("mapa-rios")
     shiny::observe({
+      shiny::req(pestana_activa(session, "rios"))
       r <- todo()$resumen
       shiny::req(nrow(r) > 0)
       cue <- tibble::tibble(codigo = geo$cuencas_sf$codigo) |>
