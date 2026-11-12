@@ -1,0 +1,7 @@
+data/raw
+data/db
+data/*.log
+_to_delete
+.Rproj.user
+.git
+*.Rproj

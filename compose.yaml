@@ -1,0 +1,33 @@
+# PACHA ENSO en un servidor: la app (con su actualización automática) y Caddy (HTTPS).
+#   docker compose up -d --build     arrancar / aplicar cambios
+#   docker compose logs -f app       ver qué pasa
+# Los datos viven en /srv/enso del servidor: sobreviven a reinicios y a nuevas versiones.
+services:
+  app:
+    build: .
+    restart: unless-stopped
+    environment:
+      R_CONFIG_ACTIVE: produccion
+      ENSO_ADMIN_CLAVE: ${ENSO_ADMIN_CLAVE:-}
+      ENSO_CADA_HORAS: ${ENSO_CADA_HORAS:-6}
+      TZ: America/Lima
+    volumes:
+      - /srv/enso:/srv/enso
+    expose:
+      - "3838"
+
+  web:
+    image: caddy:2
+    restart: unless-stopped
+    depends_on: [app]
+    ports:
+      - "80:80"
+      - "443:443"
+    environment:
+      DOMINIO: ${DOMINIO}
+    volumes:
+      - ./servidor/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_datos:/data
+
+volumes:
+  caddy_datos:

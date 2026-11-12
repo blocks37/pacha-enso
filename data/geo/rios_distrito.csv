@@ -1,0 +1,2754 @@
+ubigeo,rio,tipo,cuenca,codigo_uh,km
+010101,Utcubamba,Río,Utcubamba,49894,8.66
+010103,Marañón,Río,Alto Marañón IV,49897,10.15
+010106,Marañón,Río,Alto Marañón IV,49897,4.22
+010108,Utcubamba,Río,Utcubamba,49894,4.91
+010109,Utcubamba,Río,Utcubamba,49894,5.4
+010110,Utcubamba,Río,Utcubamba,49894,29.31
+010111,Utcubamba,Río,Utcubamba,49894,4.61
+010112,Utcubamba,Río,Utcubamba,49894,8.79
+010113,Utcubamba,Río,Utcubamba,49894,2.81
+010115,Utcubamba,Río,Utcubamba,49894,1.22
+010201,Marañón,Río,Alto Marañón I,49891,4.5
+010201,Utcubamba,Río,Utcubamba,49894,18.55
+010202,Marañón,Río,Alto Marañón I,49891,37.93
+010203,Utcubamba,Río,Utcubamba,49894,2.96
+010205,Cenepa,Río,Cenepa,4988,0.29
+010205,Marañón,Río,49879,49879,2.25
+010205,Marañón,Río,Alto Marañón I,49891,108.13
+010205,Numpatkay,Río,Cenepa,4988,61.65
+010205,Tunduza,Río,Cenepa,4988,41.27
+010303,Utcubamba,Río,Utcubamba,49894,4.22
+010307,Utcubamba,Río,Utcubamba,49894,11.02
+010310,Utcubamba,Río,Utcubamba,49894,15.17
+010311,Utcubamba,Río,Utcubamba,49894,6.36
+010401,Marañón,Río,49877,49877,2.58
+010401,Marañón,Río,49879,49879,81.75
+010401,Santiago,Río,Santiago,49878,0.6
+010402,Achuime,Río,Cenepa,4988,45.55
+010402,Cenepa,Río,Cenepa,4988,237.46
+010402,Comaina,Río,Cenepa,4988,104.86
+010402,Marañón,Río,49879,49879,3.39
+010402,Marañón,Río,Alto Marañón I,49891,0.29
+010402,Numpatkay,Río,Cenepa,4988,48.3
+010403,Marañón,Río,49877,49877,4.83
+010403,Marañón,Río,49879,49879,0.22
+010403,Santiago,Río,Santiago,49878,199.77
+010501,Utcubamba,Río,Utcubamba,49894,5.08
+010502,Marañón,Río,Alto Marañón IV,49897,6.66
+010503,Marañón,Río,Alto Marañón IV,49897,14.73
+010504,Utcubamba,Río,Utcubamba,49894,3.14
+010506,Utcubamba,Río,Utcubamba,49894,4.59
+010508,Utcubamba,Río,Utcubamba,49894,0.27
+010509,Utcubamba,Río,Utcubamba,49894,3.01
+010513,Marañón,Río,Alto Marañón IV,49897,10.86
+010514,Marañón,Río,Alto Marañón IV,49897,12.31
+010515,Marañón,Río,Alto Marañón IV,49897,7.78
+010516,Utcubamba,Río,Utcubamba,49894,2.14
+010517,Utcubamba,Río,Utcubamba,49894,10.07
+010518,Utcubamba,Río,Utcubamba,49894,6.63
+010519,Utcubamba,Río,Utcubamba,49894,10.46
+010521,Utcubamba,Río,Utcubamba,49894,1.07
+010522,Utcubamba,Río,Utcubamba,49894,6.73
+010601,Huayabamba,Río,Huayabamba,49848,5.31
+010602,Huayabamba,Río,Huayabamba,49848,11.65
+010607,Huayabamba,Río,Huayabamba,49848,25.36
+010608,Huayabamba,Río,Huayabamba,49848,0.72
+010609,Huayabamba,Río,Huayabamba,49848,15.67
+010701,Utcubamba,Río,Utcubamba,49894,19.18
+010702,Utcubamba,Río,Utcubamba,49894,27.02
+010703,Marañón,Río,Alto Marañón III,49895,1.97
+010703,Marañón,Río,Alto Marañón IV,49897,15.67
+010704,Marañón,Río,Alto Marañón III,49895,20.52
+010704,Utcubamba,Río,Utcubamba,49894,13.33
+010705,Utcubamba,Río,Utcubamba,49894,11.4
+010706,Marañón,Río,Alto Marañón IV,49897,12.5
+010707,Marañón,Río,Alto Marañón IV,49897,5.52
+020101,Quellcayhuanca,Río,Santa,1376,12.8
+020101,Santa,Río,Santa,1376,16.14
+020101,Vado,Río,Casma,137596,0.38
+020102,Yaután,Río,Casma,137596,5.23
+020103,Chacchan,Río,Casma,137596,0.32
+020103,Grande,Río,Casma,137596,4.32
+020103,Vado,Río,Casma,137596,1.07
+020104,Copipunta,Quebrada,Culebras,1375952,14.05
+020104,Huanchay,Río,Culebras,1375952,29.24
+020105,Quellcayhuanca,Río,Santa,1376,14.04
+020105,Santa,Río,Santa,1376,9.95
+020106,Santa,Río,Santa,1376,3.4
+020107,Vado,Río,Casma,137596,21.76
+020108,Santa,Río,Santa,1376,2.18
+020109,Acray,Quebrada,Culebras,1375952,17.32
+020109,Grande,Río,Casma,137596,6.55
+020110,Chacchan,Río,Casma,137596,17.05
+020110,Grande,Río,Casma,137596,12.2
+020111,Chacchan,Río,Casma,137596,5.05
+020111,Pira,Río,Casma,137596,22.9
+020111,Vado,Río,Casma,137596,2.56
+020112,Santa,Río,Santa,1376,4.31
+020201,Aija,Río,Huarmey,137594,0.41
+020201,Allma,Río,Huarmey,137594,20.42
+020201,La Merced,Río,Huarmey,137594,2.39
+020202,Aija,Río,Huarmey,137594,13.82
+020202,Cota Puquio,Quebrada,Culebras,1375952,19.83
+020202,Huanchay,Quebrada,Culebras,1375952,1.3
+020202,Huanchay,Río,Culebras,1375952,0.53
+020203,Aija,Río,Huarmey,137594,2.77
+020203,La Merced,Río,Huarmey,137594,1.02
+020204,La Merced,Río,Huarmey,137594,18.46
+020205,Aija,Río,Huarmey,137594,5.68
+020205,Allma,Río,Huarmey,137594,0.78
+020301,Marañón,Río,Alto Marañón V,49899,7.79
+020301,Puchka,Río,Alto Marañón V,49899,1.09
+020302,Puchka,Río,Alto Marañón V,49899,11.24
+020303,Marañón,Río,Alto Marañón V,49899,7.55
+020304,Puchka,Río,Alto Marañón V,49899,1.52
+020401,Yanamayo,Río,Alto Marañón V,49899,23.67
+020402,Yanamayo,Río,Alto Marañón V,49899,5.48
+020501,Pativilca,Río,Pativilca,13758,15.22
+020501,Shacsha,Quebrada,Santa,1376,9.32
+020502,Pativilca,Río,Pativilca,13758,2.16
+020503,Fortaleza,Río,Fortaleza,137592,9.34
+020503,Huayllapampa,Río,Fortaleza,137592,0.94
+020504,Patishgo,Quebrada,Santa,1376,13.43
+020504,Pativilca,Río,Pativilca,13758,39.04
+020505,Fortaleza,Río,Fortaleza,137592,22.92
+020507,Fortaleza,Río,Fortaleza,137592,11.32
+020507,Purísima,Río,Fortaleza,137592,14.52
+020508,Vizcarra,Río,Alto Marañón V,49899,38.45
+020509,Achín,Río,Pativilca,13758,1.12
+020509,Pativilca,Río,Pativilca,13758,8.01
+020510,Purísima,Río,Fortaleza,137592,23.14
+020511,Pativilca,Río,Pativilca,13758,5.95
+020512,Pativilca,Río,Pativilca,13758,9.63
+020513,Achín,Río,Pativilca,13758,22.98
+020513,Pativilca,Río,Pativilca,13758,4.04
+020515,Fortaleza,Río,Fortaleza,137592,4.58
+020601,Santa,Río,Santa,1376,8.56
+020602,Santa,Río,Santa,1376,2.17
+020604,Santa,Río,Santa,1376,1.78
+020605,Santa,Río,Santa,1376,5.87
+020606,Honda,Quebrada,Santa,1376,22.37
+020606,Santa,Río,Santa,1376,4.49
+020607,Santa,Río,Santa,1376,1.8
+020608,Honda,Quebrada,Santa,1376,14.06
+020611,Santa,Río,Santa,1376,2.28
+020701,Yanamayo,Río,Alto Marañón V,49899,1.62
+020702,Marañón,Río,Alto Marañón V,49899,7.93
+020702,Yanamayo,Río,Alto Marañón V,49899,5.33
+020703,Yanamayo,Río,Alto Marañón V,49899,5.67
+020801,Casma,Río,Casma,137596,30.69
+020801,Sechín,Río,Casma,137596,5.28
+020802,Sechín,Río,Casma,137596,26.03
+020803,Casma,Río,Casma,137596,5.95
+020804,Casma,Río,Casma,137596,12.29
+020804,Grande,Río,Casma,137596,9.98
+020804,Yaután,Río,Casma,137596,20.42
+020901,Manta,Río,Santa,1376,4.1
+020902,Manta,Río,Santa,1376,4.78
+020903,Santa,Río,Santa,1376,6.08
+020904,Manta,Río,Santa,1376,25.04
+020905,Manta,Río,Santa,1376,4.65
+020905,Santa,Río,Santa,1376,4.54
+020906,Manta,Río,Santa,1376,4.56
+020907,Manta,Río,Santa,1376,5.25
+020907,Santa,Río,Santa,1376,4.11
+021001,Puchka,Río,Alto Marañón V,49899,3.73
+021002,Puchka,Río,Alto Marañón V,49899,1.82
+021004,Puchka,Río,Alto Marañón V,49899,18.42
+021005,Puchka,Río,Alto Marañón V,49899,1.5
+021006,Marañón,Río,Alto Marañón V,49899,6.34
+021007,Puchka,Río,Alto Marañón V,49899,4.28
+021008,Puchka,Río,Alto Marañón V,49899,3.9
+021009,Puchka,Río,Alto Marañón V,49899,7.83
+021010,Marañón,Río,Alto Marañón V,49899,8.94
+021010,Puchka,Río,Alto Marañón V,49899,6.93
+021011,Puchka,Río,Alto Marañón V,49899,5.72
+021012,Puchka,Río,Alto Marañón V,49899,4.42
+021013,Marañón,Río,Alto Marañón V,49899,11.34
+021014,Puchka,Río,Alto Marañón V,49899,33.71
+021016,Puchka,Río,Alto Marañón V,49899,2.93
+021101,Aija,Río,Huarmey,137594,6.42
+021101,Gargar,Quebrada,Huarmey,137594,19.6
+021101,Huarmey,Río,Huarmey,137594,43.6
+021101,Malvas,Río,Huarmey,137594,6.46
+021101,Pedregal,Quebrada,Huarmey,137594,31.26
+021102,Malvas,Río,Huarmey,137594,8.18
+021103,Acray,Quebrada,Culebras,1375952,3.55
+021103,Culebras,Río,Culebras,1375952,34.8
+021103,Huanchay,Quebrada,Culebras,1375952,3.25
+021103,Junco,Quebrada,Culebras,1375952,11.41
+021104,Aija,Río,Huarmey,137594,6.68
+021104,Malvas,Río,Huarmey,137594,3.77
+021201,Santa,Río,Santa,1376,13.04
+021202,Quitaracsa,Río,Santa,1376,1.74
+021202,Santa,Río,Santa,1376,22.3
+021203,Santa,Río,Santa,1376,4.57
+021205,Santa,Río,Santa,1376,6.09
+021206,Larea,Río,Nepeña,137598,29.82
+021206,Loco,Río,Nepeña,137598,28.31
+021207,Santa,Río,Santa,1376,3.87
+021208,Santa,Río,Santa,1376,6.98
+021208,Yuracma,Río,Santa,1376,33.16
+021210,Quitaracsa,Río,Santa,1376,44.96
+021210,Santa,Río,Santa,1376,7.88
+021303,Marañón,Río,Alto Marañón V,49899,5.88
+021303,Yanamayo,Río,Alto Marañón V,49899,7.61
+021304,Marañón,Río,Alto Marañón V,49899,8.33
+021305,Yanamayo,Río,Alto Marañón V,49899,3.36
+021306,Yanamayo,Río,Alto Marañón V,49899,3.2
+021308,Yanamayo,Río,Alto Marañón V,49899,3.22
+021401,Huanchay,Quebrada,Pativilca,13758,30.39
+021402,Huanchay,Quebrada,Pativilca,13758,2.76
+021402,Pativilca,Río,Pativilca,13758,11.07
+021403,Huanchay,Quebrada,Pativilca,13758,8.25
+021403,Pativilca,Río,Pativilca,13758,0.69
+021404,Pativilca,Río,Pativilca,13758,11.79
+021404,Rapay,Río,Pativilca,13758,0.45
+021405,Huanchay,Quebrada,Pativilca,13758,5.9
+021405,Pativilca,Río,Pativilca,13758,23.72
+021406,Julquillas,Quebrada,Fortaleza,137592,14.92
+021407,Pativilca,Río,Pativilca,13758,5.0
+021408,Pativilca,Río,Pativilca,13758,1.72
+021409,Julquillas,Quebrada,Fortaleza,137592,45.02
+021410,Huanchay,Quebrada,Pativilca,13758,2.37
+021502,Tablachaca,Río,Santa,1376,3.85
+021503,Marañón,Río,Alto Marañón V,49899,10.12
+021503,Tablachaca,Río,Santa,1376,15.64
+021506,Tablachaca,Río,Santa,1376,5.7
+021508,Tablachaca,Río,Santa,1376,12.36
+021509,Marañón,Río,Alto Marañón V,49899,4.37
+021509,Tablachaca,Río,Santa,1376,9.05
+021510,Santa,Río,Santa,1376,6.1
+021510,Tablachaca,Río,Santa,1376,12.49
+021511,Tablachaca,Río,Santa,1376,12.76
+021603,Marañón,Río,Alto Marañón V,49899,13.42
+021604,Marañón,Río,Alto Marañón V,49899,6.06
+021701,Santa,Río,Santa,1376,10.82
+021702,Pachacoto,Río,Santa,1376,30.51
+021702,Patishgo,Quebrada,Santa,1376,13.31
+021702,Santa,Río,Santa,1376,47.75
+021702,Shacsha,Quebrada,Santa,1376,5.01
+021702,Shiqui,Río,Santa,1376,16.04
+021702,Utcuyacu,Quebrada,Santa,1376,8.18
+021702,Yanayacu,Río,Santa,1376,20.52
+021703,Malvas,Río,Huarmey,137594,20.81
+021704,Huayllapampa,Río,Fortaleza,137592,18.44
+021705,Fortaleza,Río,Fortaleza,137592,3.43
+021706,Fortaleza,Río,Fortaleza,137592,7.33
+021706,Huayllapampa,Río,Fortaleza,137592,5.89
+021706,Marca,Río,Fortaleza,137592,22.87
+021707,Fortaleza,Río,Fortaleza,137592,4.06
+021708,Fortaleza,Río,Fortaleza,137592,1.35
+021708,Malvas,Río,Huarmey,137594,12.2
+021709,Huayllapampa,Río,Fortaleza,137592,6.79
+021709,Malvas,Río,Huarmey,137594,1.83
+021710,Santa,Río,Santa,1376,4.71
+021710,Yanayacu,Río,Santa,1376,5.97
+021801,La Pampa del Toro,Quebrada,Lacramarca,1375992,31.44
+021801,Lacramarca,Quebrada,Lacramarca,1375992,48.49
+021801,Lupahuari,Quebrada,Lacramarca,1375992,10.3
+021801,Santa,Río,Santa,1376,30.57
+021801,Santa Ana,Quebrada,Lacramarca,1375992,2.82
+021801,Totoral,Quebrada,Lacramarca,1375992,12.24
+021801,Yucaspunta,Quebrada,Lacramarca,1375992,14.37
+021802,Colcap,Río,Nepeña,137598,28.3
+021802,Jimbe,Río,Nepeña,137598,6.99
+021802,Lampanín,Quebrada,Nepeña,137598,17.53
+021802,Santa Ana,Quebrada,Lacramarca,1375992,3.53
+021804,Lupahuari,Quebrada,Lacramarca,1375992,17.11
+021804,Santa,Río,Santa,1376,23.5
+021804,Santa Ana,Quebrada,Lacramarca,1375992,13.51
+021804,Tablachaca,Río,Santa,1376,0.5
+021804,Totoral,Quebrada,Lacramarca,1375992,0.21
+021805,Jimbe,Río,Nepeña,137598,1.18
+021805,Larea,Río,Nepeña,137598,13.2
+021805,Loco,Río,Nepeña,137598,19.46
+021805,Nepeña,Río,Nepeña,137598,6.45
+021806,Lappra,Quebrada,Nepeña,137598,21.09
+021806,Loco,Río,Nepeña,137598,3.57
+021806,Nepeña,Río,Nepeña,137598,9.67
+021806,Samanco,Río,Nepeña,137598,18.64
+021807,Samanco,Río,Nepeña,137598,11.23
+021808,Santa,Río,Santa,1376,2.57
+021902,Marañón,Río,Alto Marañón V,49899,5.87
+021903,Marañón,Río,Alto Marañón V,49899,8.21
+021907,Marañón,Río,Alto Marañón V,49899,3.3
+022001,Santa,Río,Santa,1376,4.79
+022002,Yaután,Río,Casma,137596,6.55
+022003,Santa,Río,Santa,1376,4.78
+022004,Santa,Río,Santa,1376,6.75
+022005,Sechín,Río,Casma,137596,30.55
+022006,Santa,Río,Santa,1376,0.93
+022007,Santa,Río,Santa,1376,2.02
+022007,Yaután,Río,Casma,137596,11.89
+022008,Yanamayo,Río,Alto Marañón V,49899,9.05
+030101,Pachachaca,Río,Alto Apurímac,4999,10.97
+030102,Pachachaca,Río,Alto Apurímac,4999,2.7
+030103,Pachachaca,Río,Alto Apurímac,4999,10.1
+030104,Apurímac,Río,Alto Apurímac,4999,30.96
+030104,Vilcabamba,Río,Alto Apurímac,4999,10.99
+030105,Apurímac,Río,Alto Apurímac,4999,16.43
+030105,Pachachaca,Río,Alto Apurímac,4999,13.08
+030106,Pachachaca,Río,Alto Apurímac,4999,3.75
+030107,Pachachaca,Río,Alto Apurímac,4999,18.31
+030108,Apurímac,Río,Alto Apurímac,4999,10.45
+030202,Pampas,Río,Pampas,4998,9.71
+030203,Chicha,Río,Pampas,4998,5.29
+030204,Pachachaca,Río,Alto Apurímac,4999,8.38
+030206,Chicha,Río,Pampas,4998,2.66
+030208,Apurímac,Río,Alto Apurímac,4999,5.97
+030208,Pachachaca,Río,Alto Apurímac,4999,9.25
+030208,Pampas,Río,Pampas,4998,2.19
+030210,Chicha,Río,Pampas,4998,36.62
+030211,Chicha,Río,Pampas,4998,2.52
+030212,Chicha,Río,Pampas,4998,4.29
+030212,Pampas,Río,Pampas,4998,6.64
+030214,Chicha,Río,Pampas,4998,4.74
+030219,Pampas,Río,Pampas,4998,4.07
+030305,Vilcabamba,Río,Alto Apurímac,4999,66.81
+030401,Pachachaca,Río,Alto Apurímac,4999,29.01
+030402,Pachachaca,Río,Alto Apurímac,4999,1.25
+030403,Pachachaca,Río,Alto Apurímac,4999,1.24
+030404,Pachachaca,Río,Alto Apurímac,4999,10.95
+030405,Pachachaca,Río,Alto Apurímac,4999,5.37
+030406,Calpamayo,Río,Ocoña,136,1.68
+030406,Horay Homa,Río,Ocoña,136,8.95
+030406,Pachachaca,Río,Alto Apurímac,4999,57.81
+030406,Pisquiccocha,Río,Ocoña,136,37.41
+030407,Pachachaca,Río,Alto Apurímac,4999,9.93
+030408,Pachachaca,Río,Alto Apurímac,4999,1.17
+030411,Pachachaca,Río,Alto Apurímac,4999,0.45
+030412,Chicha,Río,Pampas,4998,22.25
+030412,Pachachaca,Río,Alto Apurímac,4999,9.1
+030413,Pachachaca,Río,Alto Apurímac,4999,2.8
+030415,Pachachaca,Río,Alto Apurímac,4999,9.86
+030416,Pachachaca,Río,Alto Apurímac,4999,6.86
+030501,Apurímac,Río,Alto Apurímac,4999,8.46
+030501,Santo Tomás,Río,Alto Apurímac,4999,8.09
+030502,Apurímac,Río,Alto Apurímac,4999,18.44
+030502,Vilcabamba,Río,Alto Apurímac,4999,7.58
+030503,Vilcabamba,Río,Alto Apurímac,4999,5.0
+030504,Santo Tomás,Río,Alto Apurímac,4999,7.27
+030505,Santo Tomás,Río,Alto Apurímac,4999,12.42
+030601,Pampas,Río,Pampas,4998,3.41
+030603,Pampas,Río,Pampas,4998,12.13
+030604,Pampas,Río,Pampas,4998,30.3
+030605,Pampas,Río,Pampas,4998,5.79
+030607,Pampas,Río,Pampas,4998,3.7
+030610,Pampas,Río,Pampas,4998,7.9
+030611,Pampas,Río,Pampas,4998,12.61
+030612,Pampas,Río,Pampas,4998,0.54
+030702,Vilcabamba,Río,Alto Apurímac,4999,8.18
+030703,Vilcabamba,Río,Alto Apurímac,4999,15.8
+030704,Vilcabamba,Río,Alto Apurímac,4999,8.09
+030705,Vilcabamba,Río,Alto Apurímac,4999,3.85
+030706,Vilcabamba,Río,Alto Apurímac,4999,6.78
+030707,Vilcabamba,Río,Alto Apurímac,4999,1.21
+030708,Vilcabamba,Río,Alto Apurímac,4999,1.28
+030709,Vilcabamba,Río,Alto Apurímac,4999,1.41
+030710,Vilcabamba,Río,Alto Apurímac,4999,3.64
+030711,Vilcabamba,Río,Alto Apurímac,4999,7.22
+030712,Vilcabamba,Río,Alto Apurímac,4999,1.78
+030714,Vilcabamba,Río,Alto Apurímac,4999,4.62
+040101,Chili,Río,Quilca - Vitor - Chili,132,3.89
+040102,Chili,Río,Quilca - Vitor - Chili,132,10.21
+040103,Chili,Río,Quilca - Vitor - Chili,132,21.4
+040104,Estanquillo,Quebrada,Quilca - Vitor - Chili,132,25.05
+040107,Chili,Río,Quilca - Vitor - Chili,132,1.57
+040107,Yarabamba,Río,Quilca - Vitor - Chili,132,2.97
+040111,Yarabamba,Río,Quilca - Vitor - Chili,132,2.64
+040114,Huayrondo,Quebrada,Tambo,1318,0.31
+040114,Yarabamba,Río,Quilca - Vitor - Chili,132,26.01
+040115,Yarabamba,Río,Quilca - Vitor - Chili,132,8.75
+040117,Chili,Río,Quilca - Vitor - Chili,132,3.31
+040118,Sihuas,Río,Quilca - Vitor - Chili,132,17.07
+040119,13202,Quebrada,Quilca - Vitor - Chili,132,11.7
+040119,Blanco,Río,Quilca - Vitor - Chili,132,42.22
+040119,Cancusane,Río,Quilca - Vitor - Chili,132,40.83
+040119,Chacalaque,Río,Quilca - Vitor - Chili,132,15.16
+040119,Chili,Río,Quilca - Vitor - Chili,132,13.39
+040119,Cochinasa,Río,Quilca - Vitor - Chili,132,23.79
+040119,Huancune,Quebrada,Quilca - Vitor - Chili,132,18.56
+040119,Huerta,Quebrada,Quilca - Vitor - Chili,132,20.47
+040119,Palca,Quebrada,Quilca - Vitor - Chili,132,12.88
+040119,Pasto Grande,Río,Quilca - Vitor - Chili,132,22.76
+040119,Patimayo,Río,Quilca - Vitor - Chili,132,23.04
+040119,Saccani,Río,Quilca - Vitor - Chili,132,16.89
+040119,Ticma,Quebrada,Quilca - Vitor - Chili,132,13.81
+040119,Yanamayo,Río,Quilca - Vitor - Chili,132,26.82
+040120,Caracharma,Quebrada,Quilca - Vitor - Chili,132,2.15
+040120,Sihuas,Río,Quilca - Vitor - Chili,132,25.07
+040121,Molles,Quebrada,Quilca - Vitor - Chili,132,10.28
+040121,Sihuas,Río,Quilca - Vitor - Chili,132,1.13
+040121,Vitor,Río,Quilca - Vitor - Chili,132,19.22
+040122,Yarabamba,Río,Quilca - Vitor - Chili,132,6.84
+040123,Chili,Río,Quilca - Vitor - Chili,132,3.64
+040123,Yarabamba,Río,Quilca - Vitor - Chili,132,0.37
+040124,Chili,Río,Quilca - Vitor - Chili,132,29.12
+040124,El Cuico,Quebrada,Quilca - Vitor - Chili,132,0.73
+040124,Estanquillo,Quebrada,Quilca - Vitor - Chili,132,4.48
+040124,Vitor,Río,Quilca - Vitor - Chili,132,0.46
+040125,Chili,Río,Quilca - Vitor - Chili,132,0.56
+040125,Huachipa,Quebrada,Quilca - Vitor - Chili,132,43.32
+040125,Molle Chico,Quebrada,Quilca - Vitor - Chili,132,44.91
+040125,Molles,Quebrada,Quilca - Vitor - Chili,132,50.02
+040125,Vitor,Río,Quilca - Vitor - Chili,132,56.88
+040125,Yura,Río,Quilca - Vitor - Chili,132,0.68
+040126,Chili,Río,Quilca - Vitor - Chili,132,2.01
+040127,Linga,Quebrada,Tambo,1318,24.66
+040127,Yarabamba,Río,Quilca - Vitor - Chili,132,7.89
+040128,Acomayo,Río,Quilca - Vitor - Chili,132,4.99
+040128,Aguasalada,Quebrada,Quilca - Vitor - Chili,132,44.35
+040128,Chili,Río,Quilca - Vitor - Chili,132,34.93
+040128,El Cuico,Quebrada,Quilca - Vitor - Chili,132,28.39
+040128,Huata,Quebrada,Quilca - Vitor - Chili,132,24.23
+040128,La Paccha,Quebrada,Quilca - Vitor - Chili,132,38.6
+040128,Ocoruro,Río,Quilca - Vitor - Chili,132,14.83
+040128,Yura,Río,Quilca - Vitor - Chili,132,49.52
+040202,Camaná,Río,Camaná,134,3.69
+040203,13582,Quebrada,135,135,11.53
+040203,Ocoña,Río,Ocoña,136,32.46
+040203,Pampablanca,Quebrada,Ocoña,136,32.74
+040203,Saca de Posco,Quebrada,Ocoña,136,15.47
+040203,Surita,Quebrada,Ocoña,136,24.56
+040204,13564,Quebrada,135,135,8.88
+040204,13566,Quebrada,135,135,13.67
+040204,13568,Quebrada,135,135,9.07
+040204,Cabramuerta,Quebrada,135,135,31.18
+040204,Camaná,Río,Camaná,134,3.65
+040204,Jahuay,Quebrada,135,135,16.57
+040204,La Chira,Quebrada,135,135,2.89
+040204,La Chira - Colorada,Quebrada,135,135,7.21
+040204,La Yesera,Quebrada,135,135,13.47
+040204,Manga,Quebrada,135,135,14.51
+040204,Pacheco,Quebrada,135,135,23.86
+040205,Camaná,Río,Camaná,134,41.2
+040205,Herrera,Quebrada,Camaná,134,12.04
+040205,Molles,Quebrada,Camaná,134,6.97
+040205,Pisques,Quebrada,Camaná,134,4.85
+040205,Puluviñas,Quebrada,Camaná,134,7.36
+040205,Tinta,Quebrada,Camaná,134,13.4
+040206,13564,Quebrada,135,135,7.03
+040206,13566,Quebrada,135,135,5.92
+040206,13568,Quebrada,135,135,24.3
+040206,13582,Quebrada,135,135,37.65
+040206,13584,Quebrada,135,135,38.59
+040206,13587,Quebrada,135,135,5.65
+040206,13588,Quebrada,135,135,33.54
+040206,13589,Quebrada,135,135,31.58
+040206,13612,Quebrada,Ocoña,136,12.01
+040206,La Chira - Colorada,Quebrada,135,135,34.13
+040206,La Yesera,Quebrada,135,135,12.44
+040206,Ocoña,Río,Ocoña,136,27.9
+040206,Pacheco,Quebrada,135,135,27.62
+040206,Pampablanca,Quebrada,Ocoña,136,0.81
+040206,Pescadores,Quebrada,Pescadores - Caraveli,13712,5.0
+040206,Yerbabuena,Quebrada,135,135,55.66
+040207,Carachosa,Quebrada,Quilca - Vitor - Chili,132,2.99
+040207,Centeno,Quebrada,1319,1319,8.05
+040207,Omo,Quebrada,Quilca - Vitor - Chili,132,14.8
+040207,Platanal,Quebrada,Quilca - Vitor - Chili,132,21.36
+040207,Quilca,Río,Quilca - Vitor - Chili,132,22.03
+040207,San José,Quebrada,1319,1319,24.19
+040207,Saucillo,Quebrada,Quilca - Vitor - Chili,132,12.89
+040207,Sihuas,Río,Quilca - Vitor - Chili,132,16.5
+040207,Vitor,Río,Quilca - Vitor - Chili,132,3.86
+040301,Pescadores,Quebrada,Pescadores - Caraveli,13712,54.25
+040302,Acarí,Río,Acarí,13718,44.37
+040302,Lucasi,Quebrada,Acarí,13718,30.3
+040303,Atico,Río,Atico,13714,57.27
+040303,Choclón,Quebrada,Choclón,137152,46.66
+040303,Pescadores,Quebrada,Pescadores - Caraveli,13712,44.67
+040304,Honda,Quebrada,Honda,137158,42.61
+040305,Acarí,Río,Acarí,13718,21.88
+040306,Challhuamayo,Quebrada,Ocoña,136,19.45
+040306,Marán,Río,Ocoña,136,12.21
+040306,Mollisniyocc,Quebrada,Ocoña,136,0.34
+040306,Pescadores,Quebrada,Pescadores - Caraveli,13712,47.31
+040306,Ullacha Grande,Quebrada,Ocoña,136,0.45
+040307,Honda,Quebrada,Honda,137158,1.87
+040307,de Chala,Quebrada,Chala,137156,22.11
+040308,Chaparra,Río,Cháparra,137154,44.77
+040309,de Chala,Quebrada,Chala,137156,12.4
+040310,Acaville,Quebrada,Yauca,13716,14.03
+040310,Lampalla,Río,Yauca,13716,15.61
+040310,Yauca,Río,Yauca,13716,16.27
+040312,Atico,Río,Atico,13714,30.16
+040312,Chaparra,Río,Cháparra,137154,48.39
+040313,Yauca,Río,Yauca,13716,18.34
+040401,Capiza,Río,Camaná,134,3.28
+040401,Cosos,Quebrada,Camaná,134,17.59
+040401,Huario,Quebrada,Camaná,134,11.31
+040401,Majes,Río,Camaná,134,20.39
+040401,Puluviñas,Quebrada,Camaná,134,28.29
+040402,Andahua,Río,Camaná,134,19.09
+040402,Ayo,Río,Camaná,134,14.37
+040402,Tambo,Quebrada,Camaná,134,23.81
+040403,Ayo,Río,Camaná,134,17.33
+040403,Colca,Río,Camaná,134,0.7
+040403,Mamacocha,Río,Camaná,134,23.39
+040404,Ayo,Río,Camaná,134,3.96
+040404,Canllayocmayo,Río,Camaná,134,15.18
+040404,Huaytamayo,Río,Camaná,134,17.68
+040404,Illigua,Río,Camaná,134,9.91
+040404,Llactatuyo,Río,Camaná,134,18.98
+040404,Molloco,Río,Camaná,134,1.76
+040404,Orcopampa,Río,Camaná,134,8.95
+040404,Sillque,Río,Camaná,134,9.5
+040405,Andahua,Río,Camaná,134,21.96
+040405,Chilcaimarca,Río,Camaná,134,3.92
+040406,13478,Río,Camaná,134,0.53
+040406,Ajaña,Río,Camaná,134,20.5
+040406,Chalza,Río,Camaná,134,20.62
+040406,Colca,Río,Camaná,134,15.02
+040406,Mamacocha,Río,Camaná,134,0.47
+040406,Molloco,Río,Camaná,134,33.65
+040406,Sillque,Río,Camaná,134,16.84
+040407,13438,Quebrada,Camaná,134,22.88
+040407,Colca,Río,Camaná,134,5.46
+040407,Gloriahuasi,Quebrada,Camaná,134,0.26
+040407,Huario,Quebrada,Camaná,134,0.62
+040407,Majes,Río,Camaná,134,21.86
+040407,Seca,Quebrada,Camaná,134,10.23
+040407,Sicera,Quebrada,Camaná,134,13.68
+040408,Jollpa,Quebrada,Camaná,134,3.71
+040408,Tambo,Quebrada,Camaná,134,2.12
+040408,Tapaza,Río,Camaná,134,19.83
+040409,Andahua,Río,Camaná,134,0.52
+040409,Canllayocmayo,Río,Camaná,134,9.94
+040409,Chilcaimarca,Río,Camaná,134,5.92
+040409,Misapuquio,Río,Camaná,134,17.58
+040409,Orcopampa,Río,Camaná,134,29.27
+040409,Velille,Río,Alto Apurímac,4999,13.0
+040410,Huario,Quebrada,Camaná,134,16.99
+040410,Llato,Río,Camaná,134,21.96
+040410,Sihuarpo,Río,Camaná,134,7.04
+040411,Capiza,Río,Camaná,134,1.06
+040411,Jollpa,Quebrada,Camaná,134,4.37
+040411,Llacllajo,Río,Camaná,134,9.34
+040411,Llato,Río,Camaná,134,1.5
+040411,Sihuarpo,Río,Camaná,134,3.19
+040411,Tapaza,Río,Camaná,134,4.44
+040412,Capiza,Río,Camaná,134,6.92
+040412,Colca,Río,Camaná,134,22.4
+040412,Gloriahuasi,Quebrada,Camaná,134,0.39
+040412,Llacllajo,Río,Camaná,134,0.24
+040412,Pichillhuay,Quebrada,Camaná,134,10.14
+040412,Tapaza,Río,Camaná,134,3.5
+040413,Camaná,Río,Camaná,134,18.55
+040413,Majes,Río,Camaná,134,7.2
+040413,Puluviñas,Quebrada,Camaná,134,12.24
+040413,Sicera,Quebrada,Camaná,134,9.51
+040414,Jollpa,Quebrada,Camaná,134,10.92
+040414,Llacllajo,Río,Camaná,134,16.23
+040501,Colca,Río,Camaná,134,15.12
+040502,Acomayo,Río,Quilca - Vitor - Chili,132,1.95
+040502,Aycata,Río,Quilca - Vitor - Chili,132,2.77
+040502,Chipana,Río,Quilca - Vitor - Chili,132,16.41
+040502,Colca,Río,Camaná,134,3.92
+040502,Parcomayo,Río,Quilca - Vitor - Chili,132,22.7
+040502,Sallalli,Río,Quilca - Vitor - Chili,132,3.07
+040503,13478,Río,Camaná,134,18.76
+040503,Chalza,Río,Camaná,134,0.75
+040503,Colca,Río,Camaná,134,18.1
+040504,Colca,Río,Camaná,134,51.7
+040504,Llapa,Río,Camaná,134,35.39
+040504,Negrillo,Río,Camaná,134,17.43
+040505,Apurímac,Río,Alto Apurímac,4999,57.53
+040505,Llactatuyo,Río,Camaná,134,14.95
+040505,Tarucuyo,Río,Alto Apurímac,4999,29.35
+040506,Colca,Río,Camaná,134,11.21
+040507,Ayo,Río,Camaná,134,0.59
+040507,Colca,Río,Camaná,134,18.62
+040507,Gloriahuasi,Quebrada,Camaná,134,21.41
+040507,Huambo,Río,Camaná,134,41.63
+040507,Jasmín,Quebrada,Camaná,134,28.36
+040507,Mamacocha,Río,Camaná,134,0.42
+040508,Lihualla,Río,Quilca - Vitor - Chili,132,30.99
+040508,Molles,Quebrada,Quilca - Vitor - Chili,132,0.88
+040508,Parcomayo,Río,Quilca - Vitor - Chili,132,0.47
+040508,Pichirijma,Río,Quilca - Vitor - Chili,132,11.46
+040508,Sallalli,Río,Quilca - Vitor - Chili,132,0.5
+040508,Sihuas,Río,Quilca - Vitor - Chili,132,6.1
+040509,Colca,Río,Camaná,134,4.27
+040510,Colca,Río,Camaná,134,4.51
+040511,Caracharma,Quebrada,Quilca - Vitor - Chili,132,16.36
+040511,Chorrillos,Quebrada,Camaná,134,28.59
+040511,Huambo,Río,Camaná,134,0.24
+040511,Lihualla,Río,Quilca - Vitor - Chili,132,6.62
+040511,Lluta,Río,Quilca - Vitor - Chili,132,55.8
+040511,Pichirijma,Río,Quilca - Vitor - Chili,132,27.54
+040511,Sallalli,Río,Quilca - Vitor - Chili,132,0.39
+040511,Sicera,Quebrada,Camaná,134,20.02
+040511,Sihuas,Río,Quilca - Vitor - Chili,132,8.18
+040512,Colca,Río,Camaná,134,4.58
+040512,Sallalli,Río,Quilca - Vitor - Chili,132,9.05
+040513,Colca,Río,Camaná,134,7.23
+040514,13284,Quebrada,Quilca - Vitor - Chili,132,14.97
+040514,Arizaca Mayo o Cochi,Río,Quilca - Vitor - Chili,132,5.18
+040514,Caquemayo,Río,Quilca - Vitor - Chili,132,24.76
+040514,Chaupichimpanamay,Río,Quilca - Vitor - Chili,132,4.21
+040514,Chili,Río,Quilca - Vitor - Chili,132,11.1
+040514,Chili - Cuchinasa,Río,Quilca - Vitor - Chili,132,8.47
+040514,Chili - Sumbay,Río,Quilca - Vitor - Chili,132,39.26
+040514,Cochinasa,Río,Quilca - Vitor - Chili,132,10.06
+040514,Colca,Río,Camaná,134,44.06
+040514,Colquiuta,Río,Quilca - Vitor - Chili,132,17.95
+040514,Pausa,Río,Quilca - Vitor - Chili,132,26.36
+040514,Piscamayo,Quebrada,Quilca - Vitor - Chili,132,18.27
+040514,Puncochane,Río,Quilca - Vitor - Chili,132,17.29
+040515,Colca,Río,Camaná,134,14.05
+040516,Colca,Río,Camaná,134,8.51
+040516,Molloco,Río,Camaná,134,19.49
+040516,Sillque,Río,Camaná,134,0.51
+040517,Apurímac,Río,Alto Apurímac,4999,4.56
+040517,Chalhuanca,Río,Camaná,134,38.08
+040517,Colca,Río,Camaná,134,44.97
+040517,Maqueruyo,Río,Camaná,134,40.75
+040518,Colca,Río,Camaná,134,3.73
+040519,13296,Quebrada,Quilca - Vitor - Chili,132,13.85
+040519,Acomayo,Río,Quilca - Vitor - Chili,132,2.22
+040519,Aycata,Río,Quilca - Vitor - Chili,132,26.9
+040519,Capillane,Río,Quilca - Vitor - Chili,132,20.83
+040519,Caquemayo,Río,Quilca - Vitor - Chili,132,11.19
+040519,Chalhuanca,Río,Quilca - Vitor - Chili,132,30.26
+040519,Chaupichimpanamay,Río,Quilca - Vitor - Chili,132,8.58
+040519,Colca,Río,Camaná,134,4.07
+040519,Ocoruro,Río,Quilca - Vitor - Chili,132,5.1
+040519,Pillo,Río,Quilca - Vitor - Chili,132,8.88
+040519,Sulluma,Río,Quilca - Vitor - Chili,132,13.69
+040520,13424,Quebrada,Camaná,134,42.14
+040520,Caracharma,Quebrada,Quilca - Vitor - Chili,132,5.29
+040520,Carachosa,Quebrada,Quilca - Vitor - Chili,132,50.35
+040520,Chorrillos,Quebrada,Camaná,134,21.95
+040520,Crespón,Quebrada,Camaná,134,24.02
+040520,Hospicio,Quebrada,Camaná,134,56.35
+040520,Jahuay,Quebrada,Camaná,134,31.9
+040520,Molles,Quebrada,Camaná,134,41.75
+040520,Pisques,Quebrada,Camaná,134,5.16
+040520,Quilca,Río,Quilca - Vitor - Chili,132,0.93
+040520,Sicera,Quebrada,Camaná,134,2.21
+040520,Sihuas,Río,Quilca - Vitor - Chili,132,5.17
+040601,Cabramuerta,Quebrada,135,135,12.16
+040601,Cunocuno,Quebrada,135,135,30.2
+040601,Esbilla,Quebrada,135,135,15.0
+040601,Huario,Quebrada,Camaná,134,17.84
+040601,Illoma,Quebrada,135,135,18.1
+040601,La Yesera,Quebrada,135,135,25.92
+040601,Manga,Quebrada,135,135,30.02
+040601,Pachana,Quebrada,135,135,53.44
+040601,Puluviñas,Quebrada,Camaná,134,32.04
+040602,Chalhuane,Quebrada,Ocoña,136,62.08
+040602,Choruna,Quebrada,Ocoña,136,0.23
+040602,Churunga,Quebrada,Ocoña,136,6.6
+040602,Esbilla,Quebrada,135,135,30.14
+040602,Esbilla,Quebrada,Ocoña,136,27.69
+040602,Pachana,Quebrada,135,135,1.66
+040602,Piñog,Quebrada,Ocoña,136,9.59
+040602,Yerbabuena,Quebrada,135,135,0.57
+040603,Andahua,Río,Camaná,134,22.29
+040603,Chilcaimarca,Río,Camaná,134,0.35
+040603,Misapuquio,Río,Camaná,134,32.31
+040603,Umachulco,Río,Camaná,134,26.62
+040603,Velille,Río,Alto Apurímac,4999,40.53
+040604,13628,Quebrada,Ocoña,136,0.76
+040604,Arma,Río,Ocoña,136,10.76
+040604,Chichas,Río,Ocoña,136,13.33
+040604,Jellamayo,Río,Ocoña,136,21.16
+040604,Ocoña,Río,Ocoña,136,1.85
+040605,Cosos,Quebrada,Camaná,134,10.93
+040605,Huario,Quebrada,Camaná,134,14.84
+040606,Ayanca,Quebrada,Ocoña,136,26.68
+040606,Chiliguay,Quebrada,Ocoña,136,13.05
+040606,Choruna,Quebrada,Ocoña,136,13.73
+040606,Churunga,Quebrada,Ocoña,136,1.37
+040606,Esbilla,Quebrada,Ocoña,136,10.04
+040606,Ocoña,Río,Ocoña,136,18.48
+040606,Saca de Posco,Quebrada,Ocoña,136,0.47
+040607,Andahua,Río,Camaná,134,0.58
+040607,Arma,Río,Ocoña,136,33.67
+040607,Atunmayo,Río,Ocoña,136,2.89
+040607,Chalahuerta,Río,Ocoña,136,14.83
+040607,Collpa Huayco,Quebrada,Ocoña,136,22.33
+040607,León Huactana,Río,Ocoña,136,30.72
+040607,Piñog,Quebrada,Ocoña,136,5.31
+040607,de Chorillos,Río,Ocoña,136,29.22
+040608,13628,Quebrada,Ocoña,136,20.03
+040608,13652,Quebrada,Ocoña,136,2.48
+040608,13654,Quebrada,Ocoña,136,2.69
+040608,Chichas,Río,Ocoña,136,0.82
+040608,Chiuca,Quebrada,Ocoña,136,37.6
+040608,Churunga,Quebrada,Ocoña,136,19.28
+040608,Cotahuasi,Río,Ocoña,136,0.29
+040608,Laigua,Quebrada,Ocoña,136,25.55
+040608,Marán,Río,Ocoña,136,6.24
+040608,Ocoña,Río,Ocoña,136,35.27
+040608,Piñog,Quebrada,Ocoña,136,12.91
+040608,Uchucoyoj,Quebrada,Ocoña,136,17.33
+040701,Linga,Quebrada,Tambo,1318,10.06
+040701,Pucará,Quebrada,1319,1319,23.8
+040701,Salinas,Quebrada,1319,1319,21.72
+040702,Huayrondo,Quebrada,Tambo,1318,22.45
+040702,Linga,Quebrada,Tambo,1318,27.86
+040702,Salinas,Quebrada,1319,1319,6.61
+040702,Tambo,Río,Tambo,1318,51.4
+040703,Tambo,Río,Tambo,1318,5.52
+040704,Centeno,Quebrada,1319,1319,17.33
+040705,Salinas,Quebrada,1319,1319,13.49
+040706,Caleta,Quebrada,Caleta,13176,13.25
+040706,Honda,Quebrada,Honda,13178,54.33
+040706,Tambo,Río,Tambo,1318,6.78
+040801,Cotahuasi,Río,Ocoña,136,1.69
+040801,Huarcaya,Río,Ocoña,136,3.76
+040802,Huarcaya,Río,Ocoña,136,10.45
+040803,Cotahuasi,Río,Ocoña,136,5.53
+040804,Aguas Calientes,Río,Ocoña,136,33.75
+040804,Cushpa,Río,Ocoña,136,13.77
+040804,Dechincallapa,Río,Ocoña,136,2.32
+040804,Huarcaya,Río,Ocoña,136,24.31
+040804,Jarhuayoc,Río,Ocoña,136,27.95
+040805,Cotahuasi,Río,Ocoña,136,4.72
+040805,Huarcaya,Río,Ocoña,136,1.17
+040805,Jarhuayoc,Río,Ocoña,136,0.46
+040805,Pallancata,Río,Ocoña,136,9.73
+040805,Pampamarca,Río,Ocoña,136,57.04
+040806,Aguas Calientes,Río,Ocoña,136,0.88
+040806,Cushpa,Río,Ocoña,136,31.28
+040806,Dechincallapa,Río,Ocoña,136,5.11
+040806,Huarcaya,Río,Ocoña,136,4.88
+040806,Umachulco,Río,Camaná,134,22.17
+040806,de Sumana,Río,Ocoña,136,60.51
+040807,Cotahuasi,Río,Ocoña,136,12.77
+040808,Marán,Río,Ocoña,136,3.17
+040808,Masma,Quebrada,Ocoña,136,11.09
+040809,Cotahuasi,Río,Ocoña,136,8.12
+040809,Marán,Río,Ocoña,136,6.69
+040809,Masma,Quebrada,Ocoña,136,2.19
+040809,Mollisniyocc,Quebrada,Ocoña,136,19.53
+040810,Huarcaya,Río,Ocoña,136,3.14
+040811,Cotahuasi,Río,Ocoña,136,27.63
+040811,Marán,Río,Ocoña,136,4.53
+050106,Pampas,Río,Pampas,4998,10.4
+050107,Huarpa,Río,Mantaro,4996,0.8
+050109,Huarpa,Río,Mantaro,4996,4.83
+050111,Huarpa,Río,Mantaro,4996,13.6
+050114,Huarpa,Río,Mantaro,4996,44.77
+050201,Pampas,Río,Pampas,4998,12.66
+050202,Huarpa,Río,Mantaro,4996,30.5
+050202,Pampas,Río,Pampas,4998,7.45
+050204,Pampas,Río,Pampas,4998,3.33
+050205,Pampas,Río,Pampas,4998,28.21
+050206,Pampas,Río,Pampas,4998,7.27
+050301,Caracha,Río,Pampas,4998,88.87
+050302,Caracha,Río,Pampas,4998,16.88
+050303,Caracha,Río,Pampas,4998,8.99
+050401,Huarpa,Río,Mantaro,4996,3.64
+050402,Mantaro,Río,Mantaro,4996,12.71
+050404,Huarpa,Río,Mantaro,4996,2.54
+050405,Huarpa,Río,Mantaro,4996,8.39
+050405,Mantaro,Río,Mantaro,4996,7.23
+050406,Mantaro,Río,Mantaro,4996,10.18
+050407,Apurímac,Río,Bajo Apurímac,4997,10.38
+050407,Chuimacota,Río,Bajo Apurímac,4997,15.96
+050407,Piene,Río,Bajo Apurímac,4997,24.88
+050408,Apurímac,Río,Bajo Apurímac,4997,10.62
+050408,Chuimacota,Río,Bajo Apurímac,4997,27.81
+050409,Apurímac,Río,Bajo Apurímac,4997,5.8
+050409,Mantaro,Río,Mantaro,4996,21.54
+050410,Piene,Río,Bajo Apurímac,4997,21.37
+050411,Mantaro,Río,Mantaro,4996,32.61
+050413,Chuimacota,Río,Bajo Apurímac,4997,8.23
+050501,Torobamba,Río,Pampas,4998,9.34
+050502,Apurímac,Río,Bajo Apurímac,4997,15.03
+050502,Chunchubamba,Río,Bajo Apurímac,4997,27.48
+050502,Pampas,Río,Pampas,4998,2.52
+050502,Torobamba,Río,Pampas,4998,4.71
+050503,Apurímac,Río,Bajo Apurímac,4997,11.09
+050503,Piene,Río,Bajo Apurímac,4997,19.74
+050504,Pampas,Río,Pampas,4998,4.17
+050504,Torobamba,Río,Pampas,4998,10.77
+050505,Apurímac,Río,Bajo Apurímac,4997,9.27
+050505,Pampas,Río,Pampas,4998,20.07
+050506,Pampas,Río,Pampas,4998,6.1
+050507,Apurímac,Río,Bajo Apurímac,4997,8.95
+050508,Torobamba,Río,Pampas,4998,22.73
+050509,Apurímac,Río,Bajo Apurímac,4997,2.75
+050510,Apurímac,Río,Bajo Apurímac,4997,6.2
+050510,Chunchubamba,Río,Bajo Apurímac,4997,13.49
+050511,Apurímac,Río,Bajo Apurímac,4997,31.27
+050511,Pampas,Río,Pampas,4998,25.58
+050512,Apurímac,Río,Bajo Apurímac,4997,4.28
+050513,Apurímac,Río,Bajo Apurímac,4997,1.62
+050513,Chunchubamba,Río,Bajo Apurímac,4997,5.05
+050514,Torobamba,Río,Pampas,4998,6.08
+050515,Torobamba,Río,Pampas,4998,6.88
+050601,Acarí,Río,Acarí,13718,45.27
+050601,San José,Río,Acarí,13718,4.38
+050602,Sondondo,Río,Pampas,4998,11.57
+050603,Sondondo,Río,Pampas,4998,6.77
+050604,Sondondo,Río,Pampas,4998,0.63
+050605,Lampalla,Río,Yauca,13716,2.3
+050605,Paralmayoc,Río,Yauca,13716,9.65
+050605,Sangarara,Río,Yauca,13716,21.66
+050606,Acarí,Río,Acarí,13718,1.38
+050606,Sondondo,Río,Pampas,4998,66.06
+050607,Grande,Río,Grande,1372,10.51
+050608,Vizcas,Río,Grande,1372,50.27
+050611,Iruro,Río,Acarí,13718,45.04
+050611,Pallpo,Río,Acarí,13718,26.25
+050611,San José,Río,Acarí,13718,22.68
+050612,Ingenio,Quebrada,Grande,1372,24.84
+050612,Vizcas,Río,Grande,1372,13.58
+050613,Ingenio,Quebrada,Grande,1372,32.43
+050614,Acarí,Río,Acarí,13718,12.75
+050614,Marainiyoj,Quebrada,Acarí,13718,36.29
+050615,Acarí,Río,Acarí,13718,15.96
+050615,Nasca,Río,Grande,1372,16.48
+050615,San José,Río,Acarí,13718,3.77
+050616,San José,Río,Acarí,13718,3.68
+050617,Acarí,Río,Acarí,13718,38.46
+050617,Marainiyoj,Quebrada,Acarí,13718,0.71
+050617,Paralmayoc,Río,Yauca,13716,3.26
+050618,Ingenio,Quebrada,Grande,1372,0.82
+050619,Acaville,Quebrada,Yauca,13716,7.05
+050619,Lampalla,Río,Yauca,13716,46.15
+050619,Languire,Quebrada,Yauca,13716,63.64
+050619,Paralmayoc,Río,Yauca,13716,46.67
+050620,Sondondo,Río,Pampas,4998,1.01
+050621,Acarí,Río,Acarí,13718,4.39
+050621,Nasca,Río,Grande,1372,41.54
+050701,Breamayo,Río,Ocoña,136,16.91
+050701,Chuspiri,Río,Ocoña,136,26.36
+050701,Horay Homa,Río,Ocoña,136,35.25
+050701,Huacsapallcca,Río,Ocoña,136,19.17
+050701,Sangarara,Río,Yauca,13716,45.1
+050701,Vado,Río,Ocoña,136,2.72
+050702,Breamayo,Río,Ocoña,136,14.8
+050702,Chuspiri,Río,Ocoña,136,0.35
+050702,Sangarara,Río,Yauca,13716,3.98
+050702,Tampa,Río,Yauca,13716,0.62
+050702,Vado,Río,Ocoña,136,4.35
+050703,Calpamayo,Río,Ocoña,136,1.47
+050703,Huancahuanca,Río,Ocoña,136,2.12
+050703,Pallancata,Río,Ocoña,136,65.11
+050704,Huancahuanca,Río,Ocoña,136,7.55
+050705,Acaville,Quebrada,Yauca,13716,42.51
+050705,Chaparra,Río,Cháparra,137154,0.36
+050705,Lampalla,Río,Yauca,13716,16.91
+050705,Sangarara,Río,Yauca,13716,0.29
+050705,Tampa,Río,Yauca,13716,29.61
+050705,de Chala,Quebrada,Chala,137156,42.67
+050706,Angostura,Quebrada,Ocoña,136,21.82
+050706,Calera,Quebrada,Ocoña,136,17.01
+050706,Pescadores,Quebrada,Pescadores - Caraveli,13712,0.62
+050706,Pochjoya,Río,Ocoña,136,20.77
+050706,Pongomayo,Río,Ocoña,136,16.36
+050706,Saigua,Río,Ocoña,136,15.54
+050706,Tambillos,Río,Ocoña,136,3.03
+050706,Ullacha Grande,Quebrada,Ocoña,136,26.4
+050706,Vado,Río,Ocoña,136,1.79
+050707,Huancahuanca,Río,Ocoña,136,5.61
+050708,Calpamayo,Río,Ocoña,136,11.82
+050708,Horay Homa,Río,Ocoña,136,6.06
+050708,Huacsapallcca,Río,Ocoña,136,20.12
+050708,Huancahuanca,Río,Ocoña,136,4.17
+050708,Pacchichaca,Río,Ocoña,136,32.49
+050708,Pisquiccocha,Río,Ocoña,136,0.29
+050801,Huancahuanca,Río,Ocoña,136,4.25
+050801,Marán,Río,Ocoña,136,11.68
+050801,Mirmaca,Río,Ocoña,136,8.29
+050802,Huancahuanca,Río,Ocoña,136,9.43
+050802,Oyolo,Río,Ocoña,136,6.78
+050803,Marán,Río,Ocoña,136,1.88
+050803,Oyolo,Río,Ocoña,136,2.82
+050804,Huancahuanca,Río,Ocoña,136,9.11
+050804,Mirmaca,Río,Ocoña,136,2.61
+050804,Pochjoya,Río,Ocoña,136,0.51
+050804,Quisuar,Quebrada,Ocoña,136,16.07
+050804,Tambillos,Río,Ocoña,136,6.72
+050804,Vado,Río,Ocoña,136,5.89
+050805,Huancahuanca,Río,Ocoña,136,8.69
+050806,Oyolo,Río,Ocoña,136,57.91
+050807,Mirmaca,Río,Ocoña,136,4.92
+050808,Huancahuanca,Río,Ocoña,136,7.63
+050809,Oyolo,Río,Ocoña,136,2.86
+050810,Mirmaca,Río,Ocoña,136,11.11
+050901,Pampas,Río,Pampas,4998,7.78
+050901,Sondondo,Río,Pampas,4998,4.31
+050902,Chicha,Río,Pampas,4998,4.34
+050902,Pampas,Río,Pampas,4998,4.21
+050903,Chicha,Río,Pampas,4998,3.47
+050903,Pampas,Río,Pampas,4998,1.49
+050904,Chicha,Río,Pampas,4998,4.87
+050905,Sondondo,Río,Pampas,4998,5.22
+050906,Sondondo,Río,Pampas,4998,12.26
+050907,Chicha,Río,Pampas,4998,5.58
+050908,Chicha,Río,Pampas,4998,4.85
+050909,Chicha,Río,Pampas,4998,2.97
+050910,Chicha,Río,Pampas,4998,4.87
+050911,Chicha,Río,Pampas,4998,4.74
+051001,Pampas,Río,Pampas,4998,1.03
+051002,Pampas,Río,Pampas,4998,9.43
+051003,Sondondo,Río,Pampas,4998,2.03
+051004,Sondondo,Río,Pampas,4998,6.74
+051005,Pampas,Río,Pampas,4998,1.88
+051005,Sondondo,Río,Pampas,4998,6.47
+051006,Pampas,Río,Pampas,4998,3.49
+051007,Pampas,Río,Pampas,4998,10.89
+051008,Caracha,Río,Pampas,4998,6.93
+051010,Pampas,Río,Pampas,4998,6.35
+051011,Caracha,Río,Pampas,4998,9.08
+051011,Pampas,Río,Pampas,4998,10.87
+051012,Pampas,Río,Pampas,4998,23.58
+051101,Pampas,Río,Pampas,4998,6.76
+051102,Pampas,Río,Pampas,4998,8.09
+051103,Pampas,Río,Pampas,4998,1.32
+051104,Pampas,Río,Pampas,4998,7.32
+051105,Pampas,Río,Pampas,4998,12.77
+051106,Pampas,Río,Pampas,4998,14.75
+051106,Sondondo,Río,Pampas,4998,0.31
+051107,Pampas,Río,Pampas,4998,14.27
+051108,Pampas,Río,Pampas,4998,2.64
+060101,San Miguel,Río,Jequetepeque,13774,17.44
+060102,Chilete,Río,Jequetepeque,13774,12.21
+060104,Chuquillanqui,Río,Chicama,13772,30.71
+060105,Crisnejas,Río,Crisnejas,49898,23.4
+060106,Chilete,Río,Jequetepeque,13774,11.78
+060106,Crisnejas,Río,Crisnejas,49898,19.49
+060107,Crisnejas,Río,Crisnejas,49898,9.42
+060108,Crisnejas,Río,Crisnejas,49898,15.86
+060109,Chilete,Río,Jequetepeque,13774,11.93
+060110,Crisnejas,Río,Crisnejas,49898,4.05
+060112,Chilete,Río,Jequetepeque,13774,3.25
+060202,Crisnejas,Río,Crisnejas,49898,6.07
+060203,Crisnejas,Río,Crisnejas,49898,7.7
+060204,Chusgón,Río,Alto Marañón V,49899,12.72
+060204,Crisnejas,Río,Crisnejas,49898,17.65
+060204,Marañón,Río,Alto Marañón V,49899,11.75
+060301,Marañón,Río,Alto Marañón IV,49897,18.65
+060302,Marañón,Río,Alto Marañón IV,49897,9.76
+060303,Marañón,Río,Alto Marañón IV,49897,6.93
+060308,Marañón,Río,Alto Marañón IV,49897,11.08
+060311,Marañón,Río,Alto Marañón IV,49897,11.03
+060405,Marañón,Río,Alto Marañón IV,49897,5.19
+060406,Marañón,Río,Alto Marañón IV,49897,9.13
+060411,Chancay,Río,Chancay-Lambayeque,13776,19.24
+060411,Maichil,Río,Chancay-Lambayeque,13776,27.53
+060412,La Leche,Río,Motupe,137772,29.23
+060412,Magin,Quebrada,Chancay-Lambayeque,13776,5.38
+060414,Marañón,Río,Alto Marañón IV,49897,6.5
+060416,Magin,Quebrada,Chancay-Lambayeque,13776,20.49
+060416,Maichil,Río,Chancay-Lambayeque,13776,4.87
+060418,La Leche,Río,Motupe,137772,6.56
+060501,Chilete,Río,Jequetepeque,13774,10.98
+060501,Contumaza,Río,Jequetepeque,13774,11.26
+060501,Ochape,Río,Chicama,13772,1.84
+060501,Santanero,Río,Chicama,13772,8.27
+060502,Chilete,Río,Jequetepeque,13774,10.18
+060502,Contumaza,Río,Jequetepeque,13774,3.95
+060503,Chausis,Quebrada,Jequetepeque,13774,18.7
+060505,Chicama,Río,Chicama,13772,2.8
+060505,Santanero,Río,Chicama,13772,27.68
+060506,Contumaza,Río,Jequetepeque,13774,9.33
+060507,Chilete,Río,Jequetepeque,13774,2.56
+060507,Contumaza,Río,Jequetepeque,13774,6.52
+060507,Jequetepeque,Río,Jequetepeque,13774,2.69
+060507,San Miguel,Río,Jequetepeque,13774,0.41
+060508,Chausis,Quebrada,Jequetepeque,13774,4.81
+060508,Jequetepeque,Río,Jequetepeque,13774,43.62
+060602,Chamaya,Río,Chamaya,49896,15.99
+060603,Chamaya,Río,Chamaya,49896,19.25
+060603,Marañón,Río,Alto Marañón IV,49897,6.89
+060604,Marañón,Río,Alto Marañón IV,49897,8.26
+060606,Chamaya,Río,Chamaya,49896,0.5
+060607,Chamaya,Río,Chamaya,49896,2.43
+060611,Chamaya,Río,Chamaya,49896,2.23
+060613,Marañón,Río,Alto Marañón IV,49897,6.78
+060615,Marañón,Río,Alto Marañón IV,49897,6.87
+060801,Chamaya,Río,Chamaya,49896,16.7
+060802,Chamaya,Río,Chamaya,49896,0.43
+060802,Chinchipe,Río,Chinchipe,49892,14.56
+060802,Marañón,Río,Alto Marañón II,49893,2.27
+060802,Marañón,Río,Alto Marañón III,49895,19.62
+060802,Utcubamba,Río,Utcubamba,49894,0.22
+060804,Chamaya,Río,Chamaya,49896,11.75
+060807,Chamaya,Río,Chamaya,49896,28.81
+060808,Chamaya,Río,Chamaya,49896,14.26
+060809,Chamaya,Río,Chamaya,49896,16.21
+060810,Chamaya,Río,Chamaya,49896,14.23
+060812,Chinchipe,Río,Chinchipe,49892,21.35
+060812,Marañón,Río,Alto Marañón I,49891,7.66
+060812,Marañón,Río,Alto Marañón II,49893,0.24
+060901,Chinchipe,Río,Chinchipe,49892,20.26
+060902,Chinchipe,Río,Chinchipe,49892,14.72
+060903,Chinchipe,Río,Chinchipe,49892,14.86
+060905,Chinchipe,Río,Chinchipe,49892,10.4
+060906,Chinchipe,Río,Chinchipe,49892,17.03
+061001,Crisnejas,Río,Crisnejas,49898,16.13
+061003,Crisnejas,Río,Crisnejas,49898,14.23
+061005,Crisnejas,Río,Crisnejas,49898,4.57
+061006,Crisnejas,Río,Crisnejas,49898,5.69
+061007,Crisnejas,Río,Crisnejas,49898,8.61
+061007,Marañón,Río,Alto Marañón IV,49897,18.38
+061101,Jequetepeque,Río,Jequetepeque,13774,5.8
+061101,Pallac,Río,Jequetepeque,13774,1.95
+061101,San Miguel,Río,Jequetepeque,13774,16.35
+061102,De Nanchoc,Río,Zaña,137754,15.71
+061103,Las Argollas,Río,Zaña,137754,6.92
+061103,Zaña,Río,Zaña,137754,25.19
+061104,Chancay,Río,Chancay-Lambayeque,13776,25.35
+061105,Pallac,Río,Jequetepeque,13774,3.39
+061106,La Cárcel,Quebrada,Zaña,137754,0.74
+061106,Zaña,Río,Zaña,137754,7.82
+061108,Chamán,Río,Chamán,137752,2.7
+061108,De Nanchoc,Río,Zaña,137754,15.24
+061108,Loco de Chamán,Río,Chamán,137752,0.39
+061108,Perol,Quebrada,Chamán,137752,14.79
+061109,De Nanchoc,Río,Zaña,137754,3.98
+061109,Las Argollas,Río,Zaña,137754,4.21
+061110,Chamán,Río,Chamán,137752,2.47
+061110,Loco de Chamán,Río,Chamán,137752,7.99
+061110,Perol,Quebrada,Chamán,137752,0.5
+061110,San Gregorio,Quebrada,Chamán,137752,21.85
+061110,San José,Río,Chamán,137752,23.15
+061111,San Miguel,Río,Jequetepeque,13774,1.22
+061112,Cañad,Río,Chancay-Lambayeque,13776,14.04
+061112,Chancay,Río,Chancay-Lambayeque,13776,13.62
+061113,Jequetepeque,Río,Jequetepeque,13774,6.77
+061113,Pallac,Río,Jequetepeque,13774,22.22
+061201,San Miguel,Río,Jequetepeque,13774,9.42
+061202,Chilete,Río,Jequetepeque,13774,9.39
+061203,San Miguel,Río,Jequetepeque,13774,6.11
+061204,San Miguel,Río,Jequetepeque,13774,23.16
+061301,Cañad,Río,Chancay-Lambayeque,13776,6.12
+061301,Chancay,Río,Chancay-Lambayeque,13776,10.71
+061302,Chancay,Río,Chancay-Lambayeque,13776,0.59
+061303,Cañad,Río,Chancay-Lambayeque,13776,0.6
+061303,Chancay,Río,Chancay-Lambayeque,13776,14.98
+061303,La Cárcel,Quebrada,Zaña,137754,24.0
+061303,Montería,Quebrada,Chancay-Lambayeque,13776,5.53
+061303,Zaña,Río,Zaña,137754,10.49
+061304,Chancay,Río,Chancay-Lambayeque,13776,10.65
+061305,Chancay,Río,Chancay-Lambayeque,13776,4.05
+061306,Chancay,Río,Chancay-Lambayeque,13776,5.81
+061307,Cañad,Río,Chancay-Lambayeque,13776,13.6
+061308,Cañad,Río,Chancay-Lambayeque,13776,2.27
+061309,Cañad,Río,Chancay-Lambayeque,13776,0.52
+061309,Chancay,Río,Chancay-Lambayeque,13776,11.02
+061310,Chancay,Río,Chancay-Lambayeque,13776,6.56
+061311,Chancay,Río,Chancay-Lambayeque,13776,1.84
+070101,Rímac,Río,Rímac,137554,5.03
+070106,Chillón,Río,Chillón,137556,3.86
+080202,Vilcanota,Río,Urubamba,4994,2.22
+080203,Apurímac,Río,Alto Apurímac,4999,15.5
+080204,Salcca,Río,Urubamba,4994,0.24
+080204,Vilcanota,Río,Urubamba,4994,1.82
+080205,Apurímac,Río,Alto Apurímac,4999,10.55
+080205,Livitaca,Río,Alto Apurímac,4999,0.37
+080206,Apurímac,Río,Alto Apurímac,4999,5.05
+080301,Huarocondo,Río,Urubamba,4994,11.18
+080303,Huarocondo,Río,Urubamba,4994,4.14
+080304,Apurímac,Río,Alto Apurímac,4999,11.28
+080305,Huarocondo,Río,Urubamba,4994,15.73
+080306,Apurímac,Río,Alto Apurímac,4999,12.12
+080307,Apurímac,Río,Alto Apurímac,4999,11.31
+080307,Sacsara,Río,Urubamba,4994,1.36
+080308,Huarocondo,Río,Urubamba,4994,5.65
+080309,Huarocondo,Río,Urubamba,4994,2.69
+080401,Vilcanota,Río,Urubamba,4994,15.25
+080402,Huarocondo,Río,Urubamba,4994,0.27
+080402,Vilcanota,Río,Urubamba,4994,8.08
+080403,Vilcanota,Río,Urubamba,4994,1.45
+080404,Yanatile,Río,Urubamba,4994,30.77
+080405,Vilcanota,Río,Urubamba,4994,5.91
+080406,Vilcanota,Río,Urubamba,4994,19.19
+080407,Vilcanota,Río,Urubamba,4994,1.05
+080408,Yanatile,Río,Urubamba,4994,53.28
+080408,Yavero,Río,Urubamba,4994,71.37
+080501,Apurímac,Río,Alto Apurímac,4999,9.41
+080502,Apurímac,Río,Alto Apurímac,4999,29.54
+080504,Vilcanota,Río,Urubamba,4994,18.03
+080505,Chuncapamayo,Río,Pucará,018,0.35
+080505,Vilcanota,Río,Urubamba,4994,17.14
+080506,Vilcanota,Río,Urubamba,4994,1.81
+080507,Apurímac,Río,Alto Apurímac,4999,13.4
+080508,Apurímac,Río,Alto Apurímac,4999,7.14
+080601,Salcca,Río,Urubamba,4994,0.46
+080601,Vilcanota,Río,Urubamba,4994,19.18
+080602,Pitumarca,Río,Urubamba,4994,5.81
+080602,Salcca,Río,Urubamba,4994,30.69
+080602,Vilcanota,Río,Urubamba,4994,17.15
+080603,Salcca,Río,Urubamba,4994,24.14
+080603,Vilcanota,Río,Urubamba,4994,1.39
+080605,Pitumarca,Río,Urubamba,4994,51.62
+080605,Salcca,Río,Urubamba,4994,16.41
+080606,Salcca,Río,Urubamba,4994,37.66
+080606,Vilcanota,Río,Urubamba,4994,8.02
+080607,Vilcanota,Río,Urubamba,4994,8.98
+080608,Vilcanota,Río,Urubamba,4994,10.64
+080701,Santo Tomás,Río,Alto Apurímac,4999,79.55
+080701,Velille,Río,Alto Apurímac,4999,29.49
+080702,Santo Tomás,Río,Alto Apurímac,4999,11.02
+080703,Velille,Río,Alto Apurímac,4999,32.21
+080704,Santo Tomás,Río,Alto Apurímac,4999,22.66
+080705,Apurímac,Río,Alto Apurímac,4999,12.08
+080705,Livitaca,Río,Alto Apurímac,4999,49.41
+080706,Santo Tomás,Río,Alto Apurímac,4999,5.17
+080707,Santo Tomás,Río,Alto Apurímac,4999,2.99
+080708,Velille,Río,Alto Apurímac,4999,27.43
+080801,Apurímac,Río,Alto Apurímac,4999,10.89
+080801,Salado,Río,Alto Apurímac,4999,18.96
+080802,Negrillo,Río,Camaná,134,32.17
+080802,Salado,Río,Alto Apurímac,4999,14.1
+080803,Apurímac,Río,Alto Apurímac,4999,30.96
+080803,Oquero,Río,Alto Apurímac,4999,54.61
+080803,Tarucuyo,Río,Alto Apurímac,4999,18.1
+080804,Salado,Río,Alto Apurímac,4999,12.56
+080805,Salado,Río,Alto Apurímac,4999,57.76
+080806,Apurímac,Río,Alto Apurímac,4999,8.34
+080806,Salado,Río,Alto Apurímac,4999,8.82
+080807,Apurímac,Río,Alto Apurímac,4999,25.86
+080807,Tarucuyo,Río,Alto Apurímac,4999,16.52
+080808,Salado,Río,Alto Apurímac,4999,12.38
+080901,Vilcanota,Río,Urubamba,4994,19.36
+080902,Cumpirusiato,Río,Urubamba,4994,1.55
+080902,Cushireni,Río,Urubamba,4994,3.54
+080902,Picha,Río,Urubamba,4994,25.57
+080902,Urubamba,Río,Urubamba,4994,137.74
+080902,Vilcanota,Río,Urubamba,4994,32.88
+080902,Yavero,Río,Urubamba,4994,17.67
+080903,Vilcanota,Río,Urubamba,4994,7.45
+080904,Vilcabamba,Río,Urubamba,4994,0.39
+080904,Vilcanota,Río,Urubamba,4994,14.88
+080905,Yanatile,Río,Urubamba,4994,3.12
+080906,Urubamba,Río,Urubamba,4994,7.74
+080906,Vilcanota,Río,Urubamba,4994,0.49
+080906,Yanatile,Río,Urubamba,4994,27.49
+080906,Yavero,Río,Urubamba,4994,97.99
+080907,Apurímac,Río,Bajo Apurímac,4997,12.99
+080908,Apurímac,Río,Alto Apurímac,4999,12.04
+080908,Sacsara,Río,Urubamba,4994,36.38
+080908,Vilcabamba,Río,Urubamba,4994,12.63
+080908,Vilcanota,Río,Urubamba,4994,13.38
+080909,Apurímac,Río,Alto Apurímac,4999,12.22
+080909,Cushireni,Río,Urubamba,4994,80.46
+080909,Río Pampaconas,Río,Bajo Apurímac,4997,37.53
+080909,Vilcabamba,Río,Urubamba,4994,42.62
+080910,Apurímac,Río,Bajo Apurímac,4997,10.78
+080911,Apurímac,Río,Alto Apurímac,4999,15.98
+080911,Apurímac,Río,Bajo Apurímac,4997,20.72
+080912,Apurímac,Río,Bajo Apurímac,4997,16.46
+080912,Río Pampaconas,Río,Bajo Apurímac,4997,12.94
+080913,Apurímac,Río,Bajo Apurímac,4997,12.37
+080914,Manu,Río,Alto Madre de Dios,46649,0.42
+080914,Mishahua,Río,Urubamba,4994,108.38
+080914,Picha,Río,Urubamba,4994,87.57
+080914,Urubamba,Río,Urubamba,4994,202.04
+080915,Cumpirusiato,Río,Urubamba,4994,80.18
+080915,Picha,Río,Urubamba,4994,33.78
+080916,Apurímac,Río,Bajo Apurímac,4997,2.83
+080917,Apurímac,Río,Bajo Apurímac,4997,10.33
+080918,Apurímac,Río,Bajo Apurímac,4997,5.08
+081001,Apurímac,Río,Alto Apurímac,4999,1.84
+081002,Velille,Río,Alto Apurímac,4999,21.85
+081003,Apurímac,Río,Alto Apurímac,4999,14.59
+081003,Santo Tomás,Río,Alto Apurímac,4999,11.06
+081004,Apurímac,Río,Alto Apurímac,4999,10.78
+081004,Velille,Río,Alto Apurímac,4999,12.8
+081005,Apurímac,Río,Alto Apurímac,4999,19.17
+081006,Apurímac,Río,Alto Apurímac,4999,8.55
+081006,Livitaca,Río,Alto Apurímac,4999,11.96
+081006,Velille,Río,Alto Apurímac,4999,18.04
+081007,Apurímac,Río,Alto Apurímac,4999,10.23
+081008,Apurímac,Río,Alto Apurímac,4999,8.23
+081101,Yavero,Río,Urubamba,4994,29.21
+081102,Vilcanota,Río,Urubamba,4994,7.29
+081103,Yavero,Río,Urubamba,4994,51.31
+081104,Yavero,Río,Urubamba,4994,4.85
+081106,Alto Madre de Dios,Río,Alto Madre de Dios,46649,94.9
+081106,Colorado,Río,Alto Madre de Dios,46649,7.68
+081201,Vilcanota,Río,Urubamba,4994,12.78
+081202,Vilcanota,Río,Urubamba,4994,10.7
+081203,Araza,Río,Inambari,46648,81.45
+081204,Yavero,Río,Urubamba,4994,6.53
+081205,Yavero,Río,Urubamba,4994,10.88
+081206,Vilcanota,Río,Urubamba,4994,11.72
+081208,Vilcanota,Río,Urubamba,4994,2.51
+081209,Araza,Río,Inambari,46648,54.11
+081210,Yavero,Río,Urubamba,4994,48.04
+081212,Vilcanota,Río,Urubamba,4994,18.94
+081301,Vilcanota,Río,Urubamba,4994,7.53
+081302,Huarocondo,Río,Urubamba,4994,11.57
+081303,Vilcanota,Río,Urubamba,4994,6.94
+081304,Vilcanota,Río,Urubamba,4994,40.6
+081305,Huarocondo,Río,Urubamba,4994,3.48
+081305,Vilcanota,Río,Urubamba,4994,9.99
+081306,Huarocondo,Río,Urubamba,4994,3.62
+081306,Vilcanota,Río,Urubamba,4994,23.1
+081307,Vilcanota,Río,Urubamba,4994,3.32
+090101,Ichu,Río,Mantaro,4996,30.93
+090102,Vilca,Río,Mantaro,4996,30.29
+090103,Ichu,Río,Mantaro,4996,25.41
+090103,Mantaro,Río,Mantaro,4996,24.9
+090105,Mantaro,Río,Mantaro,4996,6.55
+090107,Vilca,Río,Mantaro,4996,0.77
+090108,Mantaro,Río,Mantaro,4996,3.35
+090110,Vilca,Río,Mantaro,4996,2.48
+090111,Mantaro,Río,Mantaro,4996,1.12
+090112,Vilca,Río,Mantaro,4996,8.97
+090115,Mantaro,Río,Mantaro,4996,4.83
+090116,Vilca,Río,Mantaro,4996,14.55
+090117,Ichu,Río,Mantaro,4996,15.89
+090118,Ichu,Río,Mantaro,4996,8.6
+090118,Vilca,Río,Mantaro,4996,18.41
+090119,Ichu,Río,Mantaro,4996,0.67
+090119,Mantaro,Río,Mantaro,4996,3.21
+090201,Mantaro,Río,Mantaro,4996,4.34
+090202,Mantaro,Río,Mantaro,4996,8.8
+090204,Mantaro,Río,Mantaro,4996,2.86
+090205,Huarpa,Río,Mantaro,4996,4.84
+090205,Mantaro,Río,Mantaro,4996,11.24
+090208,Mantaro,Río,Mantaro,4996,6.35
+090305,Huarpa,Río,Mantaro,4996,18.36
+090309,Huarpa,Río,Mantaro,4996,1.01
+090310,Huarpa,Río,Mantaro,4996,2.57
+090311,Huarpa,Río,Mantaro,4996,5.89
+090401,Incachaca,Quebrada,Pisco,13752,20.8
+090401,Pisco,Río,Pisco,13752,20.57
+090401,Santa Ana,Río,Pisco,13752,1.14
+090401,Santuario,Río,Pisco,13752,31.75
+090402,Huachos,Río,San Juan,137532,32.82
+090403,San Juan,Río,San Juan,137532,37.07
+090404,San Juan,Río,San Juan,137532,18.43
+090405,Colcabamba,Río,San Juan,137532,27.24
+090405,San Juan,Río,San Juan,137532,6.06
+090406,Pisco,Río,Pisco,13752,8.75
+090407,Huachos,Río,San Juan,137532,2.18
+090408,San Juan,Río,San Juan,137532,4.5
+090409,Pisco,Río,Pisco,13752,18.64
+090410,San Juan,Río,San Juan,137532,18.31
+090411,Ichu,Río,Mantaro,4996,21.06
+090411,Pampas,Río,Pampas,4998,16.25
+090411,Santa Ana,Río,Pisco,13752,26.62
+090412,San Juan,Río,San Juan,137532,12.67
+090413,Pisco,Río,Pisco,13752,11.06
+090413,Santuario,Río,Pisco,13752,14.8
+090501,Mantaro,Río,Mantaro,4996,6.34
+090502,Mantaro,Río,Mantaro,4996,11.1
+090503,Mantaro,Río,Mantaro,4996,11.05
+090504,Mantaro,Río,Mantaro,4996,2.95
+090505,Huarpa,Río,Mantaro,4996,0.39
+090505,Mantaro,Río,Mantaro,4996,12.16
+090506,Mantaro,Río,Mantaro,4996,4.08
+090508,Mantaro,Río,Mantaro,4996,3.88
+090509,Mantaro,Río,Mantaro,4996,14.73
+090510,Mantaro,Río,Mantaro,4996,9.45
+090511,Mantaro,Río,Mantaro,4996,7.64
+090601,Huaytara,Río,Pisco,13752,10.26
+090602,Ica,Río,Ica,1374,9.06
+090602,Santiago,Río,Ica,1374,0.43
+090602,Tambo,Río,Ica,1374,8.13
+090603,Santa Cruz,Río,Grande,1372,16.15
+090603,Tingue,Quebrada,Ica,1374,4.97
+090604,Huaytara,Río,Pisco,13752,3.81
+090605,Grande,Río,Grande,1372,1.8
+090605,Santa Cruz,Río,Grande,1372,0.84
+090606,Grande,Río,Grande,1372,14.08
+090607,Huaytara,Río,Pisco,13752,18.53
+090607,Pampas,Río,Pampas,4998,53.15
+090608,Grande,Río,Grande,1372,41.46
+090609,Huaytara,Río,Pisco,13752,16.61
+090610,Huaytara,Río,Pisco,13752,19.17
+090611,Santiago,Río,Ica,1374,15.38
+090612,Cocharcas,Río,Ica,1374,14.74
+090612,Tingue,Quebrada,Ica,1374,11.1
+090613,Cocharcas,Río,Ica,1374,12.18
+090613,Ica,Río,Ica,1374,8.97
+090613,Santiago,Río,Ica,1374,29.27
+090614,Grande,Río,Grande,1372,2.06
+090615,Santiago,Río,Ica,1374,9.63
+090615,Tambo,Río,Ica,1374,17.66
+090616,Tambo,Río,Ica,1374,32.49
+090701,Mantaro,Río,Mantaro,4996,8.41
+090702,Mantaro,Río,Mantaro,4996,10.87
+090704,Mantaro,Río,Mantaro,4996,5.79
+090705,Mantaro,Río,Mantaro,4996,12.41
+090707,Mantaro,Río,Mantaro,4996,14.35
+090710,Mantaro,Río,Mantaro,4996,4.31
+090713,Mantaro,Río,Mantaro,4996,1.17
+090714,Mantaro,Río,Mantaro,4996,8.22
+090715,Mantaro,Río,Mantaro,4996,5.98
+090717,Mantaro,Río,Mantaro,4996,17.83
+090718,Mantaro,Río,Mantaro,4996,5.23
+090719,Mantaro,Río,Mantaro,4996,8.56
+090720,Mantaro,Río,Mantaro,4996,18.34
+090724,Mantaro,Río,Mantaro,4996,3.49
+100101,Huallaga,Río,Alto Huallaga,49849,9.25
+100102,Huallaga,Río,Alto Huallaga,49849,6.88
+100103,Huallaga,Río,Alto Huallaga,49849,7.39
+100104,Huallaga,Río,Alto Huallaga,49849,5.73
+100109,Huallaga,Río,Alto Huallaga,49849,7.94
+100111,Huallaga,Río,Alto Huallaga,49849,7.77
+100113,Huallaga,Río,Alto Huallaga,49849,24.7
+100201,Huallaga,Río,Alto Huallaga,49849,19.93
+100201,Huertas,Río,Alto Huallaga,49849,2.71
+100202,Huertas,Río,Alto Huallaga,49849,3.16
+100204,Huallaga,Río,Alto Huallaga,49849,4.76
+100205,Huertas,Río,Alto Huallaga,49849,18.93
+100206,Huertas,Río,Alto Huallaga,49849,4.61
+100207,Huallaga,Río,Alto Huallaga,49849,20.42
+100208,Huallaga,Río,Alto Huallaga,49849,3.46
+100301,Vizcarra,Río,Alto Marañón V,49899,4.56
+100307,Marañón,Río,Alto Marañón V,49899,7.03
+100311,Marañón,Río,Alto Marañón V,49899,1.15
+100313,Marañón,Río,Alto Marañón V,49899,3.41
+100313,Vizcarra,Río,Alto Marañón V,49899,7.05
+100316,Marañón,Río,Alto Marañón V,49899,1.51
+100317,Vizcarra,Río,Alto Marañón V,49899,10.45
+100321,Vizcarra,Río,Alto Marañón V,49899,3.18
+100322,Vizcarra,Río,Alto Marañón V,49899,3.97
+100323,Marañón,Río,Alto Marañón V,49899,0.58
+100323,Vizcarra,Río,Alto Marañón V,49899,5.1
+100401,Marañón,Río,Alto Marañón V,49899,5.7
+100402,Marañón,Río,Alto Marañón V,49899,4.78
+100403,Marañón,Río,Alto Marañón V,49899,6.81
+100404,Marañón,Río,Alto Marañón V,49899,6.59
+100501,Marañón,Río,Alto Marañón V,49899,7.18
+100502,Marañón,Río,Alto Marañón V,49899,5.58
+100503,Marañón,Río,Alto Marañón V,49899,11.9
+100504,Marañón,Río,Alto Marañón V,49899,3.43
+100505,Marañón,Río,Alto Marañón V,49899,7.53
+100505,Monzón,Río,Alto Huallaga,49849,19.98
+100506,Marañón,Río,Alto Marañón V,49899,2.32
+100507,Monzón,Río,Alto Huallaga,49849,64.86
+100508,Marañón,Río,Alto Marañón V,49899,0.37
+100509,Marañón,Río,Alto Marañón V,49899,2.26
+100510,Marañón,Río,Alto Marañón V,49899,3.29
+100511,Marañón,Río,Alto Marañón V,49899,3.43
+100601,Huallaga,Río,Alto Huallaga,49849,7.55
+100601,Monzón,Río,Alto Huallaga,49849,13.9
+100604,Huallaga,Río,Alto Huallaga,49849,41.18
+100605,Huallaga,Río,Alto Huallaga,49849,7.52
+100606,Huallaga,Río,Alto Huallaga,49849,22.78
+100606,Monzón,Río,Alto Huallaga,49849,6.54
+100607,Huallaga,Río,Alto Huallaga,49849,4.42
+100608,Huallaga,Río,Alto Huallaga,49849,17.53
+100609,Huallaga,Río,Alto Huallaga,49849,10.61
+100610,Huallaga,Río,Alto Huallaga,49849,1.24
+100701,Marañón,Río,Alto Marañón V,49899,16.19
+100702,Chontayacu,Río,Alto Huallaga,49849,87.05
+100702,Huallaga,Río,Alto Huallaga,49849,11.02
+100703,Marañón,Río,Alto Marañón V,49899,5.76
+100704,Huallaga,Río,Alto Huallaga,49849,17.37
+100705,Huallaga,Río,Alto Huallaga,49849,9.85
+100801,Paucartambo,Río,Perené,49954,0.53
+100801,Santa Cruz,Río,Pachitea,4992,75.47
+100802,Huallaga,Río,Alto Huallaga,49849,45.46
+100802,Santa Cruz,Río,Pachitea,4992,3.65
+100804,Huallaga,Río,Alto Huallaga,49849,7.42
+100901,Pachitea,Río,Pachitea,4992,118.07
+100901,Sungaroyacu,Río,Pachitea,4992,40.93
+100902,Pozuzo,Río,Pachitea,4992,78.75
+100902,Sungaroyacu,Río,Pachitea,4992,89.42
+100903,Pachitea,Río,Pachitea,4992,44.52
+100903,Ucayali,Río,49919,49919,0.21
+100903,Ucayali,Río,Medio Bajo Ucayali,4993,1.14
+100904,Pachitea,Río,Pachitea,4992,63.77
+100905,Pachitea,Río,Pachitea,4992,91.38
+101001,Marañón,Río,Alto Marañón V,49899,16.9
+101003,Marañón,Río,Alto Marañón V,49899,3.89
+101005,Marañón,Río,Alto Marañón V,49899,8.53
+101006,Marañón,Río,Alto Marañón V,49899,10.21
+101007,Marañón,Río,Alto Marañón V,49899,54.0
+101101,Marañón,Río,Alto Marañón V,49899,5.28
+101102,Marañón,Río,Alto Marañón V,49899,3.19
+101103,Marañón,Río,Alto Marañón V,49899,2.97
+101104,Marañón,Río,Alto Marañón V,49899,6.57
+101106,Marañón,Río,Alto Marañón V,49899,6.67
+101107,Marañón,Río,Alto Marañón V,49899,4.48
+101108,Marañón,Río,Alto Marañón V,49899,3.44
+110101,Ica,Río,Ica,1374,4.05
+110102,Ica,Río,Ica,1374,6.88
+110103,Ica,Río,Ica,1374,3.14
+110104,Ica,Río,Ica,1374,39.36
+110104,Tingue,Quebrada,Ica,1374,5.43
+110105,Cocharcas,Río,Ica,1374,7.24
+110106,Ica,Río,Ica,1374,2.15
+110107,Ica,Río,Ica,1374,1.19
+110108,Seco,Río,13751,13751,34.18
+110109,Ica,Río,Ica,1374,26.47
+110110,Ica,Río,Ica,1374,4.86
+110111,Cocharcas,Río,Ica,1374,2.26
+110111,Gramonal,Quebrada,Ica,1374,79.8
+110111,Ica,Río,Ica,1374,73.52
+110111,Tingue,Quebrada,Ica,1374,17.83
+110113,Cocharcas,Río,Ica,1374,1.79
+110114,Cocharcas,Río,Ica,1374,35.75
+110114,Gramonal,Quebrada,Ica,1374,14.01
+110114,Tingue,Quebrada,Ica,1374,47.48
+110202,Almacén,Quebrada,San Juan,137532,11.34
+110202,Ayoque,Quebrada,San Juan,137532,19.69
+110202,Chico,Río,San Juan,137532,20.23
+110202,San Juan,Río,San Juan,137532,18.08
+110203,Topará,Quebrada,Topará,137534,30.19
+110204,Chico,Río,San Juan,137532,5.5
+110205,Chico,Río,San Juan,137532,1.66
+110206,Topará,Quebrada,Topará,137534,10.32
+110207,Topará,Quebrada,Topará,137534,1.41
+110208,Almacén,Quebrada,San Juan,137532,32.9
+110208,Ayoque,Quebrada,San Juan,137532,17.41
+110209,Ayoque,Quebrada,San Juan,137532,17.12
+110209,San Juan,Río,San Juan,137532,2.05
+110211,Chico,Río,San Juan,137532,1.67
+110301,Nasca,Río,Grande,1372,39.47
+110302,Grande,Río,Grande,1372,57.48
+110302,Ingenio,Quebrada,Grande,1372,8.27
+110302,Nasca,Río,Grande,1372,15.42
+110302,Santa Cruz,Río,Grande,1372,9.49
+110303,Ingenio,Quebrada,Grande,1372,37.01
+110303,Nasca,Río,Grande,1372,0.44
+110305,Nasca,Río,Grande,1372,36.41
+110401,Vizcas,Río,Grande,1372,13.53
+110402,Grande,Río,Grande,1372,10.63
+110402,Ingenio,Quebrada,Grande,1372,1.77
+110402,Vizcas,Río,Grande,1372,4.3
+110403,Grande,Río,Grande,1372,44.42
+110403,Santa Cruz,Río,Grande,1372,0.62
+110404,Santa Cruz,Río,Grande,1372,41.49
+110405,Gramonal,Quebrada,Ica,1374,0.93
+110405,Grande,Río,Grande,1372,3.67
+110405,Santa Cruz,Río,Grande,1372,27.49
+110501,Pisco,Río,Pisco,13752,1.83
+110502,Huaytara,Río,Pisco,13752,4.45
+110502,Pisco,Río,Pisco,13752,46.56
+110502,Seco,Río,13751,13751,0.42
+110502,Veladero,Quebrada,Pisco,13752,35.74
+110503,Pisco,Río,Pisco,13752,30.8
+110503,Seco,Río,13751,13751,36.24
+110504,Pisco,Río,Pisco,13752,7.3
+110505,Seco,Río,13751,13751,23.32
+110506,Seco,Río,13751,13751,3.02
+110507,Pisco,Río,Pisco,13752,10.74
+110508,Pisco,Río,Pisco,13752,5.1
+120101,Mantaro,Río,Mantaro,4996,1.37
+120111,Mantaro,Río,Mantaro,4996,7.85
+120112,Mantaro,Río,Mantaro,4996,10.59
+120112,Vilca,Río,Mantaro,4996,1.03
+120113,Mantaro,Río,Mantaro,4996,9.65
+120114,Mantaro,Río,Mantaro,4996,3.41
+120116,Mantaro,Río,Mantaro,4996,2.84
+120121,Mantaro,Río,Mantaro,4996,3.13
+120124,Mantaro,Río,Mantaro,4996,5.22
+120125,Conas,Río,Mantaro,4996,1.25
+120125,Mantaro,Río,Mantaro,4996,2.79
+120129,Mantaro,Río,Mantaro,4996,1.65
+120130,Mantaro,Río,Mantaro,4996,1.74
+120132,Mantaro,Río,Mantaro,4996,0.78
+120134,Conas,Río,Mantaro,4996,3.64
+120134,Mantaro,Río,Mantaro,4996,4.79
+120135,Mantaro,Río,Mantaro,4996,14.69
+120201,Mantaro,Río,Mantaro,4996,2.73
+120204,Conas,Río,Mantaro,4996,17.46
+120205,Puente Paloma,Quebrada,Perené,49954,4.81
+120206,Puente Paloma,Quebrada,Perené,49954,22.31
+120209,Puente Paloma,Quebrada,Perené,49954,13.92
+120210,Mantaro,Río,Mantaro,4996,3.06
+120211,Mantaro,Río,Mantaro,4996,3.67
+120213,Mantaro,Río,Mantaro,4996,4.31
+120214,Conas,Río,Mantaro,4996,4.08
+120301,Chanchamayo,Río,Perené,49954,17.23
+120301,Oxabamba,Río,Perené,49954,11.46
+120301,Paucartambo,Río,Perené,49954,10.21
+120301,Perené,Río,Perené,49954,10.31
+120302,Perené,Río,Perené,49954,48.51
+120303,Perené,Río,Perené,49954,33.05
+120304,Paucartambo,Río,Perené,49954,7.76
+120305,Apulima,Quebrada,Perené,49954,3.05
+120305,Chanchamayo,Río,Perené,49954,5.68
+120305,Oxabamba,Río,Perené,49954,8.7
+120305,Palca,Río,Perené,49954,18.67
+120305,Puente Paloma,Quebrada,Perené,49954,7.64
+120306,Puente Paloma,Quebrada,Perené,49954,15.18
+120403,Puente Paloma,Quebrada,Perené,49954,7.87
+120404,Mantaro,Río,Mantaro,4996,1.84
+120405,Mantaro,Río,Mantaro,4996,2.68
+120405,Pachacayo,Río,Mantaro,4996,59.36
+120406,Mantaro,Río,Mantaro,4996,9.68
+120406,Pachacayo,Río,Mantaro,4996,0.28
+120407,Mantaro,Río,Mantaro,4996,1.18
+120408,Mantaro,Río,Mantaro,4996,1.09
+120409,Mantaro,Río,Mantaro,4996,3.06
+120413,Mantaro,Río,Mantaro,4996,1.85
+120414,Mantaro,Río,Mantaro,4996,11.89
+120415,Mantaro,Río,Mantaro,4996,1.54
+120419,Puente Paloma,Quebrada,Perené,49954,34.74
+120420,Mantaro,Río,Mantaro,4996,1.89
+120421,Mantaro,Río,Mantaro,4996,2.42
+120425,Mantaro,Río,Mantaro,4996,4.84
+120428,Mantaro,Río,Mantaro,4996,2.49
+120430,Mantaro,Río,Mantaro,4996,1.09
+120431,Conas,Río,Mantaro,4996,1.29
+120431,Mantaro,Río,Mantaro,4996,3.98
+120434,Mantaro,Río,Mantaro,4996,6.54
+120501,Conocancha,Río,Mantaro,4996,0.55
+120501,Mantaro,Río,Mantaro,4996,40.99
+120503,Mantaro,Río,Mantaro,4996,25.92
+120504,Oxabamba,Río,Perené,49954,41.5
+120504,Paucartambo,Río,Perené,49954,17.23
+120601,Pangoa,Río,Perené,49954,0.99
+120601,Perené,Río,Perené,49954,13.23
+120604,Ene,Río,49955,49955,30.66
+120604,Pangoa,Río,Perené,49954,38.75
+120604,Perené,Río,Perené,49954,5.17
+120606,Anapatí,Río,Anapati,49958,104.64
+120606,Cutivireni,Río,Cutivireni,49956,0.53
+120606,Ene,Río,49955,49955,21.68
+120606,Ene,Río,49957,49957,4.63
+120606,Ene,Río,49959,49959,17.14
+120606,Mantaro,Río,Mantaro,4996,20.72
+120606,Pangoa,Río,Perené,49954,88.94
+120607,Perené,Río,Perené,49954,11.68
+120608,Anapatí,Río,Anapati,49958,1.13
+120608,Cutivireni,Río,Cutivireni,49956,109.92
+120608,Ene,Río,49955,49955,61.36
+120608,Ene,Río,49957,49957,4.61
+120608,Ene,Río,49959,49959,21.0
+120608,Pangoa,Río,Perené,49954,5.23
+120608,Perené,Río,Perené,49954,35.45
+120608,Poyeni,Quebrada,Poyeni,49952,63.5
+120608,Tambo,Río,49951,49951,67.52
+120608,Tambo,Río,49953,49953,80.67
+120609,Ene,Río,49959,49959,11.38
+120609,Mantaro,Río,Mantaro,4996,37.23
+120701,Palca,Río,Perené,49954,31.82
+120702,Palca,Río,Perené,49954,11.7
+120704,Oxabamba,Río,Perené,49954,15.04
+120704,Palca,Río,Perené,49954,4.23
+120706,Palca,Río,Perené,49954,18.81
+120708,Mantaro,Río,Mantaro,4996,1.79
+120708,Oxabamba,Río,Perené,49954,11.63
+120801,Mantaro,Río,Mantaro,4996,33.7
+120801,Yauli,Río,Mantaro,4996,8.14
+120802,Mantaro,Río,Mantaro,4996,8.99
+120804,Mantaro,Río,Mantaro,4996,9.63
+120806,Mantaro,Río,Mantaro,4996,25.67
+120807,Conocancha,Río,Mantaro,4996,41.22
+120807,Mantaro,Río,Mantaro,4996,9.94
+120808,Mantaro,Río,Mantaro,4996,0.33
+120808,Yauli,Río,Mantaro,4996,8.21
+120809,Pachacayo,Río,Mantaro,4996,3.3
+120810,Yauli,Río,Mantaro,4996,41.53
+120901,Conas,Río,Mantaro,4996,2.86
+120902,Conas,Río,Mantaro,4996,5.9
+120903,Mantaro,Río,Mantaro,4996,0.74
+120904,Conas,Río,Mantaro,4996,3.22
+120905,Conas,Río,Mantaro,4996,1.61
+120905,Mantaro,Río,Mantaro,4996,2.33
+120907,Conas,Río,Mantaro,4996,13.94
+120908,Mantaro,Río,Mantaro,4996,2.36
+120909,Conas,Río,Mantaro,4996,45.24
+130101,Moche,Río,Moche,137716,3.44
+130106,Catuay,Quebrada,Moche,137716,1.71
+130106,Moche,Río,Moche,137716,22.79
+130107,Moche,Río,Moche,137716,3.72
+130108,Moche,Río,Moche,137716,15.47
+130108,Sinsicap,Río,Moche,137716,0.54
+130110,Catuay,Quebrada,Moche,137716,17.87
+130110,Moche,Río,Moche,137716,2.76
+130110,Sinsicap,Río,Moche,137716,18.91
+130111,Moche,Río,Moche,137716,1.01
+130201,Chicama,Río,Chicama,13772,11.51
+130202,Chicama,Río,Chicama,13772,32.39
+130202,Ochape,Río,Chicama,13772,0.64
+130202,Quirripano,Río,Chicama,13772,6.94
+130203,Chicama,Río,Chicama,13772,5.27
+130204,Chicama,Río,Chicama,13772,6.72
+130207,Chicama,Río,Chicama,13772,8.39
+130208,Chicama,Río,Chicama,13772,1.79
+130301,Marañón,Río,Alto Marañón IV,49897,11.15
+130301,Marañón,Río,Alto Marañón V,49899,8.0
+130302,Marañón,Río,Alto Marañón V,49899,2.2
+130303,Marañón,Río,Alto Marañón V,49899,3.5
+130304,Marañón,Río,Alto Marañón IV,49897,16.41
+130306,Marañón,Río,Alto Marañón IV,49897,3.89
+130401,Chamán,Río,Chamán,137752,10.74
+130401,Jequetepeque,Río,Jequetepeque,13774,8.55
+130402,Chamán,Río,Chamán,137752,16.79
+130402,Seco,Río,Chamán,137752,33.33
+130403,Chamán,Río,Chamán,137752,22.44
+130403,Seco,Río,Chamán,137752,3.84
+130501,Huacapongo,Río,Virú,137714,0.4
+130501,La Vega,Río,Virú,137714,2.47
+130501,Moche,Río,Moche,137716,13.5
+130501,Pacchachaca,Río,Virú,137714,8.64
+130501,Palomeque,Río,Virú,137714,14.09
+130502,La Vega,Río,Virú,137714,2.64
+130502,Pacchachaca,Río,Virú,137714,21.46
+130503,Carabamba,Río,Virú,137714,17.36
+130503,Huacapongo,Río,Virú,137714,4.97
+130503,Palomeque,Río,Virú,137714,5.52
+130504,Chao,Río,Huamansaña,137712,13.64
+130504,Huacapongo,Río,Virú,137714,5.33
+130504,La Vega,Río,Virú,137714,28.08
+130504,Pájaro Bobo,Quebrada,Virú,137714,17.98
+130601,Huancay,Río,Chicama,13772,6.74
+130601,Moche,Río,Moche,137716,11.23
+130601,Otuzco,Río,Moche,137716,16.29
+130602,Moche,Río,Moche,137716,13.96
+130602,Motil,Río,Moche,137716,23.63
+130602,Otuzco,Río,Moche,137716,0.33
+130604,Huancay,Río,Chicama,13772,2.95
+130605,Huancay,Río,Chicama,13772,4.95
+130608,Moche,Río,Moche,137716,2.55
+130608,Motil,Río,Moche,137716,0.72
+130611,Moche,Río,Moche,137716,4.43
+130613,Quirripano,Río,Chicama,13772,28.75
+130613,Sinsicap,Río,Moche,137716,19.95
+130614,Huancay,Río,Chicama,13772,28.53
+130614,Otuzco,Río,Moche,137716,8.32
+130702,Jequetepeque,Río,Jequetepeque,13774,14.01
+130703,Jequetepeque,Río,Jequetepeque,13774,4.62
+130705,Jequetepeque,Río,Jequetepeque,13774,8.12
+130803,Marañón,Río,Alto Marañón V,49899,19.54
+130804,Marañón,Río,Alto Marañón V,49899,3.23
+130806,Marañón,Río,Alto Marañón V,49899,9.23
+130807,Mishollo,Río,Alto Huallaga,49849,47.88
+130808,Marañón,Río,Alto Marañón V,49899,5.94
+130809,Marañón,Río,Alto Marañón V,49899,25.72
+130811,Marañón,Río,Alto Marañón V,49899,10.49
+130812,Marañón,Río,Alto Marañón V,49899,10.52
+130901,Chusgón,Río,Alto Marañón V,49899,3.58
+130902,Chusgón,Río,Alto Marañón V,49899,10.28
+130902,Marañón,Río,Alto Marañón V,49899,1.77
+130903,Marañón,Río,Alto Marañón V,49899,13.48
+130904,Chusgón,Río,Alto Marañón V,49899,6.09
+130905,Chusgón,Río,Alto Marañón V,49899,10.66
+130907,Chusgón,Río,Alto Marañón V,49899,17.63
+130908,Chusgón,Río,Alto Marañón V,49899,13.31
+130908,Marañón,Río,Alto Marañón V,49899,15.46
+131001,Huamansaña,Río,Huamansaña,137712,24.96
+131001,Tablachaca,Río,Santa,1376,20.37
+131001,Tutumo,Río,Huamansaña,137712,32.23
+131002,Tablachaca,Río,Santa,1376,2.95
+131005,Tablachaca,Río,Santa,1376,3.16
+131006,Huancay,Río,Chicama,13772,10.93
+131006,Moche,Río,Moche,137716,15.57
+131007,Tablachaca,Río,Santa,1376,7.38
+131008,Chusgón,Río,Alto Marañón V,49899,7.55
+131008,Marañón,Río,Alto Marañón V,49899,3.45
+131101,Chicama,Río,Chicama,13772,15.07
+131101,Chuquillanqui,Río,Chicama,13772,4.14
+131101,Ochape,Río,Chicama,13772,28.15
+131101,Santanero,Río,Chicama,13772,1.03
+131102,Chicama,Río,Chicama,13772,0.42
+131102,Chuquillanqui,Río,Chicama,13772,7.33
+131102,Huancay,Río,Chicama,13772,13.25
+131103,Chicama,Río,Chicama,13772,7.96
+131103,Huancay,Río,Chicama,13772,9.55
+131104,Chuquillanqui,Río,Chicama,13772,10.13
+131201,Carabamba,Río,Virú,137714,32.31
+131201,Huacapongo,Río,Virú,137714,2.75
+131201,Pájaro Bobo,Quebrada,Virú,137714,0.54
+131201,Virú,Río,Virú,137714,48.76
+131202,Chao,Río,Huamansaña,137712,41.82
+131202,Huamansaña,Río,Huamansaña,137712,51.93
+131202,Palo Redondo,Quebrada,Santa,1376,47.99
+131202,Pampa Colorada,Quebrada,Huamansaña,137712,23.87
+131202,Santa,Río,Santa,1376,20.45
+131202,Tucumaca,Quebrada,Huamansaña,137712,18.72
+131202,Tutumo,Río,Huamansaña,137712,21.48
+131203,Santa,Río,Santa,1376,14.16
+140102,Chancay,Río,Chancay-Lambayeque,13776,8.75
+140102,Magin,Quebrada,Chancay-Lambayeque,13776,11.54
+140102,Montería,Quebrada,Chancay-Lambayeque,13776,12.36
+140102,Reque,Río,Chancay-Lambayeque,13776,16.96
+140103,Reque,Río,Chancay-Lambayeque,13776,3.11
+140107,Zaña,Río,Zaña,137754,23.92
+140108,Reque,Río,Chancay-Lambayeque,13776,11.16
+140109,De Nanchoc,Río,Zaña,137754,4.85
+140109,Examen,Quebrada,Zaña,137754,23.6
+140109,Perol,Quebrada,Chamán,137752,0.3
+140109,Zaña,Río,Zaña,137754,8.49
+140110,De Nanchoc,Río,Zaña,137754,1.82
+140110,La Cárcel,Quebrada,Zaña,137754,2.31
+140110,Montería,Quebrada,Chancay-Lambayeque,13776,26.93
+140110,Zaña,Río,Zaña,137754,30.08
+140113,Reque,Río,Chancay-Lambayeque,13776,5.46
+140115,Reque,Río,Chancay-Lambayeque,13776,3.89
+140115,Zaña,Río,Zaña,137754,6.78
+140116,Examen,Quebrada,Zaña,137754,0.33
+140116,Zaña,Río,Zaña,137754,12.62
+140118,Reque,Río,Chancay-Lambayeque,13776,5.08
+140119,Reque,Río,Chancay-Lambayeque,13776,19.14
+140120,Reque,Río,Chancay-Lambayeque,13776,7.06
+140203,La Leche,Río,Motupe,137772,3.76
+140205,La Leche,Río,Motupe,137772,43.98
+140302,Motupe,Río,Motupe,137772,13.39
+140303,La Leche,Río,Motupe,137772,6.09
+140303,Motupe,Río,Motupe,137772,2.11
+140304,Chotoque,Río,Motupe,137772,1.16
+140304,La Leche,Río,Motupe,137772,1.41
+140304,Motupe,Río,Motupe,137772,17.25
+140304,Pañala Grande,Quebrada,Olmos,137774,9.21
+140304,Salas,Río,Motupe,137772,8.47
+140306,Motupe,Río,Motupe,137772,35.97
+140307,Chiniama,Río,Motupe,137772,20.59
+140307,Chotoque,Río,Motupe,137772,17.3
+140307,Motupe,Río,Motupe,137772,53.95
+140307,Salas,Río,Motupe,137772,4.08
+140308,Pañala Grande,Quebrada,Olmos,137774,89.51
+140308,Pañala La Chica,Quebrada,Cascajal,13778,98.12
+140309,La Leche,Río,Motupe,137772,4.53
+140309,Motupe,Río,Motupe,137772,7.42
+140310,Chiniama,Río,Motupe,137772,30.95
+140310,Motupe,Río,Motupe,137772,34.94
+140310,Pañala Grande,Quebrada,Olmos,137774,16.89
+140310,Salas,Río,Motupe,137772,26.67
+140312,Motupe,Río,Motupe,137772,1.3
+150101,Rímac,Río,Rímac,137554,4.05
+150103,Rímac,Río,Rímac,137554,7.92
+150106,Chillón,Río,Chillón,137556,18.43
+150106,Río Seco,Quebrada,Chillón,137556,21.11
+150107,Rímac,Río,Rímac,137554,8.05
+150109,Lurín,Río,Lurín,1375534,20.87
+150109,Tinajas,Quebrada,Lurín,1375534,6.19
+150110,Chillón,Río,Chillón,137556,2.7
+150111,Jicamarca,Quebrada,Rímac,137554,0.25
+150111,Rímac,Río,Rímac,137554,1.45
+150117,Chillón,Río,Chillón,137556,1.5
+150118,Jicamarca,Quebrada,Rímac,137554,11.68
+150118,Rímac,Río,Rímac,137554,18.25
+150119,Lurín,Río,Lurín,1375534,6.46
+150123,Lurín,Río,Lurín,1375534,10.58
+150123,Tinajas,Quebrada,Lurín,1375534,9.76
+150125,Chillón,Río,Chillón,137556,4.49
+150128,Rímac,Río,Rímac,137554,0.26
+150132,Jicamarca,Quebrada,Rímac,137554,0.68
+150132,Rímac,Río,Rímac,137554,6.38
+150135,Chillón,Río,Chillón,137556,0.93
+150135,Rímac,Río,Rímac,137554,5.77
+150201,Pativilca,Río,Pativilca,13758,10.08
+150202,Fortaleza,Río,Fortaleza,137592,51.29
+150202,Julquillas,Quebrada,Fortaleza,137592,2.46
+150203,Pativilca,Río,Pativilca,13758,16.65
+150204,Mesa Redonda,Quebrada,Supe,137572,3.05
+150204,Supe,Río,Supe,137572,31.87
+150301,Gorgor,Río,Pativilca,13758,11.54
+150301,Rapay,Río,Pativilca,13758,41.5
+150302,Rapay,Río,Pativilca,13758,9.4
+150303,Gorgor,Río,Pativilca,13758,26.49
+150304,Gorgor,Río,Pativilca,13758,4.19
+150304,Pativilca,Río,Pativilca,13758,3.29
+150304,Rapay,Río,Pativilca,13758,5.2
+150305,Gorgor,Río,Pativilca,13758,6.66
+150305,Pativilca,Río,Pativilca,13758,12.06
+150401,Chillón,Río,Chillón,137556,8.26
+150401,Quisquichaca,Río,Chillón,137556,15.19
+150402,Quisquichaca,Río,Chillón,137556,14.85
+150403,Chillón,Río,Chillón,137556,4.16
+150403,Gangay,Quebrada,Chillón,137556,8.82
+150403,Orcón,Quebrada,Chancay - Huaral,137558,12.65
+150403,Socos,Quebrada,Chillón,137556,22.85
+150404,Chillón,Río,Chillón,137556,33.27
+150405,Chillón,Río,Chillón,137556,3.68
+150405,Quisquichaca,Río,Chillón,137556,9.26
+150406,Chillón,Río,Chillón,137556,10.81
+150407,Chillón,Río,Chillón,137556,40.72
+150407,Gangay,Quebrada,Chillón,137556,6.31
+150407,Quisquichaca,Río,Chillón,137556,5.02
+150407,Socos,Quebrada,Chillón,137556,5.11
+150501,Cañete,Río,Cañete,13754,16.45
+150501,Topará,Quebrada,Topará,137534,16.43
+150502,Grande,Río,Omas,1375512,8.61
+150503,Mala,Río,Mala,137552,45.58
+150505,Chilca,Quebrada,Chilca,1375532,35.36
+150506,Grande,Río,Omas,1375512,8.37
+150506,Iray,Quebrada,Omas,1375512,10.55
+150506,Omas,Río,Omas,1375512,26.43
+150506,Quelca,Quebrada,Omas,1375512,11.43
+150506,Santiago,Quebrada,Omas,1375512,10.35
+150508,Cañete,Río,Cañete,13754,23.65
+150508,Topará,Quebrada,Topará,137534,4.73
+150509,Mala,Río,Mala,137552,6.84
+150510,Cañete,Río,Cañete,13754,5.95
+150511,Cañete,Río,Cañete,13754,10.25
+150513,Mala,Río,Mala,137552,2.17
+150515,Mala,Río,Mala,137552,4.46
+150516,Cañete,Río,Cañete,13754,8.02
+150601,Chancay,Río,Chancay - Huaral,137558,21.31
+150602,Baños,Río,Chancay - Huaral,137558,25.64
+150602,Chancay,Río,Chancay - Huaral,137558,11.74
+150603,Añasmayo,Río,Chancay - Huaral,137558,18.93
+150603,Chancay,Río,Chancay - Huaral,137558,4.38
+150604,Chancay,Río,Chancay - Huaral,137558,20.17
+150604,Orcón,Quebrada,Chancay - Huaral,137558,32.56
+150605,Chancay,Río,Chancay - Huaral,137558,5.67
+150606,Chancay,Río,Chancay - Huaral,137558,1.25
+150606,Huanangue,Río,Huaura,13756,11.86
+150607,Carac,Río,Chancay - Huaral,137558,2.89
+150607,Chancay,Río,Chancay - Huaral,137558,5.87
+150608,Chancay,Río,Chancay - Huaral,137558,20.22
+150609,Carac,Río,Chancay - Huaral,137558,0.49
+150609,Chancay,Río,Chancay - Huaral,137558,2.81
+150610,Baños,Río,Chancay - Huaral,137558,1.42
+150610,Chancay,Río,Chancay - Huaral,137558,12.78
+150611,Añasmayo,Río,Chancay - Huaral,137558,9.97
+150611,Chancay,Río,Chancay - Huaral,137558,7.72
+150611,Orcón,Quebrada,Chancay - Huaral,137558,7.08
+150612,Carac,Río,Chancay - Huaral,137558,24.7
+150612,Chancay,Río,Chancay - Huaral,137558,4.21
+150701,Rímac,Río,Rímac,137554,10.34
+150702,Chamacna,Quebrada,Lurín,1375534,6.54
+150702,Lurín,Río,Lurín,1375534,30.44
+150702,Tinajas,Quebrada,Lurín,1375534,13.2
+150703,Santa Eulalia,Río,Rímac,137554,2.93
+150704,Santa Eulalia,Río,Rímac,137554,23.48
+150705,Blanco,Río,Rímac,137554,5.17
+150705,Rímac,Río,Rímac,137554,21.16
+150706,Canchahuara,Río,Lurín,1375534,6.78
+150706,Chilca,Quebrada,Chilca,1375532,1.06
+150706,Lurín,Río,Lurín,1375534,1.23
+150707,Santa Eulalia,Río,Rímac,137554,8.74
+150708,Santa Eulalia,Río,Rímac,137554,3.25
+150709,Acacache,Río,Mala,137552,0.56
+150709,Mala,Río,Mala,137552,0.66
+150709,San Lorenzo,Río,Mala,137552,15.03
+150710,Canchahuara,Río,Lurín,1375534,0.93
+150710,Lurín,Río,Lurín,1375534,6.57
+150711,Canchahuara,Río,Lurín,1375534,14.62
+150712,Santa Eulalia,Río,Rímac,137554,3.65
+150714,Rímac,Río,Rímac,137554,6.26
+150714,Santa Eulalia,Río,Rímac,137554,0.54
+150715,Chamacna,Quebrada,Lurín,1375534,11.55
+150716,Jicamarca,Quebrada,Rímac,137554,31.6
+150716,Santa Eulalia,Río,Rímac,137554,3.77
+150717,Rímac,Río,Rímac,137554,4.13
+150718,Chalilla,Quebrada,Lurín,1375534,23.4
+150718,Lurín,Río,Lurín,1375534,10.28
+150718,Taquia,Quebrada,Lurín,1375534,23.49
+150719,Santa Eulalia,Río,Rímac,137554,2.51
+150720,Acacache,Río,Mala,137552,4.51
+150720,San Lorenzo,Río,Mala,137552,11.01
+150721,Acacache,Río,Mala,137552,28.75
+150721,Mala,Río,Mala,137552,11.33
+150721,Tantará,Río,Mala,137552,18.59
+150722,Blanco,Río,Rímac,137554,28.96
+150722,Parac,Quebrada,Rímac,137554,20.55
+150722,Rímac,Río,Rímac,137554,15.69
+150722,San Lorenzo,Río,Mala,137552,0.26
+150723,Rímac,Río,Rímac,137554,1.56
+150724,Santa Eulalia,Río,Rímac,137554,2.1
+150725,Acacache,Río,Mala,137552,0.59
+150725,Aguaquiri,Río,Mala,137552,4.84
+150725,San Lorenzo,Río,Mala,137552,2.45
+150726,Mala,Río,Mala,137552,8.58
+150727,Rímac,Río,Rímac,137554,6.75
+150728,Rímac,Río,Rímac,137554,1.91
+150728,Santa Eulalia,Río,Rímac,137554,14.78
+150729,Aguaquiri,Río,Mala,137552,13.18
+150729,San Lorenzo,Río,Mala,137552,8.84
+150731,Chilca,Quebrada,Chilca,1375532,22.84
+150732,Rímac,Río,Rímac,137554,10.12
+150802,Ambar,Río,Supe,137572,43.43
+150802,Aynaca,Río,Supe,137572,19.27
+150802,Cochaca,Quebrada,Supe,137572,10.91
+150802,Mesa Redonda,Quebrada,Supe,137572,13.47
+150802,Río Seco,Quebrada,Supe,137572,1.0
+150802,Supe,Río,Supe,137572,9.36
+150803,Huaura,Río,Huaura,13756,1.28
+150804,Checras,Río,Huaura,13756,9.55
+150804,Huaura,Río,Huaura,13756,6.77
+150806,Huaura,Río,Huaura,13756,19.79
+150806,Río Seco,Quebrada,Supe,137572,7.35
+150806,Supe,Río,Supe,137572,9.99
+150807,Huanangue,Río,Huaura,13756,27.11
+150807,Huaura,Río,Huaura,13756,0.62
+150808,Huaura,Río,Huaura,13756,11.24
+150808,Yarucaya,Río,Huaura,13756,0.62
+150809,Carac,Río,Chancay - Huaral,137558,5.75
+150809,Checras,Río,Huaura,13756,28.24
+150810,Huaura,Río,Huaura,13756,11.03
+150811,Huanangue,Río,Huaura,13756,15.41
+150811,Huaura,Río,Huaura,13756,40.44
+150811,Río Seco,Quebrada,Supe,137572,8.09
+150901,Checras,Río,Huaura,13756,1.85
+150901,Huaura,Río,Huaura,13756,49.96
+150902,Huancoy,Quebrada,Huaura,13756,4.12
+150902,Huaura,Río,Huaura,13756,4.45
+150903,Huancoy,Quebrada,Huaura,13756,16.66
+150903,Huaura,Río,Huaura,13756,0.56
+150904,Aynaca,Río,Supe,137572,4.74
+150904,Huaura,Río,Huaura,13756,1.66
+150904,Yarucaya,Río,Huaura,13756,13.8
+150905,Huancoy,Quebrada,Huaura,13756,1.53
+150905,Huaura,Río,Huaura,13756,9.61
+150905,Yarucaya,Río,Huaura,13756,19.28
+150906,Checras,Río,Huaura,13756,13.69
+150906,Huaura,Río,Huaura,13756,6.46
+151001,Cañete,Río,Cañete,13754,21.19
+151002,Alis,Río,Cañete,13754,19.1
+151002,Cañete,Río,Cañete,13754,1.99
+151003,Cañete,Río,Cañete,13754,16.91
+151004,Quinches,Río,Mala,137552,28.76
+151006,Cacra,Río,Cañete,13754,17.06
+151006,Cañete,Río,Cañete,13754,5.1
+151007,Cañete,Río,Cañete,13754,10.23
+151008,Cacra,Río,Cañete,13754,2.48
+151008,Cañete,Río,Cañete,13754,7.36
+151009,Cañete,Río,Cañete,13754,4.93
+151009,Huangascar,Río,Cañete,13754,9.5
+151010,Mala,Río,Mala,137552,1.14
+151010,Quinches,Río,Mala,137552,3.69
+151011,Cañete,Río,Cañete,13754,7.36
+151012,Cacra,Río,Cañete,13754,15.93
+151013,Quinches,Río,Mala,137552,8.46
+151014,Cañete,Río,Cañete,13754,29.62
+151015,Huangascar,Río,Cañete,13754,2.58
+151016,Cañete,Río,Cañete,13754,3.63
+151016,Huantán,Río,Cañete,13754,39.03
+151018,Alis,Río,Cañete,13754,7.32
+151018,Cañete,Río,Cañete,13754,8.2
+151019,Cacra,Río,Cañete,13754,15.4
+151020,Huangascar,Río,Cañete,13754,9.33
+151021,Cañete,Río,Cañete,13754,5.94
+151022,Cumias,Quebrada,Omas,1375512,10.54
+151022,Omas,Río,Omas,1375512,25.41
+151023,Cañete,Río,Cañete,13754,5.84
+151024,Quinches,Río,Mala,137552,3.32
+151025,Mala,Río,Mala,137552,12.29
+151027,Omas,Río,Omas,1375512,4.76
+151028,Cañete,Río,Cañete,13754,33.78
+151028,Tantará,Río,Mala,137552,8.56
+151029,Cumias,Quebrada,Omas,1375512,17.72
+151029,Iray,Quebrada,Omas,1375512,9.53
+151029,Santiago,Quebrada,Omas,1375512,15.71
+151030,Alis,Río,Cañete,13754,6.22
+151031,Cacra,Río,Cañete,13754,13.4
+151032,Huangascar,Río,Cañete,13754,24.5
+151033,Cañete,Río,Cañete,13754,7.34
+160101,Nanay,Río,Nanay,49794,47.89
+160102,Nanay,Río,Nanay,49794,413.47
+160103,Amazonas,Río,49797,49797,29.54
+160103,Amazonas,Río,49799,49799,59.52
+160103,Tahuayo,Río,Tahuayo,49796,133.8
+160104,Amazonas,Río,49791,49791,2.01
+160104,Amazonas,Río,49793,49793,41.43
+160104,Manití,Río,Manití,49792,228.92
+160105,Amazonas,Río,4977,4977,62.31
+160105,Amazonas,Río,49791,49791,14.82
+160105,Apayacu,Río,4977,4977,193.07
+160105,Napo,Río,Napo,4978,13.84
+160105,Orosa,Río,4977,4977,153.2
+160106,Mazán,Río,Napo,4978,506.01
+160106,Napo,Río,Napo,4978,118.32
+160107,Curaray,Río,Napo,4978,503.03
+160107,Napo,Río,Napo,4978,265.43
+160108,Amazonas,Río,49793,49793,0.2
+160108,Nanay,Río,Nanay,49794,15.47
+160110,Aguarico,Río,Napo,4978,14.44
+160110,Napo,Río,Napo,4978,179.1
+160112,Amazonas,Río,49793,49793,4.53
+160112,Amazonas,Río,49795,49795,13.69
+160112,Amazonas,Río,49797,49797,11.1
+160112,Itaya,Río,Itaya,49798,44.11
+160112,Nanay,Río,Nanay,49794,4.59
+160113,Itaya,Río,Itaya,49798,159.38
+160113,Nanay,Río,Nanay,49794,61.11
+160201,Huallaga,Río,Bajo Huallaga,49841,67.61
+160201,Huallaga,Río,Medio Bajo Huallaga,49843,22.79
+160201,Paranapura,Río,Paranapura,49842,45.61
+160202,Paranapura,Río,Paranapura,49842,126.87
+160205,Huallaga,Río,Bajo Huallaga,49841,3.04
+160206,Huallaga,Río,Bajo Huallaga,49841,76.94
+160206,Marañón,Río,Medio Bajo Marañón,4983,23.49
+160206,Marañón,Río,Medio Marañón,4985,29.51
+160206,Nucuray,Río,Medio Bajo Marañón,4983,281.37
+160210,Huallaga,Río,Bajo Huallaga,49841,41.32
+160211,Huallaga,Río,Medio Bajo Huallaga,49843,44.37
+160301,Amazonas,Río,49799,49799,15.62
+160301,Marañón,Río,Bajo Marañón,4981,87.55
+160301,Marañón,Río,Medio Bajo Marañón,4983,32.17
+160301,Tigre,Río,Tigre,4982,53.23
+160301,Ucayali,Río,49911,49911,1.68
+160302,Marañón,Río,Medio Bajo Marañón,4983,81.22
+160302,Samiria,Río,Medio Bajo Marañón,4983,324.74
+160303,49822,Río,Tigre,4982,81.04
+160303,Corriente,Río,Tigre,4982,12.83
+160303,Pintoyacu,Río,Tigre,4982,0.47
+160303,Pucacuro,Río,Tigre,4982,383.9
+160303,Tigre,Río,Tigre,4982,654.53
+160304,Corriente,Río,Tigre,4982,486.88
+160305,Marañón,Río,Medio Bajo Marañón,4983,128.99
+160305,Patayacu,Río,Medio Bajo Marañón,4983,336.7
+160305,Urituyacu,Río,Medio Bajo Marañón,4983,273.33
+160401,Amazonas,Río,4977,4977,75.3
+160401,Atacuari,Río,4977,4977,228.15
+160402,Amazonas,Río,4977,4977,102.17
+160402,Ampiyacu,Río,4977,4977,195.81
+160402,Orosa,Río,4977,4977,18.35
+160403,Amazonas,Río,4977,4977,18.81
+160403,Yavarí,Río,Yavarí,4976,397.44
+160403,Yavarí Mirín,Río,Yavari,4976,326.01
+160404,Amazonas,Río,4977,4977,100.82
+160501,Tapiche,Río,Tapiche,49912,132.71
+160501,Ucayali,Río,49911,49911,12.19
+160501,Ucayali,Río,49913,49913,59.7
+160502,Tapiche,Río,Tapiche,49912,381.14
+160502,Yaquirana,Río,Yavarí,4976,2.58
+160503,Ucayali,Río,49913,49913,73.72
+160504,Ucayali,Río,49913,49913,112.05
+160505,Ucayali,Río,49913,49913,59.77
+160506,Samiria,Río,Medio Bajo Marañón,4983,80.58
+160506,Ucayali,Río,49913,49913,2.25
+160507,Ucayali,Río,49911,49911,65.08
+160508,Tapiche,Río,Tapiche,49912,1.54
+160509,Tapiche,Río,Tapiche,49912,153.35
+160510,Ucayali,Río,49911,49911,48.83
+160511,Gálvez,Río,Yavari,4976,257.97
+160511,Yaquirana,Río,Yavarí,4976,223.29
+160511,Yavarí,Río,Yavarí,4976,1.07
+160601,Ucayali,Río,49915,49915,115.83
+160602,Cushabatay,Río,Cushabatay,49914,5.7
+160602,Ucayali,Río,49913,49913,22.23
+160603,Ucayali,Río,49915,49915,88.38
+160604,Cushabatay,Río,Cushabatay,49914,243.21
+160604,Ucayali,Río,49913,49913,8.97
+160604,Ucayali,Río,49915,49915,20.87
+160605,Ucayali,Río,49913,49913,195.31
+160606,Ucayali,Río,49913,49913,39.19
+160701,Marañón,Río,49871,49871,29.91
+160701,Marañón,Río,49873,49873,33.52
+160701,Marañón,Río,49875,49875,2.78
+160701,Marañón,Río,Medio Marañón,4985,40.62
+160701,Potro,Río,Potro,49874,231.82
+160702,Carhuapanas,Río,Carhuapanas,49872,262.93
+160702,Marañón,Río,49871,49871,0.42
+160702,Marañón,Río,49873,49873,1.18
+160703,Marañón,Río,49877,49877,102.74
+160704,Marañón,Río,49875,49875,17.66
+160704,Marañón,Río,49877,49877,6.45
+160704,Morona,Río,Morona,49876,423.03
+160705,Marañón,Río,49871,49871,0.36
+160705,Marañón,Río,Medio Marañón,4985,52.97
+160705,Naranjal,Quebrada,Medio Marañón,4985,39.25
+160705,Pastaza,Río,Pastaza,4986,97.04
+160705,Ungumayo,Río,Medio Marañón,4985,138.71
+160705,Ushpayacu,Río,Pastaza,4986,260.79
+160706,Huasaga,Río,Pastaza,4986,235.83
+160706,Pastaza,Río,Pastaza,4986,255.39
+160801,Algodoncillo,Río,Putumayo,4974,744.35
+160801,Putumayo,Río,Putumayo,4974,144.18
+160802,Algodoncillo,Río,Putumayo,4974,0.21
+160802,Putumayo,Río,Putumayo,4974,103.36
+160803,Putumayo,Río,Putumayo,4974,191.85
+160804,Putumayo,Río,Putumayo,4974,159.38
+160804,Yaguas,Río,Putumayo,4974,468.82
+170101,De las Piedras,Río,De Las Piedras,46646,441.14
+170101,Los Amigos,Río,Alto Madre de Dios,46649,114.63
+170101,Madre de Dios,Río,Medio Alto Madre de Dios,46647,61.89
+170101,Madre de Dios,Río,Medio Bajo Madre de Dios,46643,38.86
+170101,Madre de Dios,Río,Medio Madre de Dios,46645,8.53
+170101,Tambopata,Río,Tambopata,46644,123.97
+170102,Inambari,Río,Inambari,46648,76.69
+170102,Madre de Dios,Río,Alto Madre de Dios,46649,29.16
+170102,Tambopata,Río,Tambopata,46644,38.96
+170103,De las Piedras,Río,De Las Piedras,46646,215.29
+170103,Madre de Dios,Río,Medio Bajo Madre de Dios,46643,34.73
+170103,Madre de Dios,Río,Medio Madre de Dios,46645,13.18
+170103,Manuripe,Río,Orthon,4662,127.74
+170103,Tambopata,Río,Tambopata,46644,0.62
+170104,Inambari,Río,Inambari,46648,5.56
+170104,Los Amigos,Río,Alto Madre de Dios,46649,59.24
+170104,Madre de Dios,Río,Alto Madre de Dios,46649,35.39
+170104,Madre de Dios,Río,Medio Alto Madre de Dios,46647,40.59
+170201,Alto Madre de Dios,Río,Alto Madre de Dios,46649,83.86
+170201,Manu,Río,Alto Madre de Dios,46649,92.48
+170201,Pinquen,Río,Alto Madre de Dios,46649,182.25
+170202,Alto Madre de Dios,Río,Alto Madre de Dios,46649,25.67
+170202,Los Amigos,Río,Alto Madre de Dios,46649,107.5
+170202,Madre de Dios,Río,Alto Madre de Dios,46649,38.77
+170202,Manu,Río,Alto Madre de Dios,46649,294.46
+170203,Colorado,Río,Alto Madre de Dios,46649,137.94
+170203,Inambari,Río,Inambari,46648,8.48
+170203,Los Amigos,Río,Alto Madre de Dios,46649,74.15
+170203,Madre de Dios,Río,Alto Madre de Dios,46649,158.79
+170204,Colorado,Río,Alto Madre de Dios,46649,23.83
+170204,Inambari,Río,Inambari,46648,15.52
+170301,46628,Río,Orthon,4662,84.39
+170301,Abismo,Río,Alto Iaco,49289,14.88
+170301,Acre,Río,Alto Acre,49269,81.4
+170301,Chandless,Río,49299,49299,106.14
+170301,De las Piedras,Río,De Las Piedras,46646,139.56
+170301,Lanza,Río,Orthon,4662,6.23
+170301,Muymanu,Río,Orthon,4662,12.54
+170301,Orthón,Río,Orthon,4662,102.01
+170301,Tahuamane,Río,Orthon,4662,236.17
+170301,Yaco,Río,Alto Iaco,49289,115.11
+170302,Lanza,Río,Orthon,4662,32.62
+170302,Muymanu,Río,Orthon,4662,58.85
+170302,Orthón,Río,Orthon,4662,101.2
+170303,Manuripe,Río,Orthon,4662,139.62
+170303,Muymanu,Río,Orthon,4662,114.03
+170303,Orthón,Río,Orthon,4662,23.66
+180101,Guaneros,Quebrada,Ilo - Moquegua,13172,57.26
+180101,Honda,Quebrada,Honda,13178,46.35
+180101,Honda,Quebrada,Ilo - Moquegua,13172,9.72
+180101,Huaracané,Río,Ilo - Moquegua,13172,11.07
+180101,Osmore,Río,Ilo - Moquegua,13172,0.82
+180101,Seca,Quebrada,Locumba,1316,67.64
+180101,Tambo,Río,Tambo,1318,29.89
+180101,Torata,Río,Ilo - Moquegua,13172,7.46
+180101,Tumilaca,Río,Ilo - Moquegua,13172,7.77
+180102,Coralaque,Río,Tambo,1318,69.91
+180102,Tambo,Río,Tambo,1318,7.42
+180102,Torata,Río,Ilo - Moquegua,13172,3.43
+180104,Tumilaca,Río,Ilo - Moquegua,13172,8.43
+180105,Coralaque,Río,Tambo,1318,12.88
+180105,Tambo,Río,Tambo,1318,8.74
+180106,Cinto,Río,Locumba,1316,1.25
+180106,Guaneros,Quebrada,Ilo - Moquegua,13172,9.74
+180106,Huaracané,Río,Ilo - Moquegua,13172,54.22
+180106,Tambo,Río,Tambo,1318,5.13
+180106,Torata,Río,Ilo - Moquegua,13172,61.14
+180106,Tumilaca,Río,Ilo - Moquegua,13172,51.46
+180107,Guaneros,Quebrada,Ilo - Moquegua,13172,10.27
+180107,Osmore,Río,Ilo - Moquegua,13172,41.72
+180201,Tambo,Río,Tambo,1318,2.57
+180202,Coralaque,Río,Tambo,1318,34.36
+180202,Tambo,Río,Tambo,1318,4.23
+180204,Ichuña,Río,Tambo,1318,33.78
+180204,Paltuture,Río,Tambo,1318,11.93
+180205,Huayrondo,Quebrada,Tambo,1318,42.88
+180205,Tambo,Río,Tambo,1318,20.05
+180206,Tambo,Río,Tambo,1318,7.75
+180207,Tambo,Río,Tambo,1318,38.83
+180208,Huayrondo,Quebrada,Tambo,1318,13.69
+180208,Tambo,Río,Tambo,1318,8.98
+180208,Yarabamba,Río,Quilca - Vitor - Chili,132,1.72
+180209,Tambo,Río,Tambo,1318,12.35
+180210,Chacalaque,Río,Quilca - Vitor - Chili,132,5.28
+180210,Paltuture,Río,Tambo,1318,8.69
+180210,Tambo,Río,Tambo,1318,15.72
+180211,Ichuña,Río,Tambo,1318,0.55
+180211,Tambo,Río,Tambo,1318,5.87
+180301,Ilo,Río,Ilo - Moquegua,13172,2.27
+180302,Carrizal,Quebrada,Carrizal,13174,1.82
+180302,Guaneros,Quebrada,Ilo - Moquegua,13172,14.11
+180302,Honda,Quebrada,Ilo - Moquegua,13172,23.06
+180302,Ilo,Río,Ilo - Moquegua,13172,18.91
+180302,Osmore,Río,Ilo - Moquegua,13172,17.71
+180302,Seca,Quebrada,Locumba,1316,4.85
+180303,Carrizal,Quebrada,Carrizal,13174,9.09
+190102,Huancabamba,Río,Pachitea,4992,31.37
+190102,Paucartambo,Río,Perené,49954,32.03
+190103,Huallaga,Río,Alto Huallaga,49849,10.7
+190104,Conocancha,Río,Mantaro,4996,17.38
+190104,Mantaro,Río,Mantaro,4996,15.62
+190105,Paucartambo,Río,Perené,49954,3.78
+190107,Paucartambo,Río,Perené,49954,24.74
+190108,Huallaga,Río,Alto Huallaga,49849,6.27
+190109,Huertas,Río,Alto Huallaga,49849,5.52
+190109,San Juan,Río,Mantaro,4996,31.65
+190110,Huallaga,Río,Alto Huallaga,49849,13.42
+190110,Paucartambo,Río,Perené,49954,22.72
+190111,San Juan,Río,Mantaro,4996,3.87
+190112,San Juan,Río,Mantaro,4996,9.51
+190113,Huallaga,Río,Alto Huallaga,49849,16.04
+190201,Huertas,Río,Alto Huallaga,49849,45.01
+190201,San Juan,Río,Mantaro,4996,1.96
+190202,Huertas,Río,Alto Huallaga,49849,6.66
+190202,San Juan,Río,Mantaro,4996,7.23
+190204,Huertas,Río,Alto Huallaga,49849,17.01
+190205,Huertas,Río,Alto Huallaga,49849,1.3
+190207,Huertas,Río,Alto Huallaga,49849,7.19
+190301,Paucartambo,Río,Perené,49954,14.83
+190302,Paucartambo,Río,Perené,49954,7.13
+190303,Huancabamba,Río,Pachitea,4992,33.92
+190303,Santa Cruz,Río,Pachitea,4992,2.79
+190304,Palcazu,Río,Pachitea,4992,125.06
+190304,Pozuzo,Río,Pachitea,4992,4.34
+190305,Huancabamba,Río,Pachitea,4992,36.82
+190305,Pozuzo,Río,Pachitea,4992,9.16
+190305,Santa Cruz,Río,Pachitea,4992,15.53
+190306,Pichis,Río,Pachitea,4992,259.5
+190307,Palcazu,Río,Pachitea,4992,36.57
+190307,Paucartambo,Río,Perené,49954,2.99
+190308,Pachitea,Río,Pachitea,4992,16.44
+190308,Palcazu,Río,Pachitea,4992,65.65
+190308,Pichis,Río,Pachitea,4992,52.35
+190308,Pozuzo,Río,Pachitea,4992,3.92
+200101,Piura,Río,Piura,1378,19.81
+200104,Piura,Río,Piura,1378,18.15
+200105,Piura,Río,Piura,1378,10.79
+200107,Piura,Río,Piura,1378,13.52
+200108,Piura,Río,Piura,1378,11.45
+200109,Piura,Río,Piura,1378,7.21
+200111,Chipillico,Río,Chira,138,44.5
+200111,San Francisco,Quebrada,Piura,1378,5.16
+200114,Chipillico,Río,Chira,138,0.86
+200114,Piura,Río,Piura,1378,72.13
+200114,San Francisco,Quebrada,Piura,1378,45.51
+200201,Calvas,Quebrada,Chira,138,17.48
+200201,Calvas,Río,Chira,138,1.03
+200201,Chico,Río,Chira,138,14.02
+200201,Chinchipe,Río,Chinchipe,49892,0.68
+200201,La Villa,Quebrada,Chira,138,24.68
+200201,Mangos,Quebrada,Chira,138,30.2
+200201,Pan de Azúcar,Quebrada,Chira,138,21.91
+200201,Parcuchaca,Río,Chira,138,31.59
+200201,Quiroz,Río,Chira,138,11.68
+200201,San Pablo,Río,Chira,138,3.7
+200201,Santa Rosa,Río,Chira,138,3.31
+200202,Chipillico,Río,Chira,138,24.91
+200203,Calvas,Río,Chira,138,3.13
+200204,Chipillico,Río,Chira,138,5.82
+200204,Quiroz,Río,Chira,138,6.05
+200205,Quiroz,Río,Chira,138,6.42
+200206,Mangos,Quebrada,Chira,138,0.37
+200206,Quiroz,Río,Chira,138,5.65
+200206,San Pablo,Río,Chira,138,50.63
+200206,Santa Rosa,Río,Chira,138,7.98
+200206,Tulmán,Río,Chira,138,34.29
+200207,Quiroz,Río,Chira,138,25.51
+200208,Chipillico,Río,Chira,138,30.55
+200209,Calvas,Quebrada,Chira,138,1.55
+200210,Calvas,Río,Chira,138,11.79
+200210,Chiqueros,Quebrada,Chira,138,17.5
+200210,Chira,Río,Chira,138,20.78
+200210,Macara,Río,Chira,138,11.84
+200210,Quiroz,Río,Chira,138,47.71
+200210,Remolinos,Quebrada,Chira,138,39.56
+200210,Suyo,Quebrada,Chira,138,27.9
+200210,Teodora,Quebrada,Chira,138,14.24
+200301,Bigote,Río,Piura,1378,9.28
+200301,Chamaya,Río,Chamaya,49896,16.59
+200301,San Pablo,Río,Chira,138,0.39
+200302,Bigote,Río,Piura,1378,5.35
+200303,Chamaya,Río,Chamaya,49896,17.57
+200303,Chinchipe,Río,Chinchipe,49892,10.41
+200304,Chamaya,Río,Chamaya,49896,19.6
+200304,Pañala Grande,Quebrada,Olmos,137774,8.37
+200304,Pañala La Chica,Quebrada,Cascajal,13778,24.75
+200304,Piura,Río,Piura,1378,36.09
+200305,Bigote,Río,Piura,1378,11.34
+200306,Piura,Río,Piura,1378,0.82
+200307,Chamaya,Río,Chamaya,49896,19.79
+200308,Chamaya,Río,Chamaya,49896,13.8
+200401,Piura,Río,Piura,1378,27.35
+200402,Corrales,Río,Piura,1378,7.72
+200402,Piura,Río,Piura,1378,23.53
+200404,Piura,Río,Piura,1378,8.09
+200404,Tortolitas,Quebrada,Piura,1378,48.62
+200405,Corrales,Río,Piura,1378,5.16
+200405,Piura,Río,Piura,1378,11.07
+200406,Bigote,Río,Piura,1378,5.18
+200406,Piura,Río,Piura,1378,35.49
+200407,Bigote,Río,Piura,1378,22.32
+200408,Corrales,Río,Piura,1378,2.0
+200410,Corrales,Río,Piura,1378,31.89
+200410,San Pablo,Río,Chira,138,2.29
+200502,Chira,Río,Chira,138,5.82
+200503,Chira,Río,Chira,138,3.69
+200504,Chira,Río,Chira,138,11.34
+200505,Chira,Río,Chira,138,16.17
+200505,La Soledad,Quebrada,Chira,138,17.81
+200506,Chira,Río,Chira,138,6.26
+200507,Chira,Río,Chira,138,11.29
+200601,Chipillico,Río,Chira,138,10.38
+200601,Chira,Río,Chira,138,22.06
+200602,Chira,Río,Chira,138,0.58
+200603,Chira,Río,Chira,138,3.8
+200603,Hualtacal,Quebrada,Chira,138,14.3
+200604,Alamor,Río,Chira,138,1.78
+200604,Algarrobillo,Quebrada,Chira,138,6.6
+200604,Cazaderos,Quebrada,Tumbes,1394,6.68
+200604,Checo,Quebrada,Chira,138,32.12
+200604,Chipillico,Río,Chira,138,14.1
+200604,Chira,Río,Chira,138,34.85
+200604,Durand,Quebrada,Chira,138,4.49
+200604,Encantados,Quebrada,Chira,138,38.16
+200604,Encuentros,Quebrada,Chira,138,14.46
+200604,Fernández,Quebrada,Fernández,13932,16.5
+200604,Gramadal,Quebrada,Pariñas,1392,0.51
+200604,Huasimal,Quebrada,Chira,138,13.12
+200604,Jabonillos,Quebrada,Chira,138,29.37
+200604,La Solana,Quebrada,Chira,138,26.28
+200604,Noria,Quebrada,Chira,138,9.35
+200604,Peñitas,Quebrada,Chira,138,5.25
+200604,Pilares,Quebrada,Chira,138,22.1
+200604,Quiroz,Río,Chira,138,4.71
+200604,Seca,Quebrada,Chira,138,45.05
+200604,Tamarindo,Quebrada,Chira,138,29.18
+200604,Tutuma,Quebrada,Chira,138,30.84
+200605,Cancha,Quebrada,Pariñas,1392,13.76
+200605,Chira,Río,Chira,138,12.32
+200605,Fernández,Quebrada,Fernández,13932,10.21
+200605,Gramadal,Quebrada,Pariñas,1392,29.69
+200605,Mogollón,Quebrada,Pariñas,1392,1.0
+200605,Redondos,Quebrada,Pariñas,1392,18.83
+200605,Samán,Quebrada,Chira,138,58.95
+200605,Tamarindo,Quebrada,Chira,138,15.89
+200606,Chira,Río,Chira,138,5.52
+200606,La Soledad,Quebrada,Chira,138,20.18
+200607,Chipillico,Río,Chira,138,1.22
+200607,Chira,Río,Chira,138,16.77
+200608,Chira,Río,Chira,138,2.94
+200701,Acholada,Quebrada,1391,1391,5.23
+200701,Ancha,Quebrada,1391,1391,27.1
+200701,Cancha,Quebrada,Pariñas,1392,8.26
+200701,Gramadal,Quebrada,Pariñas,1392,12.72
+200701,Honda,Quebrada,Pariñas,1392,26.86
+200701,Mogollón,Quebrada,Pariñas,1392,32.05
+200701,Pariñas,Quebrada,Pariñas,1392,51.72
+200701,Redondos,Quebrada,Pariñas,1392,15.23
+200702,Honda,Quebrada,Pariñas,1392,17.97
+200703,Acholada,Quebrada,1391,1391,5.73
+200703,Ancha,Quebrada,1391,1391,19.59
+200703,Hualtacal,Quebrada,Chira,138,17.14
+200704,Honda,Quebrada,Pariñas,1392,6.23
+200706,Fernández,Quebrada,Fernández,13932,10.36
+200801,Pañala La Chica,Quebrada,Cascajal,13778,59.99
+200801,Piura,Río,Piura,1378,12.47
+200804,Piura,Río,Piura,1378,24.65
+210101,Comitere,Río,Ilave,016,28.28
+210102,01616,Quebrada,Ilave,016,13.44
+210102,01618,Quebrada,Ilave,016,2.14
+210102,Aguas Calientes,Río,Ilave,016,13.53
+210102,Cangalle,Río,Ilave,016,4.42
+210102,Carumas,Río,Ilave,016,7.15
+210102,Caturay,Río,Ilave,016,1.95
+210102,Grande,Río,Ilave,016,7.63
+210102,Ilave,Río,Ilave,016,10.26
+210102,Sacuyo,Quebrada,Ilave,016,44.49
+210102,Tunquipa,Río,Ilave,016,8.06
+210102,Uncallane,Río,Ilave,016,61.66
+210102,Zapatilla,Río,Ilave,016,14.33
+210104,Ilpa,Río,Ilpa,0174,24.37
+210106,Comitere,Río,Ilave,016,2.87
+210107,Coata,Río,Coata,0176,10.85
+210110,Ilpa,Río,Ilpa,0174,11.88
+210111,Caturay,Río,Ilave,016,52.85
+210111,Comitere,Río,Ilave,016,5.3
+210111,Grande,Río,Ilave,016,34.93
+210111,Sacuyo,Quebrada,Ilave,016,25.21
+210111,Uncallane,Río,Ilave,016,55.21
+210112,Caturay,Río,Ilave,016,1.34
+210112,Comitere,Río,Ilave,016,10.97
+210112,Grande,Río,Ilave,016,8.42
+210112,Liquini,Río,Ilave,016,5.38
+210112,Tunquipa,Río,Ilave,016,5.45
+210113,Grande,Río,Ilave,016,9.7
+210113,Ichuña,Río,Tambo,1318,22.22
+210114,Ichuña,Río,Tambo,1318,9.85
+210114,Ilpa,Río,Ilpa,0174,25.98
+210115,Ilpa,Río,Ilpa,0174,25.71
+210201,Azángaro,Río,Azángaro,019,22.35
+210201,Quilcamayo,Río,Azángaro,019,39.3
+210202,Azángaro,Río,Azángaro,019,22.18
+210202,Pucará,Río,Pucará,018,2.0
+210202,Ramis,Río,Ramis,0179,1.21
+210203,Azángaro,Río,Azángaro,019,15.55
+210204,Azángaro,Río,Azángaro,019,3.11
+210204,Crucero,Río,Azángaro,019,23.72
+210204,Grande,Río,Azángaro,019,23.1
+210205,Ramis,Río,Ramis,0179,16.44
+210207,Pucará,Río,Pucará,018,7.34
+210208,Lloquecolla,Río,Huancané,0178,51.33
+210208,Quilcamayo,Río,Azángaro,019,12.76
+210209,Ajoyani,Río,Azángaro,019,3.82
+210209,Antauta,Río,Azángaro,019,3.6
+210209,Crucero,Río,Azángaro,019,42.58
+210210,Ramis,Río,Ramis,0179,11.24
+210211,Crucero,Río,Azángaro,019,34.27
+210212,Azángaro,Río,Azángaro,019,5.36
+210212,Crucero,Río,Azángaro,019,7.09
+210213,Azángaro,Río,Azángaro,019,7.79
+210214,Azángaro,Río,Azángaro,019,18.96
+210214,Pucará,Río,Pucará,018,10.21
+210215,Ayaviri,Río,Pucará,018,3.52
+210215,Pucará,Río,Pucará,018,6.84
+210301,Sangaban,Río,Inambari,46648,45.38
+210302,Ajoyani,Río,Azángaro,019,31.64
+210302,Sangaban,Río,Inambari,46648,8.68
+210303,Araza,Río,Inambari,46648,0.78
+210303,Esquilaya,Río,Inambari,46648,30.03
+210303,Inambari,Río,Inambari,46648,85.77
+210304,Inambari,Río,Inambari,46648,44.23
+210304,Limbani,Río,Inambari,46648,18.76
+210305,Sangaban,Río,Inambari,46648,0.93
+210306,Crucero,Río,Azángaro,019,51.11
+210307,Esquilaya,Río,Inambari,46648,56.87
+210307,Inambari,Río,Inambari,46648,20.12
+210308,Sangaban,Río,Inambari,46648,33.19
+210309,Inambari,Río,Inambari,46648,9.57
+210309,Sangaban,Río,Inambari,46648,47.39
+210310,Limbani,Río,Inambari,46648,41.85
+210401,Callaccame,Río,Callaccame,0156,13.81
+210401,Huenque,Río,Ilave,016,2.65
+210401,Jaro Occo,Quebrada,Ilave,016,29.75
+210402,Callaccame,Río,Callaccame,0156,10.31
+210403,Ayupalca,Río,Ilave,016,13.6
+210403,Callaccame,Río,Callaccame,0156,24.35
+210404,Callaccame,Río,Callaccame,0156,18.08
+210404,Pizacoma,Río,Mauri Chico,0152,4.44
+210405,Pizacoma,Río,Mauri Chico,0152,57.16
+210407,Callaccame,Río,Callaccame,0156,16.56
+210501,01618,Quebrada,Ilave,016,7.04
+210501,Aguas Calientes,Río,Ilave,016,1.1
+210501,Cangalle,Río,Ilave,016,17.17
+210501,Carumas,Río,Ilave,016,0.87
+210501,Huenque,Río,Ilave,016,27.31
+210501,Ilave,Río,Ilave,016,34.17
+210501,Jaro Occo,Quebrada,Ilave,016,0.4
+210501,Lizani,Río,Ilave,016,13.78
+210502,Humajalso,Río,Ilave,016,6.12
+210502,Japo,Río,Ilave,016,19.21
+210502,Llaitiri,Río,Ilave,016,17.11
+210502,Llusta,Río,Ilave,016,0.56
+210502,Mauri,Río,Mauri,0144,11.81
+210502,Tijratoma,Quebrada,Ilave,016,11.43
+210502,Tupala,Río,Ilave,016,23.38
+210502,Viluta,Río,Ilave,016,16.48
+210503,Ilave,Río,Ilave,016,9.21
+210504,Ayupalca,Río,Ilave,016,4.72
+210504,Cachacara,Río,Ilave,016,0.44
+210504,Cachijara,Río,Ilave,016,2.85
+210504,Cachuuma,Río,Ilave,016,11.46
+210504,Chichillapi,Río,Ilave,016,12.65
+210504,Chila,Río,Ilave,016,32.22
+210504,Chilisaya,Río,Ilave,016,41.48
+210504,Chingune,Río,Ilave,016,15.03
+210504,Churigancalle,Río,Ilave,016,19.69
+210504,Coypa,Río,Ilave,016,17.72
+210504,Coypacoypa,Río,Ilave,016,29.16
+210504,Huanacamaya,Río,Ilave,016,12.56
+210504,Huenque,Río,Ilave,016,11.69
+210504,Jollojahuira,Río,Ilave,016,22.95
+210504,Lacatuyoc,Río,Ilave,016,23.05
+210504,Lizani,Río,Ilave,016,10.01
+210504,Llusta,Río,Ilave,016,25.97
+210504,Mauri,Río,Mauri,0144,20.57
+210504,Ocohuichinca,Río,Ilave,016,11.95
+210504,Palcoma,Río,Ilave,016,10.7
+210504,Piaque,Río,Ilave,016,19.44
+210504,Quillliri,Río,Ilave,016,22.69
+210504,Taaque,Río,Ilave,016,10.55
+210504,Tolamoco,Quebrada,Ilave,016,13.88
+210504,Tulajahuira,Río,Ilave,016,14.94
+210504,Yulaca,Quebrada,Ilave,016,14.02
+210505,Ayupalca,Río,Ilave,016,3.66
+210505,Cachacara,Río,Ilave,016,6.27
+210505,Calasaya,Río,Ilave,016,18.19
+210505,Callaccame,Río,Callaccame,0156,32.14
+210505,Hualquipune,Río,Ilave,016,9.13
+210505,Huanacamaya,Río,Ilave,016,3.63
+210505,Huenque,Río,Ilave,016,30.74
+210505,Irpa,Río,Ilave,016,18.52
+210505,Jaro Occo,Quebrada,Ilave,016,2.79
+210505,Lacatuyoc,Río,Ilave,016,2.08
+210505,Lizani,Río,Ilave,016,14.27
+210505,Queñamichi,Río,Ilave,016,12.34
+210505,Tulajahuira,Río,Ilave,016,0.42
+210601,Huancané,Río,Huancané,0178,28.54
+210601,Llache,Río,Huancané,0178,10.96
+210601,Putina,Río,Huancané,0178,5.23
+210601,Ramis,Río,0177,0177,4.91
+210601,Ramis,Río,Ramis,0179,7.12
+210601,Tuyto,Río,Huancané,0178,1.79
+210602,Caylloma,Río,Suches,0172,28.36
+210602,Chueña Huata Jahuira,Río,Suches,0172,35.34
+210602,Suches,Río,Suches,0172,68.83
+210602,Trapiche,Río,Suches,0172,5.25
+210602,Tuyto,Río,Huancané,0178,7.52
+210603,Llache,Río,Huancané,0178,3.3
+210603,Putina,Río,Huancané,0178,18.14
+210603,Tuyto,Río,Huancané,0178,0.24
+210604,Pistune,Río,Huancané,0178,35.95
+210604,Putina,Río,Huancané,0178,0.68
+210604,Tuyto,Río,Huancané,0178,4.95
+210606,Tuyto,Río,Huancané,0178,6.34
+210607,Ramis,Río,Ramis,0179,21.51
+210608,Pistune,Río,Huancané,0178,0.97
+210608,Tuyto,Río,Huancané,0178,72.08
+210701,Lampa,Río,Coata,0176,33.89
+210702,Cabanillas,Río,Coata,0176,13.12
+210703,Pucará,Río,Pucará,018,17.87
+210703,Ramis,Río,Ramis,0179,1.38
+210704,Pucará,Río,Pucará,018,21.7
+210705,Llallimayo,Río,Pucará,018,42.79
+210706,Lampa,Río,Coata,0176,33.54
+210707,Verde,Río,Coata,0176,38.55
+210707,de Paratia,Río,Coata,0176,31.19
+210708,Ayaviri,Río,Pucará,018,5.72
+210708,Pucará,Río,Pucará,018,28.82
+210708,Ventilla,Río,Pucará,018,15.48
+210709,Cabanillas,Río,Coata,0176,22.95
+210709,Cerrillos,Río,Coata,0176,78.6
+210709,Huantaña,Río,Coata,0176,1.05
+210709,Paltuture,Río,Tambo,1318,16.97
+210709,Verde,Río,Coata,0176,19.67
+210710,Lampa,Río,Coata,0176,2.5
+210801,Ayaviri,Río,Pucará,018,38.87
+210801,Umachiri,Río,Pucará,018,23.04
+210801,Ventilla,Río,Pucará,018,41.04
+210802,Antauta,Río,Azángaro,019,35.92
+210803,Llallimayo,Río,Pucará,018,10.91
+210804,Llallimayo,Río,Pucará,018,18.86
+210805,Chuncapamayo,Río,Pucará,018,51.8
+210805,Santa Rosa,Río,Pucará,018,0.55
+210806,Grande,Río,Azángaro,019,92.72
+210807,Grande,Río,Azángaro,019,33.42
+210808,Santa Rosa,Río,Pucará,018,74.91
+210809,Ayaviri,Río,Pucará,018,7.91
+210809,Chuncapamayo,Río,Pucará,018,6.93
+210809,Llallimayo,Río,Pucará,018,14.88
+210809,Santa Rosa,Río,Pucará,018,12.79
+210809,Umachiri,Río,Pucará,018,32.21
+210901,017744,Quebrada,0177,0177,2.69
+210901,017752,Quebrada,0177,0177,4.57
+210901,Huaraya,Río,0177,0177,4.6
+211001,Crucero,Río,Azángaro,019,11.1
+211001,Lloquecolla,Río,Huancané,0178,18.82
+211001,Pistune,Río,Huancané,0178,4.26
+211001,Pongongoni,Río,Huancané,0178,16.14
+211001,Puncune,Río,Huancané,0178,16.98
+211001,Putina,Río,Huancané,0178,23.26
+211001,Quilcamayo,Río,Azángaro,019,8.12
+211002,Crucero,Río,Azángaro,019,35.87
+211002,Puncune,Río,Huancané,0178,6.04
+211002,Suches,Río,Suches,0172,7.31
+211002,Trapiche,Río,Suches,0172,31.29
+211003,Llache,Río,Huancané,0178,25.45
+211004,Caylloma,Río,Suches,0172,11.88
+211004,Pistune,Río,Huancané,0178,10.99
+211004,Puncune,Río,Huancané,0178,23.06
+211005,Huari Huari,Río,Inambari,46648,42.27
+211101,Cabanillas,Río,Coata,0176,17.18
+211101,Coata,Río,Coata,0176,10.59
+211101,Lampa,Río,Coata,0176,28.48
+211102,Cabanillas,Río,Coata,0176,6.6
+211102,Ilpa,Río,Ilpa,0174,2.35
+211103,Cabanillas,Río,Coata,0176,14.53
+211103,Colca,Río,Camaná,134,1.14
+211103,Huantaña,Río,Coata,0176,32.72
+211103,Paltuture,Río,Tambo,1318,34.68
+211104,Coata,Río,Coata,0176,23.69
+211104,Ilpa,Río,Ilpa,0174,10.45
+211105,Coata,Río,Coata,0176,9.85
+211201,Huari Huari,Río,Inambari,46648,6.9
+211202,Crucero,Río,Azángaro,019,12.18
+211203,Huari Huari,Río,Inambari,46648,15.5
+211203,Inambari,Río,Inambari,46648,7.46
+211203,Limbani,Río,Inambari,46648,11.04
+211203,Tambopata,Río,Tambopata,46644,7.2
+211205,Huari Huari,Río,Inambari,46648,1.66
+211206,Huari Huari,Río,Inambari,46648,4.22
+211208,Huari Huari,Río,Inambari,46648,4.24
+211209,Huari Huari,Río,Inambari,46648,95.15
+211210,Tambopata,Río,Tambopata,46644,146.2
+220101,Mayo,Río,Mayo,49844,130.91
+220104,Mayo,Río,Mayo,49844,6.13
+220106,Mayo,Río,Mayo,49844,16.53
+220201,Huallaga,Río,Medio Alto Huallaga,49847,12.86
+220202,Biabo,Río,Biabo,49846,321.82
+220203,Biabo,Río,Biabo,49846,53.2
+220203,Huallaga,Río,Medio Huallaga,49845,1.69
+220204,Huallaga,Río,Medio Alto Huallaga,49847,0.72
+220206,Biabo,Río,Biabo,49846,1.17
+220206,Huallaga,Río,Medio Alto Huallaga,49847,11.56
+220206,Huallaga,Río,Medio Huallaga,49845,1.16
+220406,Huallaga,Río,Medio Alto Huallaga,49847,5.19
+220501,Mayo,Río,Mayo,49844,5.64
+220502,Mayo,Río,Mayo,49844,6.78
+220505,Mayo,Río,Mayo,49844,19.64
+220506,Mayo,Río,Mayo,49844,37.82
+220509,Mayo,Río,Mayo,49844,6.63
+220510,Mayo,Río,Mayo,49844,16.96
+220511,Mayo,Río,Mayo,49844,5.75
+220601,Huallaga,Río,Alto Huallaga,49849,9.08
+220601,Huallaga,Río,Medio Alto Huallaga,49847,12.13
+220601,Huayabamba,Río,Huayabamba,49848,5.35
+220602,Huallaga,Río,Alto Huallaga,49849,75.73
+220603,Huayabamba,Río,Huayabamba,49848,98.27
+220604,Huayabamba,Río,Huayabamba,49848,56.39
+220605,Huallaga,Río,Alto Huallaga,49849,15.0
+220605,Huallaga,Río,Medio Alto Huallaga,49847,6.27
+220605,Huayabamba,Río,Huayabamba,49848,0.5
+220701,Huallaga,Río,Medio Huallaga,49845,15.78
+220702,Huallaga,Río,Medio Huallaga,49845,7.96
+220703,Huallaga,Río,Medio Huallaga,49845,3.51
+220704,Huallaga,Río,Medio Huallaga,49845,6.43
+220705,Huallaga,Río,Medio Huallaga,49845,11.69
+220706,Huallaga,Río,Medio Huallaga,49845,2.95
+220707,Huallaga,Río,Medio Huallaga,49845,0.66
+220802,Mayo,Río,Mayo,49844,28.14
+220805,Mayo,Río,Mayo,49844,33.45
+220806,Mayo,Río,Mayo,49844,0.78
+220807,Mayo,Río,Mayo,49844,14.8
+220809,Mayo,Río,Mayo,49844,9.54
+220902,Huallaga,Río,Medio Huallaga,49845,3.8
+220904,Huallaga,Río,Medio Bajo Huallaga,49843,38.88
+220905,Huallaga,Río,Medio Bajo Huallaga,49843,24.28
+220906,Huallaga,Río,Medio Bajo Huallaga,49843,19.35
+220907,Huallaga,Río,Medio Bajo Huallaga,49843,18.46
+220908,Huallaga,Río,Medio Huallaga,49845,6.31
+220908,Mayo,Río,Mayo,49844,23.41
+220911,Huallaga,Río,Medio Bajo Huallaga,49843,29.37
+220914,Huallaga,Río,Medio Bajo Huallaga,49843,20.62
+220914,Huallaga,Río,Medio Huallaga,49845,2.82
+220914,Mayo,Río,Mayo,49844,0.62
+221001,Huallaga,Río,Alto Huallaga,49849,37.14
+221002,Huallaga,Río,Alto Huallaga,49849,29.65
+221003,Huallaga,Río,Alto Huallaga,49849,55.95
+221003,Mishollo,Río,Alto Huallaga,49849,37.85
+221005,Chontayacu,Río,Alto Huallaga,49849,25.86
+221005,Huallaga,Río,Alto Huallaga,49849,7.77
+221006,Huallaga,Río,Alto Huallaga,49849,26.63
+230101,Botijas,Quebrada,13157,13157,21.44
+230101,Caplina,Río,Caplina,13156,21.15
+230101,Cauñani,Quebrada,Hospicio,13154,38.97
+230101,Chochocane,Quebrada,Hospicio,13154,40.8
+230101,Escritos,Quebrada,13153,13153,58.89
+230101,Espiritus,Quebrada,Hospicio,13154,37.25
+230101,Espíritus,Quebrada,Hospicio,13154,20.62
+230101,Honda,Quebrada,13157,13157,28.47
+230101,Hospicio,Quebrada,Hospicio,13154,9.74
+230101,La Garita,Quebrada,Hospicio,13154,7.76
+230101,Las Salinas,Quebrada,13153,13153,14.31
+230101,Uchusuma,Río,13155,13155,15.97
+230101,Unión,Quebrada,Hospicio,13154,25.64
+230102,Botijas,Quebrada,13157,13157,11.44
+230102,Honda,Quebrada,13157,13157,14.24
+230102,del Canal,Quebrada,Sama,13158,24.56
+230103,Caplina,Río,Caplina,13156,7.7
+230103,Uchusuma,Río,13155,13155,16.7
+230104,Botijas,Quebrada,13157,13157,7.83
+230104,Honda,Quebrada,13157,13157,23.62
+230104,del Canal,Quebrada,Sama,13158,0.58
+230105,Honda,Quebrada,Sama,13158,29.28
+230105,Las Brujas,Quebrada,Sama,13158,37.8
+230105,Sama,Río,Sama,13158,49.6
+230105,del Canal,Quebrada,Sama,13158,6.56
+230106,Caplina,Río,Caplina,13156,42.71
+230106,Honda,Quebrada,13157,13157,0.74
+230106,Uchusuma,Río,13155,13155,13.58
+230107,Caplina,Río,Caplina,13156,20.62
+230107,Cauñani,Quebrada,Hospicio,13154,8.1
+230107,Caño,Río,Caño,0146,11.94
+230107,Hospicio,Quebrada,Hospicio,13154,16.46
+230107,Uchusuma,Río,13155,13155,20.72
+230107,Ushusuma,Río,Ushusuma,0148,42.98
+230108,Caplina,Río,Caplina,13156,3.47
+230108,Cauñani,Quebrada,Hospicio,13154,12.4
+230108,Hospicio,Quebrada,Hospicio,13154,32.29
+230108,Uchusuma,Río,13155,13155,4.02
+230109,Honda,Quebrada,Sama,13158,30.13
+230109,Las Brujas,Quebrada,Sama,13158,30.29
+230109,Sama,Río,Sama,13158,43.72
+230109,del Canal,Quebrada,Sama,13158,33.5
+230110,Cauñani,Quebrada,Hospicio,13154,8.35
+230110,Espiritus,Quebrada,Hospicio,13154,0.32
+230110,Hospicio,Quebrada,Hospicio,13154,13.37
+230110,La Garita,Quebrada,Hospicio,13154,1.16
+230110,Uchusuma,Río,13155,13155,2.41
+230111,131536,Quebrada,13153,13153,13.03
+230111,Botijas,Quebrada,13157,13157,15.17
+230111,Caplina,Río,Caplina,13156,22.24
+230111,Escritos,Quebrada,13153,13153,7.41
+230111,Honda,Quebrada,13157,13157,16.9
+230111,Hospicio,Quebrada,Hospicio,13154,19.32
+230111,La Garita,Quebrada,Hospicio,13154,3.42
+230111,Las Salinas,Quebrada,13153,13153,13.41
+230111,Uchusuma,Río,13155,13155,21.73
+230201,Callazos,Río,Locumba,1316,79.94
+230201,Jaruma,Río,Locumba,1316,43.89
+230202,Callazos,Río,Locumba,1316,3.07
+230202,Ilabaya,Río,Locumba,1316,13.65
+230203,Cinto,Río,Locumba,1316,15.87
+230203,Ilabaya,Río,Locumba,1316,34.52
+230204,Curibaya,Río,Locumba,1316,16.5
+230206,Callazos,Río,Locumba,1316,5.56
+230206,Curibaya,Río,Locumba,1316,4.25
+230206,Jaruma,Río,Locumba,1316,3.35
+230301,Cinto,Río,Locumba,1316,22.26
+230301,Locumba,Río,Locumba,1316,12.38
+230301,Salado,Río,Locumba,1316,14.88
+230302,Cinto,Río,Locumba,1316,36.83
+230302,Curibaya,Río,Locumba,1316,17.61
+230302,Ilabaya,Río,Locumba,1316,22.56
+230302,Salado,Río,Locumba,1316,15.28
+230303,Locumba,Río,Locumba,1316,31.16
+230303,Seca,Quebrada,Locumba,1316,7.42
+230401,Caño,Río,Caño,0146,15.47
+230401,Mauri,Río,Mauri,0144,44.7
+230401,Tala,Río,Sama,13158,15.99
+230402,Salado,Río,Sama,13158,0.85
+230402,Sama,Río,Sama,13158,23.23
+230402,Tala,Río,Sama,13158,12.3
+230403,Honda,Quebrada,13157,13157,0.27
+230403,del Canal,Quebrada,Sama,13158,37.67
+230404,del Canal,Quebrada,Sama,13158,0.39
+230405,Jaruma,Río,Locumba,1316,2.5
+230405,Salado,Río,Sama,13158,12.83
+230406,Mauri,Río,Mauri,0144,12.01
+230406,Salado,Río,Sama,13158,29.74
+230408,Mauri,Río,Mauri,0144,14.55
+230408,Tala,Río,Sama,13158,29.11
+240101,Tumbes,Río,Tumbes,1394,7.26
+240102,Tumbes,Río,Tumbes,1394,11.33
+240104,Cazaderos,Quebrada,Tumbes,1394,0.24
+240104,Tumbes,Río,Tumbes,1394,33.4
+240104,Tumbes - Puyango,Río,Tumbes,1394,18.27
+240105,Cazaderos,Quebrada,Tumbes,1394,11.59
+240105,Tumbes,Río,Tumbes,1394,36.48
+240106,Tumbes,Río,Tumbes,1394,4.07
+240201,Bocapán,Quebrada,Bocapán,13936,25.64
+240202,Bocapán,Quebrada,Bocapán,13936,52.06
+240202,Fernández,Quebrada,Fernández,13932,13.86
+240202,Seca,Quebrada,Quebrada Seca,13934,30.7
+240203,Fernández,Quebrada,Fernández,13932,15.62
+240203,Seca,Quebrada,Quebrada Seca,13934,36.44
+240302,Zarumilla,Río,Zarumilla,13952,12.42
+240303,Balsamal,Quebrada,Zarumilla,13952,11.8
+240303,Tumbes - Puyango,Río,Tumbes,1394,3.49
+240303,Zarumilla,Río,Zarumilla,13952,1.18
+240304,Zarumilla,Río,Zarumilla,13952,6.61
+250101,Ucayali,Río,49915,49915,9.61
+250101,Ucayali,Río,49917,49917,88.48
+250102,Aguaytia,Río,Aguaytía,49916,5.25
+250103,Ucayali,Río,Medio Bajo Ucayali,4993,184.33
+250104,Tamaya,Río,Tamaya,49918,479.51
+250104,Ucayali,Río,49917,49917,20.9
+250104,Ucayali,Río,49919,49919,56.84
+250105,Aguaytia,Río,Aguaytía,49916,9.2
+250105,Ucayali,Río,49917,49917,21.97
+250106,Aguaytia,Río,Aguaytía,49916,99.83
+250106,Ucayali,Río,49915,49915,10.01
+250106,Ucayali,Río,49917,49917,0.56
+250107,Ucayali,Río,49917,49917,13.25
+250201,Cohengua,Río,Medio Bajo Ucayali,4993,184.2
+250201,Curiuja,Río,49299,49299,1.54
+250201,Inuya,Río,Urubamba,4994,254.11
+250201,Tambo,Río,49951,49951,3.15
+250201,Ucayali,Río,Medio Bajo Ucayali,4993,65.78
+250201,Unine,Río,Medio Bajo Ucayali,4993,138.1
+250201,Urubamba,Río,Urubamba,4994,69.54
+250202,Mishahua,Río,Urubamba,4994,112.18
+250202,Urubamba,Río,Urubamba,4994,86.77
+250203,Cohengua,Río,Medio Bajo Ucayali,4993,2.05
+250203,Genepanshea,Quebrada,Medio Bajo Ucayali,4993,186.96
+250203,Tahuanía,Río,Medio Bajo Ucayali,4993,190.24
+250203,Ucayali,Río,Medio Bajo Ucayali,4993,172.32
+250204,Amonea,Río,Alto Yurúa,4969,117.85
+250204,Yurúa,Río,Alto Yurúa,4969,253.61
+250301,Aguaytia,Río,Aguaytía,49916,115.46
+250303,Aguaytia,Río,Aguaytía,49916,118.02
+250306,Aguaytia,Río,Aguaytía,49916,26.96
+250401,Cujar,Río,49299,49299,162.72
+250401,Curanja,Río,49299,49299,320.02
+250401,Curiuja,Río,49299,49299,158.21
+250401,Embira,Río,Tarau,4964,154.42
+250401,Inuya,Río,Urubamba,4994,0.23
+250401,Purús,Río,49299,49299,416.22
+250401,Santa Rosa,Río,49299,49299,68.27

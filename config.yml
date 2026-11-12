@@ -1,0 +1,138 @@
+# Configuración única de la app y de la actualización.
+# Toda constante del modelo vive aquí: rutas, pesos, umbrales, colores y fuentes.
+# Para otro entorno: Sys.setenv(R_CONFIG_ACTIVE = "produccion")
+
+default:
+  version_modelo: "2.1.0"
+  zona_horaria: "America/Lima"
+  climatologia: [1991, 2020]            # periodo de referencia para percentiles, SPI y anomalías
+
+  rutas:
+    db: "data/db"                       # una base por versión + archivo ACTUAL que apunta a la vigente
+    geo: "data/geo"                     # límites INEI simplificados y tablas fijas por distrito
+    raw: "data/raw"                     # PISCO y caché de CHIRPS (no se sube a git)
+    log: "data/actualizar.log"
+    rios: "data/geo/rios_distrito.csv"     # ríos y quebradas de la ANA por distrito (data-raw/preparar_rios.R)
+
+  autor:                                # firma flotante (bolita en la esquina) con enlace a LinkedIn
+    nombre: "Juan Pablo Sebastián Chavarría Castillo"
+    linkedin: "https://www.linkedin.com/in/juan-pablo-sebastian-chavarr%C3%ADa-castillo-813036177/"
+    foto: "perfil.jpg"                  # en la carpeta www/; si no está, se ve el logo de LinkedIn
+
+  datos_remotos:                        # app en la web (Connect Cloud): baja la base que publica GitHub Actions
+    repo: "blocks37/pacha-enso"                            # «usuario/repositorio» de GitHub (lo llena preparar_publicacion.R)
+    etiqueta: "datos"                   # release donde la tarea deja pacha_db.tgz y VERSION
+    cada_min: 30                        # cada cuánto la app revisa si hay una base nueva
+
+  acceso:
+    admin_local: true                   # en el propio computador (localhost) se ve el panel de actualización
+    admin_clave: ""                     # en la web: entrar con ?admin=CLAVE (mejor definir ENSO_ADMIN_CLAVE)
+
+  actualizacion:
+    cada_horas: 6                       # cada cuánto corre la tarea programada (servidor o Windows)
+    desde_app: true                     # el administrador puede lanzar una actualización desde la app
+    bases_a_conservar: 3                # versiones viejas de la base que se guardan por si acaso
+    corridas_detalle: 8                 # corridas con riesgo día a día; las demás solo guardan el máximo
+
+  pisco:
+    mensual: "data/raw/PISCOp_m.nc"     # PISCOp v3 mensual (SENAMHI). Reemplácelo cuando salga uno nuevo.
+    inicio: "1981-01-01"                # primer mes del archivo (su eje de tiempo no trae fechas)
+    diario: "data/raw/PISCOp_d.nc"      # PISCOp v3 diario (1981–2025). Se procesa solo una vez (10–40 min)
+    clima_diaria: "data/geo/clima_diaria_pisco.csv"   # salida del PISCO diario: umbrales P50/P99 por distrito
+    dsc_mensual: "data/geo/dsc_mensual_pisco.csv"     # salida del PISCO diario: racha seca de cada mes
+
+  chirps:
+    url: "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/latam/tifs"   # la v2.0 dejó de publicarse
+    archivo: "chirps-v3.0.%s.tif"       # %s = AAAA.MM (Latinoamérica, 0,05°, ~4 MB por mes)
+    pausa_s: 2                          # pausa entre descargas: el servidor responde 429 si se le pide muy seguido
+    anios_ajuste: 5                     # años de traslape con PISCO para corregir el sesgo de CHIRPS (0 = sin ajuste)
+    meses_atras: 3                      # cuántos meses hacia atrás buscar el último CHIRPS publicado
+    diario:                             # CHIRPS v3.0 diario preliminar: sale 2–3 días después; cierra los meses recientes
+      url: "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/daily/prelim/sat"
+      archivos: ["{Y}/chirps-v3.0.prelim.{Y}.{m}.{d}.tif"]   # se prueban en orden
+      dias_buscar: 12                   # cuántos días hacia atrás buscar el último publicado
+
+  pronostico:
+    meses: 6                            # meses de pronóstico de lluvia (método de años análogos ENSO)
+    min_analogos: 3
+
+  gfs:                                  # pronóstico diario de lluvia (el nombre «gfs» quedó por historia)
+    url: "https://api.open-meteo.com/v1/forecast"
+    modelo: "ecmwf_ifs025"              # ECMWF IFS 0,25°; GFS («gfs_seamless») exagera la lluvia andina
+    etiqueta: "ECMWF"
+    retraso_h: 8                        # horas desde la corrida hasta que Open-Meteo la publica
+    dias: 14                            # 14 días = 1 llamada por punto en Open-Meteo
+    resolucion: 0.25                    # grilla del modelo (0,25°)
+    interpolacion: "bilineal"           # 4 puntos alrededor de cada distrito (~1 100 consultas); "cercano" = 1 punto (~805)
+
+  elevacion_url: "https://api.open-meteo.com/v1/elevation"
+  relieve_url: "https://s3.amazonaws.com/elevation-tiles-prod/terrarium"   # mosaicos de elevación (relieve)
+
+  http:
+    reintentos: 3
+    timeout_s: 60                       # una petición no espera más de esto
+    max_espera_s: 120                   # tope de espera sumando reintentos
+    lote_coordenadas: 50                # coordenadas por petición
+    pausa_s: 6                          # Open-Meteo gratis: 600 llamadas/min y 10 000/día
+
+  riesgo:
+    enso_amplificacion: 0.15            # la lluvia se multiplica por (1 + 0.15 · índice ENSO)
+    oni_saturacion: 2.0
+    nino12_saturacion: 4.0
+    pesos:
+      inundacion: {lluvia: 0.55, mar: 0.15, exposicion: 0.15, cauce: 0.15}
+      huaico:     {lluvia: 0.70, mar: 0.00, exposicion: 0.20, cauce: 0.00}
+    umbrales:   {critico: 0.85, alto: 0.70, alerta: 0.50, vigilancia: 0.40}
+    elevacion_baja_m: 50
+    pendiente_huaico_m: 1500
+    relieve_huaico_m: [300, 1500]       # desnivel del distrito: 300 m → exposición 0; 1 500 m → 1
+    enso_latitud: [-12, -8]             # El Niño amplifica la lluvia en la vertiente del Pacífico al norte de ~10° S
+
+  sequia:
+    escalas_spi: [1, 3, 6, 12]
+    escala_spei: 6
+    umbral_dia_seco_mm: 1
+    dsc_max: 30
+    nino34_saturacion: 2.0
+    pp_anual_minima: 100                # bajo 100 mm/año (desierto costero) el SPI no tiene sentido
+    pp_minima_ventana_mm: 8             # SPI-k no aplica si lo normal en esos k meses es < 8·k mm (estación seca)
+    pesos: {spi3: 0.45, spei6: 0.25, dsc: 0.15, nino34: 0.15}
+
+  fuentes:
+    oni: "https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt"
+    nino_semanal: "https://www.cpc.ncep.noaa.gov/data/indices/wksst9120.for"
+    enfen: "https://www.senamhi.gob.pe/?p=fenomeno-el-nino"   # enlaces al PDF del último comunicado
+    enfen_api: "https://www.senamhi.gob.pe/api-portal-institucional/api/pages/nino-phenomenon"   # estado vigente y fecha
+    enfen_respaldo: "https://enfen.imarpe.gob.pe/"           # si SENAMHI no responde
+
+  colores:                              # paleta tomada del logo PACHA ENSO
+    fondo: "#F2F6FB"
+    tinta: "#0B1F3A"
+    marino: "#0B3A6F"
+    profundo: "#07264A"
+    acento: "#0179C7"
+    celeste: "#3FB6E8"
+    sol: "#FBB11A"
+    nino: "#E2412B"
+    nina: "#0179C7"
+    inundacion: ["#CDEBFA", "#6EC3EE", "#0179C7", "#0B2E5C"]   # vigilancia, alerta, alto, crítico
+    sequia: ["#FDE68A", "#FBB11A", "#E07B24", "#8C2D0F"]       # anormal, moderada, severa, extrema
+    neutro: "#E6EBF1"
+    arido: "#F5F0E6"
+    componentes: {lluvia: "#0179C7", enso: "#E2412B", cauce: "#3FB6E8", mar: "#FBB11A", exposicion: "#8EA3BC"}
+
+produccion:
+  acceso:
+    admin_local: false                  # en el servidor, el panel solo con ?admin=CLAVE (ENSO_ADMIN_CLAVE)
+  rutas:
+    db: "/srv/enso/db"
+    geo: "data/geo"
+    raw: "/srv/enso/raw"
+    log: "/srv/enso/actualizar.log"
+    rios: "data/geo/rios_distrito.csv"     # ríos y quebradas de la ANA por distrito (data-raw/preparar_rios.R)
+  pisco:
+    mensual: "/srv/enso/raw/PISCOp_m.nc"
+    diario: "/srv/enso/raw/PISCOp_d.nc"
+    inicio: "1981-01-01"
+    clima_diaria: "data/geo/clima_diaria_pisco.csv"
+    dsc_mensual: "data/geo/dsc_mensual_pisco.csv"

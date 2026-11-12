@@ -1,0 +1,11 @@
+.Rproj.user/
+.Rhistory
+.RData
+data/db/
+data/raw/
+data/actualizar.log
+actualizar.log
+renv/library/
+_to_delete/
+data/raw/chirps*/
+*.parcial.tif

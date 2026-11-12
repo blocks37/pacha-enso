@@ -1,0 +1,79 @@
+name: actualizar-datos
+# Actualiza los datos de PACHA ENSO en los servidores de GitHub (gratis en repositorios
+# públicos) y publica la base en la release «datos». La app en Connect Cloud la descarga
+# de ahí cada 30 min. No necesita su PC ni ninguna clave: usa el permiso propio del repo.
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"     # cada 6 h (hora UTC: 00:17, 06:17, 12:17, 18:17)
+  workflow_dispatch:           # botón «Run workflow» para lanzarla a mano
+
+permissions:
+  contents: write              # para publicar la base en la release
+
+concurrency:
+  group: actualizar-datos
+  cancel-in-progress: false    # si una corrida tarda, la siguiente espera
+
+jobs:
+  datos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    env:
+      GH_TOKEN: ${{ github.token }}
+      TZ: America/Lima
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Librerías del sistema (GDAL, GEOS, PROJ, poppler)
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq --no-install-recommends \
+            libgdal-dev libgeos-dev libproj-dev libudunits2-dev libpoppler-cpp-dev libcurl4-openssl-dev
+
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+
+      - name: Caché de paquetes de R
+        uses: actions/cache@v4
+        with:
+          path: ${{ env.R_LIBS_USER }}
+          key: rlib-${{ runner.os }}-${{ hashFiles('install.R') }}-v1
+
+      - name: Paquetes de R
+        run: Rscript install.R
+
+      - name: Caché de CHIRPS (no volver a descargar meses y días ya leídos)
+        uses: actions/cache@v4
+        with:
+          path: |
+            data/raw/chirps
+            data/raw/chirps_diario
+          key: chirps-${{ github.run_id }}
+          restore-keys: chirps-
+
+      - name: Recuperar la base vigente y PISCO
+        run: bash scripts/datos_github.sh bajar
+
+      - name: Actualizar
+        run: Rscript actualizar.R
+
+      - name: Publicar la base
+        if: always()
+        run: bash scripts/datos_github.sh subir
+
+      - name: Registro
+        if: always()
+        run: tail -n 60 data/actualizar.log || true
+
+      # GitHub pausa las tareas programadas de un repositorio sin cambios en 60 días.
+      - name: Mantener activa la tarea
+        run: |
+          ultimo=$(git log -1 --format=%ct)
+          if [ $(( $(date +%s) - ultimo )) -gt $(( 50 * 86400 )) ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit --allow-empty -m "Mantener activa la actualización automática"
+            git push
+          fi

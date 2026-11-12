@@ -1,0 +1,6 @@
+# Caddy pone el certificado HTTPS (Let's Encrypt) solo y lo renueva solo.
+# DOMINIO viene del archivo .env (por defecto «IP-con-guiones.sslip.io»).
+{$DOMINIO} {
+	encode gzip
+	reverse_proxy app:3838
+}

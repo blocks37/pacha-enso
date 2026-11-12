@@ -1,0 +1,1892 @@
+ubigeo,distrito,provincia,departamento,cod_dep,cod_prov,lat,lon,area_km2,costero,macrorregion
+010101,Chachapoyas,Chachapoyas,Amazonas,01,0101,-6.245,-77.855,155.2,FALSE,norte
+010102,Asuncion,Chachapoyas,Amazonas,01,0101,-5.995,-77.745,35.7,FALSE,norte
+010103,Balsas,Chachapoyas,Amazonas,01,0101,-6.805,-77.945,318.7,FALSE,norte
+010104,Cheto,Chachapoyas,Amazonas,01,0101,-6.295,-77.675,71.4,FALSE,norte
+010105,Chiliquin,Chachapoyas,Amazonas,01,0101,-6.075,-77.755,141.7,FALSE,norte
+010106,Chuquibamba,Chachapoyas,Amazonas,01,0101,-6.935,-77.895,185.8,FALSE,norte
+010107,Granada,Chachapoyas,Amazonas,01,0101,-6.095,-77.575,170.0,FALSE,norte
+010108,Huancas,Chachapoyas,Amazonas,01,0101,-6.155,-77.875,51.7,FALSE,norte
+010109,La Jalca,Chachapoyas,Amazonas,01,0101,-6.505,-77.785,124.4,FALSE,norte
+010110,Leimebamba,Chachapoyas,Amazonas,01,0101,-6.805,-77.795,381.5,FALSE,norte
+010111,Levanto,Chachapoyas,Amazonas,01,0101,-6.305,-77.865,73.9,FALSE,norte
+010112,Magdalena,Chachapoyas,Amazonas,01,0101,-6.425,-77.825,133.0,FALSE,norte
+010113,Mariscal Castilla,Chachapoyas,Amazonas,01,0101,-6.575,-77.775,78.8,FALSE,norte
+010114,Molinopampa,Chachapoyas,Amazonas,01,0101,-6.215,-77.605,347.4,FALSE,norte
+010115,Montevideo,Chachapoyas,Amazonas,01,0101,-6.625,-77.715,121.9,FALSE,norte
+010116,Olleros,Chachapoyas,Amazonas,01,0101,-6.005,-77.675,106.0,FALSE,norte
+010117,Quinjalca,Chachapoyas,Amazonas,01,0101,-6.105,-77.685,82.6,FALSE,norte
+010118,San Francisco de Daguas,Chachapoyas,Amazonas,01,0101,-6.235,-77.735,39.4,FALSE,norte
+010119,San Isidro de Maino,Chachapoyas,Amazonas,01,0101,-6.355,-77.825,112.1,FALSE,norte
+010120,Soloco,Chachapoyas,Amazonas,01,0101,-6.305,-77.745,75.1,FALSE,norte
+010121,Sonche,Chachapoyas,Amazonas,01,0101,-6.175,-77.795,117.0,FALSE,norte
+010201,Bagua,Bagua,Amazonas,01,0102,-5.585,-78.525,136.9,FALSE,norte
+010202,Aramango,Bagua,Amazonas,01,0102,-5.375,-78.445,779.7,FALSE,norte
+010203,Copallin,Bagua,Amazonas,01,0102,-5.645,-78.395,97.4,FALSE,norte
+010204,El Parco,Bagua,Amazonas,01,0102,-5.625,-78.475,16.0,FALSE,norte
+010205,Imaza,Bagua,Amazonas,01,0102,-4.995,-78.385,4618.3,FALSE,norte
+010206,La Peca,Bagua,Amazonas,01,0102,-5.595,-78.445,136.9,FALSE,norte
+010301,Jumbilla,Bongara,Amazonas,01,0103,-5.945,-77.825,151.6,FALSE,norte
+010302,Chisquilla,Bongara,Amazonas,01,0103,-5.895,-77.725,165.2,FALSE,norte
+010303,Churuja,Bongara,Amazonas,01,0103,-6.005,-77.925,33.3,FALSE,norte
+010304,Corosha,Bongara,Amazonas,01,0103,-5.815,-77.815,64.1,FALSE,norte
+010305,Cuispes,Bongara,Amazonas,01,0103,-5.915,-77.915,97.4,FALSE,norte
+010306,Florida,Bongara,Amazonas,01,0103,-5.825,-77.955,223.1,FALSE,norte
+010307,Jazan,Bongara,Amazonas,01,0103,-5.945,-78.025,81.3,FALSE,norte
+010308,Recta,Bongara,Amazonas,01,0103,-5.945,-77.775,28.3,FALSE,norte
+010309,San Carlos,Bongara,Amazonas,01,0103,-5.995,-77.875,115.8,FALSE,norte
+010310,Shipasbamba,Bongara,Amazonas,01,0103,-5.885,-78.055,127.0,FALSE,norte
+010311,Valera,Bongara,Amazonas,01,0103,-6.085,-77.865,82.6,FALSE,norte
+010312,Yambrasbamba,Bongara,Amazonas,01,0103,-5.525,-77.865,1692.3,FALSE,norte
+010401,Nieva,Condorcanqui,Amazonas,01,0104,-4.845,-77.935,4210.6,FALSE,norte
+010402,El Cenepa,Condorcanqui,Amazonas,01,0104,-4.165,-78.335,5654.4,FALSE,norte
+010403,Rio Santiago,Condorcanqui,Amazonas,01,0104,-3.815,-77.885,8123.6,FALSE,norte
+010501,Lamud,Luya,Amazonas,01,0105,-6.125,-77.945,71.5,FALSE,norte
+010502,Camporredondo,Luya,Amazonas,01,0105,-6.175,-78.335,219.3,FALSE,norte
+010503,Cocabamba,Luya,Amazonas,01,0105,-6.625,-78.015,344.7,FALSE,norte
+010504,Colcamar,Luya,Amazonas,01,0105,-6.315,-78.015,108.4,FALSE,norte
+010505,Conila,Luya,Amazonas,01,0105,-6.125,-78.195,255.1,FALSE,norte
+010506,Inguilpata,Luya,Amazonas,01,0105,-6.245,-78.025,119.5,FALSE,norte
+010507,Longuita,Luya,Amazonas,01,0105,-6.405,-78.005,59.1,FALSE,norte
+010508,Lonya Chico,Luya,Amazonas,01,0105,-6.205,-78.015,71.5,FALSE,norte
+010509,Luya,Luya,Amazonas,01,0105,-6.175,-77.965,81.3,FALSE,norte
+010510,Luya Viejo,Luya,Amazonas,01,0105,-6.115,-78.105,66.5,FALSE,norte
+010511,Maria,Luya,Amazonas,01,0105,-6.495,-77.965,87.4,FALSE,norte
+010512,Ocalli,Luya,Amazonas,01,0105,-6.225,-78.215,172.5,FALSE,norte
+010513,Ocumal,Luya,Amazonas,01,0105,-6.345,-78.165,365.8,FALSE,norte
+010514,Pisuquia,Luya,Amazonas,01,0105,-6.475,-78.085,291.8,FALSE,norte
+010515,Providencia,Luya,Amazonas,01,0105,-6.305,-78.295,118.2,FALSE,norte
+010516,San Cristobal,Luya,Amazonas,01,0105,-6.085,-77.965,35.7,FALSE,norte
+010517,San Francisco del Yeso,Luya,Amazonas,01,0105,-6.655,-77.855,184.6,FALSE,norte
+010518,San Jeronimo,Luya,Amazonas,01,0105,-6.005,-78.045,205.8,FALSE,norte
+010519,San Juan de Lopecancha,Luya,Amazonas,01,0105,-6.485,-77.895,89.9,FALSE,norte
+010520,Santa Catalina,Luya,Amazonas,01,0105,-6.055,-78.095,166.4,FALSE,norte
+010521,Santo Tomas,Luya,Amazonas,01,0105,-6.565,-77.895,89.9,FALSE,norte
+010522,Tingo,Luya,Amazonas,01,0105,-6.385,-77.945,105.9,FALSE,norte
+010523,Trita,Luya,Amazonas,01,0105,-6.145,-78.015,14.8,FALSE,norte
+010601,San Nicolas,Rodriguez de Mendoza,Amazonas,01,0106,-6.375,-77.445,107.1,FALSE,norte
+010602,Chirimoto,Rodriguez de Mendoza,Amazonas,01,0106,-6.545,-77.415,155.1,FALSE,norte
+010603,Cochamal,Rodriguez de Mendoza,Amazonas,01,0106,-6.385,-77.665,181.0,FALSE,norte
+010604,Huambo,Rodriguez de Mendoza,Amazonas,01,0106,-6.435,-77.535,77.6,FALSE,norte
+010605,Limabamba,Rodriguez de Mendoza,Amazonas,01,0106,-6.555,-77.575,613.1,FALSE,norte
+010606,Longar,Rodriguez de Mendoza,Amazonas,01,0106,-6.345,-77.565,82.5,FALSE,norte
+010607,Mariscal Benavides,Rodriguez de Mendoza,Amazonas,01,0106,-6.295,-77.485,202.0,FALSE,norte
+010608,Milpuc,Rodriguez de Mendoza,Amazonas,01,0106,-6.495,-77.415,43.1,FALSE,norte
+010609,Omia,Rodriguez de Mendoza,Amazonas,01,0106,-6.405,-77.355,226.6,FALSE,norte
+010610,Santa Rosa,Rodriguez de Mendoza,Amazonas,01,0106,-6.455,-77.455,19.7,FALSE,norte
+010611,Totora,Rodriguez de Mendoza,Amazonas,01,0106,-6.495,-77.465,19.7,FALSE,norte
+010612,Vista Alegre,Rodriguez de Mendoza,Amazonas,01,0106,-6.205,-77.335,873.5,FALSE,norte
+010701,Bagua Grande,Utcubamba,Amazonas,01,0107,-5.835,-78.445,732.3,FALSE,norte
+010702,Cajaruro,Utcubamba,Amazonas,01,0107,-5.615,-78.175,1815.4,FALSE,norte
+010703,Cumba,Utcubamba,Amazonas,01,0107,-5.915,-78.605,299.5,FALSE,norte
+010704,El Milagro,Utcubamba,Amazonas,01,0107,-5.715,-78.615,312.0,FALSE,norte
+010705,Jamalca,Utcubamba,Amazonas,01,0107,-5.955,-78.235,350.0,FALSE,norte
+010706,Lonya Grande,Utcubamba,Amazonas,01,0107,-6.065,-78.415,372.1,FALSE,norte
+010707,Yamon,Utcubamba,Amazonas,01,0107,-6.015,-78.525,131.9,FALSE,norte
+020101,Huaraz,Huaraz,Áncash,02,0201,-9.575,-77.475,431.3,FALSE,centro
+020102,Cochabamba,Huaraz,Áncash,02,0201,-9.465,-77.855,138.1,FALSE,centro
+020103,Colcabamba,Huaraz,Áncash,02,0201,-9.575,-77.825,50.1,FALSE,centro
+020104,Huanchay,Huaraz,Áncash,02,0201,-9.735,-77.815,213.7,FALSE,centro
+020105,Independencia,Huaraz,Áncash,02,0201,-9.475,-77.485,342.2,FALSE,centro
+020106,Jangas,Huaraz,Áncash,02,0201,-9.445,-77.605,63.6,FALSE,centro
+020107,La Libertad,Huaraz,Áncash,02,0201,-9.635,-77.715,152.7,FALSE,centro
+020108,Olleros,Huaraz,Áncash,02,0201,-9.625,-77.375,229.7,FALSE,centro
+020109,Pampas Grande,Huaraz,Áncash,02,0201,-9.645,-77.915,348.2,FALSE,centro
+020110,Pariacoto,Huaraz,Áncash,02,0201,-9.485,-77.785,172.3,FALSE,centro
+020111,Pira,Huaraz,Áncash,02,0201,-9.525,-77.695,262.8,FALSE,centro
+020112,Tarica,Huaraz,Áncash,02,0201,-9.395,-77.485,118.6,FALSE,centro
+020201,Aija,Aija,Áncash,02,0202,-9.805,-77.565,163.6,FALSE,centro
+020202,Coris,Aija,Áncash,02,0202,-9.805,-77.795,262.5,FALSE,centro
+020203,Huacllan,Aija,Áncash,02,0202,-9.785,-77.675,41.5,FALSE,centro
+020204,La Merced,Aija,Áncash,02,0202,-9.705,-77.615,157.6,FALSE,centro
+020205,Succha,Aija,Áncash,02,0202,-9.835,-77.635,78.1,FALSE,centro
+020301,Llamellin,Antonio Raymondi,Áncash,02,0203,-9.085,-77.005,94.2,FALSE,centro
+020302,Aczo,Antonio Raymondi,Áncash,02,0203,-9.215,-76.985,69.7,FALSE,centro
+020303,Chaccho,Antonio Raymondi,Áncash,02,0203,-9.025,-77.075,74.7,FALSE,centro
+020304,Chingas,Antonio Raymondi,Áncash,02,0203,-9.135,-77.005,50.2,FALSE,centro
+020305,Mirgas,Antonio Raymondi,Áncash,02,0203,-9.115,-77.115,171.3,FALSE,centro
+020306,San Juan de Rontoy,Antonio Raymondi,Áncash,02,0203,-9.215,-77.045,99.1,FALSE,centro
+020401,Chacas,Asuncion,Áncash,02,0204,-9.205,-77.395,459.9,FALSE,centro
+020402,Acochaca,Asuncion,Áncash,02,0204,-9.095,-77.405,75.9,FALSE,centro
+020501,Chiquian,Bolognesi,Áncash,02,0205,-10.175,-77.175,187.8,FALSE,centro
+020502,Abelardo Pardo Lezameta,Bolognesi,Áncash,02,0205,-10.315,-77.165,13.4,FALSE,centro
+020503,Antonio Raymondi,Bolognesi,Áncash,02,0205,-10.205,-77.495,123.2,FALSE,centro
+020504,Aquia,Bolognesi,Áncash,02,0205,-9.965,-77.135,438.2,FALSE,centro
+020505,Cajacay,Bolognesi,Áncash,02,0205,-10.195,-77.345,193.9,FALSE,centro
+020506,Canis,Bolognesi,Áncash,02,0205,-10.335,-77.195,19.5,FALSE,centro
+020507,Colquioc,Bolognesi,Áncash,02,0205,-10.305,-77.585,307.2,FALSE,centro
+020508,Huallanca,Bolognesi,Áncash,02,0205,-9.915,-76.945,824.0,FALSE,centro
+020509,Huasta,Bolognesi,Áncash,02,0205,-10.115,-77.035,397.7,FALSE,centro
+020510,Huayllacayan,Bolognesi,Áncash,02,0205,-10.245,-77.415,118.3,FALSE,centro
+020511,La Primavera,Bolognesi,Áncash,02,0205,-10.305,-77.105,63.4,FALSE,centro
+020512,Mangas,Bolognesi,Áncash,02,0205,-10.365,-77.105,125.6,FALSE,centro
+020513,Pacllon,Bolognesi,Áncash,02,0205,-10.235,-77.005,211.0,FALSE,centro
+020514,San Miguel de Corpanqui,Bolognesi,Áncash,02,0205,-10.295,-77.215,42.7,FALSE,centro
+020515,Ticllos,Bolognesi,Áncash,02,0205,-10.235,-77.205,89.0,FALSE,centro
+020601,Carhuaz,Carhuaz,Áncash,02,0206,-9.295,-77.645,196.9,FALSE,centro
+020602,Acopampa,Carhuaz,Áncash,02,0206,-9.295,-77.615,13.5,FALSE,centro
+020603,Amashca,Carhuaz,Áncash,02,0206,-9.225,-77.645,13.5,FALSE,centro
+020604,Anta,Carhuaz,Áncash,02,0206,-9.365,-77.635,44.0,FALSE,centro
+020605,Ataquero,Carhuaz,Áncash,02,0206,-9.285,-77.725,47.7,FALSE,centro
+020606,Marcara,Carhuaz,Áncash,02,0206,-9.305,-77.495,178.5,FALSE,centro
+020607,Pariahuanca,Carhuaz,Áncash,02,0206,-9.355,-77.575,11.0,FALSE,centro
+020608,San Miguel de Aco,Carhuaz,Áncash,02,0206,-9.345,-77.435,127.2,FALSE,centro
+020609,Shilla,Carhuaz,Áncash,02,0206,-9.155,-77.565,127.2,FALSE,centro
+020610,Tinco,Carhuaz,Áncash,02,0206,-9.255,-77.655,13.5,FALSE,centro
+020611,Yungar,Carhuaz,Áncash,02,0206,-9.405,-77.635,45.2,FALSE,centro
+020701,San Luis,Carlos Fermin Fitzcarrald,Áncash,02,0207,-9.095,-77.285,244.7,FALSE,centro
+020702,San Nicolas,Carlos Fermin Fitzcarrald,Áncash,02,0207,-9.015,-77.165,211.7,FALSE,centro
+020703,Yauya,Carlos Fermin Fitzcarrald,Áncash,02,0207,-9.005,-77.255,172.6,FALSE,centro
+020801,Casma,Casma,Áncash,02,0208,-9.515,-78.225,1217.3,TRUE,centro
+020802,Buena Vista Alta,Casma,Áncash,02,0208,-9.375,-78.145,483.0,FALSE,centro
+020803,Comandante Noel,Casma,Áncash,02,0208,-9.515,-78.355,223.7,TRUE,centro
+020804,Yautan,Casma,Áncash,02,0208,-9.505,-78.015,367.9,FALSE,centro
+020901,Corongo,Corongo,Áncash,02,0209,-8.545,-77.925,154.4,FALSE,centro
+020902,Aco,Corongo,Áncash,02,0209,-8.505,-77.885,56.4,FALSE,centro
+020903,Bambas,Corongo,Áncash,02,0209,-8.605,-78.045,154.4,FALSE,centro
+020904,Cusca,Corongo,Áncash,02,0209,-8.525,-77.785,425.3,FALSE,centro
+020905,La Pampa,Corongo,Áncash,02,0209,-8.675,-77.895,94.3,FALSE,centro
+020906,Yanac,Corongo,Áncash,02,0209,-8.625,-77.845,47.8,FALSE,centro
+020907,Yupan,Corongo,Áncash,02,0209,-8.645,-77.965,84.5,FALSE,centro
+021001,Huari,Huari,Áncash,02,0210,-9.325,-77.235,403.5,FALSE,centro
+021002,Anra,Huari,Áncash,02,0210,-9.255,-76.905,81.9,FALSE,centro
+021003,Cajay,Huari,Áncash,02,0210,-9.255,-77.135,159.0,FALSE,centro
+021004,Chavin de Huantar,Huari,Áncash,02,0210,-9.655,-77.215,425.1,FALSE,centro
+021005,Huacachi,Huari,Áncash,02,0210,-9.315,-76.925,86.8,FALSE,centro
+021006,Huacchis,Huari,Áncash,02,0210,-9.185,-76.805,78.3,FALSE,centro
+021007,Huachis,Huari,Áncash,02,0210,-9.425,-77.075,151.6,FALSE,centro
+021008,Huantar,Huari,Áncash,02,0210,-9.465,-77.235,163.8,FALSE,centro
+021009,Masin,Huari,Áncash,02,0210,-9.325,-77.095,78.3,FALSE,centro
+021010,Paucas,Huari,Áncash,02,0210,-9.145,-76.885,141.9,FALSE,centro
+021011,Ponto,Huari,Áncash,02,0210,-9.345,-76.985,119.8,FALSE,centro
+021012,Rahuapampa,Huari,Áncash,02,0210,-9.355,-77.065,11.0,FALSE,centro
+021013,Rapayan,Huari,Áncash,02,0210,-9.275,-76.775,145.5,FALSE,centro
+021014,San Marcos,Huari,Áncash,02,0210,-9.625,-77.095,563.2,FALSE,centro
+021015,San Pedro de Chana,Huari,Áncash,02,0210,-9.465,-76.985,146.7,FALSE,centro
+021016,Uco,Huari,Áncash,02,0210,-9.195,-76.935,52.6,FALSE,centro
+021101,Huarmey,Huarmey,Áncash,02,0211,-10.175,-77.915,2920.0,TRUE,centro
+021102,Cochapeti,Huarmey,Áncash,02,0211,-9.985,-77.695,98.9,FALSE,centro
+021103,Culebras,Huarmey,Áncash,02,0211,-9.825,-78.105,636.2,TRUE,centro
+021104,Huayan,Huarmey,Áncash,02,0211,-9.895,-77.745,112.3,FALSE,centro
+021105,Malvas,Huarmey,Áncash,02,0211,-9.925,-77.665,168.5,FALSE,centro
+021201,Caraz,Huaylas,Áncash,02,0212,-9.025,-77.745,243.6,FALSE,centro
+021202,Huallanca,Huaylas,Áncash,02,0212,-8.785,-77.915,194.7,FALSE,centro
+021203,Huata,Huaylas,Áncash,02,0212,-9.035,-77.875,69.8,FALSE,centro
+021204,Huaylas,Huaylas,Áncash,02,0212,-8.885,-77.895,58.8,FALSE,centro
+021205,Mato,Huaylas,Áncash,02,0212,-8.955,-77.895,106.5,FALSE,centro
+021206,Pamparomas,Huaylas,Áncash,02,0212,-9.145,-77.955,506.5,FALSE,centro
+021207,Pueblo Libre,Huaylas,Áncash,02,0212,-9.145,-77.815,132.1,FALSE,centro
+021208,Santa Cruz,Huaylas,Áncash,02,0212,-8.905,-77.725,357.5,FALSE,centro
+021209,Santo Toribio,Huaylas,Áncash,02,0212,-8.845,-77.955,85.7,FALSE,centro
+021210,Yuracmarca,Huaylas,Áncash,02,0212,-8.765,-77.745,558.5,FALSE,centro
+021301,Piscobamba,Mariscal Luzuriaga,Áncash,02,0213,-8.865,-77.355,47.8,FALSE,centro
+021302,Casca,Mariscal Luzuriaga,Áncash,02,0213,-8.825,-77.385,75.9,FALSE,centro
+021303,Eleazar Guzman Barron,Mariscal Luzuriaga,Áncash,02,0213,-8.885,-77.215,102.8,FALSE,centro
+021304,Fidel Olivas Escudero,Mariscal Luzuriaga,Áncash,02,0213,-8.785,-77.275,215.5,FALSE,centro
+021305,Llama,Mariscal Luzuriaga,Áncash,02,0213,-8.915,-77.285,47.7,FALSE,centro
+021306,Llumpa,Mariscal Luzuriaga,Áncash,02,0213,-8.965,-77.455,140.8,FALSE,centro
+021307,Lucma,Mariscal Luzuriaga,Áncash,02,0213,-8.925,-77.455,78.3,FALSE,centro
+021308,Musga,Mariscal Luzuriaga,Áncash,02,0213,-8.895,-77.325,40.4,FALSE,centro
+021401,Ocros,Ocros,Áncash,02,0214,-10.385,-77.365,223.1,FALSE,centro
+021402,Acas,Ocros,Áncash,02,0214,-10.515,-77.335,252.2,FALSE,centro
+021403,Cajamarquilla,Ocros,Áncash,02,0214,-10.325,-77.245,80.5,FALSE,centro
+021404,Carhuapampa,Ocros,Áncash,02,0214,-10.505,-77.225,107.2,FALSE,centro
+021405,Cochas,Ocros,Áncash,02,0214,-10.645,-77.485,415.3,FALSE,centro
+021406,Congas,Ocros,Áncash,02,0214,-10.315,-77.425,110.9,FALSE,centro
+021407,Llipa,Ocros,Áncash,02,0214,-10.385,-77.215,32.9,FALSE,centro
+021408,San Cristobal de Rajan,Ocros,Áncash,02,0214,-10.415,-77.225,70.7,FALSE,centro
+021409,San Pedro,Ocros,Áncash,02,0214,-10.475,-77.565,534.9,FALSE,centro
+021410,Santiago de Chilcas,Ocros,Áncash,02,0214,-10.435,-77.355,92.6,FALSE,centro
+021501,Cabana,Pallasca,Áncash,02,0215,-8.405,-77.955,144.7,FALSE,centro
+021502,Bolognesi,Pallasca,Áncash,02,0215,-8.345,-78.065,82.1,FALSE,centro
+021503,Conchucos,Pallasca,Áncash,02,0215,-8.255,-77.735,583.8,FALSE,centro
+021504,Huacaschuque,Pallasca,Áncash,02,0215,-8.305,-77.995,13.5,FALSE,centro
+021505,Huandoval,Pallasca,Áncash,02,0215,-8.335,-77.945,112.8,FALSE,centro
+021506,Lacabamba,Pallasca,Áncash,02,0215,-8.265,-77.905,63.8,FALSE,centro
+021507,Llapo,Pallasca,Áncash,02,0215,-8.515,-78.035,31.9,FALSE,centro
+021508,Pallasca,Pallasca,Áncash,02,0215,-8.265,-78.005,111.6,FALSE,centro
+021509,Pampas,Pallasca,Áncash,02,0215,-8.135,-77.795,445.3,FALSE,centro
+021510,Santa Rosa,Pallasca,Áncash,02,0215,-8.565,-78.135,291.6,FALSE,centro
+021511,Tauca,Pallasca,Áncash,02,0215,-8.445,-78.055,203.5,FALSE,centro
+021601,Pomabamba,Pomabamba,Áncash,02,0216,-8.795,-77.505,341.7,FALSE,centro
+021602,Huayllan,Pomabamba,Áncash,02,0216,-8.885,-77.465,89.4,FALSE,centro
+021603,Parobamba,Pomabamba,Áncash,02,0216,-8.615,-77.395,339.4,FALSE,centro
+021604,Quinuabamba,Pomabamba,Áncash,02,0216,-8.705,-77.345,148.2,FALSE,centro
+021701,Recuay,Recuay,Áncash,02,0217,-9.705,-77.445,150.2,FALSE,centro
+021702,Catac,Recuay,Áncash,02,0217,-9.915,-77.315,1024.2,FALSE,centro
+021703,Cotaparaco,Recuay,Áncash,02,0217,-9.935,-77.545,175.8,FALSE,centro
+021704,Huayllapampa,Recuay,Áncash,02,0217,-10.055,-77.515,109.8,FALSE,centro
+021705,Llacllin,Recuay,Áncash,02,0217,-10.105,-77.585,97.6,FALSE,centro
+021706,Marca,Recuay,Áncash,02,0217,-10.075,-77.455,183.0,FALSE,centro
+021707,Pampas Chico,Recuay,Áncash,02,0217,-10.095,-77.375,104.9,FALSE,centro
+021708,Pararin,Recuay,Áncash,02,0217,-10.115,-77.655,264.7,FALSE,centro
+021709,Tapacocha,Recuay,Áncash,02,0217,-10.005,-77.535,74.4,FALSE,centro
+021710,Ticapampa,Recuay,Áncash,02,0217,-9.735,-77.395,146.6,FALSE,centro
+021801,Chimbote,Santa,Áncash,02,0218,-8.875,-78.405,1453.3,TRUE,centro
+021802,Caceres del Peru,Santa,Áncash,02,0218,-8.965,-78.075,528.8,FALSE,centro
+021803,Coishco,Santa,Áncash,02,0218,-9.025,-78.625,9.8,TRUE,centro
+021804,Macate,Santa,Áncash,02,0218,-8.775,-78.125,595.2,FALSE,centro
+021805,Moro,Santa,Áncash,02,0218,-9.165,-78.125,357.2,FALSE,centro
+021806,Nepeña,Santa,Áncash,02,0218,-9.145,-78.305,455.1,FALSE,centro
+021807,Samanco,Santa,Áncash,02,0218,-9.275,-78.445,152.9,TRUE,centro
+021808,Santa,Santa,Áncash,02,0218,-8.995,-78.605,41.6,TRUE,centro
+021809,Nuevo Chimbote,Santa,Áncash,02,0218,-9.105,-78.435,406.2,TRUE,centro
+021901,Sihuas,Sihuas,Áncash,02,0219,-8.545,-77.615,45.3,FALSE,centro
+021902,Acobamba,Sihuas,Áncash,02,0219,-8.295,-77.565,147.2,FALSE,centro
+021903,Alfonso Ugarte,Sihuas,Áncash,02,0219,-8.465,-77.445,91.9,FALSE,centro
+021904,Cashapampa,Sihuas,Áncash,02,0219,-8.585,-77.655,69.8,FALSE,centro
+021905,Chingalpo,Sihuas,Áncash,02,0219,-8.365,-77.645,172.9,FALSE,centro
+021906,Huayllabamba,Sihuas,Áncash,02,0219,-8.515,-77.525,278.2,FALSE,centro
+021907,Quiches,Sihuas,Áncash,02,0219,-8.395,-77.515,150.8,FALSE,centro
+021908,Ragash,Sihuas,Áncash,02,0219,-8.455,-77.695,215.7,FALSE,centro
+021909,San Juan,Sihuas,Áncash,02,0219,-8.675,-77.615,210.7,FALSE,centro
+021910,Sicsibamba,Sihuas,Áncash,02,0219,-8.635,-77.525,82.1,FALSE,centro
+022001,Yungay,Yungay,Áncash,02,0220,-9.095,-77.665,275.3,FALSE,centro
+022002,Cascapara,Yungay,Áncash,02,0220,-9.315,-77.835,139.4,FALSE,centro
+022003,Mancos,Yungay,Áncash,02,0220,-9.195,-77.645,62.4,FALSE,centro
+022004,Matacoto,Yungay,Áncash,02,0220,-9.175,-77.755,48.9,FALSE,centro
+022005,Quillo,Yungay,Áncash,02,0220,-9.315,-77.955,370.5,FALSE,centro
+022006,Ranrahirca,Yungay,Áncash,02,0220,-9.155,-77.695,23.2,FALSE,centro
+022007,Shupluy,Yungay,Áncash,02,0220,-9.345,-77.795,163.9,FALSE,centro
+022008,Yanama,Yungay,Áncash,02,0220,-9.025,-77.495,286.4,FALSE,centro
+030101,Abancay,Abancay,Apurímac,03,0301,-13.635,-72.875,289.0,FALSE,sur
+030102,Chacoche,Abancay,Apurímac,03,0301,-13.995,-72.995,185.2,FALSE,sur
+030103,Circa,Abancay,Apurímac,03,0301,-13.975,-72.895,638.5,FALSE,sur
+030104,Curahuasi,Abancay,Apurímac,03,0301,-13.635,-72.615,864.7,FALSE,sur
+030105,Huanipaca,Abancay,Apurímac,03,0301,-13.475,-72.975,423.0,FALSE,sur
+030106,Lambrama,Abancay,Apurímac,03,0301,-13.805,-72.785,524.7,FALSE,sur
+030107,Pichirhua,Abancay,Apurímac,03,0301,-13.785,-73.035,379.1,FALSE,sur
+030108,San Pedro de Cachora,Abancay,Apurímac,03,0301,-13.485,-72.815,122.9,FALSE,sur
+030109,Tamburco,Abancay,Apurímac,03,0301,-13.575,-72.875,53.0,FALSE,sur
+030201,Andahuaylas,Andahuaylas,Apurímac,03,0302,-13.775,-73.385,197.4,FALSE,sur
+030202,Andarapa,Andahuaylas,Apurímac,03,0302,-13.495,-73.385,182.0,FALSE,sur
+030203,Chiara,Andahuaylas,Apurímac,03,0302,-13.875,-73.615,150.4,FALSE,sur
+030204,Huancarama,Andahuaylas,Apurímac,03,0302,-13.655,-73.025,155.3,FALSE,sur
+030205,Huancaray,Andahuaylas,Apurímac,03,0302,-13.765,-73.545,110.7,FALSE,sur
+030206,Huayana,Andahuaylas,Apurímac,03,0302,-13.985,-73.545,95.0,FALSE,sur
+030207,Kishuara,Andahuaylas,Apurímac,03,0302,-13.665,-73.165,308.3,FALSE,sur
+030208,Pacobamba,Andahuaylas,Apurímac,03,0302,-13.535,-73.125,262.6,FALSE,sur
+030209,Pacucha,Andahuaylas,Apurímac,03,0302,-13.595,-73.315,178.3,FALSE,sur
+030210,Pampachiri,Andahuaylas,Apurímac,03,0302,-14.295,-73.475,589.6,FALSE,sur
+030211,Pomacocha,Andahuaylas,Apurímac,03,0302,-14.105,-73.485,122.6,FALSE,sur
+030212,San Antonio de Cachi,Andahuaylas,Apurímac,03,0302,-13.785,-73.655,178.1,FALSE,sur
+030213,San Jeronimo,Andahuaylas,Apurímac,03,0302,-13.715,-73.275,249.2,FALSE,sur
+030214,San Miguel de Chaccrampa,Andahuaylas,Apurímac,03,0302,-13.965,-73.605,87.8,FALSE,sur
+030215,Santa Maria de Chicmo,Andahuaylas,Apurímac,03,0302,-13.665,-73.545,154.1,FALSE,sur
+030216,Talavera,Andahuaylas,Apurímac,03,0302,-13.625,-73.455,159.0,FALSE,sur
+030217,Tumay Huaraca,Andahuaylas,Apurímac,03,0302,-13.965,-73.455,455.8,FALSE,sur
+030218,Turpo,Andahuaylas,Apurímac,03,0302,-13.785,-73.475,122.8,FALSE,sur
+030219,Kaquiabamba,Andahuaylas,Apurímac,03,0302,-13.515,-73.285,109.6,FALSE,sur
+030220,Jose Maria Arguedas,Andahuaylas,Apurímac,03,0302,-13.805,-73.325,175.7,FALSE,sur
+030301,Antabamba,Antabamba,Apurímac,03,0303,-14.515,-72.755,610.6,FALSE,sur
+030302,El Oro,Antabamba,Apurímac,03,0303,-14.155,-73.035,68.5,FALSE,sur
+030303,Huaquirca,Antabamba,Apurímac,03,0303,-14.345,-72.785,360.2,FALSE,sur
+030304,Juan Espinoza Medrano,Antabamba,Apurímac,03,0303,-14.565,-72.905,634.5,FALSE,sur
+030305,Oropesa,Antabamba,Apurímac,03,0303,-14.435,-72.525,1172.5,FALSE,sur
+030306,Pachaconas,Antabamba,Apurímac,03,0303,-14.215,-72.975,228.2,FALSE,sur
+030307,Sabaino,Antabamba,Apurímac,03,0303,-14.325,-72.985,178.9,FALSE,sur
+030401,Chalhuanca,Aymaraes,Apurímac,03,0304,-14.295,-73.225,344.6,FALSE,sur
+030402,Capaya,Aymaraes,Apurímac,03,0304,-14.115,-73.355,85.3,FALSE,sur
+030403,Caraybamba,Aymaraes,Apurímac,03,0304,-14.425,-73.095,231.6,FALSE,sur
+030404,Chapimarca,Aymaraes,Apurímac,03,0304,-14.005,-73.085,203.2,FALSE,sur
+030405,Colcabamba,Aymaraes,Apurímac,03,0304,-13.975,-73.265,91.4,FALSE,sur
+030406,Cotaruse,Aymaraes,Apurímac,03,0304,-14.585,-73.295,1749.8,FALSE,sur
+030407,Ihuayllo,Aymaraes,Apurímac,03,0304,-14.095,-73.245,72.1,FALSE,sur
+030408,Justo Apu Sahuaraura,Aymaraes,Apurímac,03,0304,-14.125,-73.195,100.9,FALSE,sur
+030409,Lucre,Aymaraes,Apurímac,03,0304,-13.915,-73.245,104.6,FALSE,sur
+030410,Pocohuanca,Aymaraes,Apurímac,03,0304,-14.225,-73.085,85.3,FALSE,sur
+030411,San Juan de Chacña,Aymaraes,Apurímac,03,0304,-13.885,-73.195,99.8,FALSE,sur
+030412,Sañayca,Aymaraes,Apurímac,03,0304,-14.335,-73.355,371.0,FALSE,sur
+030413,Soraya,Aymaraes,Apurímac,03,0304,-14.175,-73.285,42.1,FALSE,sur
+030414,Tapairihua,Aymaraes,Apurímac,03,0304,-14.105,-73.115,162.3,FALSE,sur
+030415,Tintay,Aymaraes,Apurímac,03,0304,-13.905,-73.135,138.3,FALSE,sur
+030416,Toraya,Aymaraes,Apurímac,03,0304,-14.025,-73.315,167.1,FALSE,sur
+030417,Yanaca,Aymaraes,Apurímac,03,0304,-14.235,-73.165,104.5,FALSE,sur
+030501,Tambobamba,Cotabambas,Apurímac,03,0305,-13.915,-72.215,715.7,FALSE,sur
+030502,Cotabambas,Cotabambas,Apurímac,03,0305,-13.755,-72.345,332.2,FALSE,sur
+030503,Coyllurqui,Cotabambas,Apurímac,03,0305,-13.915,-72.395,423.4,FALSE,sur
+030504,Haquira,Cotabambas,Apurímac,03,0305,-14.275,-72.235,487.6,FALSE,sur
+030505,Mara,Cotabambas,Apurímac,03,0305,-14.045,-72.115,222.4,FALSE,sur
+030506,Challhuahuacho,Cotabambas,Apurímac,03,0305,-14.175,-72.305,454.2,FALSE,sur
+030601,Chincheros,Chincheros,Apurímac,03,0306,-13.515,-73.745,134.9,FALSE,sur
+030602,Anco-Huallo,Chincheros,Apurímac,03,0306,-13.545,-73.665,89.2,FALSE,sur
+030603,Cocharcas,Chincheros,Apurímac,03,0306,-13.615,-73.745,112.0,FALSE,sur
+030604,Huaccana,Chincheros,Apurímac,03,0306,-13.305,-73.725,307.5,FALSE,sur
+030605,Ocobamba,Chincheros,Apurímac,03,0306,-13.505,-73.515,221.7,FALSE,sur
+030606,Ongoy,Chincheros,Apurímac,03,0306,-13.415,-73.655,115.7,FALSE,sur
+030607,Uranmarca,Chincheros,Apurímac,03,0306,-13.665,-73.655,146.9,FALSE,sur
+030608,Ranracancha,Chincheros,Apurímac,03,0306,-13.545,-73.595,100.0,FALSE,sur
+030609,Rocchacc,Chincheros,Apurímac,03,0306,-13.455,-73.615,55.4,FALSE,sur
+030610,El Porvenir,Chincheros,Apurímac,03,0306,-13.395,-73.555,62.7,FALSE,sur
+030611,Los Chankas,Chincheros,Apurímac,03,0306,-13.395,-73.795,147.1,FALSE,sur
+030612,Ahuayro,Chincheros,Apurímac,03,0306,-13.465,-73.785,28.9,FALSE,sur
+030701,Chuquibambilla,Grau,Apurímac,03,0307,-14.115,-72.775,429.0,FALSE,sur
+030702,Curpahuasi,Grau,Apurímac,03,0307,-13.965,-72.655,316.3,FALSE,sur
+030703,Gamarra,Grau,Apurímac,03,0307,-13.825,-72.555,352.6,FALSE,sur
+030704,Huayllati,Grau,Apurímac,03,0307,-13.965,-72.495,123.9,FALSE,sur
+030705,Mamara,Grau,Apurímac,03,0307,-14.215,-72.565,60.1,FALSE,sur
+030706,Micaela Bastidas,Grau,Apurímac,03,0307,-14.145,-72.575,105.7,FALSE,sur
+030707,Pataypampa,Grau,Apurímac,03,0307,-14.225,-72.755,149.0,FALSE,sur
+030708,Progreso,Grau,Apurímac,03,0307,-14.095,-72.445,242.8,FALSE,sur
+030709,San Antonio,Grau,Apurímac,03,0307,-14.175,-72.605,24.0,FALSE,sur
+030710,Santa Rosa,Grau,Apurímac,03,0307,-14.125,-72.665,32.4,FALSE,sur
+030711,Turpay,Grau,Apurímac,03,0307,-14.235,-72.635,50.4,FALSE,sur
+030712,Vilcabamba,Grau,Apurímac,03,0307,-14.075,-72.635,7.2,FALSE,sur
+030713,Virundo,Grau,Apurímac,03,0307,-14.295,-72.675,114.1,FALSE,sur
+030714,Curasco,Grau,Apurímac,03,0307,-14.105,-72.535,139.4,FALSE,sur
+040101,Arequipa,Arequipa,Arequipa,04,0401,-16.405,-71.535,9.5,FALSE,sur
+040102,Alto Selva Alegre,Arequipa,Arequipa,04,0401,-16.335,-71.485,67.8,FALSE,sur
+040103,Cayma,Arequipa,Arequipa,04,0401,-16.255,-71.455,230.8,FALSE,sur
+040104,Cerro Colorado,Arequipa,Arequipa,04,0401,-16.305,-71.575,178.4,FALSE,sur
+040105,Characato,Arequipa,Arequipa,04,0401,-16.455,-71.385,86.8,FALSE,sur
+040106,Chiguata,Arequipa,Arequipa,04,0401,-16.375,-71.365,230.7,FALSE,sur
+040107,Jacobo Hunter,Arequipa,Arequipa,04,0401,-16.455,-71.565,20.2,FALSE,sur
+040108,La Joya,Arequipa,Arequipa,04,0401,-16.585,-71.795,698.3,FALSE,sur
+040109,Mariano Melgar,Arequipa,Arequipa,04,0401,-16.375,-71.465,32.1,FALSE,sur
+040110,Miraflores,Arequipa,Arequipa,04,0401,-16.355,-71.475,25.0,FALSE,sur
+040111,Mollebaya,Arequipa,Arequipa,04,0401,-16.505,-71.475,33.3,FALSE,sur
+040112,Paucarpata,Arequipa,Arequipa,04,0401,-16.425,-71.485,28.5,FALSE,sur
+040113,Pocsi,Arequipa,Arequipa,04,0401,-16.495,-71.335,173.5,FALSE,sur
+040114,Polobaya,Arequipa,Arequipa,04,0401,-16.645,-71.355,400.1,FALSE,sur
+040115,Quequeña,Arequipa,Arequipa,04,0401,-16.545,-71.445,35.6,FALSE,sur
+040116,Sabandia,Arequipa,Arequipa,04,0401,-16.445,-71.455,34.5,FALSE,sur
+040117,Sachaca,Arequipa,Arequipa,04,0401,-16.425,-71.575,14.3,FALSE,sur
+040118,San Juan de Siguas,Arequipa,Arequipa,04,0401,-16.405,-72.165,35.7,FALSE,sur
+040119,San Juan de Tarucani,Arequipa,Arequipa,04,0401,-16.195,-71.095,2396.7,FALSE,sur
+040120,Santa Isabel de Siguas,Arequipa,Arequipa,04,0401,-16.265,-72.065,183.2,FALSE,sur
+040121,Santa Rita de Siguas,Arequipa,Arequipa,04,0401,-16.525,-72.145,430.1,FALSE,sur
+040122,Socabaya,Arequipa,Arequipa,04,0401,-16.475,-71.535,26.1,FALSE,sur
+040123,Tiabaya,Arequipa,Arequipa,04,0401,-16.465,-71.595,38.0,FALSE,sur
+040124,Uchumayo,Arequipa,Arequipa,04,0401,-16.465,-71.695,271.0,FALSE,sur
+040125,Vitor,Arequipa,Arequipa,04,0401,-16.485,-71.985,1538.8,FALSE,sur
+040126,Yanahuara,Arequipa,Arequipa,04,0401,-16.395,-71.555,5.9,FALSE,sur
+040127,Yarabamba,Arequipa,Arequipa,04,0401,-16.615,-71.545,484.5,FALSE,sur
+040128,Yura,Arequipa,Arequipa,04,0401,-16.135,-71.605,1936.8,FALSE,sur
+040129,Jose Luis Bustamante y Rivero,Arequipa,Arequipa,04,0401,-16.435,-71.525,10.7,FALSE,sur
+040201,Camana,Camana,Arequipa,04,0402,-16.635,-72.715,13.1,TRUE,sur
+040202,Jose Maria Quimper,Camana,Arequipa,04,0402,-16.595,-72.735,15.4,FALSE,sur
+040203,Mariano Nicolas Valcarcel,Camana,Arequipa,04,0402,-16.075,-73.135,551.3,FALSE,sur
+040204,Mariscal Caceres,Camana,Arequipa,04,0402,-16.455,-72.835,595.4,TRUE,sur
+040205,Nicolas de Pierola,Camana,Arequipa,04,0402,-16.475,-72.635,391.0,FALSE,sur
+040206,Ocoña,Camana,Arequipa,04,0402,-16.275,-73.015,1433.4,TRUE,sur
+040207,Quilca,Camana,Arequipa,04,0402,-16.705,-72.355,904.4,TRUE,sur
+040208,Samuel Pastor,Camana,Arequipa,04,0402,-16.605,-72.655,111.6,TRUE,sur
+040301,Caraveli,Caraveli,Arequipa,04,0403,-15.825,-73.335,764.2,FALSE,sur
+040302,Acari,Caraveli,Arequipa,04,0403,-15.395,-74.525,781.4,FALSE,sur
+040303,Atico,Caraveli,Arequipa,04,0403,-16.055,-73.535,3113.0,TRUE,sur
+040304,Atiquipa,Caraveli,Arequipa,04,0403,-15.685,-74.305,429.5,TRUE,sur
+040305,Bella Union,Caraveli,Arequipa,04,0403,-15.345,-74.725,1583.4,TRUE,sur
+040306,Cahuacho,Caraveli,Arequipa,04,0403,-15.535,-73.435,1389.7,FALSE,sur
+040307,Chala,Caraveli,Arequipa,04,0403,-15.765,-74.185,342.3,TRUE,sur
+040308,Chaparra,Caraveli,Arequipa,04,0403,-15.825,-73.945,1515.3,TRUE,sur
+040309,Huanuhuanu,Caraveli,Arequipa,04,0403,-15.565,-74.075,705.5,FALSE,sur
+040310,Jaqui,Caraveli,Arequipa,04,0403,-15.455,-74.395,426.4,FALSE,sur
+040311,Lomas,Caraveli,Arequipa,04,0403,-15.385,-74.935,448.1,TRUE,sur
+040312,Quicacha,Caraveli,Arequipa,04,0403,-15.565,-73.725,1035.0,FALSE,sur
+040313,Yauca,Caraveli,Arequipa,04,0403,-15.635,-74.425,540.6,TRUE,sur
+040401,Aplao,Castilla,Arequipa,04,0404,-16.025,-72.565,620.5,FALSE,sur
+040402,Andagua,Castilla,Arequipa,04,0404,-15.485,-72.375,478.9,FALSE,sur
+040403,Ayo,Castilla,Arequipa,04,0404,-15.645,-72.285,279.2,FALSE,sur
+040404,Chachas,Castilla,Arequipa,04,0404,-15.185,-72.115,1200.7,FALSE,sur
+040405,Chilcaymarca,Castilla,Arequipa,04,0404,-15.355,-72.385,181.6,FALSE,sur
+040406,Choco,Castilla,Arequipa,04,0404,-15.415,-72.065,918.7,FALSE,sur
+040407,Huancarqui,Castilla,Arequipa,04,0404,-16.015,-72.365,802.8,FALSE,sur
+040408,Machaguay,Castilla,Arequipa,04,0404,-15.605,-72.475,243.5,FALSE,sur
+040409,Orcopampa,Castilla,Arequipa,04,0404,-15.115,-72.245,734.6,FALSE,sur
+040410,Pampacolca,Castilla,Arequipa,04,0404,-15.675,-72.615,264.9,FALSE,sur
+040411,Tipan,Castilla,Arequipa,04,0404,-15.755,-72.505,56.1,FALSE,sur
+040412,Uñon,Castilla,Arequipa,04,0404,-15.755,-72.385,349.4,FALSE,sur
+040413,Uraca,Castilla,Arequipa,04,0404,-16.265,-72.525,691.2,FALSE,sur
+040414,Viraco,Castilla,Arequipa,04,0404,-15.615,-72.565,139.6,FALSE,sur
+040501,Chivay,Caylloma,Arequipa,04,0405,-15.635,-71.545,242.3,FALSE,sur
+040502,Achoma,Caylloma,Arequipa,04,0405,-15.825,-71.695,364.8,FALSE,sur
+040503,Cabanaconde,Caylloma,Arequipa,04,0405,-15.675,-71.955,466.5,FALSE,sur
+040504,Callalli,Caylloma,Arequipa,04,0405,-15.525,-71.245,1546.2,FALSE,sur
+040505,Caylloma,Caylloma,Arequipa,04,0405,-15.155,-71.795,1507.1,FALSE,sur
+040506,Coporaque,Caylloma,Arequipa,04,0405,-15.595,-71.645,112.2,FALSE,sur
+040507,Huambo,Caylloma,Arequipa,04,0405,-15.795,-72.165,715.5,FALSE,sur
+040508,Huanca,Caylloma,Arequipa,04,0405,-16.005,-71.825,365.7,FALSE,sur
+040509,Ichupampa,Caylloma,Arequipa,04,0405,-15.585,-71.705,78.8,FALSE,sur
+040510,Lari,Caylloma,Arequipa,04,0405,-15.475,-71.765,385.8,FALSE,sur
+040511,Lluta,Caylloma,Arequipa,04,0405,-15.965,-72.015,1236.7,FALSE,sur
+040512,Maca,Caylloma,Arequipa,04,0405,-15.735,-71.795,240.9,FALSE,sur
+040513,Madrigal,Caylloma,Arequipa,04,0405,-15.545,-71.855,161.2,FALSE,sur
+040514,San Antonio de Chuca,Caylloma,Arequipa,04,0405,-15.835,-71.095,1552.2,FALSE,sur
+040515,Sibayo,Caylloma,Arequipa,04,0405,-15.365,-71.545,284.4,FALSE,sur
+040516,Tapay,Caylloma,Arequipa,04,0405,-15.425,-71.935,416.9,FALSE,sur
+040517,Tisco,Caylloma,Arequipa,04,0405,-15.215,-71.395,1448.1,FALSE,sur
+040518,Tuti,Caylloma,Arequipa,04,0405,-15.485,-71.595,240.0,FALSE,sur
+040519,Yanque,Caylloma,Arequipa,04,0405,-15.785,-71.455,1125.7,FALSE,sur
+040520,Majes,Caylloma,Arequipa,04,0405,-16.355,-72.295,1657.6,FALSE,sur
+040601,Chuquibamba,Condesuyos,Arequipa,04,0406,-16.045,-72.725,1189.7,FALSE,sur
+040602,Andaray,Condesuyos,Arequipa,04,0406,-15.855,-72.845,814.2,FALSE,sur
+040603,Cayarani,Condesuyos,Arequipa,04,0406,-15.015,-72.285,1400.4,FALSE,sur
+040604,Chichas,Condesuyos,Arequipa,04,0406,-15.535,-72.945,396.4,FALSE,sur
+040605,Iray,Condesuyos,Arequipa,04,0406,-15.915,-72.605,244.3,FALSE,sur
+040606,Rio Grande,Condesuyos,Arequipa,04,0406,-15.885,-73.125,542.3,FALSE,sur
+040607,Salamanca,Condesuyos,Arequipa,04,0406,-15.405,-72.695,1247.3,FALSE,sur
+040608,Yanaquihua,Condesuyos,Arequipa,04,0406,-15.705,-73.025,1060.5,FALSE,sur
+040701,Mollendo,Islay,Arequipa,04,0407,-16.855,-71.875,931.0,TRUE,sur
+040702,Cocachacra,Islay,Arequipa,04,0407,-16.925,-71.595,1563.7,FALSE,sur
+040703,Dean Valdivia,Islay,Arequipa,04,0407,-17.095,-71.825,135.0,TRUE,sur
+040704,Islay,Islay,Arequipa,04,0407,-16.875,-72.105,366.4,TRUE,sur
+040705,Mejia,Islay,Arequipa,04,0407,-17.035,-71.885,106.6,TRUE,sur
+040706,Punta de Bombon,Islay,Arequipa,04,0407,-17.165,-71.555,760.1,TRUE,sur
+040801,Cotahuasi,La Union,Arequipa,04,0408,-15.275,-72.865,167.4,FALSE,sur
+040802,Alca,La Union,Arequipa,04,0408,-15.165,-72.715,196.2,FALSE,sur
+040803,Charcana,La Union,Arequipa,04,0408,-15.215,-73.045,167.4,FALSE,sur
+040804,Huaynacotas,La Union,Arequipa,04,0408,-14.875,-72.765,939.0,FALSE,sur
+040805,Pampamarca,La Union,Arequipa,04,0408,-14.985,-72.925,785.3,FALSE,sur
+040806,Puyca,La Union,Arequipa,04,0408,-14.935,-72.545,1508.7,FALSE,sur
+040807,Quechualla,La Union,Arequipa,04,0408,-15.295,-73.075,132.7,FALSE,sur
+040808,Sayla,La Union,Arequipa,04,0408,-15.325,-73.245,65.7,FALSE,sur
+040809,Tauria,La Union,Arequipa,04,0408,-15.405,-73.175,319.0,FALSE,sur
+040810,Tomepampa,La Union,Arequipa,04,0408,-15.215,-72.785,96.9,FALSE,sur
+040811,Toro,La Union,Arequipa,04,0408,-15.405,-73.015,526.9,FALSE,sur
+050101,Ayacucho,Huamanga,Ayacucho,05,0501,-13.135,-74.255,79.6,FALSE,sur
+050102,Acocro,Huamanga,Ayacucho,05,0501,-13.305,-74.025,435.3,FALSE,sur
+050103,Acos Vinchos,Huamanga,Ayacucho,05,0501,-13.125,-74.055,150.9,FALSE,sur
+050104,Carmen Alto,Huamanga,Ayacucho,05,0501,-13.205,-74.235,26.5,FALSE,sur
+050105,Chiara,Huamanga,Ayacucho,05,0501,-13.375,-74.155,456.9,FALSE,sur
+050106,Ocros,Huamanga,Ayacucho,05,0501,-13.395,-73.905,300.2,FALSE,sur
+050107,Pacaycasa,Huamanga,Ayacucho,05,0501,-13.055,-74.225,51.9,FALSE,sur
+050108,Quinua,Huamanga,Ayacucho,05,0501,-13.065,-74.135,112.3,FALSE,sur
+050109,San Jose de Ticllas,Huamanga,Ayacucho,05,0501,-13.125,-74.325,82.1,FALSE,sur
+050110,San Juan Bautista,Huamanga,Ayacucho,05,0501,-13.185,-74.205,8.4,FALSE,sur
+050111,Santiago de Pischa,Huamanga,Ayacucho,05,0501,-13.075,-74.365,91.7,FALSE,sur
+050112,Socos,Huamanga,Ayacucho,05,0501,-13.265,-74.285,172.5,FALSE,sur
+050113,Tambillo,Huamanga,Ayacucho,05,0501,-13.185,-74.145,150.8,FALSE,sur
+050114,Vinchos,Huamanga,Ayacucho,05,0501,-13.305,-74.455,921.3,FALSE,sur
+050115,Jesus Nazareno,Huamanga,Ayacucho,05,0501,-13.125,-74.205,15.7,FALSE,sur
+050116,Andres Avelino Caceres Dorregaray,Huamanga,Ayacucho,05,0501,-13.155,-74.205,9.7,FALSE,sur
+050201,Cangallo,Cangallo,Ayacucho,05,0502,-13.605,-74.115,183.1,FALSE,sur
+050202,Chuschi,Cangallo,Ayacucho,05,0502,-13.495,-74.435,414.5,FALSE,sur
+050203,Los Morochucos,Cangallo,Ayacucho,05,0502,-13.495,-74.225,254.3,FALSE,sur
+050204,Maria Parado de Bellido,Cangallo,Ayacucho,05,0502,-13.565,-74.275,127.7,FALSE,sur
+050205,Paras,Cangallo,Ayacucho,05,0502,-13.465,-74.715,778.5,FALSE,sur
+050206,Totos,Cangallo,Ayacucho,05,0502,-13.555,-74.505,113.2,FALSE,sur
+050301,Sancos,Huanca Sancos,Ayacucho,05,0503,-14.005,-74.555,1362.3,FALSE,sur
+050302,Carapo,Huanca Sancos,Ayacucho,05,0503,-13.815,-74.305,194.9,FALSE,sur
+050303,Sacsamarca,Huanca Sancos,Ayacucho,05,0503,-13.985,-74.225,645.7,FALSE,sur
+050304,Santiago de Lucanamarca,Huanca Sancos,Ayacucho,05,0503,-13.825,-74.535,654.6,FALSE,sur
+050401,Huanta,Huanta,Ayacucho,05,0504,-12.915,-74.215,169.1,FALSE,sur
+050402,Ayahuanco,Huanta,Ayacucho,05,0504,-12.535,-74.305,369.0,FALSE,sur
+050403,Huamanguilla,Huanta,Ayacucho,05,0504,-12.995,-74.155,94.2,FALSE,sur
+050404,Iguain,Huanta,Ayacucho,05,0504,-12.985,-74.215,60.4,FALSE,sur
+050405,Luricocha,Huanta,Ayacucho,05,0504,-12.865,-74.275,142.6,FALSE,sur
+050406,Santillana,Huanta,Ayacucho,05,0504,-12.705,-74.265,195.8,FALSE,sur
+050407,Sivia,Huanta,Ayacucho,05,0504,-12.605,-73.995,903.4,FALSE,sur
+050408,Llochegua,Huanta,Ayacucho,05,0504,-12.445,-74.085,519.1,FALSE,sur
+050409,Canayre,Huanta,Ayacucho,05,0504,-12.345,-74.105,274.8,FALSE,sur
+050410,Uchuraccay,Huanta,Ayacucho,05,0504,-12.785,-74.095,256.2,FALSE,sur
+050411,Pucacolpa,Huanta,Ayacucho,05,0504,-12.335,-74.385,720.3,FALSE,sur
+050412,Chaca,Huanta,Ayacucho,05,0504,-12.785,-74.195,106.3,FALSE,sur
+050413,Putis,Huanta,Ayacucho,05,0504,-12.605,-74.185,94.3,FALSE,sur
+050501,San Miguel,La Mar,Ayacucho,05,0505,-12.995,-73.945,262.0,FALSE,sur
+050502,Anco,La Mar,Ayacucho,05,0505,-13.075,-73.645,749.6,FALSE,sur
+050503,Ayna,La Mar,Ayacucho,05,0505,-12.725,-73.895,291.3,FALSE,sur
+050504,Chilcas,La Mar,Ayacucho,05,0505,-13.165,-73.865,155.7,FALSE,sur
+050505,Chungui,La Mar,Ayacucho,05,0505,-13.225,-73.575,518.7,FALSE,sur
+050506,Luis Carranza,La Mar,Ayacucho,05,0505,-13.245,-73.895,139.9,FALSE,sur
+050507,Santa Rosa,La Mar,Ayacucho,05,0505,-12.765,-73.785,394.0,FALSE,sur
+050508,Tambo,La Mar,Ayacucho,05,0505,-12.915,-74.025,306.8,FALSE,sur
+050509,Samugari,La Mar,Ayacucho,05,0505,-12.855,-73.735,263.4,FALSE,sur
+050510,Anchihuay,La Mar,Ayacucho,05,0505,-12.955,-73.715,270.5,FALSE,sur
+050511,Oronccoy,La Mar,Ayacucho,05,0505,-13.345,-73.395,565.5,FALSE,sur
+050512,Union Progreso,La Mar,Ayacucho,05,0505,-12.925,-73.555,39.9,FALSE,sur
+050513,Rio Magdalena,La Mar,Ayacucho,05,0505,-12.885,-73.675,113.6,FALSE,sur
+050514,Ninabamba,La Mar,Ayacucho,05,0505,-13.105,-73.925,101.4,FALSE,sur
+050515,Patibamba,La Mar,Ayacucho,05,0505,-13.065,-73.965,94.2,FALSE,sur
+050601,Puquio,Lucanas,Ayacucho,05,0506,-14.675,-74.015,866.7,FALSE,sur
+050602,Aucara,Lucanas,Ayacucho,05,0506,-14.195,-74.155,886.6,FALSE,sur
+050603,Cabana,Lucanas,Ayacucho,05,0506,-14.365,-74.075,404.6,FALSE,sur
+050604,Carmen Salcedo,Lucanas,Ayacucho,05,0506,-14.465,-73.985,471.6,FALSE,sur
+050605,Chaviña,Lucanas,Ayacucho,05,0506,-14.985,-73.885,369.9,FALSE,sur
+050606,Chipao,Lucanas,Ayacucho,05,0506,-14.475,-73.755,1162.7,FALSE,sur
+050607,Huac-Huas,Lucanas,Ayacucho,05,0506,-14.165,-74.995,318.4,FALSE,sur
+050608,Laramate,Lucanas,Ayacucho,05,0506,-14.255,-74.765,790.3,FALSE,sur
+050609,Leoncio Prado,Lucanas,Ayacucho,05,0506,-14.675,-74.615,1119.7,FALSE,sur
+050610,Llauta,Lucanas,Ayacucho,05,0506,-14.245,-74.945,494.9,FALSE,sur
+050611,Lucanas,Lucanas,Ayacucho,05,0506,-14.485,-74.305,1221.4,FALSE,sur
+050612,Ocaña,Lucanas,Ayacucho,05,0506,-14.425,-74.845,862.9,FALSE,sur
+050613,Otoca,Lucanas,Ayacucho,05,0506,-14.495,-74.665,717.5,FALSE,sur
+050614,Saisa,Lucanas,Ayacucho,05,0506,-14.955,-74.375,573.5,FALSE,sur
+050615,San Cristobal,Lucanas,Ayacucho,05,0506,-14.795,-74.255,411.0,FALSE,sur
+050616,San Juan,Lucanas,Ayacucho,05,0506,-14.655,-74.185,46.8,FALSE,sur
+050617,San Pedro,Lucanas,Ayacucho,05,0506,-14.975,-74.205,737.4,FALSE,sur
+050618,San Pedro de Palco,Lucanas,Ayacucho,05,0506,-14.295,-74.495,520.0,FALSE,sur
+050619,Sancos,Lucanas,Ayacucho,05,0506,-15.145,-74.155,1513.2,FALSE,sur
+050620,Santa Ana de Huaycahuacho,Lucanas,Ayacucho,05,0506,-14.225,-73.925,44.4,FALSE,sur
+050621,Santa Lucia,Lucanas,Ayacucho,05,0506,-14.935,-74.545,1045.3,FALSE,sur
+050701,Coracora,Parinacochas,Ayacucho,05,0507,-14.815,-73.695,1401.7,FALSE,sur
+050702,Chumpi,Parinacochas,Ayacucho,05,0507,-15.105,-73.705,370.9,FALSE,sur
+050703,Coronel Castañeda,Parinacochas,Ayacucho,05,0507,-14.775,-73.165,1077.2,FALSE,sur
+050704,Pacapausa,Parinacochas,Ayacucho,05,0507,-14.955,-73.365,146.1,FALSE,sur
+050705,Pullo,Parinacochas,Ayacucho,05,0507,-15.335,-73.985,1575.1,FALSE,sur
+050706,Puyusca,Parinacochas,Ayacucho,05,0507,-15.285,-73.595,644.3,FALSE,sur
+050707,San Francisco de Ravacayco,Parinacochas,Ayacucho,05,0507,-15.005,-73.365,107.7,FALSE,sur
+050708,Upahuacho,Parinacochas,Ayacucho,05,0507,-14.885,-73.525,584.4,FALSE,sur
+050801,Pausa,Paucar del Sara Sara,Ayacucho,05,0508,-15.325,-73.355,257.0,FALSE,sur
+050802,Colta,Paucar del Sara Sara,Ayacucho,05,0508,-15.125,-73.245,247.6,FALSE,sur
+050803,Corculla,Paucar del Sara Sara,Ayacucho,05,0508,-15.265,-73.215,104.0,FALSE,sur
+050804,Lampa,Paucar del Sara Sara,Ayacucho,05,0508,-15.145,-73.445,288.3,FALSE,sur
+050805,Marcabamba,Paucar del Sara Sara,Ayacucho,05,0508,-15.095,-73.375,120.8,FALSE,sur
+050806,Oyolo,Paucar del Sara Sara,Ayacucho,05,0508,-15.025,-73.115,797.1,FALSE,sur
+050807,Pararca,Paucar del Sara Sara,Ayacucho,05,0508,-15.205,-73.455,52.6,FALSE,sur
+050808,San Javier de Alpabamba,Paucar del Sara Sara,Ayacucho,05,0508,-15.045,-73.295,117.3,FALSE,sur
+050809,San Jose de Ushua,Paucar del Sara Sara,Ayacucho,05,0508,-15.225,-73.195,31.1,FALSE,sur
+050810,Sara Sara,Paucar del Sara Sara,Ayacucho,05,0508,-15.255,-73.455,84.9,FALSE,sur
+050901,Querobamba,Sucre,Ayacucho,05,0509,-13.995,-73.805,286.2,FALSE,sur
+050902,Belen,Sucre,Ayacucho,05,0509,-13.805,-73.765,33.7,FALSE,sur
+050903,Chalcos,Sucre,Ayacucho,05,0509,-13.855,-73.755,59.0,FALSE,sur
+050904,Chilcayoc,Sucre,Ayacucho,05,0509,-13.895,-73.725,30.1,FALSE,sur
+050905,Huacaña,Sucre,Ayacucho,05,0509,-14.215,-73.865,146.6,FALSE,sur
+050906,Morcolla,Sucre,Ayacucho,05,0509,-14.155,-73.835,289.6,FALSE,sur
+050907,Paico,Sucre,Ayacucho,05,0509,-14.015,-73.665,78.2,FALSE,sur
+050908,San Pedro de Larcay,Sucre,Ayacucho,05,0509,-14.285,-73.585,312.2,FALSE,sur
+050909,San Salvador de Quije,Sucre,Ayacucho,05,0509,-13.985,-73.715,139.5,FALSE,sur
+050910,Santiago de Paucaray,Sucre,Ayacucho,05,0509,-14.085,-73.655,62.5,FALSE,sur
+050911,Soras,Sucre,Ayacucho,05,0509,-14.205,-73.695,360.4,FALSE,sur
+051001,Huancapi,Victor Fajardo,Ayacucho,05,0510,-13.805,-74.085,240.7,FALSE,sur
+051002,Alcamenca,Victor Fajardo,Ayacucho,05,0510,-13.665,-74.215,119.2,FALSE,sur
+051003,Apongo,Victor Fajardo,Ayacucho,05,0510,-14.065,-74.005,171.9,FALSE,sur
+051004,Asquipata,Victor Fajardo,Ayacucho,05,0510,-14.075,-73.935,73.3,FALSE,sur
+051005,Canaria,Victor Fajardo,Ayacucho,05,0510,-13.965,-73.995,267.0,FALSE,sur
+051006,Cayara,Victor Fajardo,Ayacucho,05,0510,-13.795,-73.985,63.8,FALSE,sur
+051007,Colca,Victor Fajardo,Ayacucho,05,0510,-13.715,-74.035,66.2,FALSE,sur
+051008,Huamanquiquia,Victor Fajardo,Ayacucho,05,0510,-13.715,-74.275,73.4,FALSE,sur
+051009,Huancaraylla,Victor Fajardo,Ayacucho,05,0510,-13.745,-74.165,163.7,FALSE,sur
+051010,Hualla,Victor Fajardo,Ayacucho,05,0510,-13.875,-73.975,154.0,FALSE,sur
+051011,Sarhua,Victor Fajardo,Ayacucho,05,0510,-13.685,-74.405,380.5,FALSE,sur
+051012,Vilcanchos,Victor Fajardo,Ayacucho,05,0510,-13.655,-74.645,500.9,FALSE,sur
+051101,Vilcas Huaman,Vilcas Huaman,Ayacucho,05,0511,-13.655,-73.895,218.0,FALSE,sur
+051102,Accomarca,Vilcas Huaman,Ayacucho,05,0511,-13.805,-73.865,86.6,FALSE,sur
+051103,Carhuanca,Vilcas Huaman,Ayacucho,05,0511,-13.735,-73.785,55.4,FALSE,sur
+051104,Concepcion,Vilcas Huaman,Ayacucho,05,0511,-13.545,-73.875,210.8,FALSE,sur
+051105,Huambalpa,Vilcas Huaman,Ayacucho,05,0511,-13.745,-73.885,164.9,FALSE,sur
+051106,Independencia,Vilcas Huaman,Ayacucho,05,0511,-13.875,-73.855,91.4,FALSE,sur
+051107,Saurama,Vilcas Huaman,Ayacucho,05,0511,-13.705,-73.745,90.3,FALSE,sur
+051108,Vischongo,Vilcas Huaman,Ayacucho,05,0511,-13.555,-74.015,272.3,FALSE,sur
+060101,Cajamarca,Cajamarca,Cajamarca,06,0601,-7.075,-78.565,380.0,FALSE,norte
+060102,Asuncion,Cajamarca,Cajamarca,06,0601,-7.335,-78.525,216.3,FALSE,norte
+060103,Chetilla,Cajamarca,Cajamarca,06,0601,-7.145,-78.655,75.0,FALSE,norte
+060104,Cospan,Cajamarca,Cajamarca,06,0601,-7.455,-78.515,556.6,FALSE,norte
+060105,Encañada,Cajamarca,Cajamarca,06,0601,-6.985,-78.405,645.8,FALSE,norte
+060106,Jesus,Cajamarca,Cajamarca,06,0601,-7.295,-78.365,299.9,FALSE,norte
+060107,Llacanora,Cajamarca,Cajamarca,06,0601,-7.185,-78.405,52.9,FALSE,norte
+060108,Los Baños del Inca,Cajamarca,Cajamarca,06,0601,-7.085,-78.455,280.4,FALSE,norte
+060109,Magdalena,Cajamarca,Cajamarca,06,0601,-7.225,-78.625,207.8,FALSE,norte
+060110,Matara,Cajamarca,Cajamarca,06,0601,-7.275,-78.255,57.8,FALSE,norte
+060111,Namora,Cajamarca,Cajamarca,06,0601,-7.185,-78.285,159.8,FALSE,norte
+060112,San Juan,Cajamarca,Cajamarca,06,0601,-7.275,-78.485,70.1,FALSE,norte
+060201,Cajabamba,Cajabamba,Cajamarca,06,0602,-7.635,-78.035,192.8,FALSE,norte
+060202,Cachachi,Cajabamba,Cajamarca,06,0602,-7.565,-78.255,825.5,FALSE,norte
+060203,Condebamba,Cajabamba,Cajamarca,06,0602,-7.525,-78.095,196.6,FALSE,norte
+060204,Sitacocha,Cajabamba,Cajamarca,06,0602,-7.475,-77.905,586.1,FALSE,norte
+060301,Celendin,Celendin,Cajamarca,06,0603,-6.775,-78.115,402.4,FALSE,norte
+060302,Chumuch,Celendin,Cajamarca,06,0603,-6.575,-78.185,206.8,FALSE,norte
+060303,Cortegana,Celendin,Cajamarca,06,0603,-6.485,-78.285,252.4,FALSE,norte
+060304,Huasmin,Celendin,Cajamarca,06,0603,-6.825,-78.325,447.9,FALSE,norte
+060305,Jorge Chavez,Celendin,Cajamarca,06,0603,-6.935,-78.075,51.7,FALSE,norte
+060306,Jose Galvez,Celendin,Cajamarca,06,0603,-6.915,-78.155,49.2,FALSE,norte
+060307,Miguel Iglesias,Celendin,Cajamarca,06,0603,-6.655,-78.265,270.8,FALSE,norte
+060308,Oxamarca,Celendin,Cajamarca,06,0603,-7.065,-78.065,287.8,FALSE,norte
+060309,Sorochuco,Celendin,Cajamarca,06,0603,-6.935,-78.295,167.3,FALSE,norte
+060310,Sucre,Celendin,Cajamarca,06,0603,-7.015,-78.175,263.2,FALSE,norte
+060311,Utco,Celendin,Cajamarca,06,0603,-6.885,-78.055,103.3,FALSE,norte
+060312,La Libertad de Pallan,Celendin,Cajamarca,06,0603,-6.705,-78.285,166.1,FALSE,norte
+060401,Chota,Chota,Cajamarca,06,0604,-6.555,-78.645,273.3,FALSE,norte
+060402,Anguia,Chota,Cajamarca,06,0604,-6.335,-78.575,155.2,FALSE,norte
+060403,Chadin,Chota,Cajamarca,06,0604,-6.435,-78.415,65.3,FALSE,norte
+060404,Chiguirip,Chota,Cajamarca,06,0604,-6.425,-78.705,46.8,FALSE,norte
+060405,Chimban,Chota,Cajamarca,06,0604,-6.285,-78.445,146.6,FALSE,norte
+060406,Choropampa,Chota,Cajamarca,06,0604,-6.375,-78.365,204.4,FALSE,norte
+060407,Cochabamba,Chota,Cajamarca,06,0604,-6.485,-78.855,115.7,FALSE,norte
+060408,Conchan,Chota,Cajamarca,06,0604,-6.465,-78.605,152.7,FALSE,norte
+060409,Huambos,Chota,Cajamarca,06,0604,-6.445,-78.965,248.7,FALSE,norte
+060410,Lajas,Chota,Cajamarca,06,0604,-6.575,-78.725,120.6,FALSE,norte
+060411,Llama,Chota,Cajamarca,06,0604,-6.535,-79.175,497.4,FALSE,norte
+060412,Miracosta,Chota,Cajamarca,06,0604,-6.355,-79.305,429.8,FALSE,norte
+060413,Paccha,Chota,Cajamarca,06,0604,-6.535,-78.395,98.5,FALSE,norte
+060414,Pion,Chota,Cajamarca,06,0604,-6.185,-78.475,139.2,FALSE,norte
+060415,Querocoto,Chota,Cajamarca,06,0604,-6.355,-79.095,298.0,FALSE,norte
+060416,San Juan de Licupis,Chota,Cajamarca,06,0604,-6.485,-79.245,201.9,FALSE,norte
+060417,Tacabamba,Chota,Cajamarca,06,0604,-6.395,-78.555,194.6,FALSE,norte
+060418,Tocmoche,Chota,Cajamarca,06,0604,-6.455,-79.375,220.4,FALSE,norte
+060419,Chalamarca,Chota,Cajamarca,06,0604,-6.515,-78.495,177.3,FALSE,norte
+060501,Contumaza,Contumaza,Cajamarca,06,0605,-7.335,-78.735,355.2,FALSE,norte
+060502,Chilete,Contumaza,Cajamarca,06,0605,-7.255,-78.825,130.3,FALSE,norte
+060503,Cupisnique,Contumaza,Cajamarca,06,0605,-7.375,-79.065,299.9,FALSE,norte
+060504,Guzmango,Contumaza,Cajamarca,06,0605,-7.365,-78.915,49.2,FALSE,norte
+060505,San Benito,Contumaza,Cajamarca,06,0605,-7.505,-78.965,489.0,FALSE,norte
+060506,Santa Cruz de Toled,Contumaza,Cajamarca,06,0605,-7.325,-78.865,66.4,FALSE,norte
+060507,Tantarica,Contumaza,Cajamarca,06,0605,-7.275,-78.945,147.5,FALSE,norte
+060508,Yonan,Contumaza,Cajamarca,06,0605,-7.275,-79.165,542.1,FALSE,norte
+060601,Cutervo,Cutervo,Cajamarca,06,0606,-6.375,-78.835,432.3,FALSE,norte
+060602,Callayuc,Cutervo,Cajamarca,06,0606,-6.125,-78.935,308.0,FALSE,norte
+060603,Choros,Cutervo,Cajamarca,06,0606,-5.925,-78.775,260.1,FALSE,norte
+060604,Cujillo,Cutervo,Cajamarca,06,0606,-6.115,-78.555,101.0,FALSE,norte
+060605,La Ramada,Cutervo,Cajamarca,06,0606,-6.225,-78.565,66.5,FALSE,norte
+060606,Pimpingos,Cutervo,Cajamarca,06,0606,-6.075,-78.765,166.4,FALSE,norte
+060607,Querocotillo,Cutervo,Cajamarca,06,0606,-6.195,-79.095,697.3,FALSE,norte
+060608,San Andres de Cutervo,Cutervo,Cajamarca,06,0606,-6.225,-78.745,125.7,FALSE,norte
+060609,San Juan de Cutervo,Cutervo,Cajamarca,06,0606,-6.175,-78.605,72.7,FALSE,norte
+060610,San Luis de Lucma,Cutervo,Cajamarca,06,0606,-6.275,-78.575,72.7,FALSE,norte
+060611,Santa Cruz,Cutervo,Cajamarca,06,0606,-6.105,-78.845,135.5,FALSE,norte
+060612,Santo Domingo de la Capilla,Cutervo,Cajamarca,06,0606,-6.255,-78.845,102.2,FALSE,norte
+060613,Santo Tomas,Cutervo,Cajamarca,06,0606,-6.115,-78.675,229.2,FALSE,norte
+060614,Socota,Cutervo,Cajamarca,06,0606,-6.285,-78.695,152.7,FALSE,norte
+060615,Toribio Casanova,Cutervo,Cajamarca,06,0606,-5.985,-78.695,130.6,FALSE,norte
+060701,Bambamarca,Hualgayoc,Cajamarca,06,0607,-6.695,-78.475,454.2,FALSE,norte
+060702,Chugur,Hualgayoc,Cajamarca,06,0607,-6.685,-78.705,105.8,FALSE,norte
+060703,Hualgayoc,Hualgayoc,Cajamarca,06,0607,-6.755,-78.605,230.1,FALSE,norte
+060801,Jaen,Jaen,Cajamarca,06,0608,-5.775,-78.855,563.4,FALSE,norte
+060802,Bellavista,Jaen,Cajamarca,06,0608,-5.565,-78.745,870.8,FALSE,norte
+060803,Chontali,Jaen,Cajamarca,06,0608,-5.635,-79.135,467.4,FALSE,norte
+060804,Colasay,Jaen,Cajamarca,06,0608,-5.905,-78.975,601.5,FALSE,norte
+060805,Huabal,Jaen,Cajamarca,06,0608,-5.605,-78.905,83.9,FALSE,norte
+060806,Las Pirias,Jaen,Cajamarca,06,0608,-5.635,-78.845,64.1,FALSE,norte
+060807,Pomahuaca,Jaen,Cajamarca,06,0608,-5.875,-79.195,823.4,FALSE,norte
+060808,Pucara,Jaen,Cajamarca,06,0608,-6.035,-79.125,216.9,FALSE,norte
+060809,Sallique,Jaen,Cajamarca,06,0608,-5.625,-79.315,373.7,FALSE,norte
+060810,San Felipe,Jaen,Cajamarca,06,0608,-5.785,-79.315,256.4,FALSE,norte
+060811,San Jose del Alto,Jaen,Cajamarca,06,0608,-5.515,-79.055,507.0,FALSE,norte
+060812,Santa Rosa,Jaen,Cajamarca,06,0608,-5.425,-78.585,312.1,FALSE,norte
+060901,San Ignacio,San Ignacio,Cajamarca,06,0609,-5.135,-79.005,359.2,FALSE,norte
+060902,Chirinos,San Ignacio,Cajamarca,06,0609,-5.305,-78.885,360.3,FALSE,norte
+060903,Huarango,San Ignacio,Cajamarca,06,0609,-5.095,-78.715,909.7,FALSE,norte
+060904,La Coipa,San Ignacio,Cajamarca,06,0609,-5.385,-78.975,404.7,FALSE,norte
+060905,Namballe,San Ignacio,Cajamarca,06,0609,-5.105,-79.185,636.9,FALSE,norte
+060906,San Jose de Lourdes,San Ignacio,Cajamarca,06,0609,-4.915,-78.835,1371.7,FALSE,norte
+060907,Tabaconas,San Ignacio,Cajamarca,06,0609,-5.325,-79.215,779.8,FALSE,norte
+061001,Pedro Galvez,San Marcos,Cajamarca,06,0610,-7.325,-78.175,240.9,FALSE,norte
+061002,Chancay,San Marcos,Cajamarca,06,0610,-7.415,-78.115,70.0,FALSE,norte
+061003,Eduardo Villanueva,San Marcos,Cajamarca,06,0610,-7.445,-78.145,61.4,FALSE,norte
+061004,Gregorio Pita,San Marcos,Cajamarca,06,0610,-7.225,-78.165,225.0,FALSE,norte
+061005,Ichocan,San Marcos,Cajamarca,06,0610,-7.405,-78.065,66.4,FALSE,norte
+061006,Jose Manuel Quiroz,San Marcos,Cajamarca,06,0610,-7.355,-78.025,110.6,FALSE,norte
+061007,Jose Sabogal,San Marcos,Cajamarca,06,0610,-7.225,-77.965,582.7,FALSE,norte
+061101,San Miguel,San Miguel,Cajamarca,06,0611,-7.075,-78.925,352.9,FALSE,norte
+061102,Bolivar,San Miguel,Cajamarca,06,0611,-6.975,-79.165,87.3,FALSE,norte
+061103,Calquis,San Miguel,Cajamarca,06,0611,-6.915,-78.955,345.7,FALSE,norte
+061104,Catilluc,San Miguel,Cajamarca,06,0611,-6.805,-78.735,208.0,FALSE,norte
+061105,El Prado,San Miguel,Cajamarca,06,0611,-7.035,-79.005,71.3,FALSE,norte
+061106,La Florida,San Miguel,Cajamarca,06,0611,-6.865,-79.155,54.1,FALSE,norte
+061107,Llapa,San Miguel,Cajamarca,06,0611,-6.895,-78.745,140.2,FALSE,norte
+061108,Nanchoc,San Miguel,Cajamarca,06,0611,-7.005,-79.245,361.6,FALSE,norte
+061109,Niepos,San Miguel,Cajamarca,06,0611,-6.925,-79.125,155.0,FALSE,norte
+061110,San Gregorio,San Miguel,Cajamarca,06,0611,-7.115,-79.165,312.3,FALSE,norte
+061111,San Silvestre de Cochan,San Miguel,Cajamarca,06,0611,-6.925,-78.725,132.9,FALSE,norte
+061112,Tongod,San Miguel,Cajamarca,06,0611,-6.785,-78.835,160.0,FALSE,norte
+061113,Union Agua Blanca,San Miguel,Cajamarca,06,0611,-7.125,-79.055,173.4,FALSE,norte
+061201,San Pablo,San Pablo,Cajamarca,06,0612,-7.085,-78.785,201.7,FALSE,norte
+061202,San Bernardino,San Pablo,Cajamarca,06,0612,-7.175,-78.785,168.4,FALSE,norte
+061203,San Luis,San Pablo,Cajamarca,06,0612,-7.165,-78.875,41.8,FALSE,norte
+061204,Tumbaden,San Pablo,Cajamarca,06,0612,-6.985,-78.675,255.8,FALSE,norte
+061301,Santa Cruz,Santa Cruz,Cajamarca,06,0613,-6.625,-78.945,107.1,FALSE,norte
+061302,Andabamba,Santa Cruz,Cajamarca,06,0613,-6.665,-78.815,8.6,FALSE,norte
+061303,Catache,Santa Cruz,Cajamarca,06,0613,-6.755,-79.075,561.2,FALSE,norte
+061304,Chancaybaños,Santa Cruz,Cajamarca,06,0613,-6.555,-78.875,128.0,FALSE,norte
+061305,La Esperanza,Santa Cruz,Cajamarca,06,0613,-6.625,-78.855,57.9,FALSE,norte
+061306,Ninabamba,Santa Cruz,Cajamarca,06,0613,-6.695,-78.765,60.3,FALSE,norte
+061307,Pulan,Santa Cruz,Cajamarca,06,0613,-6.745,-78.925,162.4,FALSE,norte
+061308,Saucepampa,Santa Cruz,Cajamarca,06,0613,-6.685,-78.905,32.0,FALSE,norte
+061309,Sexi,Santa Cruz,Cajamarca,06,0613,-6.585,-79.035,193.3,FALSE,norte
+061310,Uticyacu,Santa Cruz,Cajamarca,06,0613,-6.615,-78.795,44.3,FALSE,norte
+061311,Yauyucan,Santa Cruz,Cajamarca,06,0613,-6.685,-78.845,32.0,FALSE,norte
+070101,Callao,Callao,Callao,07,0701,-12.015,-77.125,49.7,TRUE,centro
+070102,Bellavista,Callao,Callao,07,0701,-12.055,-77.105,3.6,FALSE,centro
+070103,Carmen de la Legua Reynoso,Callao,Callao,07,0701,-12.045,-77.085,2.4,FALSE,centro
+070104,La Perla,Callao,Callao,07,0701,-12.065,-77.115,3.6,FALSE,centro
+070105,La Punta,Callao,Callao,07,0701,-12.0701,-77.1636,0.5,TRUE,centro
+070106,Ventanilla,Callao,Callao,07,0701,-11.875,-77.135,78.8,TRUE,centro
+070107,Mi Peru,Callao,Callao,07,0701,-11.855,-77.115,3.6,FALSE,centro
+080101,Cusco,Cusco,Cusco,08,0801,-13.495,-71.985,85.6,FALSE,sur
+080102,Ccorca,Cusco,Cusco,08,0801,-13.585,-72.085,166.2,FALSE,sur
+080103,Poroy,Cusco,Cusco,08,0801,-13.505,-72.035,28.9,FALSE,sur
+080104,San Jeronimo,Cusco,Cusco,08,0801,-13.555,-71.865,96.4,FALSE,sur
+080105,San Sebastian,Cusco,Cusco,08,0801,-13.525,-71.925,65.1,FALSE,sur
+080106,Santiago,Cusco,Cusco,08,0801,-13.575,-71.975,54.2,FALSE,sur
+080107,Saylla,Cusco,Cusco,08,0801,-13.555,-71.835,20.5,FALSE,sur
+080108,Wanchaq,Cusco,Cusco,08,0801,-13.535,-71.945,7.2,FALSE,sur
+080201,Acomayo,Acomayo,Cusco,08,0802,-13.895,-71.675,141.9,FALSE,sur
+080202,Acopia,Acomayo,Cusco,08,0802,-14.055,-71.505,78.1,FALSE,sur
+080203,Acos,Acomayo,Cusco,08,0802,-13.935,-71.735,138.3,FALSE,sur
+080204,Mosoc Llacta,Acomayo,Cusco,08,0802,-14.105,-71.485,37.3,FALSE,sur
+080205,Pomacanchi,Acomayo,Cusco,08,0802,-14.055,-71.625,269.3,FALSE,sur
+080206,Rondocan,Acomayo,Cusco,08,0802,-13.785,-71.765,180.5,FALSE,sur
+080207,Sangarara,Acomayo,Cusco,08,0802,-13.955,-71.575,86.6,FALSE,sur
+080301,Anta,Anta,Cusco,08,0803,-13.485,-72.165,186.8,FALSE,sur
+080302,Ancahuasi,Anta,Cusco,08,0803,-13.465,-72.325,124.1,FALSE,sur
+080303,Cachimayo,Anta,Cusco,08,0803,-13.465,-72.055,44.6,FALSE,sur
+080304,Chinchaypujio,Anta,Cusco,08,0803,-13.615,-72.275,396.2,FALSE,sur
+080305,Huarocondo,Anta,Cusco,08,0803,-13.375,-72.275,219.4,FALSE,sur
+080306,Limatambo,Anta,Cusco,08,0803,-13.475,-72.445,508.6,FALSE,sur
+080307,Mollepata,Anta,Cusco,08,0803,-13.465,-72.625,366.4,FALSE,sur
+080308,Pucyura,Anta,Cusco,08,0803,-13.485,-72.095,32.5,FALSE,sur
+080309,Zurite,Anta,Cusco,08,0803,-13.465,-72.245,61.5,FALSE,sur
+080401,Calca,Calca,Cusco,08,0804,-13.265,-71.955,311.2,FALSE,sur
+080402,Coya,Calca,Cusco,08,0804,-13.405,-71.915,71.1,FALSE,sur
+080403,Lamay,Calca,Cusco,08,0804,-13.325,-71.885,96.5,FALSE,sur
+080404,Lares,Calca,Cusco,08,0804,-13.085,-72.025,737.5,FALSE,sur
+080405,Pisac,Calca,Cusco,08,0804,-13.385,-71.805,145.9,FALSE,sur
+080406,San Salvador,Calca,Cusco,08,0804,-13.485,-71.775,131.4,FALSE,sur
+080407,Taray,Calca,Cusco,08,0804,-13.465,-71.885,59.1,FALSE,sur
+080408,Yanatile,Calca,Cusco,08,0804,-12.795,-72.105,2001.2,FALSE,sur
+080501,Yanaoca,Canas,Cusco,08,0805,-14.275,-71.445,284.6,FALSE,sur
+080502,Checca,Canas,Cusco,08,0805,-14.495,-71.475,502.7,FALSE,sur
+080503,Kunturkanki,Canas,Cusco,08,0805,-14.555,-71.295,400.6,FALSE,sur
+080504,Langui,Canas,Cusco,08,0805,-14.385,-71.295,172.9,FALSE,sur
+080505,Layo,Canas,Cusco,08,0805,-14.525,-71.095,431.9,FALSE,sur
+080506,Pampamarca,Canas,Cusco,08,0805,-14.145,-71.445,30.0,FALSE,sur
+080507,Quehue,Canas,Cusco,08,0805,-14.365,-71.485,156.1,FALSE,sur
+080508,Tupac Amaru,Canas,Cusco,08,0805,-14.155,-71.525,119.0,FALSE,sur
+080601,Sicuani,Canchis,Cusco,08,0806,-14.255,-71.105,655.8,FALSE,sur
+080602,Checacupe,Canchis,Cusco,08,0806,-14.005,-71.065,942.7,FALSE,sur
+080603,Combapata,Canchis,Cusco,08,0806,-14.085,-71.335,175.5,FALSE,sur
+080604,Marangani,Canchis,Cusco,08,0806,-14.375,-71.095,438.2,FALSE,sur
+080605,Pitumarca,Canchis,Cusco,08,0806,-13.885,-71.155,1097.1,FALSE,sur
+080606,San Pablo,Canchis,Cusco,08,0806,-14.155,-71.085,521.5,FALSE,sur
+080607,San Pedro,Canchis,Cusco,08,0806,-14.165,-71.335,58.9,FALSE,sur
+080608,Tinta,Canchis,Cusco,08,0806,-14.155,-71.395,84.1,FALSE,sur
+080701,Santo Tomas,Chumbivilcas,Cusco,08,0807,-14.655,-72.205,1920.6,FALSE,sur
+080702,Capacmarca,Chumbivilcas,Cusco,08,0807,-14.045,-71.995,266.9,FALSE,sur
+080703,Chamaca,Chumbivilcas,Cusco,08,0807,-14.335,-71.885,649.5,FALSE,sur
+080704,Colquemarca,Chumbivilcas,Cusco,08,0807,-14.235,-72.015,455.2,FALSE,sur
+080705,Livitaca,Chumbivilcas,Cusco,08,0807,-14.385,-71.675,957.9,FALSE,sur
+080706,Llusco,Chumbivilcas,Cusco,08,0807,-14.475,-72.225,316.8,FALSE,sur
+080707,Quiñota,Chumbivilcas,Cusco,08,0807,-14.375,-72.205,226.9,FALSE,sur
+080708,Velille,Chumbivilcas,Cusco,08,0807,-14.545,-71.875,575.8,FALSE,sur
+080801,Espinar,Espinar,Cusco,08,0808,-14.925,-71.355,741.2,FALSE,sur
+080802,Condoroma,Espinar,Cusco,08,0808,-15.305,-71.075,515.2,FALSE,sur
+080803,Coporaque,Espinar,Cusco,08,0808,-14.755,-71.635,1545.9,FALSE,sur
+080804,Ocoruro,Espinar,Cusco,08,0808,-15.085,-71.135,364.9,FALSE,sur
+080805,Pallpata,Espinar,Cusco,08,0808,-14.905,-71.095,823.9,FALSE,sur
+080806,Pichigua,Espinar,Cusco,08,0808,-14.685,-71.345,278.1,FALSE,sur
+080807,Suyckutambo,Espinar,Cusco,08,0808,-15.005,-71.655,635.6,FALSE,sur
+080808,Alto Pichigua,Espinar,Cusco,08,0808,-14.735,-71.225,358.3,FALSE,sur
+080901,Santa Ana,La Convencion,Cusco,08,0809,-12.875,-72.745,397.5,FALSE,sur
+080902,Echarate,La Convencion,Cusco,08,0809,-12.355,-72.835,7639.6,FALSE,sur
+080903,Huayopata,La Convencion,Cusco,08,0809,-13.055,-72.475,531.2,FALSE,sur
+080904,Maranura,La Convencion,Cusco,08,0809,-12.935,-72.645,167.9,FALSE,sur
+080905,Ocobamba,La Convencion,Cusco,08,0809,-12.915,-72.365,869.7,FALSE,sur
+080906,Quellouno,La Convencion,Cusco,08,0809,-12.505,-72.445,1979.3,FALSE,sur
+080907,Kimbiri,La Convencion,Cusco,08,0809,-12.555,-73.665,541.9,FALSE,sur
+080908,Santa Teresa,La Convencion,Cusco,08,0809,-13.245,-72.735,1343.8,FALSE,sur
+080909,Vilcabamba,La Convencion,Cusco,08,0809,-13.045,-73.055,2389.1,FALSE,sur
+080910,Pichari,La Convencion,Cusco,08,0809,-12.395,-73.785,504.7,FALSE,sur
+080911,Inkawasi,La Convencion,Cusco,08,0809,-13.305,-73.205,769.4,FALSE,sur
+080912,Villa Virgen,La Convencion,Cusco,08,0809,-13.055,-73.345,439.4,FALSE,sur
+080913,Villa Kintiarina,La Convencion,Cusco,08,0809,-12.905,-73.475,199.3,FALSE,sur
+080914,Megantoni,La Convencion,Cusco,08,0809,-11.755,-72.855,10769.8,FALSE,sur
+080915,Kumpirushiato,La Convencion,Cusco,08,0809,-12.575,-73.365,2960.8,FALSE,sur
+080916,Cielo Punco,La Convencion,Cusco,08,0809,-12.795,-73.545,99.1,FALSE,sur
+080917,Manitea,La Convencion,Cusco,08,0809,-12.725,-73.585,147.5,FALSE,sur
+080918,Union Ashaninka,La Convencion,Cusco,08,0809,-12.325,-73.845,307.5,FALSE,sur
+081001,Paruro,Paruro,Cusco,08,0810,-13.725,-71.855,157.7,FALSE,sur
+081002,Accha,Paruro,Cusco,08,0810,-13.985,-71.865,240.5,FALSE,sur
+081003,Ccapi,Paruro,Cusco,08,0810,-13.865,-72.015,327.2,FALSE,sur
+081004,Colcha,Paruro,Cusco,08,0810,-13.875,-71.865,142.0,FALSE,sur
+081005,Huanoquite,Paruro,Cusco,08,0810,-13.695,-72.075,364.8,FALSE,sur
+081006,Omacha,Paruro,Cusco,08,0810,-14.135,-71.785,437.4,FALSE,sur
+081007,Paccaritambo,Paruro,Cusco,08,0810,-13.765,-71.935,143.2,FALSE,sur
+081008,Pillpinto,Paruro,Cusco,08,0810,-13.975,-71.765,77.0,FALSE,sur
+081009,Yaurisque,Paruro,Cusco,08,0810,-13.645,-71.915,101.2,FALSE,sur
+081101,Paucartambo,Paucartambo,Cusco,08,0811,-13.305,-71.465,1103.4,FALSE,sur
+081102,Caicay,Paucartambo,Cusco,08,0811,-13.565,-71.675,109.6,FALSE,sur
+081103,Challabamba,Paucartambo,Cusco,08,0811,-13.135,-71.775,714.4,FALSE,sur
+081104,Colquepata,Paucartambo,Cusco,08,0811,-13.405,-71.655,462.9,FALSE,sur
+081105,Huancarani,Paucartambo,Cusco,08,0811,-13.515,-71.635,147.0,FALSE,sur
+081106,Kosñipata,Paucartambo,Cusco,08,0811,-13.045,-71.465,3295.7,FALSE,sur
+081201,Urcos,Quispicanchi,Cusco,08,0812,-13.685,-71.595,140.9,FALSE,sur
+081202,Andahuaylillas,Quispicanchi,Cusco,08,0812,-13.665,-71.705,86.7,FALSE,sur
+081203,Camanti,Quispicanchi,Cusco,08,0812,-13.345,-70.745,3385.8,FALSE,sur
+081204,Ccarhuayo,Quispicanchi,Cusco,08,0812,-13.535,-71.345,303.6,FALSE,sur
+081205,Ccatca,Quispicanchi,Cusco,08,0812,-13.605,-71.505,296.3,FALSE,sur
+081206,Cusipata,Quispicanchi,Cusco,08,0812,-13.885,-71.435,249.0,FALSE,sur
+081207,Huaro,Quispicanchi,Cusco,08,0812,-13.755,-71.675,108.3,FALSE,sur
+081208,Lucre,Quispicanchi,Cusco,08,0812,-13.645,-71.765,120.4,FALSE,sur
+081209,Marcapata,Quispicanchi,Cusco,08,0812,-13.635,-70.915,1305.5,FALSE,sur
+081210,Ocongate,Quispicanchi,Cusco,08,0812,-13.685,-71.265,957.2,FALSE,sur
+081211,Oropesa,Quispicanchi,Cusco,08,0812,-13.575,-71.785,80.7,FALSE,sur
+081212,Quiquijana,Quispicanchi,Cusco,08,0812,-13.805,-71.535,365.8,FALSE,sur
+081301,Urubamba,Urubamba,Cusco,08,0813,-13.245,-72.135,160.4,FALSE,sur
+081302,Chinchero,Urubamba,Cusco,08,0813,-13.405,-72.035,103.7,FALSE,sur
+081303,Huayllabamba,Urubamba,Cusco,08,0813,-13.345,-72.045,76.0,FALSE,sur
+081304,Machupicchu,Urubamba,Cusco,08,0813,-13.205,-72.495,359.5,FALSE,sur
+081305,Maras,Urubamba,Cusco,08,0813,-13.335,-72.165,143.5,FALSE,sur
+081306,Ollantaytambo,Urubamba,Cusco,08,0813,-13.235,-72.315,589.9,FALSE,sur
+081307,Yucay,Urubamba,Cusco,08,0813,-13.295,-72.075,25.3,FALSE,sur
+090101,Huancavelica,Huancavelica,Huancavelica,09,0901,-12.865,-75.005,513.4,FALSE,sur
+090102,Acobambilla,Huancavelica,Huancavelica,09,0901,-12.705,-75.375,744.7,FALSE,sur
+090103,Acoria,Huancavelica,Huancavelica,09,0901,-12.595,-74.825,546.6,FALSE,sur
+090104,Conayca,Huancavelica,Huancavelica,09,0901,-12.515,-75.045,37.5,FALSE,sur
+090105,Cuenca,Huancavelica,Huancavelica,09,0901,-12.465,-75.055,56.9,FALSE,sur
+090106,Huachocolpa,Huancavelica,Huancavelica,09,0901,-13.045,-74.955,336.8,FALSE,sur
+090107,Huayllahuara,Huancavelica,Huancavelica,09,0901,-12.405,-75.185,37.5,FALSE,sur
+090108,Izcuchaca,Huancavelica,Huancavelica,09,0901,-12.495,-75.015,14.5,FALSE,sur
+090109,Laria,Huancavelica,Huancavelica,09,0901,-12.555,-75.085,61.7,FALSE,sur
+090110,Manta,Huancavelica,Huancavelica,09,0901,-12.605,-75.155,157.2,FALSE,sur
+090111,Mariscal Caceres,Huancavelica,Huancavelica,09,0901,-12.555,-74.935,4.8,FALSE,sur
+090112,Moya,Huancavelica,Huancavelica,09,0901,-12.465,-75.135,99.2,FALSE,sur
+090113,Nuevo Occoro,Huancavelica,Huancavelica,09,0901,-12.705,-75.135,249.0,FALSE,sur
+090114,Palca,Huancavelica,Huancavelica,09,0901,-12.665,-74.975,83.4,FALSE,sur
+090115,Pilchaca,Huancavelica,Huancavelica,09,0901,-12.415,-75.085,39.9,FALSE,sur
+090116,Vilca,Huancavelica,Huancavelica,09,0901,-12.535,-75.265,312.1,FALSE,sur
+090117,Yauli,Huancavelica,Huancavelica,09,0901,-12.815,-74.825,323.8,FALSE,sur
+090118,Ascension,Huancavelica,Huancavelica,09,0901,-12.825,-75.185,412.0,FALSE,sur
+090119,Huando,Huancavelica,Huancavelica,09,0901,-12.625,-75.015,193.5,FALSE,sur
+090201,Acobamba,Acobamba,Huancavelica,09,0902,-12.825,-74.565,120.8,FALSE,sur
+090202,Andabamba,Acobamba,Huancavelica,09,0902,-12.665,-74.655,84.6,FALSE,sur
+090203,Anta,Acobamba,Huancavelica,09,0902,-12.815,-74.665,91.8,FALSE,sur
+090204,Caja,Acobamba,Huancavelica,09,0902,-12.875,-74.475,84.6,FALSE,sur
+090205,Marcas,Acobamba,Huancavelica,09,0902,-12.875,-74.395,175.2,FALSE,sur
+090206,Paucara,Acobamba,Huancavelica,09,0902,-12.725,-74.725,221.2,FALSE,sur
+090207,Pomacocha,Acobamba,Huancavelica,09,0902,-12.855,-74.525,58.0,FALSE,sur
+090208,Rosario,Acobamba,Huancavelica,09,0902,-12.745,-74.605,95.5,FALSE,sur
+090301,Lircay,Angaraes,Huancavelica,09,0903,-13.105,-74.735,840.0,FALSE,sur
+090302,Anchonga,Angaraes,Huancavelica,09,0903,-12.885,-74.705,73.7,FALSE,sur
+090303,Callanmarca,Angaraes,Huancavelica,09,0903,-12.875,-74.625,24.2,FALSE,sur
+090304,Ccochaccasa,Angaraes,Huancavelica,09,0903,-12.935,-74.805,106.3,FALSE,sur
+090305,Chincho,Angaraes,Huancavelica,09,0903,-12.985,-74.345,175.1,FALSE,sur
+090306,Congalla,Angaraes,Huancavelica,09,0903,-12.985,-74.535,211.3,FALSE,sur
+090307,Huanca-Huanca,Angaraes,Huancavelica,09,0903,-12.965,-74.625,108.7,FALSE,sur
+090308,Huayllay Grande,Angaraes,Huancavelica,09,0903,-12.925,-74.675,31.4,FALSE,sur
+090309,Julcamarca,Angaraes,Huancavelica,09,0903,-13.015,-74.435,51.9,FALSE,sur
+090310,San Antonio de Antaparco,Angaraes,Huancavelica,09,0903,-13.065,-74.425,33.8,FALSE,sur
+090311,Santo Tomas de Pata,Angaraes,Huancavelica,09,0903,-13.145,-74.475,140.0,FALSE,sur
+090312,Secclla,Angaraes,Huancavelica,09,0903,-13.085,-74.545,165.4,FALSE,sur
+090401,Castrovirreyna,Castrovirreyna,Huancavelica,09,0904,-13.155,-75.295,932.8,FALSE,sur
+090402,Arma,Castrovirreyna,Huancavelica,09,0904,-13.115,-75.515,307.8,FALSE,sur
+090403,Aurahua,Castrovirreyna,Huancavelica,09,0904,-12.955,-75.445,347.8,FALSE,sur
+090404,Capillas,Castrovirreyna,Huancavelica,09,0904,-13.345,-75.615,400.3,FALSE,sur
+090405,Chupamarca,Castrovirreyna,Huancavelica,09,0904,-12.895,-75.535,367.2,FALSE,sur
+090406,Cocas,Castrovirreyna,Huancavelica,09,0904,-13.275,-75.365,77.2,FALSE,sur
+090407,Huachos,Castrovirreyna,Huancavelica,09,0904,-13.215,-75.485,176.1,FALSE,sur
+090408,Huamatambo,Castrovirreyna,Huancavelica,09,0904,-13.115,-75.685,54.3,FALSE,sur
+090409,Mollepampa,Castrovirreyna,Huancavelica,09,0904,-13.295,-75.435,176.1,FALSE,sur
+090410,San Juan,Castrovirreyna,Huancavelica,09,0904,-13.275,-75.685,195.4,FALSE,sur
+090411,Santa Ana,Castrovirreyna,Huancavelica,09,0904,-13.085,-75.135,643.4,FALSE,sur
+090412,Tantara,Castrovirreyna,Huancavelica,09,0904,-13.125,-75.625,112.2,FALSE,sur
+090413,Ticrapo,Castrovirreyna,Huancavelica,09,0904,-13.415,-75.405,180.8,FALSE,sur
+090501,Churcampa,Churcampa,Huancavelica,09,0905,-12.715,-74.385,142.6,FALSE,sur
+090502,Anco,Churcampa,Huancavelica,09,0905,-12.645,-74.565,152.4,FALSE,sur
+090503,Chinchihuasi,Churcampa,Huancavelica,09,0905,-12.455,-74.565,165.8,FALSE,sur
+090504,El Carmen,Churcampa,Huancavelica,09,0905,-12.705,-74.495,77.4,FALSE,sur
+090505,La Merced,Churcampa,Huancavelica,09,0905,-12.795,-74.325,71.3,FALSE,sur
+090506,Locroja,Churcampa,Huancavelica,09,0905,-12.715,-74.455,90.7,FALSE,sur
+090507,Paucarbamba,Churcampa,Huancavelica,09,0905,-12.575,-74.525,94.3,FALSE,sur
+090508,San Miguel de Mayocc,Churcampa,Huancavelica,09,0905,-12.785,-74.415,27.8,FALSE,sur
+090509,San Pedro de Coris,Churcampa,Huancavelica,09,0905,-12.605,-74.395,129.4,FALSE,sur
+090510,Pachamarca,Churcampa,Huancavelica,09,0905,-12.505,-74.465,157.3,FALSE,sur
+090511,Cosme,Churcampa,Huancavelica,09,0905,-12.575,-74.645,105.2,FALSE,sur
+090601,Huaytara,Huaytara,Huancavelica,09,0906,-13.655,-75.395,398.6,FALSE,sur
+090602,Ayavi,Huaytara,Huancavelica,09,0906,-13.715,-75.365,183.0,FALSE,sur
+090603,Cordova,Huaytara,Huancavelica,09,0906,-14.015,-75.155,103.4,FALSE,sur
+090604,Huayacundo Arma,Huaytara,Huancavelica,09,0906,-13.555,-75.315,36.1,FALSE,sur
+090605,Laramarca,Huaytara,Huancavelica,09,0906,-13.905,-75.055,192.5,FALSE,sur
+090606,Ocoyo,Huaytara,Huancavelica,09,0906,-14.025,-75.035,169.5,FALSE,sur
+090607,Pilpichaca,Huaytara,Huancavelica,09,0906,-13.405,-74.945,2193.9,FALSE,sur
+090608,Querco,Huaytara,Huancavelica,09,0906,-13.885,-74.885,692.9,FALSE,sur
+090609,Quito-Arma,Huaytara,Huancavelica,09,0906,-13.535,-75.405,241.0,FALSE,sur
+090610,San Antonio de Cusicancha,Huaytara,Huancavelica,09,0906,-13.465,-75.235,239.8,FALSE,sur
+090611,San Francisco de Sangayaico,Huaytara,Huancavelica,09,0906,-13.745,-75.165,210.7,FALSE,sur
+090612,San Isidro,Huaytara,Huancavelica,09,0906,-13.975,-75.235,173.2,FALSE,sur
+090613,Santiago de Chocorvos,Huaytara,Huancavelica,09,0906,-13.825,-75.225,1027.6,FALSE,sur
+090614,Santiago de Quirahuara,Huaytara,Huancavelica,09,0906,-14.055,-74.895,173.1,FALSE,sur
+090615,Santo Domingo de Capillas,Huaytara,Huancavelica,09,0906,-13.675,-75.185,255.3,FALSE,sur
+090616,Tambo,Huaytara,Huancavelica,09,0906,-13.595,-75.175,227.6,FALSE,sur
+090701,Pampas,Tayacaja,Huancavelica,09,0907,-12.455,-74.855,78.7,FALSE,sur
+090702,Acostambo,Tayacaja,Huancavelica,09,0907,-12.415,-75.015,163.4,FALSE,sur
+090703,Acraquia,Tayacaja,Huancavelica,09,0907,-12.395,-74.935,111.4,FALSE,sur
+090704,Ahuaycha,Tayacaja,Huancavelica,09,0907,-12.465,-74.905,100.4,FALSE,sur
+090705,Colcabamba,Tayacaja,Huancavelica,09,0907,-12.385,-74.705,323.2,FALSE,sur
+090706,Daniel Hernandez,Tayacaja,Huancavelica,09,0907,-12.345,-74.835,105.3,FALSE,sur
+090707,Huachocolpa,Tayacaja,Huancavelica,09,0907,-12.055,-74.525,214.5,FALSE,sur
+090709,Huaribamba,Tayacaja,Huancavelica,09,0907,-12.265,-74.905,151.4,FALSE,sur
+090710,Ñahuimpuquio,Tayacaja,Huancavelica,09,0907,-12.325,-75.095,64.2,FALSE,sur
+090711,Pazos,Tayacaja,Huancavelica,09,0907,-12.215,-75.025,222.9,FALSE,sur
+090713,Quishuar,Tayacaja,Huancavelica,09,0907,-12.255,-74.765,31.5,FALSE,sur
+090714,Salcabamba,Tayacaja,Huancavelica,09,0907,-12.195,-74.785,193.8,FALSE,sur
+090715,Salcahuasi,Tayacaja,Huancavelica,09,0907,-12.105,-74.755,116.3,FALSE,sur
+090716,San Marcos de Rocchac,Tayacaja,Huancavelica,09,0907,-12.075,-74.945,287.2,FALSE,sur
+090717,Surcubamba,Tayacaja,Huancavelica,09,0907,-12.165,-74.655,248.3,FALSE,sur
+090718,Tintay Puncu,Tayacaja,Huancavelica,09,0907,-12.155,-74.475,179.3,FALSE,sur
+090719,Quichuas,Tayacaja,Huancavelica,09,0907,-12.465,-74.725,119.8,FALSE,sur
+090720,Andaymarca,Tayacaja,Huancavelica,09,0907,-12.295,-74.635,150.1,FALSE,sur
+090721,Roble,Tayacaja,Huancavelica,09,0907,-12.235,-74.455,182.9,FALSE,sur
+090722,Pichos,Tayacaja,Huancavelica,09,0907,-12.185,-74.935,145.4,FALSE,sur
+090723,Santiago de Tucuma,Tayacaja,Huancavelica,09,0907,-12.315,-74.885,33.9,FALSE,sur
+090724,Lambras,Tayacaja,Huancavelica,09,0907,-12.065,-74.635,87.3,FALSE,sur
+090725,Cochabamba,Tayacaja,Huancavelica,09,0907,-12.215,-74.535,78.7,FALSE,sur
+100101,Huánuco,Huánuco,Huánuco,10,1001,-9.895,-76.295,130.6,FALSE,centro
+100102,Amarilis,Huánuco,Huánuco,10,1001,-9.955,-76.185,130.6,FALSE,centro
+100103,Chinchao,Huánuco,Huánuco,10,1001,-9.615,-76.115,813.7,FALSE,centro
+100104,Churubamba,Huánuco,Huánuco,10,1001,-9.685,-76.265,508.2,FALSE,centro
+100105,Margos,Huánuco,Huánuco,10,1001,-10.065,-76.535,212.3,FALSE,centro
+100106,Quisqui (Kichki),Huánuco,Huánuco,10,1001,-9.865,-76.425,175.8,FALSE,centro
+100107,San Francisco de Cayran,Huánuco,Huánuco,10,1001,-9.995,-76.335,152.6,FALSE,centro
+100108,San Pedro de Chaulan,Huánuco,Huánuco,10,1001,-10.075,-76.425,270.9,FALSE,centro
+100109,Santa Maria del Valle,Huánuco,Huánuco,10,1001,-9.795,-76.315,461.6,FALSE,centro
+100110,Yarumayo,Huánuco,Huánuco,10,1001,-9.955,-76.445,62.2,FALSE,centro
+100111,Pillco Marca,Huánuco,Huánuco,10,1001,-10.035,-76.275,76.9,FALSE,centro
+100112,Yacus,Huánuco,Huánuco,10,1001,-9.945,-76.515,74.5,FALSE,centro
+100113,San Pablo de Pillao,Huánuco,Huánuco,10,1001,-9.705,-75.935,592.4,FALSE,centro
+100201,Ambo,Ambo,Huánuco,10,1002,-10.155,-76.145,285.4,FALSE,centro
+100202,Cayna,Ambo,Huánuco,10,1002,-10.215,-76.365,161.0,FALSE,centro
+100203,Colpas,Ambo,Huánuco,10,1002,-10.245,-76.465,175.6,FALSE,centro
+100204,Conchamarca,Ambo,Huánuco,10,1002,-10.045,-76.205,118.4,FALSE,centro
+100205,Huacar,Ambo,Huánuco,10,1002,-10.195,-76.265,237.8,FALSE,centro
+100206,San Francisco,Ambo,Huánuco,10,1002,-10.335,-76.285,118.3,FALSE,centro
+100207,San Rafael,Ambo,Huánuco,10,1002,-10.335,-76.125,445.0,FALSE,centro
+100208,Tomay Kichwa,Ambo,Huánuco,10,1002,-10.065,-76.185,40.3,FALSE,centro
+100301,La Union,Dos de Mayo,Huánuco,10,1003,-9.905,-76.795,172.1,FALSE,centro
+100307,Chuquis,Dos de Mayo,Huánuco,10,1003,-9.645,-76.635,153.9,FALSE,centro
+100311,Marias,Dos de Mayo,Huánuco,10,1003,-9.545,-76.425,647.7,FALSE,centro
+100313,Pachas,Dos de Mayo,Huánuco,10,1003,-9.695,-76.835,272.4,FALSE,centro
+100316,Quivilla,Dos de Mayo,Huánuco,10,1003,-9.575,-76.685,39.1,FALSE,centro
+100317,Ripan,Dos de Mayo,Huánuco,10,1003,-9.815,-76.845,80.6,FALSE,centro
+100321,Shunqui,Dos de Mayo,Huánuco,10,1003,-9.755,-76.805,30.5,FALSE,centro
+100322,Sillapata,Dos de Mayo,Huánuco,10,1003,-9.795,-76.765,70.8,FALSE,centro
+100323,Yanas,Dos de Mayo,Huánuco,10,1003,-9.715,-76.735,36.6,FALSE,centro
+100401,Huacaybamba,Huacaybamba,Huánuco,10,1004,-8.955,-76.835,559.4,FALSE,centro
+100402,Canchabamba,Huacaybamba,Huánuco,10,1004,-8.845,-77.105,182.4,FALSE,centro
+100403,Cochabamba,Huacaybamba,Huánuco,10,1004,-9.095,-76.625,676.7,FALSE,centro
+100404,Pinra,Huacaybamba,Huánuco,10,1004,-8.915,-77.005,288.9,FALSE,centro
+100501,Llata,Huamalies,Huánuco,10,1005,-9.615,-76.905,414.2,FALSE,centro
+100502,Arancay,Huamalies,Huánuco,10,1005,-9.135,-76.735,119.9,FALSE,centro
+100503,Chavin de Pariarca,Huamalies,Huánuco,10,1005,-9.435,-76.755,91.7,FALSE,centro
+100504,Jacas Grande,Huamalies,Huánuco,10,1005,-9.515,-76.665,222.4,FALSE,centro
+100505,Jircan,Huamalies,Huánuco,10,1005,-9.215,-76.645,241.0,FALSE,centro
+100506,Miraflores,Huamalies,Huánuco,10,1005,-9.455,-76.875,97.8,FALSE,centro
+100507,Monzon,Huamalies,Huánuco,10,1005,-9.335,-76.385,1414.8,FALSE,centro
+100508,Punchao,Huamalies,Huánuco,10,1005,-9.445,-76.835,40.3,FALSE,centro
+100509,Puños,Huamalies,Huánuco,10,1005,-9.505,-76.895,99.0,FALSE,centro
+100510,Singa,Huamalies,Huánuco,10,1005,-9.365,-76.835,161.4,FALSE,centro
+100511,Tantamayo,Huamalies,Huánuco,10,1005,-9.375,-76.665,282.4,FALSE,centro
+100601,Rupa-Rupa,Leoncio Prado,Huánuco,10,1006,-9.195,-76.105,258.1,FALSE,centro
+100602,Daniel Alomia Robles,Leoncio Prado,Huánuco,10,1006,-9.395,-75.765,540.4,FALSE,centro
+100603,Hermilio Valdizan,Leoncio Prado,Huánuco,10,1006,-9.195,-75.835,286.3,FALSE,centro
+100604,Jose Crespo y Castillo,Leoncio Prado,Huánuco,10,1006,-8.935,-76.175,1510.6,FALSE,centro
+100605,Luyando,Leoncio Prado,Huánuco,10,1006,-9.235,-75.955,111.3,FALSE,centro
+100606,Mariano Damaso Beraun,Leoncio Prado,Huánuco,10,1006,-9.395,-76.035,749.4,FALSE,centro
+100607,Pucayacu,Leoncio Prado,Huánuco,10,1006,-8.565,-76.065,767.1,FALSE,centro
+100608,Castillo Grande,Leoncio Prado,Huánuco,10,1006,-9.205,-76.035,107.6,FALSE,centro
+100609,Pueblo Nuevo,Leoncio Prado,Huánuco,10,1006,-9.085,-76.005,323.0,FALSE,centro
+100610,Santo Domingo de Anda,Leoncio Prado,Huánuco,10,1006,-8.985,-75.985,281.5,FALSE,centro
+100701,Huacrachuco,Marañon,Huánuco,10,1007,-8.605,-77.175,707.0,FALSE,centro
+100702,Cholon,Marañon,Huánuco,10,1007,-8.655,-76.745,2213.8,FALSE,centro
+100703,San Buenaventura,Marañon,Huánuco,10,1007,-8.765,-77.145,91.9,FALSE,centro
+100704,La Morada,Marañon,Huánuco,10,1007,-8.885,-76.365,912.1,FALSE,centro
+100705,Santa Rosa de Alto Yanajanca,Marañon,Huánuco,10,1007,-8.785,-76.505,1054.4,FALSE,centro
+100801,Panao,Pachitea,Huánuco,10,1008,-10.145,-75.895,1627.3,FALSE,centro
+100802,Chaglla,Pachitea,Huánuco,10,1008,-9.735,-75.795,1096.8,FALSE,centro
+100803,Molino,Pachitea,Huánuco,10,1008,-9.995,-76.055,239.2,FALSE,centro
+100804,Umari,Pachitea,Huánuco,10,1008,-9.865,-76.025,158.7,FALSE,centro
+100901,Puerto Inca,Puerto Inca,Huánuco,10,1009,-9.285,-74.965,2416.6,FALSE,centro
+100902,Codo del Pozuzo,Puerto Inca,Huánuco,10,1009,-9.635,-75.465,3238.8,FALSE,centro
+100903,Honoria,Puerto Inca,Huánuco,10,1009,-8.715,-74.695,955.4,FALSE,centro
+100904,Tournavista,Puerto Inca,Huánuco,10,1009,-9.005,-74.865,1741.7,FALSE,centro
+100905,Yuyapichis,Puerto Inca,Huánuco,10,1009,-9.645,-74.995,2079.3,FALSE,centro
+101001,Jesus,Lauricocha,Huánuco,10,1010,-10.215,-76.755,463.4,FALSE,centro
+101002,Baños,Lauricocha,Huánuco,10,1010,-10.105,-76.785,192.8,FALSE,centro
+101003,Jivia,Lauricocha,Huánuco,10,1010,-10.035,-76.655,59.8,FALSE,centro
+101004,Queropalca,Lauricocha,Huánuco,10,1010,-10.185,-76.865,131.7,FALSE,centro
+101005,Rondos,Lauricocha,Huánuco,10,1010,-9.965,-76.725,173.3,FALSE,centro
+101006,San Francisco de Asis,Lauricocha,Huánuco,10,1010,-9.975,-76.625,87.9,FALSE,centro
+101007,San Miguel de Cauri,Lauricocha,Huánuco,10,1010,-10.295,-76.635,826.7,FALSE,centro
+101101,Chavinillo,Yarowilca,Huánuco,10,1011,-9.805,-76.555,203.9,FALSE,centro
+101102,Cahuac,Yarowilca,Huánuco,10,1011,-9.865,-76.655,28.1,FALSE,centro
+101103,Chacabamba,Yarowilca,Huánuco,10,1011,-9.905,-76.635,18.3,FALSE,centro
+101104,Aparicio Pomares,Yarowilca,Huánuco,10,1011,-9.715,-76.575,186.9,FALSE,centro
+101105,Jacas Chico,Yarowilca,Huánuco,10,1011,-9.875,-76.505,35.4,FALSE,centro
+101106,Obas,Yarowilca,Huánuco,10,1011,-9.825,-76.685,124.5,FALSE,centro
+101107,Pampamarca,Yarowilca,Huánuco,10,1011,-9.765,-76.705,73.3,FALSE,centro
+101108,Choras,Yarowilca,Huánuco,10,1011,-9.915,-76.575,61.0,FALSE,centro
+110101,Ica,Ica,Ica,11,1101,-14.215,-75.905,886.5,TRUE,sur
+110102,La Tinguiña,Ica,Ica,11,1101,-14.015,-75.675,80.6,FALSE,sur
+110103,Los Aquijes,Ica,Ica,11,1101,-14.075,-75.645,92.6,FALSE,sur
+110104,Ocucaje,Ica,Ica,11,1101,-14.485,-75.785,1406.2,TRUE,sur
+110105,Pachacutec,Ica,Ica,11,1101,-14.155,-75.655,40.9,FALSE,sur
+110106,Parcona,Ica,Ica,11,1101,-14.055,-75.705,18.0,FALSE,sur
+110107,Pueblo Nuevo,Ica,Ica,11,1101,-14.125,-75.675,30.0,FALSE,sur
+110108,Salas,Ica,Ica,11,1101,-13.925,-75.875,668.8,FALSE,sur
+110109,San Jose de los Molinos,Ica,Ica,11,1101,-13.885,-75.615,357.3,FALSE,sur
+110110,San Juan Bautista,Ica,Ica,11,1101,-13.975,-75.735,31.3,FALSE,sur
+110111,Santiago,Ica,Ica,11,1101,-14.505,-75.515,2791.7,TRUE,sur
+110112,Subtanjalla,Ica,Ica,11,1101,-14.045,-75.895,189.9,FALSE,sur
+110113,Tate,Ica,Ica,11,1101,-14.155,-75.705,6.0,FALSE,sur
+110114,Yauca del Rosario,Ica,Ica,11,1101,-14.105,-75.435,1268.0,FALSE,sur
+110201,Chincha Alta,Chincha,Ica,11,1102,-13.325,-76.035,224.3,FALSE,sur
+110202,Alto Laran,Chincha,Ica,11,1102,-13.385,-75.945,370.1,FALSE,sur
+110203,Chavin,Chincha,Ica,11,1102,-13.115,-75.945,435.7,FALSE,sur
+110204,Chincha Baja,Chincha,Ica,11,1102,-13.495,-76.155,72.3,TRUE,sur
+110205,El Carmen,Chincha,Ica,11,1102,-13.515,-75.915,763.9,TRUE,sur
+110206,Grocio Prado,Chincha,Ica,11,1102,-13.315,-76.165,180.9,TRUE,sur
+110207,Pueblo Nuevo,Chincha,Ica,11,1102,-13.255,-76.085,209.9,FALSE,sur
+110208,San Juan de Yanac,Chincha,Ica,11,1102,-13.225,-75.815,443.9,FALSE,sur
+110209,San Pedro de Huacarpana,Chincha,Ica,11,1102,-13.075,-75.725,208.8,FALSE,sur
+110210,Sunampe,Chincha,Ica,11,1102,-13.425,-76.165,16.9,FALSE,sur
+110211,Tambo de Mora,Chincha,Ica,11,1102,-13.465,-76.185,13.3,TRUE,sur
+110301,Nasca,Nasca,Ica,11,1103,-14.855,-75.035,1143.9,FALSE,sur
+110302,Changuillo,Nasca,Ica,11,1103,-14.805,-75.335,953.7,TRUE,sur
+110303,El Ingenio,Nasca,Ica,11,1103,-14.675,-75.005,605.4,FALSE,sur
+110304,Marcona,Nasca,Ica,11,1103,-15.145,-75.075,1965.3,TRUE,sur
+110305,Vista Alegre,Nasca,Ica,11,1103,-14.925,-74.825,544.8,FALSE,sur
+110401,Palpa,Palpa,Ica,11,1104,-14.495,-75.135,128.4,FALSE,sur
+110402,Llipata,Palpa,Ica,11,1104,-14.595,-75.155,188.3,FALSE,sur
+110403,Rio Grande,Palpa,Ica,11,1104,-14.345,-75.145,318.2,FALSE,sur
+110404,Santa Cruz,Palpa,Ica,11,1104,-14.465,-75.255,255.6,FALSE,sur
+110405,Tibillo,Palpa,Ica,11,1104,-14.145,-75.165,336.5,FALSE,sur
+110501,Pisco,Pisco,Ica,11,1105,-13.705,-76.195,22.9,TRUE,sur
+110502,Huancano,Pisco,Ica,11,1105,-13.555,-75.615,898.7,FALSE,sur
+110503,Humay,Pisco,Ica,11,1105,-13.745,-75.815,914.8,FALSE,sur
+110504,Independencia,Pisco,Ica,11,1105,-13.645,-76.015,271.0,FALSE,sur
+110505,Paracas,Pisco,Ica,11,1105,-14.045,-76.155,1439.0,TRUE,sur
+110506,San Andres,Pisco,Ica,11,1105,-13.805,-76.105,238.3,TRUE,sur
+110507,San Clemente,Pisco,Ica,11,1105,-13.645,-76.145,136.1,TRUE,sur
+110508,Tupac Amaru Inca,Pisco,Ica,11,1105,-13.725,-76.115,56.6,FALSE,sur
+120101,Huancayo,Huancayo,Junín,12,1201,-11.995,-75.075,230.3,FALSE,centro
+120104,Carhuacallanga,Huancayo,Junín,12,1201,-12.355,-75.205,10.9,FALSE,centro
+120105,Chacapampa,Huancayo,Junín,12,1201,-12.405,-75.255,128.3,FALSE,centro
+120106,Chicche,Huancayo,Junín,12,1201,-12.285,-75.295,38.7,FALSE,centro
+120107,Chilca,Huancayo,Junín,12,1201,-12.075,-75.185,25.4,FALSE,centro
+120108,Chongos Alto,Huancayo,Junín,12,1201,-12.485,-75.435,710.2,FALSE,centro
+120111,Chupuro,Huancayo,Junín,12,1201,-12.215,-75.235,42.4,FALSE,centro
+120112,Colca,Huancayo,Junín,12,1201,-12.315,-75.195,112.6,FALSE,centro
+120113,Cullhuas,Huancayo,Junín,12,1201,-12.255,-75.155,113.8,FALSE,centro
+120114,El Tambo,Huancayo,Junín,12,1201,-11.975,-75.165,162.4,FALSE,centro
+120116,Huacrapuquio,Huancayo,Junín,12,1201,-12.185,-75.215,26.6,FALSE,centro
+120117,Hualhuas,Huancayo,Junín,12,1201,-11.965,-75.245,13.3,FALSE,centro
+120119,Huancan,Huancayo,Junín,12,1201,-12.105,-75.205,12.1,FALSE,centro
+120120,Huasicancha,Huancayo,Junín,12,1201,-12.375,-75.285,50.8,FALSE,centro
+120121,Huayucachi,Huancayo,Junín,12,1201,-12.135,-75.225,13.3,FALSE,centro
+120122,Ingenio,Huancayo,Junín,12,1201,-11.855,-75.225,54.6,FALSE,centro
+120124,Pariahuanca,Huancayo,Junín,12,1201,-11.955,-74.875,585.6,FALSE,centro
+120125,Pilcomayo,Huancayo,Junín,12,1201,-12.045,-75.255,8.5,FALSE,centro
+120126,Pucara,Huancayo,Junín,12,1201,-12.185,-75.095,111.4,FALSE,centro
+120127,Quichuay,Huancayo,Junín,12,1201,-11.845,-75.245,30.3,FALSE,centro
+120128,Quilcas,Huancayo,Junín,12,1201,-11.885,-75.165,163.7,FALSE,centro
+120129,San Agustin,Huancayo,Junín,12,1201,-11.985,-75.235,25.5,FALSE,centro
+120130,San Jeronimo de Tunan,Huancayo,Junín,12,1201,-11.945,-75.285,18.2,FALSE,centro
+120132,Saño,Huancayo,Junín,12,1201,-11.945,-75.245,12.1,FALSE,centro
+120133,Sapallanga,Huancayo,Junín,12,1201,-12.115,-75.145,126.0,FALSE,centro
+120134,Sicaya,Huancayo,Junín,12,1201,-12.015,-75.285,44.8,FALSE,centro
+120135,Santo Domingo de Acobamba,Huancayo,Junín,12,1201,-11.855,-74.695,892.6,FALSE,centro
+120136,Viques,Huancayo,Junín,12,1201,-12.155,-75.225,4.8,FALSE,centro
+120201,Concepcion,Concepcion,Junín,12,1202,-11.915,-75.315,19.4,FALSE,centro
+120202,Aco,Concepcion,Junín,12,1202,-11.955,-75.395,38.8,FALSE,centro
+120203,Andamarca,Concepcion,Junín,12,1202,-11.695,-74.855,503.6,FALSE,centro
+120204,Chambara,Concepcion,Junín,12,1202,-12.005,-75.435,111.5,FALSE,centro
+120205,Cochas,Concepcion,Junín,12,1202,-11.625,-75.145,108.0,FALSE,centro
+120206,Comas,Concepcion,Junín,12,1202,-11.665,-75.045,952.7,FALSE,centro
+120207,Heroinas Toledo,Concepcion,Junín,12,1202,-11.835,-75.285,26.7,FALSE,centro
+120208,Manzanares,Concepcion,Junín,12,1202,-12.005,-75.365,17.0,FALSE,centro
+120209,Mariscal Castilla,Concepcion,Junín,12,1202,-11.585,-75.105,58.3,FALSE,centro
+120210,Matahuasi,Concepcion,Junín,12,1202,-11.885,-75.355,23.0,FALSE,centro
+120211,Mito,Concepcion,Junín,12,1202,-11.925,-75.355,25.5,FALSE,centro
+120212,Nueve de Julio,Concepcion,Junín,12,1202,-11.885,-75.315,7.3,FALSE,centro
+120213,Orcotuna,Concepcion,Junín,12,1202,-11.975,-75.325,48.5,FALSE,centro
+120214,San Jose de Quero,Concepcion,Junín,12,1202,-12.075,-75.575,305.4,FALSE,centro
+120215,Santa Rosa de Ocopa,Concepcion,Junín,12,1202,-11.865,-75.305,14.6,FALSE,centro
+120301,Chanchamayo,Chanchamayo,Junín,12,1203,-11.035,-75.355,744.4,FALSE,centro
+120302,Perene,Chanchamayo,Junín,12,1203,-10.945,-75.075,1495.3,FALSE,centro
+120303,Pichanaqui,Chanchamayo,Junín,12,1203,-11.025,-74.865,1255.3,FALSE,centro
+120304,San Luis de Shuaro,Chanchamayo,Junín,12,1203,-10.845,-75.275,194.7,FALSE,centro
+120305,San Ramon,Chanchamayo,Junín,12,1203,-11.155,-75.405,626.1,FALSE,centro
+120306,Vitoc,Chanchamayo,Junín,12,1203,-11.265,-75.235,397.4,FALSE,centro
+120401,Jauja,Jauja,Junín,12,1204,-11.775,-75.495,8.5,FALSE,centro
+120402,Acolla,Jauja,Junín,12,1204,-11.665,-75.565,123.8,FALSE,centro
+120403,Apata,Jauja,Junín,12,1204,-11.685,-75.275,429.6,FALSE,centro
+120404,Ataura,Jauja,Junín,12,1204,-11.795,-75.445,7.3,FALSE,centro
+120405,Canchayllo,Jauja,Junín,12,1204,-11.915,-75.795,951.8,FALSE,centro
+120406,Curicaca,Jauja,Junín,12,1204,-11.765,-75.665,65.5,FALSE,centro
+120407,El Mantaro,Jauja,Junín,12,1204,-11.815,-75.395,19.4,FALSE,centro
+120408,Huamali,Jauja,Junín,12,1204,-11.785,-75.395,17.0,FALSE,centro
+120409,Huaripampa,Jauja,Junín,12,1204,-11.825,-75.485,13.3,FALSE,centro
+120410,Huertas,Jauja,Junín,12,1204,-11.765,-75.465,10.9,FALSE,centro
+120411,Janjaillo,Jauja,Junín,12,1204,-11.765,-75.625,29.1,FALSE,centro
+120412,Julcan,Jauja,Junín,12,1204,-11.755,-75.425,19.4,FALSE,centro
+120413,Leonor Ordoñez,Jauja,Junín,12,1204,-11.865,-75.435,21.8,FALSE,centro
+120414,Llocllapampa,Jauja,Junín,12,1204,-11.835,-75.625,107.9,FALSE,centro
+120415,Marco,Jauja,Junín,12,1204,-11.765,-75.565,29.1,FALSE,centro
+120416,Masma,Jauja,Junín,12,1204,-11.775,-75.415,17.0,FALSE,centro
+120417,Masma Chicche,Jauja,Junín,12,1204,-11.775,-75.365,31.5,FALSE,centro
+120418,Molinos,Jauja,Junín,12,1204,-11.595,-75.335,318.0,FALSE,centro
+120419,Monobamba,Jauja,Junín,12,1204,-11.405,-75.225,932.9,FALSE,centro
+120420,Muqui,Jauja,Junín,12,1204,-11.835,-75.435,10.9,FALSE,centro
+120421,Muquiyauyo,Jauja,Junín,12,1204,-11.835,-75.455,23.0,FALSE,centro
+120422,Paca,Jauja,Junín,12,1204,-11.685,-75.525,32.8,FALSE,centro
+120423,Paccha,Jauja,Junín,12,1204,-11.875,-75.535,91.0,FALSE,centro
+120424,Pancan,Jauja,Junín,12,1204,-11.745,-75.495,13.3,FALSE,centro
+120425,Parco,Jauja,Junín,12,1204,-11.815,-75.545,34.0,FALSE,centro
+120426,Pomacancha,Jauja,Junín,12,1204,-11.635,-75.685,281.6,FALSE,centro
+120427,Ricran,Jauja,Junín,12,1204,-11.555,-75.455,319.3,FALSE,centro
+120428,San Lorenzo,Jauja,Junín,12,1204,-11.835,-75.375,24.3,FALSE,centro
+120429,San Pedro de Chunan,Jauja,Junín,12,1204,-11.715,-75.495,8.5,FALSE,centro
+120430,Sausa,Jauja,Junín,12,1204,-11.795,-75.485,4.9,FALSE,centro
+120431,Sincos,Jauja,Junín,12,1204,-11.945,-75.515,235.2,FALSE,centro
+120432,Tunan Marca,Jauja,Junín,12,1204,-11.705,-75.595,32.8,FALSE,centro
+120433,Yauli,Jauja,Junín,12,1204,-11.675,-75.475,94.7,FALSE,centro
+120434,Yauyos,Jauja,Junín,12,1204,-11.795,-75.515,20.6,FALSE,centro
+120501,Junín,Junín,Junín,12,1205,-11.185,-76.015,882.6,FALSE,centro
+120502,Carhuamayo,Junín,Junín,12,1205,-10.915,-76.025,204.4,FALSE,centro
+120503,Ondores,Junín,Junín,12,1205,-11.085,-76.185,291.9,FALSE,centro
+120504,Ulcumayo,Junín,Junín,12,1205,-10.905,-75.685,1136.5,FALSE,centro
+120601,Satipo,Satipo,Junín,12,1206,-11.175,-74.615,813.3,FALSE,centro
+120602,Coviriali,Satipo,Junín,12,1206,-11.315,-74.655,99.6,FALSE,centro
+120603,Llaylla,Satipo,Junín,12,1206,-11.465,-74.645,314.6,FALSE,centro
+120604,Mazamari,Satipo,Junín,12,1206,-11.365,-74.315,1269.6,FALSE,centro
+120605,Pampa Hermosa,Satipo,Junín,12,1206,-11.415,-74.845,959.6,FALSE,centro
+120606,Pangoa,Satipo,Junín,12,1206,-11.765,-74.325,4437.8,FALSE,centro
+120607,Rio Negro,Satipo,Junín,12,1206,-11.105,-74.695,487.6,FALSE,centro
+120608,Rio Tambo,Satipo,Junín,12,1206,-11.535,-73.815,10285.4,FALSE,centro
+120609,Vizcatán del Ene,Satipo,Junín,12,1206,-12.205,-74.185,611.7,FALSE,centro
+120701,Tarma,Tarma,Junín,12,1207,-11.455,-75.755,451.8,FALSE,centro
+120702,Acobamba,Tarma,Junín,12,1207,-11.345,-75.655,106.9,FALSE,centro
+120703,Huaricolca,Tarma,Junín,12,1207,-11.525,-75.615,166.3,FALSE,centro
+120704,Huasahuasi,Tarma,Junín,12,1207,-11.145,-75.645,643.2,FALSE,centro
+120705,La Union,Tarma,Junín,12,1207,-11.365,-75.825,150.6,FALSE,centro
+120706,Palca,Tarma,Junín,12,1207,-11.315,-75.505,277.0,FALSE,centro
+120707,Palcamayo,Tarma,Junín,12,1207,-11.265,-75.775,170.1,FALSE,centro
+120708,San Pedro de Cajas,Tarma,Junín,12,1207,-11.125,-75.795,514.3,FALSE,centro
+120709,Tapo,Tarma,Junín,12,1207,-11.425,-75.525,219.9,FALSE,centro
+120801,La Oroya,Yauli,Junín,12,1208,-11.605,-75.855,379.9,FALSE,centro
+120802,Chacapalpa,Yauli,Junín,12,1208,-11.725,-75.825,189.3,FALSE,centro
+120803,Huay-Huay,Yauli,Junín,12,1208,-11.715,-75.965,195.4,FALSE,centro
+120804,Marcapomacocha,Yauli,Junín,12,1208,-11.405,-76.255,890.4,FALSE,centro
+120805,Morococha,Yauli,Junín,12,1208,-11.545,-76.125,270.8,FALSE,centro
+120806,Paccha,Yauli,Junín,12,1208,-11.445,-75.995,321.9,FALSE,centro
+120807,Santa Barbara de Carhuacayan,Yauli,Junín,12,1208,-11.195,-76.365,680.8,FALSE,centro
+120808,Santa Rosa de Sacco,Yauli,Junín,12,1208,-11.555,-75.985,100.8,FALSE,centro
+120809,Suitucancha,Yauli,Junín,12,1208,-11.835,-75.975,217.1,FALSE,centro
+120810,Yauli,Yauli,Junín,12,1208,-11.715,-76.095,415.0,FALSE,centro
+120901,Chupaca,Chupaca,Junín,12,1209,-12.075,-75.285,20.6,FALSE,centro
+120902,Ahuac,Chupaca,Junín,12,1209,-12.085,-75.355,72.7,FALSE,centro
+120903,Chongos Bajo,Chupaca,Junín,12,1209,-12.195,-75.285,96.9,FALSE,centro
+120904,Huachac,Chupaca,Junín,12,1209,-12.035,-75.345,20.6,FALSE,centro
+120905,Huamancaca Chico,Chupaca,Junín,12,1209,-12.075,-75.245,10.9,FALSE,centro
+120906,San Juan de Iscos,Chupaca,Junín,12,1209,-12.125,-75.305,26.7,FALSE,centro
+120907,San Juan de Jarpa,Chupaca,Junín,12,1209,-12.125,-75.445,135.7,FALSE,centro
+120908,Tres de Diciembre,Chupaca,Junín,12,1209,-12.115,-75.245,13.3,FALSE,centro
+120909,Yanacancha,Chupaca,Junín,12,1209,-12.255,-75.475,762.9,FALSE,centro
+130101,Trujillo,Trujillo,La Libertad,13,1301,-8.115,-79.025,38.0,FALSE,norte
+130102,El Porvenir,Trujillo,La Libertad,13,1301,-8.045,-78.985,19.6,FALSE,norte
+130103,Florencia de Mora,Trujillo,La Libertad,13,1301,-8.075,-79.025,4.9,FALSE,norte
+130104,Huanchaco,Trujillo,La Libertad,13,1301,-8.005,-79.055,319.1,TRUE,norte
+130105,La Esperanza,Trujillo,La Libertad,13,1301,-8.065,-79.055,22.1,FALSE,norte
+130106,Laredo,Trujillo,La Libertad,13,1301,-8.105,-78.855,494.4,FALSE,norte
+130107,Moche,Trujillo,La Libertad,13,1301,-8.155,-79.005,25.8,TRUE,norte
+130108,Poroto,Trujillo,La Libertad,13,1301,-8.035,-78.755,154.6,FALSE,norte
+130109,Salaverry,Trujillo,La Libertad,13,1301,-8.255,-78.895,295.6,TRUE,norte
+130110,Simbal,Trujillo,La Libertad,13,1301,-7.915,-78.825,391.5,FALSE,norte
+130111,Victor Larco Herrera,Trujillo,La Libertad,13,1301,-8.135,-79.045,11.0,TRUE,norte
+130112,Alto Trujillo,Trujillo,La Libertad,13,1301,-8.045,-79.005,18.4,FALSE,norte
+130201,Ascope,Ascope,La Libertad,13,1302,-7.665,-79.085,298.4,FALSE,norte
+130202,Chicama,Ascope,La Libertad,13,1302,-7.805,-79.005,895.0,FALSE,norte
+130203,Chocope,Ascope,La Libertad,13,1302,-7.795,-79.225,101.9,FALSE,norte
+130204,Magdalena de Cao,Ascope,La Libertad,13,1302,-7.855,-79.305,160.8,TRUE,norte
+130205,Paijan,Ascope,La Libertad,13,1302,-7.725,-79.305,78.6,FALSE,norte
+130206,Razuri,Ascope,La Libertad,13,1302,-7.685,-79.375,320.5,TRUE,norte
+130207,Santiago de Cao,Ascope,La Libertad,13,1302,-7.925,-79.215,142.4,TRUE,norte
+130208,Casa Grande,Ascope,La Libertad,13,1302,-7.575,-79.195,665.8,FALSE,norte
+130301,Bolivar,Bolivar,La Libertad,13,1303,-7.265,-77.735,742.5,FALSE,norte
+130302,Bambamarca,Bolivar,La Libertad,13,1303,-7.465,-77.685,161.0,FALSE,norte
+130303,Condormarca,Bolivar,La Libertad,13,1303,-7.565,-77.595,323.1,FALSE,norte
+130304,Longotea,Bolivar,La Libertad,13,1303,-7.055,-77.915,190.6,FALSE,norte
+130305,Uchumarca,Bolivar,La Libertad,13,1303,-7.025,-77.805,222.6,FALSE,norte
+130306,Ucuncha,Bolivar,La Libertad,13,1303,-7.155,-77.855,102.1,FALSE,norte
+130401,Chepen,Chepen,La Libertad,13,1304,-7.225,-79.355,293.8,FALSE,norte
+130402,Pacanga,Chepen,La Libertad,13,1304,-7.075,-79.445,587.8,FALSE,norte
+130403,Pueblo Nuevo,Chepen,La Libertad,13,1304,-7.195,-79.585,270.5,TRUE,norte
+130501,Julcan,Julcan,La Libertad,13,1305,-8.075,-78.465,227.0,FALSE,norte
+130502,Calamarca,Julcan,La Libertad,13,1305,-8.125,-78.385,207.3,FALSE,norte
+130503,Carabamba,Julcan,La Libertad,13,1305,-8.145,-78.585,235.5,FALSE,norte
+130504,Huaso,Julcan,La Libertad,13,1305,-8.265,-78.435,440.3,FALSE,norte
+130601,Otuzco,Otuzco,La Libertad,13,1306,-7.845,-78.585,408.8,FALSE,norte
+130602,Agallpampa,Otuzco,La Libertad,13,1306,-7.945,-78.465,257.7,FALSE,norte
+130604,Charat,Otuzco,La Libertad,13,1306,-7.805,-78.475,66.3,FALSE,norte
+130605,Huaranchal,Otuzco,La Libertad,13,1306,-7.695,-78.455,135.1,FALSE,norte
+130606,La Cuesta,Otuzco,La Libertad,13,1306,-7.915,-78.685,39.3,FALSE,norte
+130608,Mache,Otuzco,La Libertad,13,1306,-8.035,-78.535,39.3,FALSE,norte
+130610,Paranday,Otuzco,La Libertad,13,1306,-7.885,-78.695,25.8,FALSE,norte
+130611,Salpo,Otuzco,La Libertad,13,1306,-8.035,-78.635,196.3,FALSE,norte
+130613,Sinsicap,Otuzco,La Libertad,13,1306,-7.755,-78.775,454.3,FALSE,norte
+130614,Usquil,Otuzco,La Libertad,13,1306,-7.805,-78.365,477.6,FALSE,norte
+130701,San Pedro de Lloc,Pacasmayo,La Libertad,13,1307,-7.485,-79.405,688.0,TRUE,norte
+130702,Guadalupe,Pacasmayo,La Libertad,13,1307,-7.285,-79.495,169.6,TRUE,norte
+130703,Jequetepeque,Pacasmayo,La Libertad,13,1307,-7.345,-79.545,46.7,TRUE,norte
+130704,Pacasmayo,Pacasmayo,La Libertad,13,1307,-7.395,-79.545,34.4,TRUE,norte
+130705,San Jose,Pacasmayo,La Libertad,13,1307,-7.365,-79.385,177.0,FALSE,norte
+130801,Tayabamba,Pataz,La Libertad,13,1308,-8.315,-77.255,340.9,FALSE,norte
+130802,Buldibuyo,Pataz,La Libertad,13,1308,-8.125,-77.385,230.6,FALSE,norte
+130803,Chillia,Pataz,La Libertad,13,1308,-8.165,-77.525,310.3,FALSE,norte
+130804,Huancaspata,Pataz,La Libertad,13,1308,-8.445,-77.265,229.2,FALSE,norte
+130805,Huaylillas,Pataz,La Libertad,13,1308,-8.195,-77.295,89.5,FALSE,norte
+130806,Huayo,Pataz,La Libertad,13,1308,-8.035,-77.595,126.4,FALSE,norte
+130807,Ongon,Pataz,La Libertad,13,1308,-8.205,-77.095,1324.7,FALSE,norte
+130808,Parcoy,Pataz,La Libertad,13,1308,-7.995,-77.505,281.0,FALSE,norte
+130809,Pataz,Pataz,La Libertad,13,1308,-7.735,-77.595,401.5,FALSE,norte
+130810,Pias,Pataz,La Libertad,13,1308,-7.895,-77.485,306.9,FALSE,norte
+130811,Santiago de Challas,Pataz,La Libertad,13,1308,-8.425,-77.375,132.4,FALSE,norte
+130812,Taurija,Pataz,La Libertad,13,1308,-8.275,-77.435,133.7,FALSE,norte
+130813,Urpay,Pataz,La Libertad,13,1308,-8.335,-77.375,117.7,FALSE,norte
+130901,Huamachuco,Sanchez Carrion,La Libertad,13,1309,-7.825,-78.045,413.7,FALSE,norte
+130902,Chugay,Sanchez Carrion,La Libertad,13,1309,-7.825,-77.795,422.3,FALSE,norte
+130903,Cochorco,Sanchez Carrion,La Libertad,13,1309,-7.825,-77.695,259.0,FALSE,norte
+130904,Curgos,Sanchez Carrion,La Libertad,13,1309,-7.845,-77.955,100.7,FALSE,norte
+130905,Marcabal,Sanchez Carrion,La Libertad,13,1309,-7.685,-77.945,234.6,FALSE,norte
+130906,Sanagoran,Sanchez Carrion,La Libertad,13,1309,-7.795,-78.175,335.2,FALSE,norte
+130907,Sarin,Sanchez Carrion,La Libertad,13,1309,-7.935,-77.885,331.4,FALSE,norte
+130908,Sartimbamba,Sanchez Carrion,La Libertad,13,1309,-7.615,-77.765,400.4,FALSE,norte
+131001,Santiago de Chuco,Santiago de Chuco,La Libertad,13,1310,-8.345,-78.245,1081.4,FALSE,norte
+131002,Angasmarca,Santiago de Chuco,La Libertad,13,1310,-8.145,-78.035,142.3,FALSE,norte
+131003,Cachicadan,Santiago de Chuco,La Libertad,13,1310,-8.015,-78.065,273.6,FALSE,norte
+131004,Mollebamba,Santiago de Chuco,La Libertad,13,1310,-8.125,-77.985,67.5,FALSE,norte
+131005,Mollepata,Santiago de Chuco,La Libertad,13,1310,-8.145,-77.945,71.1,FALSE,norte
+131006,Quiruvilca,Santiago de Chuco,La Libertad,13,1310,-8.015,-78.245,557.1,FALSE,norte
+131007,Santa Cruz de Chuca,Santiago de Chuco,La Libertad,13,1310,-8.185,-78.095,171.7,FALSE,norte
+131008,Sitabamba,Santiago de Chuco,La Libertad,13,1310,-8.025,-77.805,317.8,FALSE,norte
+131101,Cascas,Gran Chimu,La Libertad,13,1311,-7.505,-78.765,470.6,FALSE,norte
+131102,Lucma,Gran Chimu,La Libertad,13,1311,-7.625,-78.575,291.1,FALSE,norte
+131103,Marmot,Gran Chimu,La Libertad,13,1311,-7.665,-78.705,299.7,FALSE,norte
+131104,Sayapullo,Gran Chimu,La Libertad,13,1311,-7.565,-78.435,232.2,FALSE,norte
+131201,Viru,Viru,La Libertad,13,1312,-8.355,-78.735,1094.9,TRUE,norte
+131202,Chao,Viru,La Libertad,13,1312,-8.555,-78.505,1688.6,TRUE,norte
+131203,Guadalupito,Viru,La Libertad,13,1312,-8.805,-78.645,428.6,TRUE,norte
+140101,Chiclayo,Chiclayo,Lambayeque,14,1401,-6.785,-79.825,49.2,FALSE,norte
+140102,Chongoyape,Chiclayo,Lambayeque,14,1401,-6.625,-79.465,722.6,FALSE,norte
+140103,Eten,Chiclayo,Lambayeque,14,1401,-6.935,-79.815,83.7,TRUE,norte
+140104,Eten Puerto,Chiclayo,Lambayeque,14,1401,-6.945,-79.845,13.5,TRUE,norte
+140105,Jose Leonardo Ortiz,Chiclayo,Lambayeque,14,1401,-6.735,-79.845,27.1,FALSE,norte
+140106,La Victoria,Chiclayo,Lambayeque,14,1401,-6.825,-79.865,40.6,FALSE,norte
+140107,Lagunas,Chiclayo,Lambayeque,14,1401,-7.015,-79.675,430.5,TRUE,norte
+140108,Monsefu,Chiclayo,Lambayeque,14,1401,-6.865,-79.855,50.4,FALSE,norte
+140109,Nueva Arica,Chiclayo,Lambayeque,14,1401,-6.935,-79.365,216.5,FALSE,norte
+140110,Oyotun,Chiclayo,Lambayeque,14,1401,-6.775,-79.275,494.7,FALSE,norte
+140111,Picsi,Chiclayo,Lambayeque,14,1401,-6.715,-79.775,55.4,FALSE,norte
+140112,Pimentel,Chiclayo,Lambayeque,14,1401,-6.795,-79.905,66.4,TRUE,norte
+140113,Reque,Chiclayo,Lambayeque,14,1401,-6.865,-79.795,45.5,FALSE,norte
+140114,Santa Rosa,Chiclayo,Lambayeque,14,1401,-6.885,-79.905,16.0,TRUE,norte
+140115,Saña,Chiclayo,Lambayeque,14,1401,-6.885,-79.635,316.2,FALSE,norte
+140116,Cayalti,Chiclayo,Lambayeque,14,1401,-6.885,-79.505,164.9,FALSE,norte
+140117,Patapo,Chiclayo,Lambayeque,14,1401,-6.715,-79.585,182.1,FALSE,norte
+140118,Pomalca,Chiclayo,Lambayeque,14,1401,-6.785,-79.755,75.1,FALSE,norte
+140119,Pucala,Chiclayo,Lambayeque,14,1401,-6.795,-79.515,173.5,FALSE,norte
+140120,Tuman,Chiclayo,Lambayeque,14,1401,-6.775,-79.695,125.5,FALSE,norte
+140201,Ferreñafe,Ferreñafe,Lambayeque,14,1402,-6.615,-79.795,60.3,FALSE,norte
+140202,Cañaris,Ferreñafe,Lambayeque,14,1402,-6.065,-79.305,288.4,FALSE,norte
+140203,Incahuasi,Ferreñafe,Lambayeque,14,1402,-6.225,-79.385,434.9,FALSE,norte
+140204,Manuel Antonio Mesones Muro,Ferreñafe,Lambayeque,14,1402,-6.635,-79.685,214.2,FALSE,norte
+140205,Pitipo,Ferreñafe,Lambayeque,14,1402,-6.485,-79.635,557.8,FALSE,norte
+140206,Pueblo Nuevo,Ferreñafe,Lambayeque,14,1402,-6.635,-79.825,32.0,FALSE,norte
+140301,Lambayeque,Lambayeque,Lambayeque,14,1403,-6.675,-79.935,326.2,TRUE,norte
+140302,Chochope,Lambayeque,Lambayeque,14,1403,-6.155,-79.615,78.9,FALSE,norte
+140303,Illimo,Lambayeque,Lambayeque,14,1403,-6.475,-79.845,24.6,FALSE,norte
+140304,Jayanca,Lambayeque,Lambayeque,14,1403,-6.335,-79.805,686.0,FALSE,norte
+140305,Mochumi,Lambayeque,Lambayeque,14,1403,-6.565,-79.885,99.7,FALSE,norte
+140306,Morrope,Lambayeque,Lambayeque,14,1403,-6.505,-80.175,1061.3,TRUE,norte
+140307,Motupe,Lambayeque,Lambayeque,14,1403,-6.165,-79.705,554.4,FALSE,norte
+140308,Olmos,Lambayeque,Lambayeque,14,1403,-6.045,-80.085,5725.4,FALSE,norte
+140309,Pacora,Lambayeque,Lambayeque,14,1403,-6.435,-79.875,92.4,FALSE,norte
+140310,Salas,Lambayeque,Lambayeque,14,1403,-6.135,-79.535,1073.2,FALSE,norte
+140311,San Jose,Lambayeque,Lambayeque,14,1403,-6.765,-79.935,45.5,TRUE,norte
+140312,Tucume,Lambayeque,Lambayeque,14,1403,-6.505,-79.875,64.0,FALSE,norte
+150101,Lima,Lima,Lima,15,1501,-12.045,-77.045,24.2,FALSE,centro
+150102,Ancon,Lima,Lima,15,1501,-11.705,-77.095,311.9,TRUE,centro
+150103,Ate,Lima,Lima,15,1501,-12.035,-76.875,86.1,FALSE,centro
+150104,Barranco,Lima,Lima,15,1501,-12.145,-77.025,3.6,TRUE,centro
+150105,Breña,Lima,Lima,15,1501,-12.055,-77.055,3.6,FALSE,centro
+150106,Carabayllo,Lima,Lima,15,1501,-11.805,-76.975,314.2,FALSE,centro
+150107,Chaclacayo,Lima,Lima,15,1501,-11.995,-76.765,43.6,FALSE,centro
+150108,Chorrillos,Lima,Lima,15,1501,-12.195,-77.005,38.8,TRUE,centro
+150109,Cieneguilla,Lima,Lima,15,1501,-12.075,-76.775,229.0,FALSE,centro
+150110,Comas,Lima,Lima,15,1501,-11.925,-77.035,48.5,FALSE,centro
+150111,El Agustino,Lima,Lima,15,1501,-12.045,-76.985,12.1,FALSE,centro
+150112,Independencia,Lima,Lima,15,1501,-11.985,-77.045,14.5,FALSE,centro
+150113,Jesus Maria,Lima,Lima,15,1501,-12.085,-77.055,2.4,FALSE,centro
+150114,La Molina,Lima,Lima,15,1501,-12.085,-76.925,47.3,FALSE,centro
+150115,La Victoria,Lima,Lima,15,1501,-12.075,-77.015,8.5,FALSE,centro
+150116,Lince,Lima,Lima,15,1501,-12.085,-77.045,2.4,FALSE,centro
+150117,Los Olivos,Lima,Lima,15,1501,-11.965,-77.075,21.8,FALSE,centro
+150118,Lurigancho,Lima,Lima,15,1501,-11.955,-76.805,244.9,FALSE,centro
+150119,Lurin,Lima,Lima,15,1501,-12.235,-76.805,184.1,TRUE,centro
+150120,Magdalena del Mar,Lima,Lima,15,1501,-12.095,-77.075,2.4,TRUE,centro
+150121,Pueblo Libre,Lima,Lima,15,1501,-12.075,-77.065,4.8,FALSE,centro
+150122,Miraflores,Lima,Lima,15,1501,-12.125,-77.025,8.5,TRUE,centro
+150123,Pachacamac,Lima,Lima,15,1501,-12.165,-76.805,189.0,FALSE,centro
+150124,Pucusana,Lima,Lima,15,1501,-12.465,-76.775,31.5,TRUE,centro
+150125,Puente Piedra,Lima,Lima,15,1501,-11.875,-77.085,48.5,FALSE,centro
+150126,Punta Hermosa,Lima,Lima,15,1501,-12.275,-76.745,122.3,TRUE,centro
+150127,Punta Negra,Lima,Lima,15,1501,-12.305,-76.705,133.2,TRUE,centro
+150128,Rimac,Lima,Lima,15,1501,-12.025,-77.035,10.9,FALSE,centro
+150129,San Bartolo,Lima,Lima,15,1501,-12.375,-76.725,54.5,TRUE,centro
+150130,San Borja,Lima,Lima,15,1501,-12.095,-76.995,10.9,FALSE,centro
+150131,San Isidro,Lima,Lima,15,1501,-12.095,-77.035,10.9,TRUE,centro
+150132,San Juan de Lurigancho,Lima,Lima,15,1501,-11.945,-76.975,143.1,FALSE,centro
+150133,San Juan de Miraflores,Lima,Lima,15,1501,-12.155,-76.965,19.4,FALSE,centro
+150134,San Luis,Lima,Lima,15,1501,-12.075,-76.995,3.6,FALSE,centro
+150135,San Martin de Porres,Lima,Lima,15,1501,-11.995,-77.085,38.8,FALSE,centro
+150136,San Miguel,Lima,Lima,15,1501,-12.075,-77.095,9.7,TRUE,centro
+150137,Santa Anita,Lima,Lima,15,1501,-12.045,-76.965,9.7,FALSE,centro
+150138,Santa Maria del Mar,Lima,Lima,15,1501,-12.405,-76.765,7.3,TRUE,centro
+150139,Santa Rosa,Lima,Lima,15,1501,-11.805,-77.165,19.4,TRUE,centro
+150140,Santiago de Surco,Lima,Lima,15,1501,-12.125,-76.985,37.6,FALSE,centro
+150141,Surquillo,Lima,Lima,15,1501,-12.115,-77.015,4.8,FALSE,centro
+150142,Villa el Salvador,Lima,Lima,15,1501,-12.215,-76.945,36.3,TRUE,centro
+150143,Villa Maria del Triunfo,Lima,Lima,15,1501,-12.165,-76.915,67.8,FALSE,centro
+150201,Barranca,Barranca,Lima,15,1502,-10.715,-77.685,161.9,TRUE,centro
+150202,Paramonga,Barranca,Lima,15,1502,-10.485,-77.745,420.4,TRUE,centro
+150203,Pativilca,Barranca,Lima,15,1502,-10.625,-77.685,286.2,TRUE,centro
+150204,Supe,Barranca,Lima,15,1502,-10.815,-77.565,521.0,TRUE,centro
+150205,Supe Puerto,Barranca,Lima,15,1502,-10.785,-77.725,15.8,TRUE,centro
+150301,Cajatambo,Cajatambo,Lima,15,1503,-10.455,-76.945,550.8,FALSE,centro
+150302,Copa,Cajatambo,Lima,15,1503,-10.365,-77.025,206.0,FALSE,centro
+150303,Gorgor,Cajatambo,Lima,15,1503,-10.625,-76.995,344.7,FALSE,centro
+150304,Huancapon,Cajatambo,Lima,15,1503,-10.525,-77.105,147.4,FALSE,centro
+150305,Manas,Cajatambo,Lima,15,1503,-10.615,-77.225,287.4,FALSE,centro
+150401,Canta,Canta,Lima,15,1504,-11.475,-76.585,134.8,FALSE,centro
+150402,Arahuay,Canta,Lima,15,1504,-11.645,-76.675,135.9,FALSE,centro
+150403,Huamantanga,Canta,Lima,15,1504,-11.555,-76.845,496.6,FALSE,centro
+150404,Huaros,Canta,Lima,15,1504,-11.405,-76.505,324.3,FALSE,centro
+150405,Lachaqui,Canta,Lima,15,1504,-11.555,-76.615,131.1,FALSE,centro
+150406,San Buenaventura,Canta,Lima,15,1504,-11.445,-76.665,105.7,FALSE,centro
+150407,Santa Rosa de Quives,Canta,Lima,15,1504,-11.675,-76.845,405.3,FALSE,centro
+150501,San Vicente de Cañete,Cañete,Lima,15,1505,-13.175,-76.255,526.1,TRUE,centro
+150502,Asia,Cañete,Lima,15,1505,-12.795,-76.515,285.2,TRUE,centro
+150503,Calango,Cañete,Lima,15,1505,-12.485,-76.455,523.9,FALSE,centro
+150504,Cerro Azul,Cañete,Lima,15,1505,-12.965,-76.465,125.6,TRUE,centro
+150505,Chilca,Cañete,Lima,15,1505,-12.425,-76.625,486.5,TRUE,centro
+150506,Coayllo,Cañete,Lima,15,1505,-12.655,-76.405,603.3,FALSE,centro
+150507,Imperial,Cañete,Lima,15,1505,-13.035,-76.375,51.9,FALSE,centro
+150508,Lunahuana,Cañete,Lima,15,1505,-13.015,-76.115,495.0,FALSE,centro
+150509,Mala,Cañete,Lima,15,1505,-12.655,-76.605,133.0,TRUE,centro
+150510,Nuevo Imperial,Cañete,Lima,15,1505,-12.965,-76.255,322.4,FALSE,centro
+150511,Pacaran,Cañete,Lima,15,1505,-12.895,-76.065,240.4,FALSE,centro
+150512,Quilmana,Cañete,Lima,15,1505,-12.865,-76.345,453.0,FALSE,centro
+150513,San Antonio,Cañete,Lima,15,1505,-12.615,-76.675,38.7,TRUE,centro
+150514,San Luis,Cañete,Lima,15,1505,-13.055,-76.425,37.4,TRUE,centro
+150515,Santa Cruz de Flores,Cañete,Lima,15,1505,-12.555,-76.645,94.3,FALSE,centro
+150516,Zuñiga,Cañete,Lima,15,1505,-12.825,-76.015,131.7,FALSE,centro
+150601,Huaral,Huaral,Lima,15,1506,-11.385,-77.175,649.9,FALSE,centro
+150602,Atavillos Alto,Huaral,Lima,15,1506,-11.275,-76.595,352.4,FALSE,centro
+150603,Atavillos Bajo,Huaral,Lima,15,1506,-11.345,-76.765,178.6,FALSE,centro
+150604,Aucallama,Huaral,Lima,15,1506,-11.515,-77.045,727.3,TRUE,centro
+150605,Chancay,Huaral,Lima,15,1506,-11.505,-77.295,159.1,TRUE,centro
+150606,Ihuari,Huaral,Lima,15,1506,-11.185,-76.965,480.2,FALSE,centro
+150607,Lampian,Huaral,Lima,15,1506,-11.245,-76.865,145.9,FALSE,centro
+150608,Pacaraos,Huaral,Lima,15,1506,-11.125,-76.665,305.2,FALSE,centro
+150609,San Miguel de Acos,Huaral,Lima,15,1506,-11.295,-76.765,41.3,FALSE,centro
+150610,Santa Cruz de Andamarca,Huaral,Lima,15,1506,-11.145,-76.565,220.1,FALSE,centro
+150611,Sumbilca,Huaral,Lima,15,1506,-11.395,-76.855,239.3,FALSE,centro
+150612,Veintisiete de Noviembre,Huaral,Lima,15,1506,-11.145,-76.775,212.8,FALSE,centro
+150701,Matucana,Huarochiri,Lima,15,1507,-11.815,-76.385,177.1,FALSE,centro
+150702,Antioquia,Huarochiri,Lima,15,1507,-12.065,-76.585,414.4,FALSE,centro
+150703,Callahuanca,Huarochiri,Lima,15,1507,-11.815,-76.575,52.2,FALSE,centro
+150704,Carampoma,Huarochiri,Lima,15,1507,-11.645,-76.385,233.0,FALSE,centro
+150705,Chicla,Huarochiri,Lima,15,1507,-11.665,-76.245,237.9,FALSE,centro
+150706,Cuenca,Huarochiri,Lima,15,1507,-12.155,-76.455,71.5,FALSE,centro
+150707,Huachupampa,Huarochiri,Lima,15,1507,-11.695,-76.595,76.4,FALSE,centro
+150708,Huanza,Huarochiri,Lima,15,1507,-11.565,-76.445,240.4,FALSE,centro
+150709,Huarochiri,Huarochiri,Lima,15,1507,-12.065,-76.275,243.6,FALSE,centro
+150710,Lahuaytambo,Huarochiri,Lima,15,1507,-12.095,-76.385,83.6,FALSE,centro
+150711,Langa,Huarochiri,Lima,15,1507,-12.165,-76.375,78.7,FALSE,centro
+150712,San Pedro de Laraos,Huarochiri,Lima,15,1507,-11.585,-76.535,120.2,FALSE,centro
+150713,Mariatana,Huarochiri,Lima,15,1507,-12.265,-76.365,169.5,FALSE,centro
+150714,Ricardo Palma,Huarochiri,Lima,15,1507,-11.935,-76.625,35.2,FALSE,centro
+150715,San Andres de Tupicocha,Huarochiri,Lima,15,1507,-11.985,-76.455,97.0,FALSE,centro
+150716,San Antonio,Huarochiri,Lima,15,1507,-11.815,-76.775,573.7,FALSE,centro
+150717,San Bartolome,Huarochiri,Lima,15,1507,-11.915,-76.505,44.9,FALSE,centro
+150718,San Damian,Huarochiri,Lima,15,1507,-11.965,-76.335,333.4,FALSE,centro
+150719,San Juan de Iris,Huarochiri,Lima,15,1507,-11.715,-76.465,126.2,FALSE,centro
+150720,San Juan de Tantaranche,Huarochiri,Lima,15,1507,-11.975,-76.165,135.8,FALSE,centro
+150721,San Lorenzo de Quinti,Huarochiri,Lima,15,1507,-12.105,-76.115,459.2,FALSE,centro
+150722,San Mateo,Huarochiri,Lima,15,1507,-11.815,-76.225,417.3,FALSE,centro
+150723,San Mateo de Otao,Huarochiri,Lima,15,1507,-11.845,-76.525,132.2,FALSE,centro
+150724,San Pedro de Casta,Huarochiri,Lima,15,1507,-11.765,-76.555,83.7,FALSE,centro
+150725,San Pedro de Huancayre,Huarochiri,Lima,15,1507,-12.085,-76.195,38.8,FALSE,centro
+150726,Sangallaya,Huarochiri,Lima,15,1507,-12.215,-76.265,93.3,FALSE,centro
+150727,Santa Cruz de Cocachacra,Huarochiri,Lima,15,1507,-11.925,-76.565,32.7,FALSE,centro
+150728,Santa Eulalia,Huarochiri,Lima,15,1507,-11.855,-76.655,118.9,FALSE,centro
+150729,Santiago de Anchucaya,Huarochiri,Lima,15,1507,-12.035,-76.195,98.2,FALSE,centro
+150730,Santiago de Tuna,Huarochiri,Lima,15,1507,-11.975,-76.535,65.5,FALSE,centro
+150731,Santo Domingo de los Olleros,Huarochiri,Lima,15,1507,-12.265,-76.535,582.5,FALSE,centro
+150732,Surco,Huarochiri,Lima,15,1507,-11.875,-76.445,107.9,FALSE,centro
+150801,Huacho,Huaura,Lima,15,1508,-11.275,-77.495,715.8,TRUE,centro
+150802,Ambar,Huaura,Lima,15,1508,-10.785,-77.265,945.9,FALSE,centro
+150803,Caleta de Carquin,Huaura,Lima,15,1508,-11.085,-77.625,3.6,TRUE,centro
+150804,Checras,Huaura,Lima,15,1508,-10.925,-76.855,166.7,FALSE,centro
+150805,Hualmay,Huaura,Lima,15,1508,-11.095,-77.605,4.9,TRUE,centro
+150806,Huaura,Huaura,Lima,15,1508,-11.005,-77.445,482.9,TRUE,centro
+150807,Leoncio Prado,Huaura,Lima,15,1508,-11.055,-76.915,295.5,FALSE,centro
+150808,Paccho,Huaura,Lima,15,1508,-10.965,-76.975,238.5,FALSE,centro
+150809,Santa Leonor,Huaura,Lima,15,1508,-10.965,-76.675,379.6,FALSE,centro
+150810,Santa Maria,Huaura,Lima,15,1508,-11.115,-77.475,136.2,FALSE,centro
+150811,Sayan,Huaura,Lima,15,1508,-11.145,-77.235,1314.3,FALSE,centro
+150812,Vegueta,Huaura,Lima,15,1508,-10.955,-77.605,261.6,TRUE,centro
+150901,Oyon,Oyon,Lima,15,1509,-10.665,-76.755,876.8,FALSE,centro
+150902,Andajes,Oyon,Lima,15,1509,-10.775,-76.925,154.6,FALSE,centro
+150903,Caujul,Oyon,Lima,15,1509,-10.755,-76.985,104.7,FALSE,centro
+150904,Cochamarca,Oyon,Lima,15,1509,-10.885,-77.125,259.2,FALSE,centro
+150905,Navan,Oyon,Lima,15,1509,-10.855,-77.045,234.9,FALSE,centro
+150906,Pachangara,Oyon,Lima,15,1509,-10.835,-76.795,260.5,FALSE,centro
+151001,Yauyos,Yauyos,Lima,15,1510,-12.475,-75.955,333.9,FALSE,centro
+151002,Alis,Yauyos,Lima,15,1510,-12.285,-75.705,138.0,FALSE,centro
+151003,Allauca,Yauyos,Lima,15,1510,-12.635,-76.035,522.4,FALSE,centro
+151004,Ayaviri,Yauyos,Lima,15,1510,-12.365,-76.045,253.0,FALSE,centro
+151005,Azangaro,Yauyos,Lima,15,1510,-13.005,-75.825,77.3,FALSE,centro
+151006,Cacra,Yauyos,Lima,15,1510,-12.765,-75.745,206.7,FALSE,centro
+151007,Carania,Yauyos,Lima,15,1510,-12.355,-75.885,122.3,FALSE,centro
+151008,Catahuasi,Yauyos,Lima,15,1510,-12.735,-75.895,120.9,FALSE,centro
+151009,Chocos,Yauyos,Lima,15,1510,-12.925,-75.925,211.4,FALSE,centro
+151010,Cochas,Yauyos,Lima,15,1510,-12.285,-76.195,37.5,FALSE,centro
+151011,Colonia,Yauyos,Lima,15,1510,-12.585,-75.845,342.3,FALSE,centro
+151012,Hongos,Yauyos,Lima,15,1510,-12.765,-75.675,122.1,FALSE,centro
+151013,Huampara,Yauyos,Lima,15,1510,-12.355,-76.185,50.8,FALSE,centro
+151014,Huancaya,Yauyos,Lima,15,1510,-12.085,-75.835,281.1,FALSE,centro
+151015,Huangascar,Yauyos,Lima,15,1510,-12.945,-75.825,47.1,FALSE,centro
+151016,Huantan,Yauyos,Lima,15,1510,-12.515,-75.705,516.6,FALSE,centro
+151017,Huañec,Yauyos,Lima,15,1510,-12.275,-76.075,44.8,FALSE,centro
+151018,Laraos,Yauyos,Lima,15,1510,-12.385,-75.675,412.7,FALSE,centro
+151019,Lincha,Yauyos,Lima,15,1510,-12.815,-75.635,221.1,FALSE,centro
+151020,Madean,Yauyos,Lima,15,1510,-12.965,-75.695,207.7,FALSE,centro
+151021,Miraflores,Yauyos,Lima,15,1510,-12.235,-75.885,202.2,FALSE,centro
+151022,Omas,Yauyos,Lima,15,1510,-12.475,-76.255,297.6,FALSE,centro
+151023,Putinza,Yauyos,Lima,15,1510,-12.665,-75.925,72.5,FALSE,centro
+151024,Quinches,Yauyos,Lima,15,1510,-12.315,-76.095,110.2,FALSE,centro
+151025,Quinocay,Yauyos,Lima,15,1510,-12.355,-76.285,159.8,FALSE,centro
+151026,San Joaquin,Yauyos,Lima,15,1510,-12.245,-76.105,76.3,FALSE,centro
+151027,San Pedro de Pilas,Yauyos,Lima,15,1510,-12.495,-76.185,100.4,FALSE,centro
+151028,Tanta,Yauyos,Lima,15,1510,-12.135,-75.995,346.5,FALSE,centro
+151029,Tauripampa,Yauyos,Lima,15,1510,-12.685,-76.185,533.2,FALSE,centro
+151030,Tomas,Yauyos,Lima,15,1510,-12.165,-75.705,294.4,FALSE,centro
+151031,Tupe,Yauyos,Lima,15,1510,-12.695,-75.735,293.8,FALSE,centro
+151032,Viñac,Yauyos,Lima,15,1510,-12.885,-75.765,161.9,FALSE,centro
+151033,Vitis,Yauyos,Lima,15,1510,-12.165,-75.855,109.0,FALSE,centro
+160101,Iquitos,Maynas,Loreto,16,1601,-3.785,-73.435,362.3,FALSE,oriente
+160102,Alto Nanay,Maynas,Loreto,16,1601,-3.365,-74.285,14660.6,FALSE,oriente
+160103,Fernando Lores,Maynas,Loreto,16,1601,-4.275,-73.115,4603.2,FALSE,oriente
+160104,Indiana,Maynas,Loreto,16,1601,-3.825,-72.855,3385.4,FALSE,oriente
+160105,Las Amazonas,Maynas,Loreto,16,1601,-3.565,-72.525,6777.8,FALSE,oriente
+160106,Mazan,Maynas,Loreto,16,1601,-2.995,-73.755,10106.8,FALSE,oriente
+160107,Napo,Maynas,Loreto,16,1601,-2.095,-74.405,24335.5,FALSE,oriente
+160108,Punchana,Maynas,Loreto,16,1601,-3.535,-73.455,1621.5,FALSE,oriente
+160110,Torres Causana,Maynas,Loreto,16,1601,-1.385,-74.895,6976.0,FALSE,oriente
+160112,Belen,Maynas,Loreto,16,1601,-3.815,-73.215,652.9,FALSE,oriente
+160113,San Juan Bautista,Maynas,Loreto,16,1601,-4.145,-73.665,3225.9,FALSE,oriente
+160201,Yurimaguas,Alto Amazonas,Loreto,16,1602,-5.845,-76.165,2252.3,FALSE,oriente
+160202,Balsapuerto,Alto Amazonas,Loreto,16,1602,-5.735,-76.585,3024.6,FALSE,oriente
+160205,Jeberos,Alto Amazonas,Loreto,16,1602,-5.295,-76.205,4375.5,FALSE,oriente
+160206,Lagunas,Alto Amazonas,Loreto,16,1602,-4.625,-75.975,6101.8,FALSE,oriente
+160210,Santa Cruz,Alto Amazonas,Loreto,16,1602,-5.655,-75.745,2288.8,FALSE,oriente
+160211,Teniente Cesar Lopez Rojas,Alto Amazonas,Loreto,16,1602,-5.985,-75.825,1323.7,FALSE,oriente
+160301,Nauta,Loreto,Loreto,16,1603,-4.445,-74.115,6812.5,FALSE,oriente
+160302,Parinari,Loreto,Loreto,16,1603,-5.035,-74.865,13314.6,FALSE,oriente
+160303,Tigre,Loreto,Loreto,16,1603,-2.945,-75.265,20249.2,FALSE,oriente
+160304,Trompeteros,Loreto,Loreto,16,1603,-3.195,-75.835,12659.9,FALSE,oriente
+160305,Urarinas,Loreto,Loreto,16,1603,-4.275,-75.485,15882.1,FALSE,oriente
+160401,Ramon Castilla,Mariscal Ramon Castilla,Loreto,16,1604,-3.675,-70.835,6905.5,FALSE,oriente
+160402,Pebas,Mariscal Ramon Castilla,Loreto,16,1604,-3.435,-71.965,11299.9,FALSE,oriente
+160403,Yavari,Mariscal Ramon Castilla,Loreto,16,1604,-4.475,-72.035,14433.6,FALSE,oriente
+160404,San Pablo,Mariscal Ramon Castilla,Loreto,16,1604,-3.865,-71.335,5127.3,FALSE,oriente
+160501,Requena,Requena,Loreto,16,1605,-5.325,-73.885,3097.0,FALSE,oriente
+160502,Alto Tapiche,Requena,Loreto,16,1605,-6.815,-74.185,9126.3,FALSE,oriente
+160503,Capelo,Requena,Loreto,16,1605,-5.365,-74.125,805.7,FALSE,oriente
+160504,Emilio San Martin,Requena,Loreto,16,1605,-6.205,-74.455,4671.6,FALSE,oriente
+160505,Maquia,Requena,Loreto,16,1605,-6.385,-74.725,4940.9,FALSE,oriente
+160506,Puinahua,Requena,Loreto,16,1605,-5.645,-74.885,6321.4,FALSE,oriente
+160507,Saquena,Requena,Loreto,16,1605,-4.795,-73.405,2616.7,FALSE,oriente
+160508,Soplin,Requena,Loreto,16,1605,-6.325,-73.755,4724.7,FALSE,oriente
+160509,Tapiche,Requena,Loreto,16,1605,-5.995,-73.995,2108.7,FALSE,oriente
+160510,Jenaro Herrera,Requena,Loreto,16,1605,-4.995,-73.695,1161.7,FALSE,oriente
+160511,Yaquerana,Requena,Loreto,16,1605,-5.755,-73.345,11107.8,FALSE,oriente
+160601,Contamana,Ucayali,Loreto,16,1606,-7.785,-75.345,11084.5,FALSE,oriente
+160602,Inahuaya,Ucayali,Loreto,16,1606,-7.045,-75.295,632.1,FALSE,oriente
+160603,Padre Marquez,Ucayali,Loreto,16,1606,-7.875,-74.915,2453.8,FALSE,oriente
+160604,Pampa Hermosa,Ucayali,Loreto,16,1606,-7.305,-75.765,7517.5,FALSE,oriente
+160605,Sarayacu,Ucayali,Loreto,16,1606,-6.395,-75.185,6293.0,FALSE,oriente
+160606,Vargas Guerra,Ucayali,Loreto,16,1606,-6.935,-75.095,1912.9,FALSE,oriente
+160701,Barranca,Datem del Marañon,Loreto,16,1607,-5.025,-77.115,7431.4,FALSE,oriente
+160702,Cahuapanas,Datem del Marañon,Loreto,16,1607,-5.235,-76.855,4815.2,FALSE,oriente
+160703,Manseriche,Datem del Marañon,Loreto,16,1607,-4.725,-77.515,3591.4,FALSE,oriente
+160704,Morona,Datem del Marañon,Loreto,16,1607,-3.675,-77.375,11128.8,FALSE,oriente
+160705,Pastaza,Datem del Marañon,Loreto,16,1607,-4.275,-76.635,9159.5,FALSE,oriente
+160706,Andoas,Datem del Marañon,Loreto,16,1607,-3.275,-76.675,11867.1,FALSE,oriente
+160801,Putumayo,Putumayo,Loreto,16,1608,-2.465,-72.785,11137.7,FALSE,oriente
+160802,Rosa Panduro,Putumayo,Loreto,16,1608,-1.555,-73.865,7224.4,FALSE,oriente
+160803,Teniente Manuel Clavero,Putumayo,Loreto,16,1608,-0.655,-74.735,9675.2,FALSE,oriente
+160804,Yaguas,Putumayo,Loreto,16,1608,-2.805,-71.015,18088.2,FALSE,oriente
+170101,Tambopata,Tambopata,Madre de Dios,17,1701,-12.045,-70.285,20861.0,FALSE,sur
+170102,Inambari,Tambopata,Madre de Dios,17,1701,-12.975,-69.935,4873.8,FALSE,sur
+170103,Las Piedras,Tambopata,Madre de Dios,17,1701,-12.005,-69.535,7778.1,FALSE,sur
+170104,Laberinto,Tambopata,Madre de Dios,17,1701,-12.515,-69.925,2688.1,FALSE,sur
+170201,Manu,Manu,Madre de Dios,17,1702,-12.365,-71.515,8748.1,FALSE,sur
+170202,Fitzcarrald,Manu,Madre de Dios,17,1702,-11.845,-71.635,10720.2,FALSE,sur
+170203,Madre de Dios,Manu,Madre de Dios,17,1702,-12.635,-70.675,7902.2,FALSE,sur
+170204,Huepetuhe,Manu,Madre de Dios,17,1702,-13.005,-70.655,1522.6,FALSE,sur
+170301,Iñapari,Tahuamanu,Madre de Dios,17,1703,-10.965,-70.645,13949.4,FALSE,sur
+170302,Iberia,Tahuamanu,Madre de Dios,17,1703,-11.435,-69.675,2609.0,FALSE,sur
+170303,Tahuamanu,Tahuamanu,Madre de Dios,17,1703,-11.685,-69.535,3524.1,FALSE,sur
+180101,Moquegua,Mariscal Nieto,Moquegua,18,1801,-17.205,-71.065,3500.4,FALSE,sur
+180102,Carumas,Mariscal Nieto,Moquegua,18,1801,-16.725,-70.375,2282.2,FALSE,sur
+180103,Cuchumbaya,Mariscal Nieto,Moquegua,18,1801,-16.765,-70.665,67.6,FALSE,sur
+180104,Samegua,Mariscal Nieto,Moquegua,18,1801,-17.155,-70.855,63.9,FALSE,sur
+180105,San Cristobal,Mariscal Nieto,Moquegua,18,1801,-16.665,-70.645,544.9,FALSE,sur
+180106,Torata,Mariscal Nieto,Moquegua,18,1801,-16.995,-70.735,1774.1,FALSE,sur
+180107,San Antonio,Mariscal Nieto,Moquegua,18,1801,-17.315,-71.035,466.1,FALSE,sur
+180201,Omate,General Sanchez Cerro,Moquegua,18,1802,-16.645,-70.965,256.5,FALSE,sur
+180202,Chojata,General Sanchez Cerro,Moquegua,18,1802,-16.455,-70.575,859.3,FALSE,sur
+180203,Coalaque,General Sanchez Cerro,Moquegua,18,1802,-16.575,-71.045,242.3,FALSE,sur
+180204,Ichuña,General Sanchez Cerro,Moquegua,18,1802,-16.185,-70.495,1003.3,FALSE,sur
+180205,La Capilla,General Sanchez Cerro,Moquegua,18,1802,-16.825,-71.295,782.9,FALSE,sur
+180206,Lloque,General Sanchez Cerro,Moquegua,18,1802,-16.305,-70.625,258.1,FALSE,sur
+180207,Matalaque,General Sanchez Cerro,Moquegua,18,1802,-16.525,-70.835,569.1,FALSE,sur
+180208,Puquina,General Sanchez Cerro,Moquegua,18,1802,-16.625,-71.155,598.5,FALSE,sur
+180209,Quinistaquillas,General Sanchez Cerro,Moquegua,18,1802,-16.705,-70.885,193.5,FALSE,sur
+180210,Ubinas,General Sanchez Cerro,Moquegua,18,1802,-16.215,-70.805,882.9,FALSE,sur
+180211,Yunga,General Sanchez Cerro,Moquegua,18,1802,-16.225,-70.655,113.0,FALSE,sur
+180301,Ilo,Ilo,Moquegua,18,1803,-17.715,-71.215,286.9,TRUE,sur
+180302,El Algarrobal,Ilo,Moquegua,18,1803,-17.585,-71.145,756.0,FALSE,sur
+180303,Pacocha,Ilo,Moquegua,18,1803,-17.435,-71.355,329.9,TRUE,sur
+190101,Chaupimarca,Pasco,Pasco,19,1901,-10.705,-76.245,15.8,FALSE,centro
+190102,Huachon,Pasco,Pasco,19,1901,-10.575,-75.785,839.3,FALSE,centro
+190103,Huariaca,Pasco,Pasco,19,1901,-10.455,-76.155,120.6,FALSE,centro
+190104,Huayllay,Pasco,Pasco,19,1901,-10.955,-76.425,1023.2,FALSE,centro
+190105,Ninacaca,Pasco,Pasco,19,1901,-10.795,-76.065,542.9,FALSE,centro
+190106,Pallanchacra,Pasco,Pasco,19,1901,-10.425,-76.255,70.7,FALSE,centro
+190107,Paucartambo,Pasco,Pasco,19,1901,-10.755,-75.775,799.9,FALSE,centro
+190108,San Francisco de Asis de Yarusyacan,Pasco,Pasco,19,1901,-10.555,-76.225,125.5,FALSE,centro
+190109,Simon Bolivar,Pasco,Pasco,19,1901,-10.725,-76.415,697.7,FALSE,centro
+190110,Ticlacayan,Pasco,Pasco,19,1901,-10.555,-76.035,705.4,FALSE,centro
+190111,Tinyahuarco,Pasco,Pasco,19,1901,-10.755,-76.245,96.2,FALSE,centro
+190112,Vicco,Pasco,Pasco,19,1901,-10.865,-76.235,163.1,FALSE,centro
+190113,Yanacancha,Pasco,Pasco,19,1901,-10.645,-76.195,158.3,FALSE,centro
+190201,Yanahuanca,Daniel Alcides Carrion,Pasco,19,1902,-10.565,-76.575,748.0,FALSE,centro
+190202,Chacayan,Daniel Alcides Carrion,Pasco,19,1902,-10.465,-76.395,158.4,FALSE,centro
+190203,Goyllarisquizga,Daniel Alcides Carrion,Pasco,19,1902,-10.485,-76.405,17.1,FALSE,centro
+190204,Paucar,Daniel Alcides Carrion,Pasco,19,1902,-10.345,-76.415,112.2,FALSE,centro
+190205,San Pedro de Pillao,Daniel Alcides Carrion,Pasco,19,1902,-10.415,-76.535,70.7,FALSE,centro
+190206,Santa Ana de Tusi,Daniel Alcides Carrion,Pasco,19,1902,-10.475,-76.325,291.2,FALSE,centro
+190207,Tapuc,Daniel Alcides Carrion,Pasco,19,1902,-10.415,-76.465,46.3,FALSE,centro
+190208,Vilcabamba,Daniel Alcides Carrion,Pasco,19,1902,-10.535,-76.445,85.3,FALSE,centro
+190301,Oxapampa,Oxapampa,Pasco,19,1903,-10.655,-75.375,400.7,FALSE,centro
+190302,Chontabamba,Oxapampa,Pasco,19,1903,-10.625,-75.505,438.5,FALSE,centro
+190303,Huancabamba,Oxapampa,Pasco,19,1903,-10.395,-75.635,1140.9,FALSE,centro
+190304,Palcazu,Oxapampa,Pasco,19,1903,-10.235,-75.275,2807.3,FALSE,centro
+190305,Pozuzo,Oxapampa,Pasco,19,1903,-10.135,-75.585,720.9,FALSE,centro
+190306,Puerto Bermudez,Oxapampa,Pasco,19,1903,-10.415,-74.635,7723.5,FALSE,centro
+190307,Villa Rica,Oxapampa,Pasco,19,1903,-10.635,-75.175,830.6,FALSE,centro
+190308,Constitucion,Oxapampa,Pasco,19,1903,-9.825,-74.785,3079.5,FALSE,centro
+200101,Piura,Piura,Piura,20,2001,-5.085,-80.655,195.0,FALSE,norte
+200104,Castilla,Piura,Piura,20,2001,-5.135,-80.515,649.2,FALSE,norte
+200105,Catacaos,Piura,Piura,20,2001,-5.475,-80.365,2280.9,FALSE,norte
+200107,Cura Mori,Piura,Piura,20,2001,-5.355,-80.585,222.1,FALSE,norte
+200108,El Tallan,Piura,Piura,20,2001,-5.445,-80.615,98.7,FALSE,norte
+200109,La Arena,Piura,Piura,20,2001,-5.305,-80.765,171.5,FALSE,norte
+200110,La Union,Piura,Piura,20,2001,-5.335,-80.865,317.1,FALSE,norte
+200111,Las Lomas,Piura,Piura,20,2001,-4.695,-80.225,559.5,FALSE,norte
+200114,Tambo Grande,Piura,Piura,20,2001,-4.915,-80.335,1496.4,FALSE,norte
+200115,Veintiseis de Octubre,Piura,Piura,20,2001,-5.165,-80.695,71.6,FALSE,norte
+200201,Ayabaca,Ayabaca,Piura,20,2002,-4.685,-79.605,1576.0,FALSE,norte
+200202,Frias,Ayabaca,Piura,20,2002,-4.925,-79.975,569.2,FALSE,norte
+200203,Jilili,Ayabaca,Piura,20,2002,-4.535,-79.835,98.8,FALSE,norte
+200204,Lagunas,Ayabaca,Piura,20,2002,-4.785,-79.855,192.6,FALSE,norte
+200205,Montero,Ayabaca,Piura,20,2002,-4.635,-79.845,128.5,FALSE,norte
+200206,Pacaipampa,Ayabaca,Piura,20,2002,-4.945,-79.645,974.1,FALSE,norte
+200207,Paimas,Ayabaca,Piura,20,2002,-4.635,-80.005,327.3,FALSE,norte
+200208,Sapillica,Ayabaca,Piura,20,2002,-4.785,-79.985,272.9,FALSE,norte
+200209,Sicchez,Ayabaca,Piura,20,2002,-4.575,-79.775,32.1,FALSE,norte
+200210,Suyo,Ayabaca,Piura,20,2002,-4.465,-80.065,1074.8,FALSE,norte
+200301,Huancabamba,Huancabamba,Piura,20,2003,-5.195,-79.495,450.5,FALSE,norte
+200302,Canchaque,Huancabamba,Piura,20,2003,-5.315,-79.625,304.8,FALSE,norte
+200303,El Carmen de la Frontera,Huancabamba,Piura,20,2003,-5.025,-79.365,659.2,FALSE,norte
+200304,Huarmaca,Huancabamba,Piura,20,2003,-5.695,-79.565,1931.0,FALSE,norte
+200305,Lalaquiz,Huancabamba,Piura,20,2003,-5.175,-79.665,150.6,FALSE,norte
+200306,San Miguel de el Faique,Huancabamba,Piura,20,2003,-5.425,-79.605,208.5,FALSE,norte
+200307,Sondor,Huancabamba,Piura,20,2003,-5.405,-79.365,341.7,FALSE,norte
+200308,Sondorillo,Huancabamba,Piura,20,2003,-5.395,-79.465,230.7,FALSE,norte
+200401,Chulucanas,Morropon,Piura,20,2004,-5.125,-80.195,836.8,FALSE,norte
+200402,Buenos Aires,Morropon,Piura,20,2004,-5.265,-79.925,250.5,FALSE,norte
+200403,Chalaco,Morropon,Piura,20,2004,-5.065,-79.795,145.7,FALSE,norte
+200404,La Matanza,Morropon,Piura,20,2004,-5.355,-80.085,987.0,FALSE,norte
+200405,Morropon,Morropon,Piura,20,2004,-5.155,-79.995,176.5,FALSE,norte
+200406,Salitral,Morropon,Piura,20,2004,-5.435,-79.825,610.7,FALSE,norte
+200407,San Juan de Bigote,Morropon,Piura,20,2004,-5.295,-79.745,254.2,FALSE,norte
+200408,Santa Catalina de Mossa,Morropon,Piura,20,2004,-5.125,-79.875,83.9,FALSE,norte
+200409,Santo Domingo,Morropon,Piura,20,2004,-5.055,-79.905,188.9,FALSE,norte
+200410,Yamango,Morropon,Piura,20,2004,-5.155,-79.775,218.5,FALSE,norte
+200501,Paita,Paita,Piura,20,2005,-5.165,-81.055,712.1,TRUE,norte
+200502,Amotape,Paita,Piura,20,2005,-4.835,-81.005,64.2,FALSE,norte
+200503,Arenal,Paita,Piura,20,2005,-4.895,-81.025,11.1,FALSE,norte
+200504,Colan,Paita,Piura,20,2005,-4.935,-81.075,122.2,TRUE,norte
+200505,La Huaca,Paita,Piura,20,2005,-5.065,-80.915,575.2,FALSE,norte
+200506,Tamarindo,Paita,Piura,20,2005,-4.835,-80.965,67.9,FALSE,norte
+200507,Vichayal,Paita,Piura,20,2005,-4.835,-81.105,158.1,TRUE,norte
+200601,Sullana,Sullana,Piura,20,2006,-4.835,-80.555,491.5,FALSE,norte
+200602,Bellavista,Sullana,Piura,20,2006,-4.895,-80.675,2.5,FALSE,norte
+200603,Ignacio Escudero,Sullana,Piura,20,2006,-4.825,-80.885,187.7,FALSE,norte
+200604,Lancones,Sullana,Piura,20,2006,-4.425,-80.505,2206.6,FALSE,norte
+200605,Marcavelica,Sullana,Piura,20,2006,-4.535,-80.785,1656.6,FALSE,norte
+200606,Miguel Checa,Sullana,Piura,20,2006,-5.045,-80.785,482.7,FALSE,norte
+200607,Querecotillo,Sullana,Piura,20,2006,-4.735,-80.615,259.3,FALSE,norte
+200608,Salitral,Sullana,Piura,20,2006,-4.835,-80.685,30.9,FALSE,norte
+200701,Pariñas,Talara,Piura,20,2007,-4.495,-81.045,1125.5,TRUE,norte
+200702,El Alto,Talara,Piura,20,2007,-4.295,-81.085,469.6,TRUE,norte
+200703,La Brea,Talara,Piura,20,2007,-4.705,-81.105,831.2,TRUE,norte
+200704,Lobitos,Talara,Piura,20,2007,-4.405,-81.205,238.5,TRUE,norte
+200705,Los Organos,Talara,Piura,20,2007,-4.195,-81.065,174.3,TRUE,norte
+200706,Mancora,Talara,Piura,20,2007,-4.145,-81.005,101.3,TRUE,norte
+200801,Sechura,Sechura,Piura,20,2008,-5.915,-80.665,5667.6,TRUE,norte
+200802,Bellavista de la Union,Sechura,Piura,20,2008,-5.425,-80.745,14.8,FALSE,norte
+200803,Bernal,Sechura,Piura,20,2008,-5.455,-80.705,69.1,FALSE,norte
+200804,Cristo Nos Valga,Sechura,Piura,20,2008,-5.535,-80.645,264.0,FALSE,norte
+200805,Vice,Sechura,Piura,20,2008,-5.435,-80.875,264.0,TRUE,norte
+200806,Rinconada Llicuar,Sechura,Piura,20,2008,-5.485,-80.775,22.2,FALSE,norte
+210101,Puno,Puno,Puno,21,2101,-15.905,-70.065,462.4,FALSE,sur
+210102,Acora,Puno,Puno,21,2101,-16.285,-69.905,1935.3,FALSE,sur
+210103,Amantani,Puno,Puno,21,2101,-15.675,-69.705,14.3,FALSE,sur
+210104,Atuncolla,Puno,Puno,21,2101,-15.675,-70.155,130.1,FALSE,sur
+210105,Capachica,Puno,Puno,21,2101,-15.645,-69.825,108.6,FALSE,sur
+210106,Chucuito,Puno,Puno,21,2101,-15.895,-69.885,119.2,FALSE,sur
+210107,Coata,Puno,Puno,21,2101,-15.555,-69.925,100.3,FALSE,sur
+210108,Huata,Puno,Puno,21,2101,-15.625,-69.995,130.1,FALSE,sur
+210109,Mañazo,Puno,Puno,21,2101,-15.885,-70.405,410.0,FALSE,sur
+210110,Paucarcolla,Puno,Puno,21,2101,-15.725,-70.065,174.2,FALSE,sur
+210111,Pichacani,Puno,Puno,21,2101,-16.235,-70.155,1644.3,FALSE,sur
+210112,Plateria,Puno,Puno,21,2101,-15.975,-69.855,246.6,FALSE,sur
+210113,San Antonio,Puno,Puno,21,2101,-16.085,-70.305,335.8,FALSE,sur
+210114,Tiquillaca,Puno,Puno,21,2101,-15.925,-70.275,498.1,FALSE,sur
+210115,Vilque,Puno,Puno,21,2101,-15.785,-70.265,193.2,FALSE,sur
+210201,Azangaro,Azangaro,Puno,21,2102,-14.885,-70.145,723.4,FALSE,sur
+210202,Achaya,Azangaro,Puno,21,2102,-15.245,-70.175,130.3,FALSE,sur
+210203,Arapa,Azangaro,Puno,21,2102,-15.095,-70.085,345.8,FALSE,sur
+210204,Asillo,Azangaro,Puno,21,2102,-14.745,-70.355,403.9,FALSE,sur
+210205,Caminaca,Azangaro,Puno,21,2102,-15.305,-70.095,114.7,FALSE,sur
+210206,Chupa,Azangaro,Puno,21,2102,-15.105,-69.955,146.0,FALSE,sur
+210207,Jose Domingo Choquehuanca,Azangaro,Puno,21,2102,-15.035,-70.325,64.6,FALSE,sur
+210208,Muñani,Azangaro,Puno,21,2102,-14.685,-69.985,790.0,FALSE,sur
+210209,Potoni,Azangaro,Puno,21,2102,-14.415,-70.095,626.5,FALSE,sur
+210210,Saman,Azangaro,Puno,21,2102,-15.275,-70.015,200.8,FALSE,sur
+210211,San Anton,Azangaro,Puno,21,2102,-14.525,-70.255,519.4,FALSE,sur
+210212,San Jose,Azangaro,Puno,21,2102,-14.695,-70.175,400.4,FALSE,sur
+210213,San Juan de Salinas,Azangaro,Puno,21,2102,-14.995,-70.125,100.5,FALSE,sur
+210214,Santiago de Pupuja,Azangaro,Puno,21,2102,-15.085,-70.255,325.5,FALSE,sur
+210215,Tirapata,Azangaro,Puno,21,2102,-14.925,-70.385,202.4,FALSE,sur
+210301,Macusani,Carabaya,Puno,21,2103,-14.055,-70.465,1025.4,FALSE,sur
+210302,Ajoyani,Carabaya,Puno,21,2103,-14.175,-70.225,427.7,FALSE,sur
+210303,Ayapata,Carabaya,Puno,21,2103,-13.515,-70.235,2066.4,FALSE,sur
+210304,Coasa,Carabaya,Puno,21,2103,-13.645,-69.895,3138.2,FALSE,sur
+210305,Corani,Carabaya,Puno,21,2103,-13.925,-70.705,894.9,FALSE,sur
+210306,Crucero,Carabaya,Puno,21,2103,-14.335,-69.925,859.7,FALSE,sur
+210307,Ituata,Carabaya,Puno,21,2103,-13.825,-70.115,1258.7,FALSE,sur
+210308,Ollachea,Carabaya,Puno,21,2103,-13.745,-70.545,712.6,FALSE,sur
+210309,San Gaban,Carabaya,Puno,21,2103,-13.525,-70.395,753.0,FALSE,sur
+210310,Usicayos,Carabaya,Puno,21,2103,-14.145,-69.935,657.3,FALSE,sur
+210401,Juli,Chucuito,Puno,21,2104,-16.325,-69.505,782.5,FALSE,sur
+210402,Desaguadero,Chucuito,Puno,21,2104,-16.615,-69.085,174.6,FALSE,sur
+210403,Huacullani,Chucuito,Puno,21,2104,-16.605,-69.395,635.3,FALSE,sur
+210404,Kelluyo,Chucuito,Puno,21,2104,-16.725,-69.245,490.1,FALSE,sur
+210405,Pisacoma,Chucuito,Puno,21,2104,-16.935,-69.445,962.6,FALSE,sur
+210406,Pomata,Chucuito,Puno,21,2104,-16.355,-69.285,403.1,FALSE,sur
+210407,Zepita,Chucuito,Puno,21,2104,-16.495,-69.175,526.4,FALSE,sur
+210501,Ilave,El Collao,Puno,21,2105,-16.245,-69.675,885.2,FALSE,sur
+210502,Capazo,El Collao,Puno,21,2105,-17.105,-69.705,1047.0,FALSE,sur
+210503,Pilcuyo,El Collao,Puno,21,2105,-16.095,-69.505,151.2,FALSE,sur
+210504,Santa Rosa,El Collao,Puno,21,2105,-16.835,-69.855,2700.8,FALSE,sur
+210505,Conduriri,El Collao,Puno,21,2105,-16.555,-69.635,846.9,FALSE,sur
+210601,Huancane,Huancane,Puno,21,2106,-15.185,-69.805,394.7,FALSE,sur
+210602,Cojata,Huancane,Puno,21,2106,-15.005,-69.395,884.6,FALSE,sur
+210603,Huatasani,Huancane,Puno,21,2106,-15.015,-69.805,104.1,FALSE,sur
+210604,Inchupalla,Huancane,Puno,21,2106,-15.005,-69.645,299.2,FALSE,sur
+210605,Pusi,Huancane,Puno,21,2106,-15.445,-69.985,203.1,FALSE,sur
+210606,Rosaspata,Huancane,Puno,21,2106,-15.205,-69.485,302.5,FALSE,sur
+210607,Taraco,Huancane,Puno,21,2106,-15.305,-69.925,200.8,FALSE,sur
+210608,Vilque Chico,Huancane,Puno,21,2106,-15.135,-69.615,514.4,FALSE,sur
+210701,Lampa,Lampa,Puno,21,2107,-15.355,-70.415,664.4,FALSE,sur
+210702,Cabanilla,Lampa,Puno,21,2107,-15.565,-70.395,384.4,FALSE,sur
+210703,Calapuja,Lampa,Puno,21,2107,-15.305,-70.235,132.7,FALSE,sur
+210704,Nicasio,Lampa,Puno,21,2107,-15.215,-70.295,127.9,FALSE,sur
+210705,Ocuviri,Lampa,Puno,21,2107,-15.185,-70.845,888.6,FALSE,sur
+210706,Palca,Lampa,Puno,21,2107,-15.295,-70.605,496.1,FALSE,sur
+210707,Paratia,Lampa,Puno,21,2107,-15.465,-70.705,756.0,FALSE,sur
+210708,Pucara,Lampa,Puno,21,2107,-15.075,-70.445,526.5,FALSE,sur
+210709,Santa Lucia,Lampa,Puno,21,2107,-15.605,-70.785,1595.8,FALSE,sur
+210710,Vilavila,Lampa,Puno,21,2107,-15.175,-70.645,157.9,FALSE,sur
+210801,Ayaviri,Melgar,Puno,21,2108,-14.935,-70.605,1028.5,FALSE,sur
+210802,Antauta,Melgar,Puno,21,2108,-14.355,-70.385,659.1,FALSE,sur
+210803,Cupi,Melgar,Puno,21,2108,-14.885,-70.895,213.2,FALSE,sur
+210804,Llalli,Melgar,Puno,21,2108,-14.985,-70.925,231.0,FALSE,sur
+210805,Macari,Melgar,Puno,21,2108,-14.715,-70.935,697.6,FALSE,sur
+210806,Nuñoa,Melgar,Puno,21,2108,-14.355,-70.675,2211.4,FALSE,sur
+210807,Orurillo,Melgar,Puno,21,2108,-14.685,-70.485,400.4,FALSE,sur
+210808,Santa Rosa,Melgar,Puno,21,2108,-14.575,-70.815,804.8,FALSE,sur
+210809,Umachiri,Melgar,Puno,21,2108,-14.875,-70.745,335.4,FALSE,sur
+210901,Moho,Moho,Puno,21,2109,-15.355,-69.445,510.3,FALSE,sur
+210902,Conima,Moho,Puno,21,2109,-15.455,-69.415,66.9,FALSE,sur
+210903,Huayrapata,Moho,Puno,21,2109,-15.275,-69.295,408.8,FALSE,sur
+210904,Tilali,Moho,Puno,21,2109,-15.495,-69.345,56.1,FALSE,sur
+211001,Putina,San Antonio de Putina,Puno,21,2110,-14.715,-69.835,1044.0,FALSE,sur
+211002,Ananea,San Antonio de Putina,Puno,21,2110,-14.695,-69.505,970.9,FALSE,sur
+211003,Pedro Vilca Apaza,San Antonio de Putina,Puno,21,2110,-15.015,-69.915,140.0,FALSE,sur
+211004,Quilcapuncu,San Antonio de Putina,Puno,21,2110,-14.845,-69.635,525.9,FALSE,sur
+211005,Sina,San Antonio de Putina,Puno,21,2110,-14.515,-69.245,466.7,FALSE,sur
+211101,Juliaca,San Roman,Puno,21,2111,-15.455,-70.215,402.5,FALSE,sur
+211102,Cabana,San Roman,Puno,21,2111,-15.645,-70.285,198.1,FALSE,sur
+211103,Cabanillas,San Roman,Puno,21,2111,-15.855,-70.625,1270.7,FALSE,sur
+211104,Caracoto,San Roman,Puno,21,2111,-15.555,-70.085,277.0,FALSE,sur
+211105,San Miguel,San Roman,Puno,21,2111,-15.405,-70.125,124.2,FALSE,sur
+211201,Sandia,Sandia,Puno,21,2112,-14.295,-69.435,702.5,FALSE,sur
+211202,Cuyocuyo,Sandia,Puno,21,2112,-14.525,-69.555,514.6,FALSE,sur
+211203,Limbani,Sandia,Puno,21,2112,-13.775,-69.605,2396.3,FALSE,sur
+211204,Patambuco,Sandia,Puno,21,2112,-14.315,-69.635,474.3,FALSE,sur
+211205,Phara,Sandia,Puno,21,2112,-14.065,-69.585,437.6,FALSE,sur
+211206,Quiaca,Sandia,Puno,21,2112,-14.465,-69.355,414.0,FALSE,sur
+211207,San Juan del Oro,Sandia,Puno,21,2112,-14.195,-69.105,200.6,FALSE,sur
+211208,Yanahuaya,Sandia,Puno,21,2112,-14.335,-69.125,643.5,FALSE,sur
+211209,Alto Inambari,Sandia,Puno,21,2112,-14.035,-69.335,1376.5,FALSE,sur
+211210,San Pedro de Putina Punco,Sandia,Puno,21,2112,-13.545,-69.145,5572.0,FALSE,sur
+211301,Yunguyo,Yunguyo,Puno,21,2113,-16.285,-69.095,174.9,FALSE,sur
+211302,Anapia,Yunguyo,Puno,21,2113,-16.325,-68.875,123.7,FALSE,sur
+211303,Copani,Yunguyo,Puno,21,2113,-16.375,-69.075,60.6,FALSE,sur
+211304,Cuturapi,Yunguyo,Puno,21,2113,-16.295,-69.185,23.8,FALSE,sur
+211305,Ollaraya,Yunguyo,Puno,21,2113,-16.235,-68.995,27.4,FALSE,sur
+211306,Tinicachi,Yunguyo,Puno,21,2113,-16.205,-68.965,4.8,FALSE,sur
+211307,Unicachi,Yunguyo,Puno,21,2113,-16.225,-68.965,7.1,FALSE,sur
+220101,Moyobamba,Moyobamba,San Martín,22,2201,-5.765,-77.175,2713.7,FALSE,oriente
+220102,Calzada,Moyobamba,San Martín,22,2201,-6.015,-77.095,117.1,FALSE,oriente
+220103,Habana,Moyobamba,San Martín,22,2201,-6.085,-77.105,69.0,FALSE,oriente
+220104,Jepelacio,Moyobamba,San Martín,22,2201,-6.175,-76.925,384.4,FALSE,oriente
+220105,Soritor,Moyobamba,San Martín,22,2201,-6.275,-77.055,590.0,FALSE,oriente
+220106,Yantalo,Moyobamba,San Martín,22,2201,-5.965,-77.065,67.8,FALSE,oriente
+220201,Bellavista,Bellavista,San Martín,22,2202,-6.995,-76.605,257.1,FALSE,oriente
+220202,Alto Biavo,Bellavista,San Martín,22,2202,-7.825,-76.275,5999.6,FALSE,oriente
+220203,Bajo Biavo,Bellavista,San Martín,22,2202,-7.185,-76.345,1127.4,FALSE,oriente
+220204,Huallaga,Bellavista,San Martín,22,2202,-7.285,-76.565,260.6,FALSE,oriente
+220205,San Pablo,Bellavista,San Martín,22,2202,-6.835,-76.585,353.1,FALSE,oriente
+220206,San Rafael,Bellavista,San Martín,22,2202,-7.025,-76.495,104.5,FALSE,oriente
+220301,San Jose de Sisa,El Dorado,San Martín,22,2203,-6.615,-76.725,310.2,FALSE,oriente
+220302,Agua Blanca,El Dorado,San Martín,22,2203,-6.725,-76.705,157.5,FALSE,oriente
+220303,San Martín,El Dorado,San Martín,22,2203,-6.425,-76.835,519.7,FALSE,oriente
+220304,Santa Rosa,El Dorado,San Martín,22,2203,-6.705,-76.595,247.4,FALSE,oriente
+220305,Shatoja,El Dorado,San Martín,22,2203,-6.525,-76.695,61.6,FALSE,oriente
+220401,Saposoa,Huallaga,San Martín,22,2204,-6.885,-76.875,524.1,FALSE,oriente
+220402,Alto Saposoa,Huallaga,San Martín,22,2204,-6.605,-76.965,1386.1,FALSE,oriente
+220403,El Eslabon,Huallaga,San Martín,22,2204,-6.995,-76.705,124.2,FALSE,oriente
+220404,Piscoyacu,Huallaga,San Martín,22,2204,-7.015,-76.835,188.2,FALSE,oriente
+220405,Sacanche,Huallaga,San Martín,22,2204,-7.085,-76.765,163.6,FALSE,oriente
+220406,Tingo de Saposoa,Huallaga,San Martín,22,2204,-7.065,-76.655,48.0,FALSE,oriente
+220501,Lamas,Lamas,San Martín,22,2205,-6.395,-76.525,130.5,FALSE,oriente
+220502,Alonso de Alvarado,Lamas,San Martín,22,2205,-6.315,-76.775,299.3,FALSE,oriente
+220503,Barranquita,Lamas,San Martín,22,2205,-6.305,-76.045,1064.2,FALSE,oriente
+220504,Caynarachi,Lamas,San Martín,22,2205,-6.195,-76.335,1280.0,FALSE,oriente
+220505,Cuñumbuqui,Lamas,San Martín,22,2205,-6.615,-76.465,178.5,FALSE,oriente
+220506,Pinto Recodo,Lamas,San Martín,22,2205,-6.155,-76.715,569.2,FALSE,oriente
+220507,Rumisapa,Lamas,San Martín,22,2205,-6.445,-76.475,33.2,FALSE,oriente
+220508,San Roque de Cumbaza,Lamas,San Martín,22,2205,-6.205,-76.535,656.6,FALSE,oriente
+220509,Shanao,Lamas,San Martín,22,2205,-6.405,-76.575,28.3,FALSE,oriente
+220510,Tabalosos,Lamas,San Martín,22,2205,-6.385,-76.655,363.3,FALSE,oriente
+220511,Zapatero,Lamas,San Martín,22,2205,-6.545,-76.525,178.5,FALSE,oriente
+220601,Juanjui,Mariscal Caceres,San Martín,22,2206,-7.245,-76.765,451.2,FALSE,oriente
+220602,Campanilla,Mariscal Caceres,San Martín,22,2206,-7.655,-76.805,1818.9,FALSE,oriente
+220603,Huicungo,Mariscal Caceres,San Martín,22,2206,-7.255,-77.325,9818.4,FALSE,oriente
+220604,Pachiza,Mariscal Caceres,San Martín,22,2206,-6.965,-77.045,1809.4,FALSE,oriente
+220605,Pajarillo,Mariscal Caceres,San Martín,22,2206,-7.315,-76.635,458.5,FALSE,oriente
+220701,Picota,Picota,San Martín,22,2207,-6.965,-76.335,217.7,FALSE,oriente
+220702,Buenos Aires,Picota,San Martín,22,2207,-6.735,-76.395,315.0,FALSE,oriente
+220703,Caspisapa,Picota,San Martín,22,2207,-6.925,-76.425,78.7,FALSE,oriente
+220704,Pilluana,Picota,San Martín,22,2207,-6.785,-76.265,68.9,FALSE,oriente
+220705,Pucacaca,Picota,San Martín,22,2207,-6.845,-76.365,204.2,FALSE,oriente
+220706,San Cristobal,Picota,San Martín,22,2207,-6.975,-76.425,29.5,FALSE,oriente
+220707,San Hilarion,Picota,San Martín,22,2207,-6.945,-76.485,105.8,FALSE,oriente
+220708,Shamboyacu,Picota,San Martín,22,2207,-7.055,-76.095,391.1,FALSE,oriente
+220709,Tingo de Ponasa,Picota,San Martín,22,2207,-6.975,-76.215,338.3,FALSE,oriente
+220710,Tres Unidos,Picota,San Martín,22,2207,-6.815,-76.125,370.4,FALSE,oriente
+220801,Rioja,Rioja,San Martín,22,2208,-6.075,-77.205,211.9,FALSE,oriente
+220802,Awajun,Rioja,San Martín,22,2208,-5.855,-77.435,505.4,FALSE,oriente
+220803,Elias Soplin Vargas,Rioja,San Martín,22,2208,-6.045,-77.295,170.1,FALSE,oriente
+220804,Nueva Cajamarca,Rioja,San Martín,22,2208,-5.945,-77.375,334.0,FALSE,oriente
+220805,Pardo Miguel,Rioja,San Martín,22,2208,-5.745,-77.635,1173.8,FALSE,oriente
+220806,Posic,Rioja,San Martín,22,2208,-5.985,-77.175,55.5,FALSE,oriente
+220807,San Fernando,Rioja,San Martín,22,2208,-5.865,-77.275,71.5,FALSE,oriente
+220808,Yorongos,Rioja,San Martín,22,2208,-6.175,-77.155,80.1,FALSE,oriente
+220809,Yuracyacu,Rioja,San Martín,22,2208,-5.935,-77.235,60.4,FALSE,oriente
+220901,Tarapoto,San Martín,San Martín,22,2209,-6.495,-76.365,57.9,FALSE,oriente
+220902,Alberto Leveau,San Martín,San Martín,22,2209,-6.685,-76.255,50.5,FALSE,oriente
+220903,Cacatachi,San Martín,San Martín,22,2209,-6.465,-76.435,49.3,FALSE,oriente
+220904,Chazuta,San Martín,San Martín,22,2209,-6.615,-75.985,957.7,FALSE,oriente
+220905,Chipurana,San Martín,San Martín,22,2209,-6.425,-75.655,304.2,FALSE,oriente
+220906,El Porvenir,San Martín,San Martín,22,2209,-6.245,-75.865,498.9,FALSE,oriente
+220907,Huimbayoc,San Martín,San Martín,22,2209,-6.635,-75.715,1727.0,FALSE,oriente
+220908,Juan Guerra,San Martín,San Martín,22,2209,-6.625,-76.355,194.5,FALSE,oriente
+220909,La Banda de Shilcayo,San Martín,San Martín,22,2209,-6.475,-76.275,270.9,FALSE,oriente
+220910,Morales,San Martín,San Martín,22,2209,-6.505,-76.415,54.2,FALSE,oriente
+220911,Papaplaya,San Martín,San Martín,22,2209,-6.245,-75.635,999.0,FALSE,oriente
+220912,San Antonio,San Martín,San Martín,22,2209,-6.405,-76.385,77.6,FALSE,oriente
+220913,Sauce,San Martín,San Martín,22,2209,-6.705,-76.205,102.2,FALSE,oriente
+220914,Shapaja,San Martín,San Martín,22,2209,-6.595,-76.215,237.6,FALSE,oriente
+221001,Tocache,Tocache,San Martín,22,2210,-8.275,-76.555,1005.6,FALSE,oriente
+221002,Nuevo Progreso,Tocache,San Martín,22,2210,-8.525,-76.215,827.2,FALSE,oriente
+221003,Polvora,Tocache,San Martín,22,2210,-8.015,-76.795,2286.1,FALSE,oriente
+221004,Shunte,Tocache,San Martín,22,2210,-8.425,-76.875,1066.5,FALSE,oriente
+221005,Uchiza,Tocache,San Martín,22,2210,-8.385,-76.395,598.3,FALSE,oriente
+221006,Santa Lucia,Tocache,San Martín,22,2210,-8.305,-76.435,274.7,FALSE,oriente
+230101,Tacna,Tacna,Tacna,23,2301,-18.125,-70.165,1936.2,TRUE,sur
+230102,Alto de la Alianza,Tacna,Tacna,23,2301,-17.835,-70.275,376.3,FALSE,sur
+230103,Calana,Tacna,Tacna,23,2301,-17.955,-70.145,106.1,FALSE,sur
+230104,Ciudad Nueva,Tacna,Tacna,23,2301,-17.855,-70.185,182.8,FALSE,sur
+230105,Inclan,Tacna,Tacna,23,2301,-17.685,-70.425,1439.2,FALSE,sur
+230106,Pachia,Tacna,Tacna,23,2301,-17.785,-70.025,611.2,FALSE,sur
+230107,Palca,Tacna,Tacna,23,2301,-17.645,-69.765,1465.5,FALSE,sur
+230108,Pocollay,Tacna,Tacna,23,2301,-18.005,-70.075,268.7,FALSE,sur
+230109,Sama,Tacna,Tacna,23,2301,-17.955,-70.665,1145.9,TRUE,sur
+230110,Coronel Gregorio Albarracin Lanchipa,Tacna,Tacna,23,2301,-18.105,-70.245,186.1,FALSE,sur
+230111,La Yarada los Palos,Tacna,Tacna,23,2301,-18.205,-70.435,545.0,TRUE,sur
+230201,Candarave,Candarave,Tacna,23,2302,-17.045,-70.245,1382.6,FALSE,sur
+230202,Cairani,Candarave,Tacna,23,2302,-17.185,-70.345,181.1,FALSE,sur
+230203,Camilaca,Candarave,Tacna,23,2302,-17.165,-70.435,493.7,FALSE,sur
+230204,Curibaya,Candarave,Tacna,23,2302,-17.395,-70.335,112.3,FALSE,sur
+230205,Huanuara,Candarave,Tacna,23,2302,-17.305,-70.325,94.6,FALSE,sur
+230206,Quilahuani,Candarave,Tacna,23,2302,-17.335,-70.255,58.0,FALSE,sur
+230301,Locumba,Jorge Basadre,Tacna,23,2303,-17.605,-70.735,850.4,FALSE,sur
+230302,Ilabaya,Jorge Basadre,Tacna,23,2303,-17.385,-70.575,1062.0,FALSE,sur
+230303,Ite,Jorge Basadre,Tacna,23,2303,-17.805,-70.935,838.9,TRUE,sur
+230401,Tarata,Tarata,Tacna,23,2304,-17.375,-69.755,883.5,FALSE,sur
+230402,Heroes Albarracin,Tarata,Tacna,23,2304,-17.495,-70.215,384.1,FALSE,sur
+230403,Estique,Tarata,Tacna,23,2304,-17.625,-70.025,297.6,FALSE,sur
+230404,Estique-Pampa,Tarata,Tacna,23,2304,-17.615,-70.115,142.9,FALSE,sur
+230405,Sitajara,Tarata,Tacna,23,2304,-17.395,-70.155,230.6,FALSE,sur
+230406,Susapaya,Tarata,Tacna,23,2304,-17.225,-70.045,361.0,FALSE,sur
+230407,Tarucachi,Tarata,Tacna,23,2304,-17.505,-69.955,111.1,FALSE,sur
+230408,Ticaco,Tarata,Tacna,23,2304,-17.335,-69.965,357.2,FALSE,sur
+240101,Tumbes,Tumbes,Tumbes,24,2401,-3.545,-80.415,162.0,TRUE,norte
+240102,Corrales,Tumbes,Tumbes,24,2401,-3.595,-80.505,131.1,TRUE,norte
+240103,La Cruz,Tumbes,Tumbes,24,2401,-3.675,-80.565,63.1,TRUE,norte
+240104,Pampas de Hospital,Tumbes,Tumbes,24,2401,-3.855,-80.355,734.4,FALSE,norte
+240105,San Jacinto,Tumbes,Tumbes,24,2401,-3.905,-80.515,592.2,FALSE,norte
+240106,San Juan de la Virgen,Tumbes,Tumbes,24,2401,-3.655,-80.365,116.2,FALSE,norte
+240201,Zorritos,Contralmirante Villar,Tumbes,24,2402,-3.815,-80.705,652.9,TRUE,norte
+240202,Casitas,Contralmirante Villar,Tumbes,24,2402,-4.035,-80.655,859.1,FALSE,norte
+240203,Canoas de Punta Sal,Contralmirante Villar,Tumbes,24,2402,-4.045,-80.895,632.9,TRUE,norte
+240301,Zarumilla,Zarumilla,Tumbes,24,2403,-3.465,-80.305,117.5,TRUE,norte
+240302,Aguas Verdes,Zarumilla,Tumbes,24,2403,-3.485,-80.245,48.2,FALSE,norte
+240303,Matapalo,Zarumilla,Tumbes,24,2403,-3.765,-80.225,389.5,FALSE,norte
+240304,Papayal,Zarumilla,Tumbes,24,2403,-3.575,-80.285,204.1,FALSE,norte
+250101,Calleria,Coronel Portillo,Ucayali,25,2501,-7.965,-74.155,11722.8,FALSE,oriente
+250102,Campoverde,Coronel Portillo,Ucayali,25,2501,-8.525,-74.845,1335.8,FALSE,oriente
+250103,Iparia,Coronel Portillo,Ucayali,25,2501,-9.445,-74.135,7413.9,FALSE,oriente
+250104,Masisea,Coronel Portillo,Ucayali,25,2501,-8.955,-73.685,14810.5,FALSE,oriente
+250105,Yarinacocha,Coronel Portillo,Ucayali,25,2501,-8.245,-74.655,672.1,FALSE,oriente
+250106,Nueva Requena,Coronel Portillo,Ucayali,25,2501,-8.165,-75.015,2075.5,FALSE,oriente
+250107,Manantay,Coronel Portillo,Ucayali,25,2501,-8.535,-74.505,648.3,FALSE,oriente
+250201,Raimondi,Atalaya,Ucayali,25,2502,-10.585,-73.435,14627.3,FALSE,oriente
+250202,Sepahua,Atalaya,Ucayali,25,2502,-11.085,-72.815,7787.9,FALSE,oriente
+250203,Tahuania,Atalaya,Ucayali,25,2502,-9.975,-73.825,7722.0,FALSE,oriente
+250204,Yurua,Atalaya,Ucayali,25,2502,-9.825,-72.695,9100.4,FALSE,oriente
+250301,Padre Abad,Padre Abad,Ucayali,25,2503,-8.895,-75.645,3601.9,FALSE,oriente
+250302,Irazola,Padre Abad,Ucayali,25,2503,-8.955,-75.285,1894.9,FALSE,oriente
+250303,Curimana,Padre Abad,Ucayali,25,2503,-8.415,-75.295,1895.2,FALSE,oriente
+250304,Neshuya,Padre Abad,Ucayali,25,2503,-8.645,-75.045,624.8,FALSE,oriente
+250305,Alexander Von Humboldt,Padre Abad,Ucayali,25,2503,-8.825,-75.045,209.4,FALSE,oriente
+250306,Huipoca,Padre Abad,Ucayali,25,2503,-8.795,-75.415,591.5,FALSE,oriente
+250307,Boqueron,Padre Abad,Ucayali,25,2503,-9.035,-75.755,550.7,FALSE,oriente
+250401,Purus,Purus,Ucayali,25,2504,-10.375,-71.585,18530.5,FALSE,oriente
