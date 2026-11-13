@@ -19,6 +19,9 @@ default:
     linkedin: "https://www.linkedin.com/in/juan-pablo-sebastian-chavarr%C3%ADa-castillo-813036177/"
     foto: "perfil.jpg"                  # en la carpeta www/; si no está, se ve el logo de LinkedIn
 
+  publicar_github:                      # la PC sube su base a GitHub después de cada actualización (requiere gh)
+    activo: true
+
   datos_remotos:                        # app en la web (Connect Cloud): baja la base que publica GitHub Actions
     repo: "blocks37/pacha-enso"                            # «usuario/repositorio» de GitHub (lo llena preparar_publicacion.R)
     etiqueta: "datos"                   # release donde la tarea deja pacha_db.tgz y VERSION

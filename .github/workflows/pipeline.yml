@@ -1,7 +1,8 @@
 name: actualizar-datos
-# Actualiza los datos de PACHA ENSO en los servidores de GitHub (gratis en repositorios
-# públicos) y publica la base en la release «datos». La app en Connect Cloud la descarga
-# de ahí cada 30 min. No necesita su PC ni ninguna clave: usa el permiso propio del repo.
+# RESPALDO de la actualización. La principal corre en la PC del administrador (llega a
+# SENAMHI y a CHIRPS, que rechazan a GitHub) y sube la base a la release «datos».
+# Esta tarea solo trabaja si la PC lleva más de 26 h sin publicar (PC apagada, etc.):
+# así el pronóstico de lluvia no se queda viejo. La web la descarga cada 30 min.
 
 on:
   schedule:
@@ -23,28 +24,45 @@ jobs:
       GH_TOKEN: ${{ github.token }}
       TZ: America/Lima
     steps:
+      - name: ¿La PC publicó hace poco?
+        id: pc
+        run: |
+          fecha=$(gh api repos/${{ github.repository }}/releases/tags/datos \
+                    --jq '.assets[] | select(.name=="VERSION") | .updated_at' 2>/dev/null || true)
+          if [ -n "$fecha" ] && [ "${{ github.event_name }}" = "schedule" ]; then
+            horas=$(( ( $(date +%s) - $(date -d "$fecha" +%s) ) / 3600 ))
+            echo "Última publicación hace $horas h"
+            if [ "$horas" -lt 26 ]; then echo "omitir=true" >> "$GITHUB_OUTPUT"; echo "La PC está al día: no se hace nada."; fi
+          fi
+
       - uses: actions/checkout@v4
+        if: steps.pc.outputs.omitir != 'true'
 
       - name: Librerías del sistema (GDAL, GEOS, PROJ, poppler)
+        if: steps.pc.outputs.omitir != 'true'
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y -qq --no-install-recommends \
             libgdal-dev libgeos-dev libproj-dev libudunits2-dev libpoppler-cpp-dev libcurl4-openssl-dev
 
       - uses: r-lib/actions/setup-r@v2
+        if: steps.pc.outputs.omitir != 'true'
         with:
           use-public-rspm: true
 
       - name: Caché de paquetes de R
+        if: steps.pc.outputs.omitir != 'true'
         uses: actions/cache@v4
         with:
           path: ${{ env.R_LIBS_USER }}
           key: rlib-${{ runner.os }}-${{ hashFiles('install.R') }}-v1
 
       - name: Paquetes de R
+        if: steps.pc.outputs.omitir != 'true'
         run: Rscript install.R
 
       - name: Caché de CHIRPS (no volver a descargar meses y días ya leídos)
+        if: steps.pc.outputs.omitir != 'true'
         uses: actions/cache@v4
         with:
           path: |
@@ -54,21 +72,24 @@ jobs:
           restore-keys: chirps-
 
       - name: Recuperar la base vigente y PISCO
+        if: steps.pc.outputs.omitir != 'true'
         run: bash scripts/datos_github.sh bajar
 
       - name: Actualizar
+        if: steps.pc.outputs.omitir != 'true'
         run: Rscript actualizar.R
 
       - name: Publicar la base
-        if: always()
+        if: always() && steps.pc.outputs.omitir != 'true'
         run: bash scripts/datos_github.sh subir
 
       - name: Registro
-        if: always()
+        if: always() && steps.pc.outputs.omitir != 'true'
         run: tail -n 60 data/actualizar.log || true
 
       # GitHub pausa las tareas programadas de un repositorio sin cambios en 60 días.
       - name: Mantener activa la tarea
+        if: steps.pc.outputs.omitir != 'true'
         run: |
           ultimo=$(git log -1 --format=%ct)
           if [ $(( $(date +%s) - ultimo )) -gt $(( 50 * 86400 )) ]; then

@@ -28,3 +28,7 @@ resultado <- tryCatch(
     if (!interactive()) quit(status = 1)
   }
 )
+
+# En la PC del administrador: si la base cambió, subirla a GitHub para la web
+# (config.yml › publicar_github; no hace nada dentro de GitHub Actions)
+tryCatch(publicar_base_github(cfg), error = function(e) log_error("Publicar en GitHub: ", conditionMessage(e)))

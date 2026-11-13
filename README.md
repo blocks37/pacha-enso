@@ -104,6 +104,16 @@ La plataforma es **de solo lectura** para quien la visita: nadie que entre a la 
   - en el propio computador (`http://127.0.0.1:…`), si `acceso$admin_local` es `true`;
   - en la web, entrando con `?admin=CLAVE`, con `CLAVE` definida en la variable de entorno `ENSO_ADMIN_CLAVE`.
 
+## Actualización principal desde la PC (recomendado)
+
+SENAMHI (ENFEN) y el servidor de CHIRPS rechazan a los servidores de GitHub. Por eso la actualización principal corre en la PC del administrador y sube la base a GitHub. La tarea de GitHub queda de respaldo: solo trabaja si la PC lleva más de 26 h sin publicar.
+
+1. **Instalar GitHub CLI**: en PowerShell, `winget install --id GitHub.cli -e`. Luego `gh auth login` (GitHub.com › HTTPS › Login with a web browser). Se hace una sola vez.
+2. **Programar la actualización**: en RStudio, `source("programar_windows.R")`. Crea la tarea de Windows que corre `actualizar.R` cada 6 h.
+3. Al final de cada actualización, si la base cambió, se sube sola a la release **datos** (`R/publicar_github.R`; se apaga con `publicar_github: activo: false` en `config.yml`).
+
+Mientras la PC esté prendida, la web tiene ENFEN, CHIRPS diario y el pronóstico al día. Si la PC se apaga más de un día, GitHub mantiene al menos el pronóstico.
+
 ## Publicar en la web: GitHub + Connect Cloud (gratis, sin tarjeta)
 
 - **GitHub Actions** calcula los datos cada 6 h en los servidores de GitHub, gratis en repositorios públicos, y publica la base en la release «datos» del repositorio.
