@@ -14,7 +14,7 @@ mod_panorama_ui <- function(id) {
           class = "cabecera-flex",
           shiny::span("Mapa de riesgo"),
           segmentado(ns("amenaza"), c("Inundación" = "inundacion", "Sequía" = "sequia")),
-          shiny::span(class = "nota", "por distrito · los puntos rojos son los focos críticos principales")
+          shiny::span(class = "nota", "por distrito · en rojo, riesgo ≥ 85 %")
         ),
         leaflet::leafletOutput(ns("mapa"), height = 540),
         bslib::card_footer(shiny::uiOutput(ns("leyenda")))
@@ -34,46 +34,45 @@ mod_panorama_ui <- function(id) {
         ))
       )
     ),
-    # Fila 2: conteos y lo más urgente | evolución semanal del ENSO
+    # Fila 2: ¿cómo va El Niño? (dos gráficos, cada uno en su tarjeta)
     bslib::layout_columns(
-      col_widths = bslib::breakpoints(sm = 12, xl = c(4, 8)),
+      col_widths = bslib::breakpoints(sm = 12, lg = c(7, 5)),
+      bslib::card(
+        bslib::card_header(
+          class = "cabecera-flex",
+          shiny::span("¿Cómo va El Niño? · semana a semana"),
+          shiny::tags$button(type = "button", class = "btn btn-sm btn-reproducir",
+                             onclick = sprintf("ensoReproducir(['%s', '%s'])", ns("evolucion"), ns("trayectoria")),
+                             bsicons::bs_icon("play-fill"), " Reproducir")
+        ),
+        echarts4r::echarts4rOutput(ns("evolucion"), height = 340),
+        shiny::p(class = "nota mb-0", "Anomalía de la temperatura del mar (NOAA, semanal). Bandas: magnitud del",
+                 "Niño costero según el ENFEN (débil, moderado, fuerte, extraordinario).")
+      ),
+      bslib::card(
+        bslib::card_header(class = "cabecera-flex", "Costa frente al Pacífico central",
+                           shiny::span(class = "nota", "último año")),
+        echarts4r::echarts4rOutput(ns("trayectoria"), height = 340),
+        shiny::p(class = "nota mb-0", "Niño 1+2 (costa) contra Niño 3.4 (Pacífico central). El marcador «hoy» es esta semana.")
+      )
+    ),
+    # Fila 3: lo más urgente | conteos + ONI histórico
+    bslib::layout_columns(
+      col_widths = bslib::breakpoints(sm = 12, lg = c(5, 7)),
+      bslib::card(
+        bslib::card_header(class = "cabecera-flex", "Lo más urgente",
+                           shiny::span(class = "nota", "clic para ver la ficha")),
+        reactable::reactableOutput(ns("urgente"))
+      ),
       shiny::div(
         class = "columna-lateral",
         shiny::uiOutput(ns("conteos")),
         bslib::card(
-          bslib::card_header(class = "cabecera-flex", "Lo más urgente",
-                             shiny::span(class = "nota", "clic para ver la ficha")),
-          reactable::reactableOutput(ns("urgente"))
-        )
-      ),
-    bslib::card(
-      class = "card-animacion",
-      bslib::card_header(
-        class = "cabecera-flex",
-        shiny::span(bsicons::bs_icon("activity"), " ¿Cómo va El Niño? · semana a semana"),
-        shiny::tags$button(type = "button", class = "btn btn-sm btn-reproducir",
-                           onclick = sprintf("ensoReproducir(['%s', '%s'])", ns("evolucion"), ns("trayectoria")),
-                           bsicons::bs_icon("play-fill"), " Reproducir")
-      ),
-      bslib::layout_columns(
-        col_widths = bslib::breakpoints(sm = 12, xxl = c(7, 5)),
-        shiny::div(
-          echarts4r::echarts4rOutput(ns("evolucion"), height = 320),
-          shiny::p(class = "nota px-2", "Anomalía de la temperatura del mar (NOAA, semanal). Bandas: magnitud del",
-                   "Niño costero según el ENFEN (débil, moderado, fuerte, extraordinario).")
-        ),
-        shiny::div(
-          echarts4r::echarts4rOutput(ns("trayectoria"), height = 320),
-          shiny::p(class = "nota px-2", "Recorrido del último año: costa (Niño 1+2) contra Pacífico central (Niño 3.4).",
-                   "El marcador «hoy» es esta semana.")
+          bslib::card_header(class = "cabecera-flex", "Índice Oceánico de El Niño (ONI), 1950 – hoy",
+                             shiny::span(class = "nota", "rojo: El Niño · azul: La Niña · arrastre para acercar")),
+          echarts4r::echarts4rOutput(ns("oni"), height = 300)
         )
       )
-    )
-    ),
-    bslib::card(
-      bslib::card_header(class = "cabecera-flex", "Índice Oceánico de El Niño (ONI), 1950 – hoy",
-                         shiny::span(class = "nota", "rojo: El Niño · azul: La Niña · arrastre para acercar")),
-      echarts4r::echarts4rOutput(ns("oni"), height = 260)
     )
   )
 }
@@ -138,21 +137,20 @@ mod_panorama_server <- function(id, datos, filtros, abrir_ficha, geo, cfg) {
     output$conteos <- shiny::renderUI({
       r <- filtrar_region(riesgo(), region())
       s <- filtrar_region(sequia_mes(), region())
+      en_curso <- datos$mes_actual() > datos$ultimo_obs()
+      medido <- character()
+      if (en_curso) {
+        # ¿El mes en curso ya trae lluvia medida (CHIRPS diario)?
+        f <- tryCatch(q(datos$db, "SELECT fuente FROM precip_mensual WHERE mes = ? LIMIT 1",
+                        params = list(datos$mes_actual()))$fuente, error = function(e) character())
+        medido <- regmatches(f, regexpr("al [0-9]{2}/[0-9]{2}", f))
+      }
       fila_tarjetas(
-        tarjeta("Inundación y huaico", sum(r$riesgo >= u$alerta),
-                sprintf("distritos en alerta o más · próximos 14 días (%d en vigilancia)",
-                        sum(r$riesgo >= u$vigilancia & r$riesgo < u$alerta)), tono = "agua"),
-        tarjeta("Sequía", sum(en_sequia(s$categoria)),
-                if (datos$mes_actual() > datos$ultimo_obs()) {
-                  # ¿El mes en curso ya trae lluvia medida (CHIRPS diario)?
-                  f <- tryCatch(q(datos$db, "SELECT fuente FROM precip_mensual WHERE mes = ? LIMIT 1",
-                                  params = list(datos$mes_actual()))$fuente, error = function(e) character())
-                  medido <- regmatches(f, regexpr("al [0-9]{2}/[0-9]{2}", f))
-                  shiny::tagList(sprintf("distritos con SPI-3 ≤ −1 en %s (%s)", fmt_mes_largo(datos$mes_actual()),
-                                         if (length(medido)) paste("lluvia medida", medido, "+ estimada el resto del mes") else "estimado por años análogos"),
-                                 shiny::div(class = "nota", sprintf("Último mes completo medido: %s (CHIRPS diario y mensual, corregidos a PISCO).",
-                                                                    fmt_mes_largo(datos$ultimo_obs()))))
-                } else sprintf("distritos con SPI-3 ≤ −1 en %s", fmt_mes_largo(datos$ultimo_obs())),
+        tarjeta("Inundación y huaico", format(sum(r$riesgo >= u$alerta), big.mark = " "),
+                sprintf("distritos en alerta o más · 14 días · %s críticos", sum(r$riesgo >= u$critico)), tono = "agua"),
+        tarjeta("Sequía", format(sum(en_sequia(s$categoria)), big.mark = " "),
+                sprintf("distritos con SPI-3 ≤ −1 · %s%s", fmt_mes_largo(if (en_curso) datos$mes_actual() else datos$ultimo_obs()),
+                        if (!en_curso) "" else if (length(medido)) paste0(" (medido ", medido, ")") else " (estimado)"),
                 tono = "seco")
       )
     })
@@ -194,9 +192,11 @@ mod_panorama_server <- function(id, datos, filtros, abrir_ficha, geo, cfg) {
     shiny::observe({
       d <- por_distrito()
       dentro <- d$ubigeo %in% filtrar_region(d, region())$ubigeo
-      colorear_mapa(session, "mapa", d$ubigeo, d$color, d$etiqueta, ifelse(dentro, 0.85, 0.2))
+      inund <- input$amenaza == "inundacion"
+      colorear_mapa(session, "mapa", d$ubigeo, d$color, d$etiqueta, ifelse(dentro, 0.85, 0.2),
+                    bordes = if (inund) bordes_criticos(d$valor, cfg, dentro) else "")
 
-      focos <- if (input$amenaza == "inundacion") dplyr::filter(d, dentro, valor >= u$alto) else d[0, ]
+      focos <- if (inund) dplyr::filter(d, dentro, valor >= u$critico) else d[0, ]
       focos_mapa(session, "mapa", focos, cfg)
     })
 
@@ -211,7 +211,7 @@ mod_panorama_server <- function(id, datos, filtros, abrir_ficha, geo, cfg) {
     output$leyenda <- shiny::renderUI({
       if (input$amenaza == "inundacion") {
         leyenda_html(c(unlist(cfg$colores$inundacion), cfg$colores$neutro),
-                     c("Vigilancia", "Alerta", "Alto", "Crítico", "Bajo"))
+                     c("Vigilancia 40 %", "Alerta 50 %", "Alto 70 %", "Crítico 85 %", "Bajo"), critico = TRUE)
       } else {
         leyenda_html(c(unlist(cfg$colores$sequia), cfg$colores$neutro, cfg$colores$arido),
                      c("Anormal", "Moderada", "Severa", "Extrema", "Normal", "Árido"))
@@ -231,8 +231,8 @@ mod_panorama_server <- function(id, datos, filtros, abrir_ficha, geo, cfg) {
                          valor = paste("SPI", fmt_num(spi3)), orden = dplyr::coalesce(riesgo, 0),
                          color = color_sequia(categoria, cfg))
       # Mitad y mitad: si no, una amenaza tapa a la otra
-      tabla <- dplyr::bind_rows(utils::head(dplyr::arrange(r, dplyr::desc(orden)), 5),
-                                utils::head(dplyr::arrange(s, dplyr::desc(orden)), 5)) |>
+      tabla <- dplyr::bind_rows(utils::head(dplyr::arrange(r, dplyr::desc(orden)), 4),
+                                utils::head(dplyr::arrange(s, dplyr::desc(orden)), 4)) |>
         dplyr::arrange(dplyr::desc(orden))
       if (nrow(tabla) == 0) return(NULL)
       tabla_clicable(
@@ -273,13 +273,13 @@ color_porcentaje_sequia <- function(p, cfg) {
 }
 
 #' reactable con filas que, al hacer clic, envían su ubigeo a Shiny.
-tabla_clicable <- function(datos, input_id, ..., paginar = FALSE) {
+tabla_clicable <- function(datos, input_id, ..., paginar = FALSE, clave = "ubigeo") {
   reactable::reactable(
     datos, compact = TRUE, borderless = TRUE, highlight = TRUE, pagination = paginar,
     rowStyle = list(cursor = "pointer"),
     onClick = reactable::JS(sprintf(
-      "function(rowInfo) { var r = rowInfo.values || rowInfo.row; Shiny.setInputValue('%s', r.ubigeo, {priority: 'event'}); }",
-      input_id)),
+      "function(rowInfo) { var r = rowInfo.values || rowInfo.row; Shiny.setInputValue('%s', r['%s'], {priority: 'event'}); }",
+      input_id, clave)),
     ...
   )
 }

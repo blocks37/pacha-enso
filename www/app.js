@@ -20,14 +20,25 @@ function ensoEncuadrar(id) {
 function ensoLista(x) { return x === null || x === undefined ? [] : [].concat(x); }
 
 function ensoColorear(mapa, msg) {
+  mapa.getContainer().classList.remove('enso-cargando');
   var ids = ensoLista(msg.ids), colores = ensoLista(msg.colores),
-      etiquetas = ensoLista(msg.etiquetas), opacidad = ensoLista(msg.opacidad);
+      etiquetas = ensoLista(msg.etiquetas), opacidad = ensoLista(msg.opacidad),
+      bordes = msg.bordes ? ensoLista(msg.bordes) : null, alFrente = [];
   for (var i = 0; i < ids.length; i++) {
     var capa = mapa.layerManager.getLayer('shape', ids[i]);
     if (!capa) continue;
-    capa.setStyle({ fillColor: colores[i], fillOpacity: opacidad[i] });
+    var estilo = { fillColor: colores[i], fillOpacity: opacidad[i] };
+    if (bordes) {
+      var base = capa.ensoBase || { color: '#FFFFFF', weight: 0.3 };
+      capa.ensoBorde = bordes[i] ? { color: bordes[i], weight: 1.4 } : base;
+      estilo.color = capa.ensoBorde.color; estilo.weight = capa.ensoBorde.weight;
+      if (bordes[i]) alFrente.push(capa);
+    }
+    capa.setStyle(estilo);
     if (etiquetas[i] && capa.getTooltip()) capa.setTooltipContent(etiquetas[i]);
   }
+  // Los contornos rojos encima, para que no los tape el borde blanco de los vecinos
+  alFrente.forEach(function (c) { if (c.bringToFront) c.bringToFront(); });
 }
 
 // Se llama desde htmlwidgets::onRender cuando el mapa termina de dibujarse.
@@ -58,6 +69,8 @@ function ensoGeo(url) {
 
 function ensoCapasGeo(id, mapa, datos) {
   var capas = ensoLista(datos && datos.capas), lm = mapa.layerManager;
+  // «Cargando…» sobre el mapa hasta que llegan sus colores (www/estilos.css)
+  if (!window.ensoPendientes[id]) mapa.getContainer().classList.add('enso-cargando');
   var trabajos = capas.map(function (c) {
     return ensoGeo(c.url).then(function (gj) {
       if (c.tipo === 'forma') {
@@ -66,8 +79,9 @@ function ensoCapasGeo(id, mapa, datos) {
           onEachFeature: function (f, capa) {
             var lid = String(f.properties[c.id]);
             capa.bindTooltip(String(f.properties[c.nombre] || ''), { sticky: true, direction: 'auto', className: 'etiqueta-mapa' });
-            capa.on('mouseover', function () { capa.setStyle({ weight: 2, color: '#0F172A' }); if (capa.bringToFront) capa.bringToFront(); });
-            capa.on('mouseout', function () { capa.setStyle({ weight: c.peso, color: '#FFFFFF' }); });
+            capa.ensoBase = { color: '#FFFFFF', weight: c.peso };
+            capa.on('mouseover', function () { capa.setStyle({ weight: 2.2, color: '#0A0A0A' }); if (capa.bringToFront) capa.bringToFront(); });
+            capa.on('mouseout', function () { capa.setStyle(capa.ensoBorde || capa.ensoBase); });
             capa.on('click', function (e) {
               if (window.Shiny) Shiny.setInputValue(id + '_shape_click', { id: lid, lat: e.latlng.lat, lng: e.latlng.lng, nonce: Math.random() });
             });
@@ -82,7 +96,7 @@ function ensoCapasGeo(id, mapa, datos) {
           style: { fill: false, color: '#1E3A8A', weight: 1.2, opacity: 0.6, dashArray: '4 3' } }), 'shape', null, c.grupo);
       } else if (c.tipo === 'rios') {
         lm.addLayer(L.geoJSON(gj, { interactive: false, style: function (f) {
-          return { color: '#0284C7', weight: f.properties.tipo === 'Río' ? 1.6 : 0.8, opacity: 0.75 };
+          return { color: '#64748B', weight: f.properties.tipo === 'Río' ? 0.9 : 0.4, opacity: f.properties.tipo === 'Río' ? 0.55 : 0.3 };
         } }), 'shape', null, c.grupo);
       }
     }).catch(function (e) { if (window.console) console.error('[PACHA ENSO] capa', c.url, e); });

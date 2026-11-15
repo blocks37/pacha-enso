@@ -50,8 +50,11 @@ mod_ficha_server <- function(id, seleccion, datos, cfg, ir_a_serie) {
                 if (is.null(peor)) "—" else fmt_pct(peor$riesgo),
                 if (!is.null(peor)) sprintf("%s · peor día %s (%s mm)", peor$nivel, fmt_fecha(peor$fecha), fmt_num(peor$lluvia_mm)),
                 tono = if (isTRUE(peor$riesgo >= cfg$riesgo$umbrales$alerta)) "agua" else "neutro"),
-        tarjeta(paste("SPI-3 ·", fmt_mes(ult$mes)), if (arido) "No aplica" else fmt_num(ult$spi3, 2),
-                if (arido) "zona árida: llueve menos de 100 mm al año" else as.character(categoria_sequia(ult$spi3)),
+        tarjeta(paste("SPI-3 ·", fmt_mes(ult$mes)),
+                if (arido) "No aplica" else if (isTRUE(is.na(ult$spi3))) "—" else fmt_num(ult$spi3, 2),
+                if (arido) "zona árida: llueve menos de 100 mm al año"
+                else if (isTRUE(is.na(ult$spi3))) "estación seca: con tan poca lluvia normal el SPI no se calcula"
+                else as.character(categoria_sequia(ult$spi3)),
                 tono = if (!arido && isTRUE(ult$spi3 <= -1)) "seco" else "neutro"),
         tarjeta(paste("SPI-3 pronosticado ·", fmt_mes(fut$mes)), if (arido || nrow(fut) == 0) "—" else fmt_num(fut$spi3, 2),
                 "según años análogos del ENSO"),
@@ -115,7 +118,7 @@ mod_ficha_server <- function(id, seleccion, datos, cfg, ir_a_serie) {
                       p10 = round(p10, 1), p50 = round(p50, 1), p90 = round(p90, 1)) |>
         echarts4r::e_charts(mes_txt) |>
         echarts4r::e_band2(p10, p90, name = "Rango normal", itemStyle = list(color = "#DBEAFE", borderWidth = 0)) |>
-        echarts4r::e_line(p50, name = "Mediana", symbol = "none", color = "#94A3B8", lineStyle = list(type = "dashed")) |>
+        echarts4r::e_line(p50, name = "Mediana", symbol = "none", color = "#A3A3A3", lineStyle = list(type = "dashed")) |>
         echarts4r::e_bar(obs, name = "Observada", color = cfg$colores$acento, stack = "x",
                          itemStyle = list(color = degradado_v(cfg$colores$celeste, cfg$colores$marino))) |>
         echarts4r::e_bar(pron, name = "Pronóstico", color = cfg$colores$sol, stack = "x",

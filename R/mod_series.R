@@ -87,7 +87,10 @@ mod_series_server <- function(id, datos, cfg, ir_a, cuencas = NULL) {
       shiny::updateRadioButtons(session, "modo", selected = "dep")
       dep <- substr(ub, 1, 2)
       if (identical(input$dep, dep)) {
-        shiny::updateSelectizeInput(session, "distrito", selected = ub)
+        # El selector de distritos es del lado del servidor: hay que reenviar las opciones
+        d <- dplyr::filter(datos$distritos(), cod_dep == dep)
+        shiny::updateSelectizeInput(session, "distrito", server = TRUE, selected = ub,
+                                    choices = c("Todo el departamento" = "", stats::setNames(d$ubigeo, d$distrito)))
       } else {
         pendiente(ub)
         shiny::updateSelectizeInput(session, "dep", selected = dep)
@@ -181,7 +184,7 @@ mod_series_server <- function(id, datos, cfg, ir_a, cuencas = NULL) {
                            itemStyle = list(color = "#DCEFFB", borderWidth = 0)) |>
         echarts4r::e_line(pp_mm, name = "Lluvia observada", symbol = "none", color = cfg$colores$acento,
                           lineStyle = list(width = 2),
-                          areaStyle = list(color = degradado_v(con_alfa(cfg$colores$acento, 0.35), con_alfa(cfg$colores$celeste, 0.02)))) |>
+                          areaStyle = list(color = con_alfa(cfg$colores$acento, 0.08))) |>
         echarts4r::e_line(pp_pron, name = "Pronóstico (análogos)", symbol = "circle", symbolSize = 5,
                           color = cfg$colores$sol, lineStyle = list(type = "dashed", width = 2)) |>
         echarts4r::e_line(valor, name = paste(toupper(ind), "°C"), y_index = 1, symbol = "none",
@@ -209,7 +212,7 @@ mod_series_server <- function(id, datos, cfg, ir_a, cuencas = NULL) {
         dplyr::mutate(mes = MESES_ES[m], p10 = round(p10, 1), p50 = round(p50, 1), p90 = round(p90, 1)) |>
         echarts4r::e_charts(mes) |>
         echarts4r::e_band2(p10, p90, name = "Rango normal", itemStyle = list(color = "#DCEFFB", borderWidth = 0)) |>
-        echarts4r::e_line(p50, name = "Mediana 1991–2020", symbol = "none", color = "#64748B") |>
+        echarts4r::e_line(p50, name = "Mediana 1991–2020", symbol = "none", color = "#737373") |>
         echarts4r::e_bar(ultimos, name = "Últimos 12 meses", color = cfg$colores$acento, barWidth = "40%",
                          itemStyle = list(color = degradado_v(cfg$colores$celeste, cfg$colores$marino), borderRadius = c(6, 6, 0, 0))) |>
         echarts4r::e_y_axis(name = "mm") |>
@@ -219,7 +222,7 @@ mod_series_server <- function(id, datos, cfg, ir_a, cuencas = NULL) {
     })
 
     output$compuestos <- echarts4r::renderEcharts4r({
-      colores <- c("La Niña" = cfg$colores$nina, "Neutro" = "#94A3B8", "El Niño" = cfg$colores$nino)
+      colores <- c("La Niña" = cfg$colores$nina, "Neutro" = "#A3A3A3", "El Niño" = cfg$colores$nino)
       stats()$compuestos |>
         dplyr::mutate(fase = as.character(fase), anomalia_media = round(anomalia_media), color = colores[fase]) |>
         echarts4r::e_charts(fase) |>
@@ -237,7 +240,7 @@ mod_series_server <- function(id, datos, cfg, ir_a, cuencas = NULL) {
         dplyr::mutate(desfase = paste(desfase, "m antes"), r = round(r, 2)) |>
         echarts4r::e_charts(desfase) |>
         echarts4r::e_bar(r, name = "r") |>
-        echarts4r::e_color("#475569") |>
+        echarts4r::e_color("#737373") |>
         echarts4r::e_y_axis(min = -1, max = 1) |>
         echarts4r::e_labels(position = "top", formatter = htmlwidgets::JS("function(p){ return p.value[1]; }")) |>
         echarts4r::e_legend(show = FALSE) |>

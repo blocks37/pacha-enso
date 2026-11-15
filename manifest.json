@@ -5127,10 +5127,10 @@
   },
   "files": {
     "app.R": {
-      "checksum": "790fd432c57b728e65234704ebd03c51"
+      "checksum": "aa0d2b1d94a54eb647c7634f1a283ba2"
     },
     "config.yml": {
-      "checksum": "8d60876d0f1d441b370467e1f1e98b37"
+      "checksum": "b3cad22730937a9357f13ee8abb4a347"
     },
     "data/geo/altitud.csv": {
       "checksum": "df02fc1dd809da24cd60b52f701b1beb"
@@ -5211,31 +5211,31 @@
       "checksum": "3514349c7e855111c2a0ae1b4c7f4f09"
     },
     "R/mapas.R": {
-      "checksum": "a0516cad336bff35c3145f410016682e"
+      "checksum": "f0d43f11704f06da36530ade1ce43cfa"
     },
     "R/mod_datos.R": {
       "checksum": "bb806f818ef3f6014b07b7ca1e6f993f"
     },
     "R/mod_ficha.R": {
-      "checksum": "ec334b92d0af8e37b9dc94ff77ebc268"
+      "checksum": "367f1ac23f3ef71c91bd1ad673766358"
     },
     "R/mod_filtros.R": {
       "checksum": "316569c156c59017c12052268f78f5eb"
     },
     "R/mod_inundacion.R": {
-      "checksum": "5fd59e37df0875cb8ed065d02f3b6465"
+      "checksum": "df34647b0b6a1573895b0a1fcc5755aa"
     },
     "R/mod_panorama.R": {
-      "checksum": "23a9f7ab4dd12e64c026e0fdd7d7a3b6"
+      "checksum": "70724a8634bd72f69c824f53b60b8d75"
     },
     "R/mod_rios.R": {
-      "checksum": "c844d628d934095d3659330ca30d7866"
+      "checksum": "e4fd9866834b8235e0e7be567ae35b0f"
     },
     "R/mod_sequia.R": {
-      "checksum": "36b91ed24d4254f1bb5f9e386856a758"
+      "checksum": "0d02440a0bfcd03c984bea0eefe953b1"
     },
     "R/mod_series.R": {
-      "checksum": "9f84a922d4ae64314147768ad408d4ff"
+      "checksum": "3e6f843d52dfce831a52febfbc7f8723"
     },
     "R/progreso.R": {
       "checksum": "365496b9fc4f89e4f8977fd77d982ae2"
@@ -5259,7 +5259,7 @@
       "checksum": "ef2041ba329ec1e1ca86758ca4bcba62"
     },
     "R/theme.R": {
-      "checksum": "59c84822e0f1022a3e93b33bc2b10442"
+      "checksum": "8a3db5dfd773039f3e214a0e931bb656"
     },
     "R/utils.R": {
       "checksum": "4cd05c783dd26295320bb8d6202599d4"
@@ -5268,13 +5268,13 @@
       "checksum": "8a86afc81104cc446a0852d56a0f5269"
     },
     "www/app.js": {
-      "checksum": "57d40dbf8676cf31526343b1df54af6c"
+      "checksum": "ab2e44c0c7ed4755026515c8d6b40dae"
     },
     "www/emblema.png": {
       "checksum": "7d10dee465ab7a52bdcafce7f677a5f4"
     },
     "www/estilos.css": {
-      "checksum": "cf69e07c6e37d7d61d465f4ca4e8b1c2"
+      "checksum": "caef1c236a193f964f4e1813a995491d"
     },
     "www/favicon.png": {
       "checksum": "b96cae21015a107865f7a7e31d0043b8"

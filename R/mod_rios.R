@@ -73,42 +73,45 @@ crecida_rios <- function(pron, clima, distritos, cuencas, catalogo, claves_enfen
   list(diaria = diaria, resumen = resumen)
 }
 
-mod_rios_ui <- function(id) {
+mod_rios_ui <- function(id, cfg) {
   ns <- shiny::NS(id)
   shiny::tagList(
     titulo_vista(ns("titular"), "Ríos y crecidas", "water", ns("contexto")),
     shiny::uiOutput(ns("kpis")),
+    # Mapa de cuencas | río elegido (clic en el mapa o en la tabla)
     bslib::layout_columns(
-      col_widths = bslib::breakpoints(sm = 12, xl = c(5, 7)),
+      col_widths = bslib::breakpoints(sm = 12, lg = c(5, 7)),
       bslib::card(
         full_screen = TRUE, class = "card-mapa",
         bslib::card_header(class = "cabecera-flex", "Cuencas según la crecida esperada",
                            shiny::span(class = "nota", "clic en una cuenca para ver su río")),
-        leaflet::leafletOutput(ns("mapa"), height = 560),
-        bslib::card_footer(leyenda_html(c(unlist(list("#0B2E5C", "#0179C7", "#6EC3EE", "#CDEBFA", "#E6EBF1"))),
-                                        c("Muy alta", "Alta", "Moderada", "Leve", "Normal")))
+        leaflet::leafletOutput(ns("mapa"), height = 520),
+        bslib::card_footer(leyenda_html(c(unlist(cfg$colores$inundacion), cfg$colores$neutro),
+                                        c("Leve", "Moderada", "Alta", "Muy alta", "Normal")))
       ),
       bslib::card(
-        full_screen = TRUE,
-        bslib::card_header(class = "cabecera-flex", "Ríos con más crecida esperada · próximos 14 días",
-                           boton_csv(ns("csv"))),
-        reactable::reactableOutput(ns("tabla"))
+        class = "card-rio",
+        bslib::card_header(class = "cabecera-flex", shiny::uiOutput(ns("rio_titulo"), inline = TRUE),
+                           shiny::span(class = "nota", "lluvia de toda la cuenca · próximos 14 días")),
+        shiny::uiOutput(ns("rio_cifras")),
+        echarts4r::echarts4rOutput(ns("rio"), height = 330),
+        shiny::p(class = "nota mb-0", "Barras: lluvia pronosticada en toda la cuenca (promedio de 3 días). Línea gris: un día",
+                 "lluvioso normal en esa cuenca. Línea roja: un día extremo (percentil 99). Cuando las barras pasan la",
+                 "línea roja, la cuenca recibe más lluvia que en el 1 % de sus días más lluviosos.")
       )
     ),
-    bslib::layout_columns(
-      col_widths = bslib::breakpoints(sm = 12, xl = c(7, 5)),
-      bslib::card(
-        full_screen = TRUE,
-        bslib::card_header(class = "cabecera-flex", "Lluvia en la cuenca, día a día",
-                           shiny::span(class = "nota", "mm/día, promedio de 3 días · los 15 ríos con más crecida")),
-        echarts4r::echarts4rOutput(ns("calor"), height = 460)
-      ),
-      bslib::card(
-        full_screen = TRUE,
-        bslib::card_header(class = "cabecera-flex", shiny::textOutput(ns("titulo_rio"), inline = TRUE),
-                           shiny::span(class = "nota", "lluvia de la cuenca contra lo normal")),
-        echarts4r::echarts4rOutput(ns("rio"), height = 460)
-      )
+    bslib::card(
+      bslib::card_header(class = "cabecera-flex", "Todos los ríos, del más al menos crecido",
+                         shiny::div(class = "d-flex align-items-center gap-2",
+                                    shiny::span(class = "nota", "clic en una fila para verlo arriba"),
+                                    boton_csv(ns("csv")))),
+      reactable::reactableOutput(ns("tabla"))
+    ),
+    bslib::card(
+      full_screen = TRUE,
+      bslib::card_header(class = "cabecera-flex", "Día a día: lluvia en la cuenca de los 15 ríos más crecidos",
+                         shiny::span(class = "nota", "mm/día, promedio de 3 días")),
+      echarts4r::echarts4rOutput(ns("calor"), height = 440)
     ),
     shiny::p(class = "nota", "Ríos principales de las Unidades Hidrográficas de la ANA. Crecida = lluvia pronosticada en",
              "toda la cuenca (en el Amazonas, con las cuencas aguas arriba) medida contra su propio clima: Leve ≥ 0,3;",
@@ -123,12 +126,14 @@ mod_rios_server <- function(id, datos, filtros, abrir_ficha, geo, cfg) {
     region <- filtros$region
     catalogo <- catalogo_rios(cfg$rutas$rios, geo$cuencas)
 
+    # Es el cálculo más pesado de la app: se hace una vez por versión de datos y lo
+    # comparten todas las visitas (bindCache), en vez de repetirlo en cada una.
     todo <- shiny::reactive({
       enfen <- datos$enfen()
       claves <- if (length(enfen$claves)) unlist(enfen$claves) else clave_rio(unlist(enfen$rios) %||% character())
       crecida_rios(datos$pronostico(), datos$clima(), datos$distritos(), geo$cuencas, catalogo, claves,
                    peor_riesgo(datos$riesgo14(), datos$distritos(), 14))
-    })
+    }) |> shiny::bindCache("rios", datos$version())
     # Ríos que tocan la región elegida
     resumen <- shiny::reactive({
       r <- todo()$resumen
@@ -184,7 +189,8 @@ mod_rios_server <- function(id, datos, filtros, abrir_ficha, geo, cfg) {
                         rio, tolower(nivel), ifelse(enfen, " · ENFEN: caudal sobre lo normal", ""),
                         fmt_num(mm_pico), fmt_fecha(fecha_pico), fmt_num(veces_p99, 1))))
       dentro <- if (identical(region(), "pais")) rep(TRUE, nrow(cue)) else cue$codigo %in% resumen()$codigo_uh
-      colorear_mapa(session, "mapa", cue$codigo, color_crecida(cue$nivel, cfg), cue$etiqueta, ifelse(dentro, 0.8, 0.15))
+      colorear_mapa(session, "mapa", cue$codigo, color_crecida(cue$nivel, cfg), cue$etiqueta, ifelse(dentro, 0.8, 0.15),
+                    bordes = ifelse(cue$codigo %in% rio_actual(), "#0A0A0A", ""))
     })
     shiny::observeEvent(input$mapa_shape_click, elegido(input$mapa_shape_click$id))
     shiny::observeEvent(region(), {
@@ -198,36 +204,58 @@ mod_rios_server <- function(id, datos, filtros, abrir_ficha, geo, cfg) {
                          fecha_pico, enfen, distritos_alerta, n_distritos)
     })
     output$tabla <- reactable::renderReactable({
-      t <- tabla() |>
-        dplyr::mutate(rio = celda_doble(rio, cuenca), nivel = celda_insignia(nivel, color_crecida(nivel, cfg)),
-                      fecha_pico = unname(fmt_fecha(fecha_pico)), enfen = ifelse(enfen %in% TRUE, "▲", ""))
+      t <- tabla()
+      col <- color_crecida(t$nivel, cfg)
+      # Lluvia del día pico frente al día extremo de la cuenca: barra hasta 1,5 × P99, marca en 1 ×
+      ancho <- round(100 * pmin(t$veces_p99 / 1.5, 1))
+      t <- t |>
+        dplyr::mutate(
+          rio = celda_doble(rio, cuenca),
+          nivel = celda_insignia(nivel, col),
+          lluvia = sprintf(paste0('<div class="celda-barra"><span class="celda-barra-num">%s</span>',
+                                  '<span class="barra-fondo"><span class="barra-relleno" style="width:%d%%;background:%s"></span>',
+                                  '<span class="barra-marca"></span></span><span class="nota">%s×</span></div>'),
+                           fmt_num(mm_pico), ancho, col, fmt_num(veces_p99, 1)),
+          fecha_pico = unname(fmt_fecha(fecha_pico)),
+          enfen = ifelse(enfen %in% TRUE, '<span class="insignia insignia-contorno">Reportado</span>', ""),
+          distritos = sprintf("<b>%d</b> <span class='nota'>de %d</span>", as.integer(distritos_alerta), as.integer(n_distritos))
+        ) |>
+        dplyr::select(codigo_uh, rio, vertiente, nivel, lluvia, fecha_pico, enfen, distritos)
       reactable::reactable(
-        t, compact = TRUE, borderless = TRUE, highlight = TRUE, searchable = TRUE, defaultPageSize = 12,
+        t, compact = TRUE, borderless = TRUE, highlight = TRUE, searchable = TRUE, defaultPageSize = 10,
+        language = reactable::reactableLang(searchPlaceholder = "Buscar río o cuenca…", pageInfo = "{rowStart}–{rowEnd} de {rows} ríos",
+                                            pagePrevious = "Anterior", pageNext = "Siguiente", noData = "Sin datos"),
         rowStyle = list(cursor = "pointer"),
         onClick = reactable::JS(sprintf(
-          "function(rowInfo) { Shiny.setInputValue('%s', rowInfo.row.codigo_uh, {priority: 'event'}); }", session$ns("fila"))),
+          paste("function(rowInfo) { Shiny.setInputValue('%s', rowInfo.row.codigo_uh, {priority: 'event'});",
+                "var c = document.getElementById('%s'); if (c) c.closest('.bslib-grid').scrollIntoView({behavior: 'smooth', block: 'start'}); }"),
+          session$ns("fila"), session$ns("mapa"))),
         columns = list(
           codigo_uh = reactable::colDef(show = FALSE),
-          rio = reactable::colDef("Río", minWidth = 120, html = TRUE),
-          cuenca = reactable::colDef(show = FALSE),
-          vertiente = reactable::colDef("Vertiente", width = 92),
-          nivel = reactable::colDef("Crecida", width = 100, html = TRUE),
-          idx = reactable::colDef("Índice", width = 70, align = "right"),
-          mm_pico = reactable::colDef("mm/día", width = 76, align = "right", format = reactable::colFormat(digits = 1)),
-          veces_p99 = reactable::colDef("× P99", width = 64, align = "right"),
-          fecha_pico = reactable::colDef("Día pico", width = 96),
-          enfen = reactable::colDef("ENFEN", width = 66, align = "center"),
-          distritos_alerta = reactable::colDef("Distritos en alerta", width = 88, align = "right"),
-          n_distritos = reactable::colDef("Distritos ribereños", width = 92, align = "right")
+          rio = reactable::colDef("Río", minWidth = 200, html = TRUE),
+          vertiente = reactable::colDef("Vertiente", minWidth = 100, style = list(whiteSpace = "nowrap")),
+          nivel = reactable::colDef("Crecida", minWidth = 100, html = TRUE),
+          lluvia = reactable::colDef("Lluvia del día pico (mm/día) · frente al día extremo", minWidth = 280, html = TRUE),
+          fecha_pico = reactable::colDef("Día pico", minWidth = 110, style = list(whiteSpace = "nowrap")),
+          enfen = reactable::colDef("ENFEN", minWidth = 100, html = TRUE),
+          distritos = reactable::colDef("Distritos en alerta", minWidth = 130, html = TRUE, align = "right")
         )
       )
     })
-    shiny::observeEvent(input$fila, elegido(input$fila))
+    # Clic en la tabla: ese río pasa arriba y el mapa se acerca a su cuenca
+    shiny::observeEvent(input$fila, {
+      elegido(input$fila)
+      u <- unlist(resumen()$ubigeos[resumen()$codigo_uh == input$fila])
+      encuadrar_mapa(leaflet::leafletProxy("mapa", session), dplyr::filter(datos$distritos(), ubigeo %in% u))
+    })
     output$csv <- csv_handler("rios_crecida", shiny::reactive(dplyr::select(tabla(), -codigo_uh)))
 
     # Mapa de calor de los 15 primeros -----------------------------------------------------
     output$calor <- echarts4r::renderEcharts4r({
       r <- utils::head(resumen(), 15)
+      # Ríos con el mismo nombre (p. ej. dos tramos del Huallaga): se agrega su cuenca
+      corta <- sub("^(Cuenca|Intercuenca) ", "", r$cuenca)
+      r$rio <- ifelse(duplicated(r$rio) | duplicated(r$rio, fromLast = TRUE), paste0(r$rio, " · ", corta), r$rio)
       inund <- unlist(cfg$colores$inundacion)
       todo()$diaria |>
         dplyr::filter(codigo_uh %in% r$codigo_uh) |>
@@ -236,34 +264,54 @@ mod_rios_server <- function(id, datos, filtros, abrir_ficha, geo, cfg) {
                       dia = sprintf("%s %s", format(fecha, "%d"), MESES_ES[as.integer(format(fecha, "%m"))])) |>
         dplyr::arrange(fecha, rio) |>
         echarts4r::e_charts(dia) |>
-        echarts4r::e_heatmap(rio, cuenca_mm, itemStyle = list(borderColor = "#FFFFFF", borderWidth = 2)) |>
+        echarts4r::e_heatmap(rio, cuenca_mm, itemStyle = list(borderColor = "#FFFFFF", borderWidth = 2, borderRadius = 4)) |>
         echarts4r::e_visual_map(cuenca_mm, orient = "horizontal", left = "center", bottom = 0, calculable = TRUE,
-                                inRange = list(color = c("#F4F8FC", inund[1], inund[2], inund[3], inund[4]))) |>
-        echarts4r::e_y_axis(axisLabel = list(width = 110, overflow = "truncate")) |>
-        echarts4r::e_grid(left = 120, right = 16, top = 8, bottom = 64) |>
+                                inRange = list(color = c("#FAFAFA", inund[1], inund[2], inund[3], inund[4]))) |>
+        echarts4r::e_y_axis(axisLabel = list(width = 190, overflow = "truncate")) |>
+        echarts4r::e_grid(left = 200, right = 16, top = 8, bottom = 64) |>
         echarts4r::e_tooltip(formatter = htmlwidgets::JS(
           "function (p) { return '<b>' + p.value[1] + '</b><br>' + p.value[0] + ': ' + Number(p.value[2]).toFixed(1) + ' mm/día'; }")) |>
-        echarts4r::e_text_style(fontFamily = "IBM Plex Sans")
+        e_estilo()
     })
 
     # Detalle del río elegido -----------------------------------------------------------------
-    output$titulo_rio <- shiny::renderText({
-      r <- resumen()[resumen()$codigo_uh == rio_actual(), ]
-      sprintf("Río %s · %s", r$rio[1], r$cuenca[1])
+    rio_fila <- shiny::reactive(resumen()[resumen()$codigo_uh == rio_actual(), ][1, ])
+    output$rio_titulo <- shiny::renderUI({
+      r <- rio_fila()
+      shiny::tagList(shiny::span(paste("Río", r$rio)), shiny::span(class = "nota ms-1", r$cuenca),
+                     shiny::HTML(celda_insignia(r$nivel, color_crecida(r$nivel, cfg))))
+    })
+    output$rio_cifras <- shiny::renderUI({
+      r <- rio_fila()
+      cifra <- function(etiqueta, valor, detalle = NULL)
+        shiny::div(class = "cifra", shiny::div(class = "cifra-etiqueta", etiqueta), shiny::div(class = "cifra-valor", valor),
+                   if (!is.null(detalle)) shiny::div(class = "nota", detalle))
+      shiny::div(class = "fila-cifras",
+                 cifra("Día pico", fmt_fecha(r$fecha_pico)),
+                 cifra("Lluvia de cuenca", paste(fmt_num(r$mm_pico), "mm/día"),
+                       sprintf("%s× el día extremo", fmt_num(r$veces_p99, 1))),
+                 cifra("Distritos en alerta", sprintf("%d de %d", as.integer(r$distritos_alerta), as.integer(r$n_distritos)),
+                       "a orillas del río"),
+                 cifra("ENFEN", if (isTRUE(r$enfen)) "Caudal sobre lo normal" else "Sin reporte",
+                       r$vertiente))
     })
     output$rio <- echarts4r::renderEcharts4r({
       d <- dplyr::filter(todo()$diaria, codigo_uh == rio_actual())
       shiny::req(nrow(d) > 0)
       col <- cfg$colores
+      # Cada barra con el color del nivel de crecida de ese día
       d |>
-        dplyr::mutate(dia = sprintf("%s %s", format(fecha, "%d"), MESES_ES[as.integer(format(fecha, "%m"))])) |>
+        dplyr::mutate(dia = sprintf("%s %s", format(fecha, "%d"), MESES_ES[as.integer(format(fecha, "%m"))]),
+                      cuenca_mm = round(cuenca_mm, 1), p50 = round(p50, 1), p99 = round(p99, 1),
+                      color = ifelse(nivel_crecida(cuenca_idx) == "Normal", "#D4D4D4", color_crecida(nivel_crecida(cuenca_idx), cfg))) |>
         echarts4r::e_charts(dia) |>
-        echarts4r::e_bar(cuenca_mm, name = "Lluvia en la cuenca (mm/día, 3 días)",
-                         itemStyle = list(color = degradado_v(col$celeste, col$marino), borderRadius = c(6, 6, 0, 0))) |>
+        echarts4r::e_bar(cuenca_mm, name = "Lluvia en la cuenca (mm/día, 3 días)", color = cfg$colores$inundacion[[3]],
+                         itemStyle = list(borderRadius = c(4, 4, 0, 0))) |>
+        echarts4r::e_add_nested("itemStyle", color) |>
         echarts4r::e_line(p50, name = "Día lluvioso normal (mediana)", symbol = "none",
-                          lineStyle = list(type = "dashed", color = "#64748B"), itemStyle = list(color = "#64748B")) |>
+                          lineStyle = list(type = "dashed", color = "#737373"), itemStyle = list(color = "#737373")) |>
         echarts4r::e_line(p99, name = "Día extremo (percentil 99)", symbol = "none",
-                          lineStyle = list(type = "dashed", color = col$nino, width = 2), itemStyle = list(color = col$nino)) |>
+                          lineStyle = list(type = "dashed", color = "#E7000B", width = 1.5), itemStyle = list(color = "#E7000B")) |>
         echarts4r::e_y_axis(name = "mm/día") |>
         echarts4r::e_legend(top = 0) |>
         echarts4r::e_grid(left = 48, right = 16, top = 44, bottom = 32) |>

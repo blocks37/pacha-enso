@@ -110,7 +110,7 @@ ui_app <- page_navbar(
   nav_panel("Panorama", value = "panorama", mod_panorama_ui("panorama"), icon = bsicons::bs_icon("grid-1x2")),
   nav_panel("Inundación y huaico", value = "inundacion", mod_inundacion_ui("inundacion", cfg),
             icon = bsicons::bs_icon("cloud-rain-heavy")),
-  nav_panel("Ríos", value = "rios", mod_rios_ui("rios"), icon = bsicons::bs_icon("water")),
+  nav_panel("Ríos", value = "rios", mod_rios_ui("rios", cfg), icon = bsicons::bs_icon("water")),
   nav_panel("Sequía", value = "sequia", mod_sequia_ui("sequia", cfg), icon = bsicons::bs_icon("brightness-high")),
   nav_panel("Explorar", value = "explorar", mod_series_ui("series"), icon = bsicons::bs_icon("graph-up")),
   nav_panel("Datos y método", value = "datos", mod_datos_ui("datos", cfg), icon = bsicons::bs_icon("database")),
@@ -129,7 +129,9 @@ server_app <- function(input, output, session) {
   ir_a <- reactiveVal(NULL)
   ir_a_serie <- function(ubigeo) {
     ir_a(list(ubigeo = ubigeo, t = as.numeric(Sys.time())))
-    nav_select("nav", "explorar")
+    # Ojo: se llama desde dentro del módulo de la ficha; sin `session` raíz el id
+    # se volvería «ficha-nav» y la pestaña no cambiaría.
+    nav_select("nav", "explorar", session = session)
   }
 
   filtros <- mod_filtros_server("filtros", datos, abrir_ficha)
@@ -153,7 +155,7 @@ server_app <- function(input, output, session) {
                label = tagList(span(class = "punto-vivo"), paste("Datos", fmt_hace(ultimo)),
                                if (errores > 0) span(class = "insignia-error", errores)))
   })
-  observeEvent(input$ir_datos, nav_select("nav", "datos"))
+  observeEvent(input$ir_datos, nav_select("nav", "datos", session = session))
 }
 
 # Se decide en cada visita: así, cuando termina la primera actualización, al

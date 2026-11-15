@@ -20,7 +20,8 @@ mod_inundacion_ui <- function(id, cfg) {
                            shiny::span(class = "nota", "clic en un distrito para ver su ficha")),
         leaflet::leafletOutput(ns("mapa"), height = 520),
         bslib::card_footer(leyenda_html(c(unlist(cfg$colores$inundacion), cfg$colores$neutro),
-                                        c("Vigilancia", "Alerta", "Alto", "Crítico", "Bajo")))
+                                        c("Vigilancia 40 %", "Alerta 50 %", "Alto 70 %", "Crítico 85 %", "Bajo"),
+                                        critico = TRUE))
       ),
       bslib::navset_card_underline(
         full_screen = TRUE,
@@ -31,7 +32,12 @@ mod_inundacion_ui <- function(id, cfg) {
       )
     ),
     bslib::card(
-      bslib::card_header(class = "cabecera-flex", "Distritos en vigilancia o más", boton_csv(ns("csv"))),
+      bslib::card_header(class = "cabecera-flex", "Alerta por provincia",
+                         shiny::span(class = "nota", "peor distrito de cada provincia · clic para ver sus distritos")),
+      reactable::reactableOutput(ns("provincias"))
+    ),
+    bslib::card(
+      bslib::card_header(class = "cabecera-flex", shiny::uiOutput(ns("tabla_titulo"), inline = TRUE), boton_csv(ns("csv"))),
       reactable::reactableOutput(ns("tabla"))
     )
   )
@@ -94,9 +100,10 @@ mod_inundacion_server <- function(id, datos, filtros, abrir_ficha, geo, cfg) {
                                     "</span>")))
         )
       dentro <- d$ubigeo %in% filtrar_region(d, region())$ubigeo
-      colorear_mapa(session, "mapa", d$ubigeo, d$color, d$etiqueta, ifelse(dentro, 0.85, 0.15))
-      # Focos que laten: distritos en nivel alto o crítico dentro de la región y del umbral
-      focos <- dplyr::filter(d, dentro, dplyr::coalesce(riesgo, 0) >= input$umbral) |>
+      colorear_mapa(session, "mapa", d$ubigeo, d$color, d$etiqueta, ifelse(dentro, 0.85, 0.15),
+                    bordes = bordes_criticos(d$riesgo, cfg, dentro))
+      # Focos que laten: cada distrito con riesgo ≥ 85 % dentro de la región (los mismos del contorno rojo)
+      focos <- dplyr::filter(d, dentro, dplyr::coalesce(riesgo, 0) >= max(input$umbral, cfg$riesgo$umbrales$critico)) |>
         dplyr::mutate(valor = riesgo)
       focos_mapa(session, "mapa", focos, cfg)
     })
@@ -124,13 +131,13 @@ mod_inundacion_server <- function(id, datos, filtros, abrir_ficha, geo, cfg) {
         echarts4r::e_bar(mar, name = "Mar alto", stack = "r", itemStyle = list(color = degradado_h(col$mar))) |>
         echarts4r::e_bar(exposicion, name = "Exposición (relieve / zona baja)", stack = "r", bind = texto,
                          itemStyle = list(color = degradado_h(col$exposicion), borderRadius = c(0, 6, 6, 0)),
-                         label = list(show = TRUE, position = "right", formatter = "{b}", color = "#475569", fontSize = 11)) |>
+                         label = list(show = TRUE, position = "right", formatter = "{b}", color = "#737373", fontSize = 11)) |>
         echarts4r::e_flip_coords() |>
         echarts4r::e_color(c(col$lluvia, col$enso %||% "#E4572E", col$cauce, col$mar, col$exposicion)) |>
         echarts4r::e_x_axis(max = 100, axisLabel = list(formatter = "{value} %")) |>
         echarts4r::e_legend(bottom = 0) |>
         echarts4r::e_y_axis(axisLabel = list(width = 118, overflow = "truncate")) |>
-        echarts4r::e_grid(left = 130, right = 170, top = 8, bottom = 48) |>
+        echarts4r::e_grid(left = 130, right = 170, top = 8, bottom = 72) |>
         e_base()
     })
 
@@ -145,7 +152,7 @@ mod_inundacion_server <- function(id, datos, filtros, abrir_ficha, geo, cfg) {
                       riesgo = round(100 * riesgo)) |>
         dplyr::arrange(fecha) |>
         echarts4r::e_charts(dia) |>
-        echarts4r::e_heatmap(distrito, riesgo, itemStyle = list(borderColor = "#FFFFFF", borderWidth = 2)) |>
+        echarts4r::e_heatmap(distrito, riesgo, itemStyle = list(borderColor = "#FFFFFF", borderWidth = 2, borderRadius = 4)) |>
         echarts4r::e_visual_map(
           riesgo, type = "piecewise", orient = "horizontal", left = "center", bottom = 0,
           pieces = list(
@@ -153,12 +160,12 @@ mod_inundacion_server <- function(id, datos, filtros, abrir_ficha, geo, cfg) {
             list(min = 100 * u$alto, max = 100 * u$critico, color = inund[[3]], label = "Alto"),
             list(min = 100 * u$alerta, max = 100 * u$alto, color = inund[[2]], label = "Alerta"),
             list(min = 100 * u$vigilancia, max = 100 * u$alerta, color = inund[[1]], label = "Vigilancia"),
-            list(max = 100 * u$vigilancia, color = "#F1F5F9", label = "Bajo")
+            list(max = 100 * u$vigilancia, color = "#F0F0F0", label = "Bajo")
           )
         ) |>
         echarts4r::e_tooltip(formatter = htmlwidgets::JS(
           "function(p){ return p.value[1] + '<br>' + p.value[0] + ': <b>' + p.value[2] + ' %</b>'; }")) |>
-        echarts4r::e_text_style(fontFamily = "IBM Plex Sans") |>
+        e_estilo() |>
         echarts4r::e_grid(left = 120, right = 16, top = 8, bottom = 64)
     })
 
@@ -179,9 +186,75 @@ mod_inundacion_server <- function(id, datos, filtros, abrir_ficha, geo, cfg) {
         e_base()
     })
 
+    # Alerta por provincia -------------------------------------------------------------
+    u <- cfg$riesgo$umbrales
+    provincias <- shiny::reactive({
+      p <- dplyr::filter(peor(), riesgo >= u$vigilancia)
+      if (nrow(p) == 0) return(p[0, ])
+      p |>
+        dplyr::arrange(dplyr::desc(riesgo)) |>
+        dplyr::group_by(departamento, provincia) |>
+        dplyr::summarise(clave = paste(departamento[1], provincia[1], sep = "|"),
+                         criticos = sum(riesgo >= u$critico), alerta = sum(riesgo >= u$alerta), vigilancia = dplyr::n(),
+                         riesgo = riesgo[1], nivel = nivel[1], distrito = distrito[1], fecha = fecha[1],
+                         huaico = sum(amenaza == "huaico"), .groups = "drop") |>
+        dplyr::arrange(dplyr::desc(riesgo), dplyr::desc(criticos), dplyr::desc(alerta))
+    })
+    provincia_sel <- shiny::reactiveVal(NULL)
+    shiny::observeEvent(input$provincia, {
+      provincia_sel(if (identical(provincia_sel(), input$provincia)) NULL else input$provincia)
+    })
+    shiny::observeEvent(input$quitar_provincia, provincia_sel(NULL))
+    # Al elegir una provincia, el mapa se acerca a ella (y vuelve a la región al quitarla)
+    shiny::observeEvent(provincia_sel(), {
+      d <- filtrar_region(datos$distritos(), region())
+      sel <- provincia_sel()
+      if (!is.null(sel)) d <- dplyr::filter(d, paste(departamento, provincia, sep = "|") == sel)
+      encuadrar_mapa(leaflet::leafletProxy("mapa", session), d)
+    }, ignoreNULL = FALSE, ignoreInit = TRUE)
+    shiny::observeEvent(region(), provincia_sel(NULL), ignoreInit = TRUE)
+
+    output$provincias <- reactable::renderReactable({
+      p <- provincias()
+      if (nrow(p) == 0) return(NULL)
+      p <- dplyr::mutate(p,
+                         nivel = celda_insignia(nivel, color_nivel(nivel, cfg)),
+                         peor = celda_doble(distrito, paste("día pico", fmt_fecha(fecha))),
+                         provincia = celda_doble(provincia, departamento),
+                         criticos = ifelse(criticos > 0, sprintf("<span class='cifra-critica'>%d</span>", criticos), "0")) |>
+        dplyr::select(clave, provincia, criticos, alerta, vigilancia, peor, riesgo, nivel)
+      tabla_clicable(
+        p, session$ns("provincia"), clave = "clave", paginar = TRUE, defaultPageSize = 8,
+        language = reactable::reactableLang(pageInfo = "{rowStart}–{rowEnd} de {rows} provincias",
+                                            pagePrevious = "Anterior", pageNext = "Siguiente"),
+        columns = list(
+          clave = reactable::colDef(show = FALSE),
+          provincia = reactable::colDef("Provincia", html = TRUE, minWidth = 150),
+          criticos = reactable::colDef("Críticos ≥ 85 %", html = TRUE, align = "right", width = 120),
+          alerta = reactable::colDef("En alerta ≥ 50 %", align = "right", width = 124),
+          vigilancia = reactable::colDef("En vigilancia o más", align = "right", width = 140),
+          peor = reactable::colDef("Distrito más expuesto", html = TRUE, minWidth = 150),
+          riesgo = reactable::colDef("Riesgo máx.", format = reactable::colFormat(percent = TRUE, digits = 0),
+                                     align = "right", width = 96),
+          nivel = reactable::colDef("Nivel", html = TRUE, width = 110)
+        )
+      )
+    })
+
+    output$tabla_titulo <- shiny::renderUI({
+      sel <- provincia_sel()
+      if (is.null(sel)) return("Distritos en vigilancia o más")
+      partes <- strsplit(sel, "|", fixed = TRUE)[[1]]
+      shiny::tagList(sprintf("Distritos de %s (%s)", partes[2], partes[1]),
+                     shiny::actionLink(session$ns("quitar_provincia"), "ver todos", class = "enlace-quitar"))
+    })
+
     # Tabla -------------------------------------------------------------------------
     detalle <- shiny::reactive({
-      dplyr::filter(peor(), riesgo >= cfg$riesgo$umbrales$vigilancia) |>
+      base <- peor()
+      sel <- provincia_sel()
+      if (!is.null(sel)) base <- dplyr::filter(base, paste(departamento, provincia, sep = "|") == sel)
+      dplyr::filter(base, riesgo >= cfg$riesgo$umbrales$vigilancia) |>
         dplyr::left_join(dplyr::select(datos$distritos(), ubigeo, rio_principal = rio), by = "ubigeo") |>
         dplyr::transmute(ubigeo, distrito, provincia, departamento,
                          amenaza = ifelse(amenaza == "huaico", "Huaico", "Inundación"),

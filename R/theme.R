@@ -2,18 +2,32 @@
 
 tema_app <- function(cfg) {
   col <- cfg$colores
+  # Sistema sobrio (www/estilos.css): tinta casi negra, superficies blancas, bordes finos;
+  # el color queda para los datos y el rojo solo para lo crítico.
   bslib::bs_theme(
     version = 5,
-    bg = col$fondo, fg = col$tinta,
-    primary = col$acento, secondary = "#475569", info = col$celeste, warning = col$sol, danger = col$nino,
-    base_font = bslib::font_google("IBM Plex Sans", wght = c(400, 500, 600, 700), local = FALSE),
-    heading_font = bslib::font_google("Poppins", wght = c(600, 700, 800), local = FALSE),
-    code_font = bslib::font_google("IBM Plex Mono", local = FALSE),
-    "navbar-bg" = col$marino,
-    "border-radius" = "0.75rem",
-    "card-border-color" = "#E3EAF3",
-    "card-cap-bg" = "#FFFFFF",
-    "card-bg" = "#FFFFFF"
+    bg = "#F5F5F5", fg = "#0A0A0A",
+    primary = "#0A0A0A", secondary = "#F5F5F5", info = col$acento, warning = "#D97706",
+    danger = col$alarma %||% "#E7000B", success = "#16A34A",
+    base_font = bslib::font_collection(bslib::font_google("Geist", wght = c(400, 500, 600), local = FALSE),
+                                       "Inter", "system-ui", "sans-serif"),
+    heading_font = bslib::font_collection(bslib::font_google("Geist", wght = c(500, 600), local = FALSE),
+                                          "Inter", "system-ui", "sans-serif"),
+    code_font = bslib::font_collection(bslib::font_google("Geist Mono", local = FALSE), "monospace"),
+    "font-size-base" = "0.875rem",
+    "navbar-bg" = "#FFFFFF",
+    "border-color" = "#E5E5E5",
+    "border-radius" = "0.625rem",
+    "card-border-radius" = "24px",
+    "card-border-color" = "#E5E5E5",
+    "card-cap-bg" = "transparent",
+    "card-bg" = "#FFFFFF",
+    "dropdown-bg" = "#FFFFFF",
+    "modal-content-bg" = "#FFFFFF",
+    "btn-border-radius" = "18px", "btn-border-radius-sm" = "18px",
+    "input-border-radius" = "18px",
+    "link-color" = "#0A0A0A",
+    "secondary-color" = "#737373"
   )
 }
 
@@ -42,7 +56,7 @@ color_spi <- function(spi, cfg) {
   dplyr::case_when(
     is.na(spi) ~ cfg$colores$neutro,
     spi <= -2 ~ s[4], spi <= -1.5 ~ s[3], spi <= -1 ~ s[2], spi <= -0.5 ~ s[1],
-    spi < 0.5 ~ "#F1F5F9", spi < 1 ~ "#DBEAFE", spi < 1.5 ~ "#93C5FD", TRUE ~ "#3B82F6"
+    spi < 0.5 ~ "#EBEBEB", spi < 1 ~ "#DBEAFE", spi < 1.5 ~ "#93C5FD", TRUE ~ "#3B82F6"
   )
 }
 
@@ -50,7 +64,7 @@ color_spi <- function(spi, cfg) {
 color_texto <- function(fondo) {
   rgb <- grDevices::col2rgb(fondo) / 255
   lum <- 0.2126 * rgb[1, ] + 0.7152 * rgb[2, ] + 0.0722 * rgb[3, ]
-  ifelse(lum > 0.5, "#0F172A", "#FFFFFF")
+  ifelse(lum > 0.5, "#0A0A0A", "#FFFFFF")
 }
 
 # Componentes -------------------------------------------------------------------
@@ -80,8 +94,8 @@ sparkline <- function(y, color = "#1D4ED8", ancho = 120, alto = 36) {
   y0 <- 3 + (alto - 6) * (1 - (0 - r[1]) / diff(r))
   shiny::HTML(sprintf(
     '<svg width="%d" height="%d" viewBox="0 0 %d %d" aria-hidden="true">
-       <line x1="0" x2="%d" y1="%.1f" y2="%.1f" stroke="#CBD5E1" stroke-dasharray="3 3"/>
-       <polyline points="%s" fill="none" stroke="%s" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+       <line x1="0" x2="%d" y1="%.1f" y2="%.1f" stroke="#E5E5E5" stroke-dasharray="3 3"/>
+       <polyline points="%s" fill="none" stroke="%s" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
        <circle cx="%.1f" cy="%.1f" r="3" fill="%s"/></svg>',
     ancho, alto, ancho, alto, ancho, y0, y0,
     paste(sprintf("%.1f,%.1f", x, py), collapse = " "), color,
@@ -103,7 +117,7 @@ html_texto <- function(x) {
 }
 celda_insignia <- function(texto, fondo) {
   fondo <- rep_len(unname(as.character(fondo)), length(texto))
-  fondo[is.na(fondo) | !nzchar(fondo)] <- "#E6EBF1"
+  fondo[is.na(fondo) | !nzchar(fondo)] <- "#EBEBEB"
   sprintf('<span class="insignia" style="background:%s;color:%s">%s</span>', fondo, color_texto(fondo), html_texto(texto))
 }
 celda_doble <- function(titulo, nota) {
@@ -124,11 +138,13 @@ segmentado <- function(id, opciones, seleccion = opciones[[1]], etiqueta = NULL)
 
 etiqueta_demo <- function(texto) if (!is.null(texto)) shiny::span(class = "etiqueta-aviso", texto)
 
-leyenda_html <- function(colores, etiquetas) {
+leyenda_html <- function(colores, etiquetas, critico = FALSE) {
   shiny::div(class = "leyenda",
              purrr::map2(colores, etiquetas, function(c, e) {
                shiny::span(class = "leyenda-item", shiny::span(class = "leyenda-color", style = paste0("background:", c)), e)
-             }))
+             }),
+             if (critico) shiny::span(class = "leyenda-item leyenda-critico",
+                                      shiny::span(class = "leyenda-anillo"), "los puntos marcan los focos principales (≥ 85 %)"))
 }
 
 boton_csv <- function(id) {
@@ -164,9 +180,35 @@ vacio <- function(mensaje, icono = "inbox") {
 
 # Gráficos comunes ----------------------------------------------------------------
 
+FUENTE_GRAFICOS <- "Geist, Inter, system-ui, sans-serif"
+
+# Tema de ECharts: ejes y textos en gris, cuadrícula de líneas finas, leyenda discreta,
+# tooltip blanco con borde fino. Se registra una vez por gráfico (e_estilo).
+TEMA_ECHARTS <- jsonlite::toJSON(list(
+  textStyle = list(fontFamily = FUENTE_GRAFICOS, color = "#0A0A0A"),
+  legend = list(textStyle = list(color = "#737373", fontSize = 12), itemWidth = 12, itemHeight = 8, icon = "roundRect"),
+  categoryAxis = list(axisLine = list(show = TRUE, lineStyle = list(color = "#E5E5E5")),
+                      axisTick = list(show = FALSE), axisLabel = list(color = "#737373", fontSize = 11),
+                      splitLine = list(show = FALSE), nameTextStyle = list(color = "#737373")),
+  valueAxis = list(axisLine = list(show = FALSE), axisTick = list(show = FALSE),
+                   axisLabel = list(color = "#737373", fontSize = 11),
+                   splitLine = list(show = TRUE, lineStyle = list(color = "#F0F0F0")),
+                   nameTextStyle = list(color = "#737373", fontSize = 11)),
+  tooltip = list(backgroundColor = "#FFFFFF", borderColor = "#E5E5E5", borderWidth = 1,
+                 textStyle = list(color = "#0A0A0A", fontSize = 12), extraCssText = "border-radius:12px;box-shadow:0 10px 30px -8px rgba(0,0,0,.18);"),
+  dataZoom = list(borderColor = "transparent", fillerColor = "rgba(10,10,10,0.06)", handleColor = "#0A0A0A",
+                  backgroundColor = "#FAFAFA", dataBackgroundColor = "#D4D4D4", textStyle = list(color = "#737373"))
+), auto_unbox = TRUE) |> as.character()
+
+e_estilo <- function(e) {
+  e |>
+    echarts4r::e_theme_custom(TEMA_ECHARTS, name = "pacha") |>
+    echarts4r::e_text_style(fontFamily = FUENTE_GRAFICOS)
+}
+
 e_base <- function(e) {
   e |>
-    echarts4r::e_text_style(fontFamily = "IBM Plex Sans") |>
+    e_estilo() |>
     echarts4r::e_tooltip(trigger = "axis", confine = TRUE)
 }
 
@@ -181,17 +223,10 @@ con_alfa <- function(color, alfa) {
   sprintf("rgba(%d,%d,%d,%.2f)", rgb[1], rgb[2], rgb[3], alfa)
 }
 
-#' Degradado vertical de ECharts (arriba → abajo).
-degradado_v <- function(arriba, abajo) {
-  list(type = "linear", x = 0, y = 0, x2 = 0, y2 = 1,
-       colorStops = list(list(offset = 0, color = arriba), list(offset = 1, color = abajo)))
-}
-
-#' Degradado horizontal de un color (más claro a la izquierda), para barras.
-degradado_h <- function(color) {
-  list(type = "linear", x = 0, y = 0, x2 = 1, y2 = 0,
-       colorStops = list(list(offset = 0, color = aclarar(color, 0.35)), list(offset = 1, color = color)))
-}
+#' Antes eran degradados; el diseño actual usa colores planos. Se conservan los
+#' nombres para no tocar cada gráfico: devuelven el color principal.
+degradado_v <- function(arriba, abajo) arriba
+degradado_h <- function(color) color
 
 grafico_oni <- function(oni, cfg) {
   col <- cfg$colores
@@ -200,24 +235,21 @@ grafico_oni <- function(oni, cfg) {
                   calido = ifelse(valor > 0, valor, 0), frio = ifelse(valor < 0, valor, 0)) |>
     echarts4r::e_charts(fecha) |>
     echarts4r::e_area(calido, name = "Fase cálida", symbol = "none", lineStyle = list(width = 0),
-                      areaStyle = list(color = degradado_v(con_alfa(col$nino, 0.95), con_alfa(col$sol, 0.25))),
+                      areaStyle = list(color = con_alfa(col$nino, 0.75)),
                       tooltip = list(show = FALSE)) |>
     echarts4r::e_area(frio, name = "Fase fría", symbol = "none", lineStyle = list(width = 0),
-                      areaStyle = list(color = degradado_v(con_alfa(col$celeste, 0.25), con_alfa(col$nina, 0.95))),
+                      areaStyle = list(color = con_alfa(col$nina, 0.75)),
                       tooltip = list(show = FALSE)) |>
     echarts4r::e_line(valor, name = "ONI (°C)", symbol = "none",
-                      lineStyle = list(width = 1.3, color = col$marino), itemStyle = list(color = col$marino)) |>
+                      lineStyle = list(width = 1, color = "#0A0A0A"), itemStyle = list(color = "#0A0A0A")) |>
     echarts4r::e_mark_line(serie = "ONI (°C)", data = list(yAxis = 0.5), symbol = "none",
                            lineStyle = list(type = "dashed", color = col$nino, opacity = 0.6),
                            label = list(formatter = "El Niño", color = col$nino)) |>
     echarts4r::e_mark_line(serie = "ONI (°C)", data = list(yAxis = -0.5), symbol = "none",
                            lineStyle = list(type = "dashed", color = col$nina, opacity = 0.6),
                            label = list(formatter = "La Niña", color = col$nina)) |>
-    echarts4r::e_datazoom(type = "slider", start = 65, height = 18, borderColor = "transparent",
-                          fillerColor = con_alfa(col$acento, 0.15),
-                          handleStyle = list(color = col$acento)) |>
+    echarts4r::e_datazoom(type = "slider", start = 65, height = 18, borderColor = "transparent") |>
     echarts4r::e_legend(show = FALSE) |>
-    echarts4r::e_y_axis(splitLine = list(lineStyle = list(color = "#EEF2F7"))) |>
     echarts4r::e_grid(left = 36, right = 56, top = 16, bottom = 56) |>
     e_base()
 }
@@ -245,8 +277,8 @@ grafico_evolucion_enso <- function(enso, cfg, semanas = 104) {
   bandas <- lapply(seq_along(BANDAS_ENFEN), function(i) {
     b <- BANDAS_ENFEN[[i]]
     list(list(yAxis = as.numeric(b[1]), name = b[3],
-              itemStyle = list(color = con_alfa(col$sol, 0.06 + 0.06 * i)),
-              label = list(position = "insideLeft", color = "#9A3412", fontSize = 10)),
+              itemStyle = list(color = con_alfa("#737373", 0.03 + 0.03 * i)),
+              label = list(position = "insideLeft", color = "#737373", fontSize = 10)),
          list(yAxis = as.numeric(b[2])))
   })
   etiqueta_final <- htmlwidgets::JS(
@@ -256,19 +288,16 @@ grafico_evolucion_enso <- function(enso, cfg, semanas = 104) {
   d |>
     echarts4r::e_charts(fecha) |>
     echarts4r::e_line(nino12, name = "Niño 1+2 (costa)", symbol = "none", smooth = TRUE,
-                      lineStyle = list(width = 3, color = degradado_v(col$nino, col$sol), shadowBlur = 8,
-                                       shadowColor = con_alfa(col$nino, 0.35)),
+                      lineStyle = list(width = 2.25, color = col$nino),
                       itemStyle = list(color = col$nino),
-                      areaStyle = list(color = degradado_v(con_alfa(col$nino, 0.35), con_alfa(col$sol, 0.02))),
-                      endLabel = list(show = TRUE, formatter = etiqueta_final, color = col$nino, fontWeight = 700),
+                      areaStyle = list(color = con_alfa(col$nino, 0.08)),
+                      endLabel = list(show = TRUE, formatter = etiqueta_final, color = col$nino, fontWeight = 600),
                       markArea = list(silent = TRUE, data = bandas)) |>
     echarts4r::e_line(nino34, name = "Niño 3.4 (Pacífico central)", symbol = "none", smooth = TRUE,
-                      lineStyle = list(width = 2.5, color = col$acento),
+                      lineStyle = list(width = 2, color = col$acento),
                       itemStyle = list(color = col$acento),
                       endLabel = list(show = TRUE, formatter = etiqueta_final, color = col$acento, fontWeight = 600)) |>
-    echarts4r::e_y_axis(name = "Anomalía (°C)", nameTextStyle = list(color = "#64748B"),
-                        splitLine = list(lineStyle = list(color = "#EEF2F7"))) |>
-    echarts4r::e_x_axis(axisLabel = list(color = "#64748B")) |>
+    echarts4r::e_y_axis(name = "Anomalía (°C)") |>
     echarts4r::e_legend(top = 0) |>
     echarts4r::e_grid(left = 48, right = 150, top = 36, bottom = 28) |>
     echarts4r::e_animation(duration = 6000, easing = "linear") |>
@@ -301,7 +330,7 @@ grafico_trayectoria_enso <- function(enso, cfg, semanas = 52) {
   colores <- c(aclarar(col$celeste, 0.25), col$acento, col$sol, col$nino)
   zona <- function(x0, y0, x1, y1, nombre, color, pos)
     list(list(xAxis = x0, yAxis = y0, name = nombre, itemStyle = list(color = color),
-              label = list(position = pos, color = "#475569", fontSize = 10)),
+              label = list(position = pos, color = "#737373", fontSize = 10)),
          list(xAxis = x1, yAxis = y1))
 
   e <- d |> echarts4r::e_charts(x)
@@ -312,8 +341,8 @@ grafico_trayectoria_enso <- function(enso, cfg, semanas = 52) {
       zona(-lim, 0.4, 0.5, lim, "Niño costero", con_alfa(col$sol, 0.10), "insideTopLeft"),
       zona(-lim, -lim, -0.5, -0.4, "La Niña", con_alfa(col$nina, 0.07), "insideBottomLeft")))
     if (k == length(cortes) - 1) extra$markPoint <- list(
-      symbol = "pin", symbolSize = 46, itemStyle = list(color = col$nino),
-      label = list(formatter = "hoy", color = "#FFFFFF", fontWeight = 700, fontSize = 10),
+      symbol = "pin", symbolSize = 42, itemStyle = list(color = "#0A0A0A"),
+      label = list(formatter = "hoy", color = "#FFFFFF", fontWeight = 600, fontSize = 10),
       data = list(list(coord = c(ultimo$x, round(ultimo$nino12, 2)))))
     e <- do.call(echarts4r::e_line_, c(list(e, paste0("t", k), name = nombres[k], bind = "semana",
                                            symbol = "circle", symbolSize = 5, smooth = 0.3, connectNulls = FALSE,
@@ -322,16 +351,15 @@ grafico_trayectoria_enso <- function(enso, cfg, semanas = 52) {
   }
   e |>
     echarts4r::e_x_axis(type = "value", name = "Niño 3.4 (°C)", nameLocation = "middle", nameGap = 26,
-                        min = -lim, max = lim, splitLine = list(lineStyle = list(color = "#EEF2F7"))) |>
-    echarts4r::e_y_axis(name = "Niño 1+2 (°C)", min = -lim, max = lim,
-                        splitLine = list(lineStyle = list(color = "#EEF2F7"))) |>
+                        min = -lim, max = lim) |>
+    echarts4r::e_y_axis(name = "Niño 1+2 (°C)", min = -lim, max = lim) |>
     echarts4r::e_tooltip(trigger = "item", formatter = htmlwidgets::JS(
       "function (p) { if (!Array.isArray(p.value)) return p.name || '';",
       "  return '<b>' + p.name + '</b><br>Niño 3.4: ' + Number(p.value[0]).toFixed(2) + ' °C<br>Niño 1+2: ' + Number(p.value[1]).toFixed(2) + ' °C'; }")) |>
     echarts4r::e_legend(bottom = 0, itemWidth = 14, textStyle = list(fontSize = 11)) |>
     echarts4r::e_grid(left = 52, right = 20, top = 20, bottom = 64) |>
     echarts4r::e_animation(duration = 6000, easing = "linear") |>
-    echarts4r::e_text_style(fontFamily = "IBM Plex Sans")
+    e_estilo()
 }
 
 # Aviso y firma --------------------------------------------------------------------------

@@ -76,11 +76,23 @@ mapa_poligonos <- function(capas, rios = NULL, cuencas = NULL, contornos = NULL)
 
 #' Cambia color, opacidad y etiqueta de los polígonos de un mapa ya dibujado.
 #' Funciona aunque el mapa esté en una pestaña oculta (se aplica al mostrarse).
-colorear_mapa <- function(session, id, ids, colores, etiquetas, opacidad = 0.85) {
-  session$sendCustomMessage("colorear-mapa", list(
+#' `bordes`: color del contorno por polígono ("" = contorno normal); se usa para
+#' resaltar en rojo los distritos con riesgo crítico (≥ 85 %).
+colorear_mapa <- function(session, id, ids, colores, etiquetas, opacidad = 0.85, bordes = NULL) {
+  msg <- list(
     id = session$ns(id), ids = as.list(ids), colores = as.list(colores),
     etiquetas = as.list(etiquetas), opacidad = as.list(rep_len(opacidad, length(ids)))
-  ))
+  )
+  if (!is.null(bordes)) msg$bordes <- as.list(dplyr::coalesce(rep_len(bordes, length(ids)), ""))
+  session$sendCustomMessage("colorear-mapa", msg)
+}
+
+#' Color de alarma (rojo): solo para lo crítico.
+color_alarma <- function(cfg) cfg$colores$alarma %||% "#E7000B"
+
+#' Contorno rojo para los distritos con riesgo ≥ umbral crítico.
+bordes_criticos <- function(riesgo, cfg, dentro = TRUE) {
+  ifelse(dentro & dplyr::coalesce(riesgo, 0) >= cfg$riesgo$umbrales$critico, cfg$colores$borde_critico %||% "#7F1D1D", "")
 }
 
 #' Encuadra el mapa en un conjunto de distritos (o todo el Perú si está vacío).
@@ -99,13 +111,14 @@ mostrar_grupo <- function(proxy, mostrar, ocultar) {
   proxy |> leaflet::showGroup(mostrar) |> leaflet::hideGroup(ocultar)
 }
 
-#' Focos de alerta: pocos puntos que laten, solo en distritos críticos. Se toman de
-#' mayor a menor riesgo (y lluvia) saltando los que estén a menos de `separacion`
-#' grados de un foco ya elegido, hasta `maximo`. Con 0 filas, borra los focos.
-focos_mapa <- function(session, id, d, cfg, maximo = 8, separacion = 0.55) {
+#' Focos de alerta: los distritos críticos (≥ 85 %) ya llevan contorno rojo; los focos
+#' que laten marcan solo los `maximo` PRINCIPALES (mayor riesgo y lluvia), saltando los
+#' que estén a menos de `separacion` grados de uno ya elegido, para que se lean sobre el
+#' mapa. Con 0 filas, borra los focos.
+focos_mapa <- function(session, id, d, cfg, maximo = 12, separacion = 0.4) {
   if (!"valor" %in% names(d)) d$valor <- 0
   if (!"lluvia_mm" %in% names(d)) d$lluvia_mm <- 0
-  d <- d[!is.na(d$nivel) & d$nivel == "Crítico" & !is.na(d$lat), , drop = FALSE]
+  d <- d[!is.na(d$valor) & d$valor >= cfg$riesgo$umbrales$critico & !is.na(d$lat), , drop = FALSE]
   d <- d[order(-d$valor, -dplyr::coalesce(d$lluvia_mm, 0)), , drop = FALSE]
   elegidos <- integer()
   for (i in seq_len(nrow(d))) {
@@ -116,7 +129,8 @@ focos_mapa <- function(session, id, d, cfg, maximo = 8, separacion = 0.55) {
   d <- d[elegidos, , drop = FALSE]
   session$sendCustomMessage("focos-mapa", list(
     id = session$ns(id), ubigeo = as.list(d$ubigeo), lat = as.list(d$lat), lon = as.list(d$lon),
-    color = as.list(rep(cfg$colores$nino, nrow(d))), etiqueta = as.list(d$etiqueta),
+    # Punto oscuro: se distingue sobre el rojo del nivel crítico
+    color = as.list(rep("#171717", nrow(d))), etiqueta = as.list(d$etiqueta),
     critico = as.list(rep(TRUE, nrow(d)))
   ))
 }

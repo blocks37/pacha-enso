@@ -188,7 +188,7 @@ mod_sequia_server <- function(id, datos, filtros, abrir_ficha, geo, cfg) {
         dplyr::arrange(mes, departamento) |>
         dplyr::mutate(departamento = as.character(departamento)) |>
         echarts4r::e_charts(etiqueta) |>
-        echarts4r::e_heatmap(departamento, valor, itemStyle = list(borderColor = "#FFFFFF", borderWidth = 2),
+        echarts4r::e_heatmap(departamento, valor, itemStyle = list(borderColor = "#FFFFFF", borderWidth = 2, borderRadius = 4),
                              label = list(show = TRUE, fontSize = 10)) |>
         echarts4r::e_visual_map(
           valor, type = "piecewise", orient = "horizontal", left = "center", bottom = 0,
@@ -203,7 +203,7 @@ mod_sequia_server <- function(id, datos, filtros, abrir_ficha, geo, cfg) {
         ) |>
         echarts4r::e_tooltip(formatter = htmlwidgets::JS(
           "function(p){ return p.value[1] + ' · ' + p.value[0] + '<br><b>' + p.value[2] + '</b>'; }")) |>
-        echarts4r::e_text_style(fontFamily = "IBM Plex Sans") |>
+        e_estilo() |>
         echarts4r::e_grid(left = 120, right = 16, top = 8, bottom = 56)
     })
 
@@ -232,14 +232,14 @@ grafico_spi <- function(serie, cfg, inicio_zoom = 0) {
                   spi12 = round(spi12, 2)) |>
     echarts4r::e_charts(mes_txt) |>
     echarts4r::e_line(spi3_obs, name = "SPI-3", symbol = "none", lineStyle = list(width = 2), connectNulls = FALSE,
-                      areaStyle = list(color = degradado_v(con_alfa(col[[2]], 0.05), con_alfa(col[[4]], 0.35)))) |>
+                      areaStyle = list(color = con_alfa(col[[3]], 0.12))) |>
     echarts4r::e_line(spi3_pron, name = "SPI-3 pronóstico", symbol = "circle", symbolSize = 4,
                       lineStyle = list(width = 1.6, type = "dashed")) |>
     echarts4r::e_line(spi12, name = "SPI-12", symbol = "none", lineStyle = list(width = 1.2)) |>
     echarts4r::e_mark_area(serie = "SPI-3", data = banda(-1, -1.5, col[[2]])) |>
     echarts4r::e_mark_area(serie = "SPI-3", data = banda(-1.5, -2, col[[3]])) |>
     echarts4r::e_mark_area(serie = "SPI-3", data = banda(-2, -4, col[[4]])) |>
-    echarts4r::e_color(c(col[[4]], col[[3]], "#475569")) |>
+    echarts4r::e_color(c(col[[4]], col[[3]], "#737373")) |>
     echarts4r::e_y_axis(min = -3.5, max = 3.5) |>
     echarts4r::e_datazoom(type = "slider", start = inicio_zoom, height = 18) |>
     echarts4r::e_legend(top = 0) |>

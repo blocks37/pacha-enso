@@ -117,10 +117,12 @@ default:
     celeste: "#3FB6E8"
     sol: "#FBB11A"
     nino: "#E2412B"
+    alarma: "#E7000B"                   # rojo de alarma: focos del mapa
+    borde_critico: "#7F1D1D"            # contorno de los distritos con riesgo ≥ 85 %
     nina: "#0179C7"
-    inundacion: ["#CDEBFA", "#6EC3EE", "#0179C7", "#0B2E5C"]   # vigilancia, alerta, alto, crítico
-    sequia: ["#FDE68A", "#FBB11A", "#E07B24", "#8C2D0F"]       # anormal, moderada, severa, extrema
-    neutro: "#E6EBF1"
+    inundacion: ["#FDE68A", "#FDBA74", "#F97316", "#DC2626"]   # vigilancia, alerta, alto, crítico (semáforo, como los avisos del SENAMHI)
+    sequia: ["#E9D8B4", "#C9A06B", "#946039", "#5A3218"]       # anormal, moderada, severa, extrema (tierra)
+    neutro: "#EBEBEB"
     arido: "#F5F0E6"
     componentes: {lluvia: "#0179C7", enso: "#E2412B", cauce: "#3FB6E8", mar: "#FBB11A", exposicion: "#8EA3BC"}
 
