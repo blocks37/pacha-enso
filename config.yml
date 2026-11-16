@@ -25,7 +25,7 @@ default:
   datos_remotos:                        # app en la web (Connect Cloud): baja la base que publica GitHub Actions
     repo: "blocks37/pacha-enso"                            # «usuario/repositorio» de GitHub (lo llena preparar_publicacion.R)
     etiqueta: "datos"                   # release donde la tarea deja pacha_db.tgz y VERSION
-    cada_min: 30                        # cada cuánto la app revisa si hay una base nueva
+    cada_min: 10                        # cada cuánto la app revisa si hay una base nueva (solo baja un archivo de texto)
 
   acceso:
     admin_local: true                   # en el propio computador (localhost) se ve el panel de actualización

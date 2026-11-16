@@ -5,3 +5,8 @@ _to_delete
 .Rproj.user
 .git
 *.Rproj
+insumos
+.github
+manifest.json
+.env
+LEAME_SERVIDOR.txt

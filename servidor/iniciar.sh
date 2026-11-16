@@ -5,7 +5,9 @@
 mkdir -p /srv/enso/db /srv/enso/raw
 CADA_HORAS="${ENSO_CADA_HORAS:-6}"
 
-(
+# ENSO_CADA_HORAS=0: este servidor no calcula; la app baja la base que publica la PC en GitHub
+[ "$CADA_HORAS" = "0" ] || (
+
   sleep 20   # que la app arranque primero
   while true; do
     echo "== $(date '+%Y-%m-%d %H:%M') actualización programada ==" >> /srv/enso/cron.log
